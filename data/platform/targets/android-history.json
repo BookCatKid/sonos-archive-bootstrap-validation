@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "target": "android-history",
+  "provider": "android-history",
+  "status": "failed",
+  "executed": true,
+  "started_at": "2026-11-17T16:04:51.827167+00:00",
+  "steps": [
+    {
+      "name": "sweep_android_store_history",
+      "status": "failed",
+      "exit_code": 1,
+      "output_tail": "archived com.sonos.acr@11.16.1\narchived com.sonos.acr@11.16.1\narchived com.sonos.acr@11.16.1\narchived com.sonos.acr@11.16.1\narchived com.sonos.acr@11.16.1\narchived com.sonos.acr@11.16.1\narchived com.sonos.acr@11.16.1\narchived com.sonos.acr@11.16.1\narchived com.sonos.acr@11.16.1\narchived com.sonos.acr@11.16.1\narchived com.sonos.acr@11.16.1\narchived com.sonos.acr2@91.01.11-release+20261110.b463dd1\narchived com.sonos.acr2@91.01.11-release+20261110.b463dd1\narchived com.sonos.acr2@91.01.11-release+20261110.b463dd1\narchived com.sonos.acr2@91.01.11-release+20261110.b463dd1\narchived com.sonos.acr2@91.01.11-release+20261110.b463dd1\narchived com.sonos.acr2@91.01.11-release+20261110.b463dd1\narchived com.sonos.acr2@91.01.11-release+20261110.b463dd1\narchived com.sonos.acr2@91.01.11-release+20261110.b463dd1\narchived com.sonos.acr2@80.29.6-release+20250918.549b8db\narchived com.sonos.acr2@80.29.6-release+20250918.549b8db\narchived com.sonos.acr2@80.29.6-release+20250918.549b8db\narchived com.sonos.acr@11.16.1\narchived com.sonos.acr@11.16.1\n"
+    }
+  ],
+  "errors": [
+    {
+      "step": "sweep_android_store_history",
+      "exit_code": 1
+    }
+  ],
+  "pending": [
+    {
+      "step": "sweep_android_store_history",
+      "reason": "source reports incomplete work"
+    }
+  ],
+  "finished_at": "2026-11-17T16:15:11.262143+00:00",
+  "next_due": "2026-11-17T17:15:11.262143+00:00"
+}
