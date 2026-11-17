@@ -13,6 +13,7 @@ permissions:
 
 jobs:
   select:
+    name: Select targets
     runs-on: ubuntu-latest
     outputs:
       matrix: ${{ steps.targets.outputs.matrix }}
@@ -37,6 +38,7 @@ jobs:
           echo "matrix=$matrix" >> "$GITHUB_OUTPUT"
 
   archive:
+    name: Archive ${{ matrix.target }}
     needs: select
     if: ${{ toJSON(fromJSON(needs.select.outputs.matrix).include) != '[]' }}
     runs-on: ubuntu-latest
