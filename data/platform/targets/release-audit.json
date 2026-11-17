@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "target": "release-audit",
+  "provider": "release-audit",
+  "status": "ok",
+  "executed": true,
+  "started_at": "2026-11-17T16:51:06.522750+00:00",
+  "steps": [
+    {
+      "name": "audit_release_assets",
+      "status": "ok",
+      "exit_code": 0,
+      "output_tail": "releases=21 github=914 recorded=765 missing=0 mismatched=0 extras=149\n"
+    }
+  ],
+  "errors": [],
+  "pending": [],
+  "finished_at": "2026-11-17T16:51:28.749068+00:00",
+  "next_due": "2026-11-24T16:51:28.749068+00:00"
+}
