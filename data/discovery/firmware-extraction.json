@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "repositories": {
+    "BookCatKid/sonos-archive-bootstrap-validation": {
+      "57.23-74170-1-9": {
+        "checked_at": "2026-11-17T16:41:49.825926+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-17T17:41:49.825926+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "86c191498ad812a3b65a8075f2cc7a9279abb162bc03bb36922c2eec0c8793f5",
+          "recipient": "12e82a182af27801eba0ff3c94e8e649ed962dbb",
+          "key_available": true,
+          "ready_recipients": [
+            "12e82a182af27801eba0ff3c94e8e649ed962dbb"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "57.23-74170-1-1": {
+        "checked_at": "2026-11-17T16:41:50.907735+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-17T17:41:50.907735+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "54d8b171e06001e4332bcdafc7c2f71dc7945352bc37ca54d2d6794f52002f6b",
+          "recipient": "21e7b8c8199c8d6442d2a0a7a4e776c4efd4319c",
+          "key_available": true,
+          "ready_recipients": [
+            "21e7b8c8199c8d6442d2a0a7a4e776c4efd4319c"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "57.23-74170-1-8": {
+        "checked_at": "2026-11-17T16:41:52.208670+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-17T17:41:52.208670+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "76ef72d8731cc317c42d884e2de1cbb7fe3d46de7f5f6bf98097b208543dd94a",
+          "recipient": "346ce6e38225ca8177024fbebfaad7043344b3bd",
+          "key_available": true,
+          "ready_recipients": [
+            "346ce6e38225ca8177024fbebfaad7043344b3bd"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "57.23-74170-1-12": {
+        "checked_at": "2026-11-17T16:41:53.186094+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-17T17:41:53.186094+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "05b91904f6a0bfe6a385757adf6f73236faff22e42c3f9089a9cc41361b39b3a",
+          "recipient": "e35f7c21c0ec00a768bfbd364a9a105cf300f023",
+          "key_available": true,
+          "ready_recipients": [
+            "e35f7c21c0ec00a768bfbd364a9a105cf300f023"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "25.2-50130-1-2": {
+        "checked_at": "2026-11-17T16:41:54.013195+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-17T17:41:54.013195+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "34cf093de96313ea6b7ae8f786f4800fc6d8daa84c4a4ebe00f88f4ad68b9380",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "34.16-37101-1-1": {
+        "checked_at": "2026-11-17T16:41:54.738971+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-17T17:41:54.738971+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "8a1673b29ce23ac28038b0ed1916d21daa562aef19faacb93629404c48886ceb",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "34.16-37101-1-5": {
+        "checked_at": "2026-11-17T16:41:55.451522+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-17T17:41:55.451522+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "151ff1da61c4f17b9751ae6f96afc88deac376b4aa061a175db07c21db5d0f3c",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "34.16-37101-1-6": {
+        "checked_at": "2026-11-17T16:41:56.556803+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-17T17:41:56.556803+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "020db66f9cda104240987e43a8f1024a21b8def760f91cbd71b95e0a40595b66",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "34.16-37101-1-7": {
+        "checked_at": "2026-11-17T16:41:57.273053+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-17T17:41:57.273053+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "54f0908a8f77024da0ac7afde6b812bb360740d66460c714bb84fe7a96d22706",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "34.16-37101-1-8": {
+        "checked_at": "2026-11-17T16:41:58.108622+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-17T17:41:58.108622+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "3e1c827005dd4be569f86ac06212e2e523b2478491b7f06707fa80185a08482a",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "34.16-37101-1-9": {
+        "checked_at": "2026-11-17T16:41:58.948456+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-17T17:41:58.948456+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "fdfe94e01adbd823dcd9b59b327caef05896fc97be6f0a8835cdf7a70a28d5b7",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "34.16-37101-1-12": {
+        "checked_at": "2026-11-17T16:41:59.668451+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-17T17:41:59.668451+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "d4cc8d619e450c183d302610e12c7d2bd35dc3a56147b765cc2e17e98a313768",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "34.16-37101-1-13": {
+        "checked_at": "2026-11-17T16:42:00.504635+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-17T17:42:00.504635+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "4bdfdd788a11cc0844357fe6bd50b00071a15fd44b9d87f4ae52e666eb0f34a4",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "34.16-37101-1-16": {
+        "checked_at": "2026-11-17T16:42:01.226947+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-17T17:42:01.226947+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "84632e02bdce626bf10ae846839e90d66e510a627320fff8690c2bdb998733f2",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "34.16-37101-1-17": {
+        "checked_at": "2026-11-17T16:42:02.050446+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-17T17:42:02.050446+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "ccbb884d22a6dccae2c7dcdf9ecacb6a9217a5439a5f9b74a10e2598eb719e42",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "34.16-37101-1-20": {
+        "checked_at": "2026-11-17T16:42:02.886517+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-17T17:42:02.886517+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "a43eafc4bf71ce13d8219f272226e9dc097ce7360d79003c23c483d954acde57",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "36.5-50160-1-6": {
+        "checked_at": "2026-11-17T16:42:04.085092+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-17T17:42:04.085092+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "36037a5f4309a165a8020ae36412b1fc5900aeb14eb60e8108352c0db6d40df6",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "45.1-56150-1-7": {
+        "checked_at": "2026-11-17T16:42:04.801640+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-17T17:42:04.801640+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "c8e5094c23c089e69c07522352cac5ae090107cd0624291f09a7a6aad8b9e875",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.23-74170-1-5": {
+        "checked_at": "2026-11-17T16:42:05.512512+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-17T17:42:05.512512+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "a446c83b199be68567577203bcc4757d989f1e8e6d5f7dbea943ec49739ea8a2",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.23-74170-1-13": {
+        "checked_at": "2026-11-17T16:42:06.450725+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-17T17:42:06.450725+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "bf3aaa369cc9df106e9bf8a9c25cd1c7ae2ea0346384bb1e3bfa4580c268ff9c",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      }
+    }
+  }
+}

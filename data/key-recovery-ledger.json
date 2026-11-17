@@ -1,0 +1,294 @@
+{
+  "recovered_keys": {
+    "21e7b8c8199c8d6442d2a0a7a4e776c4efd4319c": {
+      "coverage_packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.23-74170-1-1",
+          "package_model": 1,
+          "version": "57.23-74170"
+        }
+      ],
+      "key_family": "legacy-updater",
+      "package_model": 1,
+      "package_models": [
+        1
+      ],
+      "recovery_provenance": [
+        {
+          "method": "legacy-updater",
+          "model": 1,
+          "recipient_id": "21e7b8c8199c8d6442d2a0a7a4e776c4efd4319c",
+          "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+          "source": {
+            "sha256": "8a1673b29ce23ac28038b0ed1916d21daa562aef19faacb93629404c48886ceb",
+            "bytes": 4871556,
+            "release_tag": "firmware-34.16-37101",
+            "release_asset": "34.16-37101-1-1--8a1673b29ce23ac28038b0ed1916d21daa562aef19faacb93629404c48886ceb.upd",
+            "kind": "upd",
+            "package_id": "34.16-37101-1-1",
+            "model": 1,
+            "section_index": 5,
+            "section_sha256": "e407ecd47a00e5b1f2af96613b1051f2eaaff6a8f8760a42a52b83c4b9f458ec",
+            "section_bytes": 4136960
+          },
+          "updater_sha256": "496a66c6a496417c71ad1ac110fbbee5d13f8a40db41eab7e021643222854397",
+          "wrapper_offset": 58664,
+          "byte_order": "little"
+        }
+      ]
+    },
+    "346ce6e38225ca8177024fbebfaad7043344b3bd": {
+      "coverage_packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.23-74170-1-8",
+          "package_model": 8,
+          "version": "57.23-74170"
+        }
+      ],
+      "key_family": "legacy-updater",
+      "package_model": 8,
+      "package_models": [
+        8
+      ],
+      "recovery_provenance": [
+        {
+          "method": "legacy-updater",
+          "model": 8,
+          "recipient_id": "346ce6e38225ca8177024fbebfaad7043344b3bd",
+          "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+          "source": {
+            "sha256": "3e1c827005dd4be569f86ac06212e2e523b2478491b7f06707fa80185a08482a",
+            "bytes": 8306684,
+            "release_tag": "firmware-34.16-37101",
+            "release_asset": "34.16-37101-1-8--3e1c827005dd4be569f86ac06212e2e523b2478491b7f06707fa80185a08482a.upd",
+            "kind": "upd",
+            "package_id": "34.16-37101-1-8",
+            "model": 8,
+            "section_index": 5,
+            "section_sha256": "4b8c7a5c7f0898e193ae6bb86da73039876d499c3dc226f788f8d657c969cb92",
+            "section_bytes": 6852608
+          },
+          "updater_sha256": "5f5912e2797384fd10a44904ccfceab645b2c83e0e66dc1e13ec3798efe21217",
+          "wrapper_offset": 117748,
+          "byte_order": "big"
+        }
+      ]
+    },
+    "12e82a182af27801eba0ff3c94e8e649ed962dbb": {
+      "coverage_packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.23-74170-1-9",
+          "package_model": 9,
+          "version": "57.23-74170"
+        }
+      ],
+      "key_family": "legacy-updater",
+      "package_model": 9,
+      "package_models": [
+        9
+      ],
+      "recovery_provenance": [
+        {
+          "method": "legacy-updater",
+          "model": 9,
+          "recipient_id": "12e82a182af27801eba0ff3c94e8e649ed962dbb",
+          "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+          "source": {
+            "sha256": "fdfe94e01adbd823dcd9b59b327caef05896fc97be6f0a8835cdf7a70a28d5b7",
+            "bytes": 9243867,
+            "release_tag": "firmware-34.16-37101",
+            "release_asset": "34.16-37101-1-9--fdfe94e01adbd823dcd9b59b327caef05896fc97be6f0a8835cdf7a70a28d5b7.upd",
+            "kind": "upd",
+            "package_id": "34.16-37101-1-9",
+            "model": 9,
+            "section_index": 5,
+            "section_sha256": "8f53bbc43de1c18881ccff01f690928fad55e83d76d929c41a58de31b7b1e9da",
+            "section_bytes": 7438336
+          },
+          "updater_sha256": "900dff09dcc7b85225538cfb2ba32b57fe990295a186f798453b8f23ee3eaa57",
+          "wrapper_offset": 98532,
+          "byte_order": "big"
+        }
+      ]
+    },
+    "e35f7c21c0ec00a768bfbd364a9a105cf300f023": {
+      "coverage_packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.23-74170-1-12",
+          "package_model": 12,
+          "version": "57.23-74170"
+        }
+      ],
+      "key_family": "legacy-updater",
+      "package_model": 12,
+      "package_models": [
+        12
+      ],
+      "recovery_provenance": [
+        {
+          "method": "legacy-updater",
+          "model": 12,
+          "recipient_id": "e35f7c21c0ec00a768bfbd364a9a105cf300f023",
+          "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+          "source": {
+            "sha256": "d4cc8d619e450c183d302610e12c7d2bd35dc3a56147b765cc2e17e98a313768",
+            "bytes": 4167459,
+            "release_tag": "firmware-34.16-37101",
+            "release_asset": "34.16-37101-1-12--d4cc8d619e450c183d302610e12c7d2bd35dc3a56147b765cc2e17e98a313768.upd",
+            "kind": "upd",
+            "package_id": "34.16-37101-1-12",
+            "model": 12,
+            "section_index": 4,
+            "section_sha256": "03ae05e314becfd705516e8f8be596f542251a04efe6641f15ad9e0ffeb554e4",
+            "section_bytes": 3178496
+          },
+          "updater_sha256": "45e10408c724252c957cdddfe8655b4bdfe22c32183b077beb7810e68588425f",
+          "wrapper_offset": 103168,
+          "byte_order": "big"
+        }
+      ]
+    }
+  },
+  "key_origin": {
+    "summary": {
+      "recovered_recipients": 4,
+      "models": [
+        1,
+        8,
+        9,
+        12
+      ],
+      "missing_recipient_groups": 3
+    },
+    "recovery_methods": [
+      "legacy-updater"
+    ]
+  },
+  "missing_keys": [
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.23-74170-1-5",
+          "package_model": 5,
+          "version": "57.23-74170"
+        }
+      ],
+      "recipient_id": "0cfddc3f6ac5c485ccc435885c42c52a9338e28b"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "34.16-37101-1-13",
+          "package_model": 13,
+          "version": "34.16-37101"
+        },
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.23-74170-1-13",
+          "package_model": 13,
+          "version": "57.23-74170"
+        }
+      ],
+      "recipient_id": "87da92d5173e329c366300810f9d94f525bf2d65"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "34.16-37101-1-20",
+          "package_model": 20,
+          "version": "34.16-37101"
+        }
+      ],
+      "recipient_id": "8cb7e8b66c9984623bce23125ef6a0c88b1d4cc3"
+    }
+  ],
+  "plaintext_packages": [
+    {
+      "artifact_status": "preserved",
+      "package_id": "25.2-50130-1-2",
+      "package_model": 2,
+      "version": "25.2-50130"
+    },
+    {
+      "artifact_status": "preserved",
+      "package_id": "34.16-37101-1-1",
+      "package_model": 1,
+      "version": "34.16-37101"
+    },
+    {
+      "artifact_status": "preserved",
+      "package_id": "34.16-37101-1-5",
+      "package_model": 5,
+      "version": "34.16-37101"
+    },
+    {
+      "artifact_status": "preserved",
+      "package_id": "34.16-37101-1-6",
+      "package_model": 6,
+      "version": "34.16-37101"
+    },
+    {
+      "artifact_status": "preserved",
+      "package_id": "34.16-37101-1-7",
+      "package_model": 7,
+      "version": "34.16-37101"
+    },
+    {
+      "artifact_status": "preserved",
+      "package_id": "34.16-37101-1-8",
+      "package_model": 8,
+      "version": "34.16-37101"
+    },
+    {
+      "artifact_status": "preserved",
+      "package_id": "34.16-37101-1-9",
+      "package_model": 9,
+      "version": "34.16-37101"
+    },
+    {
+      "artifact_status": "preserved",
+      "package_id": "34.16-37101-1-12",
+      "package_model": 12,
+      "version": "34.16-37101"
+    },
+    {
+      "artifact_status": "preserved",
+      "package_id": "34.16-37101-1-16",
+      "package_model": 16,
+      "version": "34.16-37101"
+    },
+    {
+      "artifact_status": "preserved",
+      "package_id": "34.16-37101-1-17",
+      "package_model": 17,
+      "version": "34.16-37101"
+    },
+    {
+      "artifact_status": "preserved",
+      "package_id": "36.5-50160-1-6",
+      "package_model": 6,
+      "version": "36.5-50160"
+    },
+    {
+      "artifact_status": "preserved",
+      "package_id": "45.1-56150-1-7",
+      "package_model": 7,
+      "version": "45.1-56150"
+    }
+  ],
+  "unidentified_encrypted_packages": [],
+  "summary": {
+    "encrypted_upd_packages": 8,
+    "unidentified_encrypted_packages": 0,
+    "missing_upd_section_manifests": 0,
+    "plaintext_upd_packages": 12,
+    "unique_recipients": 7
+  }
+}

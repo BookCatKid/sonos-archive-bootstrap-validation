@@ -1,0 +1,116 @@
+{
+  "source": "57.23-74170-1-1.upd",
+  "source_sha256": "54d8b171e06001e4332bcdafc7c2f71dc7945352bc37ca54d2d6794f52002f6b",
+  "components": [
+    {
+      "package_id": "57.23-74170-1-1",
+      "section_index": 0,
+      "section_type": 1,
+      "kind": "section-1",
+      "filename": "57.23-74170-1-1-section-1.bin",
+      "bytes": 12,
+      "sha256": "9abf92d0f1820ad9acc874bc70961325470ba4181f1df9c2365294a3e4c6d7e9",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "57.23-74170-1-1",
+      "section_index": 1,
+      "section_type": 21,
+      "kind": "section-21",
+      "filename": "57.23-74170-1-1-section-21.bin",
+      "bytes": 68,
+      "sha256": "fe1a03928a695883b3f8b9c02490f5a2e610cbfc70f818b9bd9033a531e84363",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "57.23-74170-1-1",
+      "section_index": 2,
+      "section_type": 2,
+      "kind": "section-2",
+      "filename": "57.23-74170-1-1-section-2.bin",
+      "bytes": 28,
+      "sha256": "161cbbaae9e92d56388fb4f0aa4b7ae638e0fc1ca71b3434093df172d535f2bf",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "57.23-74170-1-1",
+      "section_index": 3,
+      "section_type": 2,
+      "kind": "section-2",
+      "filename": "57.23-74170-1-1-section-2-section-03.bin",
+      "bytes": 132,
+      "sha256": "d33c2404149e40e0a890249f97cf9591ddc6499ea75fae4bcff97d1dc608339a",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "57.23-74170-1-1",
+      "section_index": 4,
+      "section_type": 2,
+      "kind": "section-2",
+      "filename": "57.23-74170-1-1-section-2-section-04.bin",
+      "bytes": 28,
+      "sha256": "bf007d08e825b20b8bd71f258058d9e07128d0cada5d113e985973c38536c253",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "57.23-74170-1-1",
+      "section_index": 5,
+      "section_type": 22,
+      "kind": "section-22",
+      "filename": "57.23-74170-1-1-section-22.bin",
+      "bytes": 149511,
+      "sha256": "3b2e7146bb019dbfb9f5816924692b2d3a955c5af5996307148cff3dc2fdcac3",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "57.23-74170-1-1",
+      "section_index": 6,
+      "section_type": 3,
+      "kind": "preinstall",
+      "filename": "57.23-74170-1-1-preinstall.sh",
+      "bytes": 5097,
+      "sha256": "c8dd3746b454862a80fe86b62c236f3b19249924054e059d78c63a77e3dda60a",
+      "source_encrypted": true,
+      "recipient_id": "21e7b8c8199c8d6442d2a0a7a4e776c4efd4319c"
+    },
+    {
+      "package_id": "57.23-74170-1-1",
+      "section_index": 7,
+      "section_type": 6,
+      "kind": "kernel",
+      "filename": "57.23-74170-1-1-kernel.uImage",
+      "bytes": 730642,
+      "sha256": "25378ebaacb5a2d2e8e7bff8d1a68e707344a33fcfc12a5e6795e560cec98ad6",
+      "source_encrypted": true,
+      "recipient_id": "21e7b8c8199c8d6442d2a0a7a4e776c4efd4319c"
+    },
+    {
+      "package_id": "57.23-74170-1-1",
+      "section_index": 8,
+      "section_type": 4,
+      "kind": "rootfs",
+      "filename": "57.23-74170-1-1-rootfs.squashfs",
+      "bytes": 4788224,
+      "sha256": "9fc1cf91bf8f91c6fe3874ea19c73d271b74345361863e466aa3c07418408b81",
+      "source_encrypted": true,
+      "recipient_id": "21e7b8c8199c8d6442d2a0a7a4e776c4efd4319c"
+    },
+    {
+      "package_id": "57.23-74170-1-1",
+      "section_index": 9,
+      "section_type": 17,
+      "kind": "section-17",
+      "filename": "57.23-74170-1-1-section-17.bin",
+      "bytes": 364,
+      "sha256": "c299db0ecf1537f1a39d6476bc164696208a0e980e0cc54431d6f621a2a9caf3",
+      "source_encrypted": false,
+      "recipient_id": null
+    }
+  ]
+}
