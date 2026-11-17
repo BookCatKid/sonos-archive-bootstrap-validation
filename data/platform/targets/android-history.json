@@ -4,13 +4,13 @@
   "provider": "android-history",
   "status": "failed",
   "executed": true,
-  "started_at": "2026-11-17T16:04:51.827167+00:00",
+  "started_at": "2026-11-17T16:43:31.948370+00:00",
   "steps": [
     {
       "name": "sweep_android_store_history",
       "status": "failed",
       "exit_code": 1,
-      "output_tail": "archived com.sonos.acr@11.16.1\narchived com.sonos.acr@11.16.1\narchived com.sonos.acr@11.16.1\narchived com.sonos.acr@11.16.1\narchived com.sonos.acr@11.16.1\narchived com.sonos.acr@11.16.1\narchived com.sonos.acr@11.16.1\narchived com.sonos.acr@11.16.1\narchived com.sonos.acr@11.16.1\narchived com.sonos.acr@11.16.1\narchived com.sonos.acr@11.16.1\narchived com.sonos.acr2@91.01.11-release+20261110.b463dd1\narchived com.sonos.acr2@91.01.11-release+20261110.b463dd1\narchived com.sonos.acr2@91.01.11-release+20261110.b463dd1\narchived com.sonos.acr2@91.01.11-release+20261110.b463dd1\narchived com.sonos.acr2@91.01.11-release+20261110.b463dd1\narchived com.sonos.acr2@91.01.11-release+20261110.b463dd1\narchived com.sonos.acr2@91.01.11-release+20261110.b463dd1\narchived com.sonos.acr2@91.01.11-release+20261110.b463dd1\narchived com.sonos.acr2@80.29.6-release+20250918.549b8db\narchived com.sonos.acr2@80.29.6-release+20250918.549b8db\narchived com.sonos.acr2@80.29.6-release+20250918.549b8db\narchived com.sonos.acr@11.16.1\narchived com.sonos.acr@11.16.1\n"
+      "output_tail": "archived com.sonos.acr@11.2.6\narchived com.sonos.acr@10.6.2\narchived com.sonos.acr@8.6\narchived com.sonos.acr@11.2.6\narchived com.sonos.acr2@91.01.11-release+20261110.b463dd1\narchived com.sonos.acr2@80.27.8-release+20250829.74c4ed0\narchived com.sonos.acr@11.16\narchived com.sonos.acr@11.2.5\narchived com.sonos.acr2@91.01.7-release+20261103.afb484e\narchived com.sonos.acr2@80.27.8-release+20250829.74c4ed0\narchived com.sonos.acr@11.16\narchived com.sonos.acr@11.2.5\narchived com.sonos.acr2@91.00.33-release+20261023.590619d\narchived com.sonos.acr2@91.01.7-release+20261103.afb484e\narchived com.sonos.acr2@80.27.8-release+20250829.74c4ed0\narchived com.sonos.acr@11.16\narchived com.sonos.acr@11.2.4\narchived com.sonos.acr2@90.01.9-release+20261015.ec5ada6\narchived com.sonos.acr@11.15.4\narchived com.sonos.acr@11.2.4\narchived com.sonos.acr2@90.00.43-release+20261006.65c4a1e\narchived com.sonos.acr@11.15.4\narchived com.sonos.acr@11.2.3\narchived com.sonos.acr2@89.01.11-release+20260917.7f4c363\n"
     }
   ],
   "errors": [
@@ -25,6 +25,6 @@
       "reason": "source reports incomplete work"
     }
   ],
-  "finished_at": "2026-11-17T16:15:11.262143+00:00",
-  "next_due": "2026-11-17T17:15:11.262143+00:00"
+  "finished_at": "2026-11-17T16:59:23.586866+00:00",
+  "next_due": "2026-11-17T17:59:23.586866+00:00"
 }
