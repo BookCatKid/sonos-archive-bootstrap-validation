@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "target": "mobile",
+  "provider": "mobile",
+  "status": "partial",
+  "executed": true,
+  "started_at": "2026-11-17T16:03:26.585541+00:00",
+  "steps": [
+    {
+      "name": "discover_mobile_installers",
+      "status": "ok",
+      "exit_code": 0,
+      "output_tail": "candidates=1 live=1\n"
+    },
+    {
+      "name": "archive_mobile_installers",
+      "status": "ok",
+      "exit_code": 0,
+      "output_tail": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/tag/apps-fireos-s2\nverified artifacts=1 attempted=1 new=1\n"
+    },
+    {
+      "name": "archive-installer-history",
+      "status": "failed",
+      "exit_code": 1,
+      "output_tail": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/runner/work/sonos-archive-bootstrap-validation/sonos-archive-bootstrap-validation/src/sonos_firmware/platform/tasks.py\", line 167, in <module>\n    main()\n  File \"/home/runner/work/sonos-archive-bootstrap-validation/sonos-archive-bootstrap-validation/src/sonos_firmware/platform/tasks.py\", line 150, in main\n    raise RuntimeError('installer history has pending captures or incomplete discovery; verified progress retained')\nRuntimeError: installer history has pending captures or incomplete discovery; verified progress retained\n"
+    }
+  ],
+  "errors": [
+    {
+      "step": "archive-installer-history",
+      "exit_code": 1
+    }
+  ],
+  "pending": [
+    {
+      "step": "archive-installer-history",
+      "reason": "source reports incomplete work"
+    }
+  ],
+  "finished_at": "2026-11-17T16:03:57.701768+00:00",
+  "next_due": "2026-11-17T17:03:57.701768+00:00"
+}

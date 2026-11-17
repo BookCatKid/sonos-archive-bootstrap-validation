@@ -1,0 +1,24 @@
+{
+  "schema_version": 2,
+  "query_revision": "7928c65722aede3264ef503a8098c4332c0643dd6a0ecdf9283d2efd6fbf07c3",
+  "entries": {},
+  "artifacts": {},
+  "cursors": {},
+  "next_host": 0,
+  "completed_hosts": [],
+  "pending_hosts": [
+    "sonos.com"
+  ],
+  "status": "partial",
+  "observations": [],
+  "errors": [
+    {
+      "url": "https://web.archive.org/cdx/search/cdx?url=sonos.com%2F&matchType=domain&output=json&gzip=false&fl=timestamp%2Coriginal%2Cdigest&filter=statuscode%3A200&filter=original%3A.%2A%5B.%5D%28%3Fi%3Aapk%29%28%5B%3F%5D.%2A%29%3F%24&collapse=digest&limit=500&showResumeKey=true",
+      "error": "The read operation timed out",
+      "http_status": null,
+      "checked_at": "2026-11-17T16:03:57.675102+00:00",
+      "consecutive_failures": 1,
+      "next_attempt_at": "2026-11-17T17:03:57.675102+00:00"
+    }
+  ]
+}

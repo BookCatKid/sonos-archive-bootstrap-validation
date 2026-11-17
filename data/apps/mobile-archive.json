@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "artifacts": [
+    {
+      "family": "s2",
+      "platform": "fireos-android-apk",
+      "version": "91.01.11",
+      "original_filename": "Sonos_91.01.11.apk",
+      "bytes": 259903267,
+      "sha256": "1ff9546b2d8d5ec3887e31d8e34697ae9f580ecd654c243e551b7d8647352676",
+      "source_urls": [
+        "https://update-software.sonos.com/software/07426258-6f57-4f28-923e-8d72e41e686a/Sonos_91.01.11.apk"
+      ],
+      "sources": [
+        "official-current-fireos-redirect"
+      ],
+      "release_tag": "apps-fireos-s2",
+      "release_asset": "Sonos_91.01.11--1ff9546b2d8d5ec3887e31d8e34697ae9f580ecd654c243e551b7d8647352676.apk",
+      "acquired_at": "2026-11-17T16:03:28.521982+00:00",
+      "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/apps-fireos-s2/Sonos_91.01.11--1ff9546b2d8d5ec3887e31d8e34697ae9f580ecd654c243e551b7d8647352676.apk",
+      "fetched_from": "https://update-software.sonos.com/software/07426258-6f57-4f28-923e-8d72e41e686a/Sonos_91.01.11.apk",
+      "versions": [
+        "91.01.11"
+      ],
+      "acquisitions": [
+        {
+          "family": "s2",
+          "platform": "fireos-android-apk",
+          "version": "91.01.11",
+          "url": "https://update-software.sonos.com/software/07426258-6f57-4f28-923e-8d72e41e686a/Sonos_91.01.11.apk",
+          "sources": [
+            "official-current-fireos-redirect"
+          ],
+          "advertised_by": "https://www.sonos.com/redir/controller_software_android2",
+          "current": true,
+          "http_status": 200,
+          "content_length": 259903267,
+          "etag": "\"4c568627cc42005bab7041f6cb93bbd6-31\""
+        }
+      ]
+    }
+  ],
+  "gaps": [],
+  "source_observations": {
+    "BookCatKid/sonos-archive-bootstrap-validation": {
+      "https://update-software.sonos.com/software/07426258-6f57-4f28-923e-8d72e41e686a/Sonos_91.01.11.apk": {
+        "checked_at": "2026-11-17T16:03:42.289642+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-17T22:03:42.289642+00:00",
+        "candidate": {
+          "family": "s2",
+          "platform": "fireos-android-apk",
+          "version": "91.01.11",
+          "url": "https://update-software.sonos.com/software/07426258-6f57-4f28-923e-8d72e41e686a/Sonos_91.01.11.apk",
+          "sources": [
+            "official-current-fireos-redirect"
+          ],
+          "advertised_by": "https://www.sonos.com/redir/controller_software_android2",
+          "current": true,
+          "http_status": 200,
+          "content_length": 259903267,
+          "etag": "\"4c568627cc42005bab7041f6cb93bbd6-31\""
+        },
+        "revision": {
+          "version": "91.01.11",
+          "etag": "\"4c568627cc42005bab7041f6cb93bbd6-31\"",
+          "content_length": 259903267,
+          "http_status": 200
+        },
+        "status": "preserved",
+        "sha256": "1ff9546b2d8d5ec3887e31d8e34697ae9f580ecd654c243e551b7d8647352676",
+        "release_asset": "Sonos_91.01.11--1ff9546b2d8d5ec3887e31d8e34697ae9f580ecd654c243e551b7d8647352676.apk"
+      }
+    }
+  },
+  "updated": "2026-11-17T16:03:57.676037+00:00",
+  "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+  "discovery": "/home/runner/work/_temp/sonos-mobile-1fold8ym/history/discovery.json",
+  "artifact_total": 1,
+  "gap_total": 0,
+  "status": "partial",
+  "errors": [
+    {
+      "phase": "discovery",
+      "error": {
+        "url": "https://web.archive.org/cdx/search/cdx?url=sonos.com%2F&matchType=domain&output=json&gzip=false&fl=timestamp%2Coriginal%2Cdigest&filter=statuscode%3A200&filter=original%3A.%2A%5B.%5D%28%3Fi%3Aapk%29%28%5B%3F%5D.%2A%29%3F%24&collapse=digest&limit=500&showResumeKey=true",
+        "error": "The read operation timed out",
+        "http_status": null,
+        "checked_at": "2026-11-17T16:03:57.675102+00:00",
+        "consecutive_failures": 1,
+        "next_attempt_at": "2026-11-17T17:03:57.675102+00:00"
+      }
+    }
+  ],
+  "pending_total": 0,
+  "discovery_status": "partial",
+  "attempted_this_run": 0,
+  "added_this_run": 0,
+  "unpublished_captures": []
+}
