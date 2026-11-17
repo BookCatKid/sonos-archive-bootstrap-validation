@@ -1,0 +1,49 @@
+name: Diagnose anonymous Google Play metadata
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  metadata:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -e '.[google-play]'
+      - name: Separate token acquisition from Play metadata failures
+        run: |
+          timeout 240 python -u - <<'PYCODE'
+          import json, os
+          from pathlib import Path
+          from goopdl import auth
+          from sonos_firmware.android_store import play_client, play_profiles
+          original = auth.pick_pool_token
+          def token_phase(**kwargs):
+              try:
+                  result = original(**kwargs)
+              except Exception as error:
+                  print(json.dumps({'phase': 'anonymous-token', 'status': 'error',
+                                    'kind': type(error).__name__, 'http_status': getattr(error, 'status', None)}), flush=True)
+                  raise
+              print(json.dumps({'phase': 'anonymous-token', 'status': 'ok' if result else 'empty'}), flush=True)
+              return result
+          auth.pick_pool_token = token_phase
+          for index, profile in enumerate(play_profiles()[:2]):
+              print(json.dumps({'phase': 'profile', **profile}), flush=True)
+              client = play_client(Path(os.environ['RUNNER_TEMP'])/'anonymous-diagnostic'/str(index), **profile)
+              phase = 'details'
+              try:
+                  details = client.details('com.sonos.acr2')
+                  print(json.dumps({'phase': phase, 'status': 'ok', 'version_code': details.version_code}), flush=True)
+                  phase = 'delivery-metadata'
+                  delivery = client.delivery('com.sonos.acr2', details.version_code)
+                  print(json.dumps({'phase': phase, 'status': 'ok', 'version_code': delivery.version_code}), flush=True)
+              except Exception as error:
+                  cause = error.__cause__
+                  print(json.dumps({'phase': phase, 'status': 'error', 'kind': type(error).__name__,
+                                    'http_status': getattr(error, 'status_code', None),
+                                    'cause_kind': type(cause).__name__ if cause else None}), flush=True)
+          PYCODE
