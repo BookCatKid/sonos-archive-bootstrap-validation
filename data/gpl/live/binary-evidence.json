@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "scans": {},
+  "version_evidence": {},
+  "repositories": {
+    "BookCatKid/sonos-archive-bootstrap-validation": {
+      "f93830f89073598eccf92c7c3d9e064330252e8e7152cdcb75094a4890ec13e8": {
+        "status": "scanned",
+        "revision": "214faacec61ad1b0962fe141489cb0d233e1f0caf7620cb435d76da905dcb14c",
+        "bytes_scanned": 47921929
+      },
+      "d9b722d9287e01338e5e291f22ec0ff5c5203e011dd4fb56cba8e5f8e4849402": {
+        "status": "scanned",
+        "revision": "214faacec61ad1b0962fe141489cb0d233e1f0caf7620cb435d76da905dcb14c",
+        "bytes_scanned": 11877361
+      },
+      "b5bbd072740dc04270204acd2ffbe82adb684a1aa1d1f909595d0956ed329aee": {
+        "status": "scanned",
+        "revision": "214faacec61ad1b0962fe141489cb0d233e1f0caf7620cb435d76da905dcb14c",
+        "bytes_scanned": 12095011
+      },
+      "91c4d7568e34c74406efdd7ed9678a83cded4e61b61fb657242fe53fc492bc9d": {
+        "status": "scanned",
+        "revision": "214faacec61ad1b0962fe141489cb0d233e1f0caf7620cb435d76da905dcb14c",
+        "bytes_scanned": 12192408
+      }
+    }
+  },
+  "revisions": {
+    "214faacec61ad1b0962fe141489cb0d233e1f0caf7620cb435d76da905dcb14c": {
+      "decoder": "f61c9389a5a3f728996678b27391f70379d544f06526377e5b9183eccc3e016a",
+      "max_bytes": 805306368,
+      "max_source_bytes": 1073741824,
+      "max_entry_bytes": 314572800
+    }
+  },
+  "updated": "2026-11-17T16:07:17.112645+00:00",
+  "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+  "attempted_this_run": 4,
+  "pending_total": 97,
+  "errors": [],
+  "status": "partial"
+}
