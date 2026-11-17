@@ -1,0 +1,61 @@
+{
+  "source": "57.5-87010-1-13.upd",
+  "source_sha256": "4a80be6b7238065f4664ea1440f944f11ada21e40bf8621270482fb7e9c625c8",
+  "components": [
+    {
+      "package_id": "57.5-87010-1-13",
+      "section_index": 0,
+      "section_type": 1,
+      "kind": "section-1",
+      "filename": "57.5-87010-1-13-section-1.bin",
+      "bytes": 12,
+      "sha256": "2953354309c2b9a1abaa877ad30f66f5c2f8f71799f1933a22baed84625a4d30",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "57.5-87010-1-13",
+      "section_index": 1,
+      "section_type": 2,
+      "kind": "section-2",
+      "filename": "57.5-87010-1-13-section-2.bin",
+      "bytes": 28,
+      "sha256": "9b4e2dd1b03788b974e94142bf7e2617c8d55490c734bb8ad81764f2fcfa16f9",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "57.5-87010-1-13",
+      "section_index": 2,
+      "section_type": 2,
+      "kind": "section-2",
+      "filename": "57.5-87010-1-13-section-2-section-02.bin",
+      "bytes": 132,
+      "sha256": "cf8c62cfd93536d17866c0fd566c3f64af77f754590ea0177b84d3bfbf5e591b",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "57.5-87010-1-13",
+      "section_index": 3,
+      "section_type": 2,
+      "kind": "section-2",
+      "filename": "57.5-87010-1-13-section-2-section-03.bin",
+      "bytes": 28,
+      "sha256": "6473acbdb9dde8dd5e6fd2e31a413961f8f74882ade7a101e6fb7cfba1bcf494",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "57.5-87010-1-13",
+      "section_index": 8,
+      "section_type": 17,
+      "kind": "section-17",
+      "filename": "57.5-87010-1-13-section-17.bin",
+      "bytes": 364,
+      "sha256": "ea907e755cef2786346890caf1af71e17517ee4785a8ddd073db734b1c19bdf4",
+      "source_encrypted": false,
+      "recipient_id": null
+    }
+  ]
+}

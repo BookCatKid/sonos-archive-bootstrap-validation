@@ -42,6 +42,12 @@
       "coverage_packages": [
         {
           "artifact_status": "preserved",
+          "package_id": "57.19-46310-1-8",
+          "package_model": 8,
+          "version": "57.19-46310"
+        },
+        {
+          "artifact_status": "preserved",
           "package_id": "57.23-74170-1-8",
           "package_model": 8,
           "version": "57.23-74170"
@@ -118,6 +124,12 @@
       "coverage_packages": [
         {
           "artifact_status": "preserved",
+          "package_id": "57.19-46310-1-12",
+          "package_model": 12,
+          "version": "57.19-46310"
+        },
+        {
+          "artifact_status": "preserved",
           "package_id": "57.23-74170-1-12",
           "package_model": 12,
           "version": "57.23-74170"
@@ -151,18 +163,108 @@
           "byte_order": "big"
         }
       ]
+    },
+    "fd88f2642a9c89a44747c7b4342cdb483fe1d437": {
+      "coverage_packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.23-74170-1-16",
+          "package_model": 16,
+          "version": "57.23-74170"
+        }
+      ],
+      "key_family": "legacy-updater",
+      "package_model": 16,
+      "package_models": [
+        16
+      ],
+      "recovery_provenance": [
+        {
+          "method": "legacy-updater",
+          "model": 16,
+          "recipient_id": "fd88f2642a9c89a44747c7b4342cdb483fe1d437",
+          "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+          "source": {
+            "sha256": "4c69dda984a91729933ec8525793135b3acbcb19f0c68e2bad4cb431e26600b9",
+            "bytes": 4014080,
+            "release_tag": "firmware-34.16-37101",
+            "release_asset": "34.16-37101-1-16-rootfs.bin",
+            "kind": "raw",
+            "package_id": "34.16-37101-1-16",
+            "model": 16,
+            "section_index": 5,
+            "section_sha256": "4c69dda984a91729933ec8525793135b3acbcb19f0c68e2bad4cb431e26600b9",
+            "section_bytes": 4014080
+          },
+          "updater_sha256": "d17809f33003856d66f5406e080081ca8f0e3954a8d5536bb8f541010b8cce1a",
+          "wrapper_offset": 102680,
+          "byte_order": "big"
+        }
+      ]
+    },
+    "f2acc70d8db3ee388c534d99d4bff64d9dab8154": {
+      "coverage_packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "55.1-74250-1-17",
+          "package_model": 17,
+          "version": "55.1-74250"
+        },
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.19-46310-1-17",
+          "package_model": 17,
+          "version": "57.19-46310"
+        },
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.23-74170-1-17",
+          "package_model": 17,
+          "version": "57.23-74170"
+        }
+      ],
+      "key_family": "legacy-updater",
+      "package_model": 17,
+      "package_models": [
+        17
+      ],
+      "recovery_provenance": [
+        {
+          "method": "legacy-updater",
+          "model": 17,
+          "recipient_id": "f2acc70d8db3ee388c534d99d4bff64d9dab8154",
+          "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+          "source": {
+            "sha256": "c586832f1212fd38881db731860cb31f4f06aa4496138d732d3636620347f9f2",
+            "bytes": 4304896,
+            "release_tag": "firmware-34.16-37101",
+            "release_asset": "34.16-37101-1-17-rootfs.bin",
+            "kind": "raw",
+            "package_id": "34.16-37101-1-17",
+            "model": 17,
+            "section_index": 5,
+            "section_sha256": "c586832f1212fd38881db731860cb31f4f06aa4496138d732d3636620347f9f2",
+            "section_bytes": 4304896
+          },
+          "updater_sha256": "097d64dfce2b02b620950a3dd6688fd85572a68666474f0d42b0d4d418587e26",
+          "wrapper_offset": 102296,
+          "byte_order": "big"
+        }
+      ]
     }
   },
   "key_origin": {
     "summary": {
-      "recovered_recipients": 4,
+      "recovered_recipients": 6,
       "models": [
         1,
         8,
         9,
-        12
+        12,
+        16,
+        17
       ],
-      "missing_recipient_groups": 3
+      "missing_recipient_groups": 12
     },
     "recovery_methods": [
       "legacy-updater"
@@ -184,6 +286,73 @@
       "packages": [
         {
           "artifact_status": "preserved",
+          "package_id": "57.23-74170-1-28",
+          "package_model": 28,
+          "version": "57.23-74170"
+        }
+      ],
+      "recipient_id": "13c6f1c74b396d2ad490381d12ccdd7c545fe1d7"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.23-74170-1-29",
+          "package_model": 29,
+          "version": "57.23-74170"
+        }
+      ],
+      "recipient_id": "5940a717079fb4f50ec9ae6f91a8dfb159789c1f"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.23-74170-1-22",
+          "package_model": 22,
+          "version": "57.23-74170"
+        },
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.5-87010-1-22",
+          "package_model": 22,
+          "version": "57.5-87010"
+        }
+      ],
+      "recipient_id": "73a52aa1366144a1bda8d256999fa0fa2cc2f0bb"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.23-74170-1-14",
+          "package_model": 14,
+          "version": "57.23-74170"
+        },
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.5-87010-1-14",
+          "package_model": 14,
+          "version": "57.5-87010"
+        }
+      ],
+      "recipient_id": "8046d7d71a1161ed17f5c661096a2bfe2cac0f3a"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.23-74170-1-25",
+          "package_model": 25,
+          "version": "57.23-74170"
+        }
+      ],
+      "recipient_id": "83fb98ffd324255b26fdab99105a1a02a82bae93"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
           "package_id": "34.16-37101-1-13",
           "package_model": 13,
           "version": "34.16-37101"
@@ -193,6 +362,12 @@
           "package_id": "57.23-74170-1-13",
           "package_model": 13,
           "version": "57.23-74170"
+        },
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.5-87010-1-13",
+          "package_model": 13,
+          "version": "57.5-87010"
         }
       ],
       "recipient_id": "87da92d5173e329c366300810f9d94f525bf2d65"
@@ -204,9 +379,71 @@
           "package_id": "34.16-37101-1-20",
           "package_model": 20,
           "version": "34.16-37101"
+        },
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.23-74170-1-20",
+          "package_model": 20,
+          "version": "57.23-74170"
+        },
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.5-87010-1-20",
+          "package_model": 20,
+          "version": "57.5-87010"
         }
       ],
       "recipient_id": "8cb7e8b66c9984623bce23125ef6a0c88b1d4cc3"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.23-74170-1-24",
+          "package_model": 24,
+          "version": "57.23-74170"
+        }
+      ],
+      "recipient_id": "9e4031d6408a0fbbae483de4e75327caa30bdbc5"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.23-74170-1-26",
+          "package_model": 26,
+          "version": "57.23-74170"
+        }
+      ],
+      "recipient_id": "b271039ff7ab0f3d395039f1f079ff71af9dea71"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.23-74170-1-23",
+          "package_model": 23,
+          "version": "57.23-74170"
+        }
+      ],
+      "recipient_id": "ced4316a9249b0297a452ecddbc1f6c619277789"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.23-74170-1-21",
+          "package_model": 21,
+          "version": "57.23-74170"
+        },
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.5-87010-1-21",
+          "package_model": 21,
+          "version": "57.5-87010"
+        }
+      ],
+      "recipient_id": "fd5f06180d724cf26e42548a8501133a273ed516"
     }
   ],
   "plaintext_packages": [
@@ -285,10 +522,10 @@
   ],
   "unidentified_encrypted_packages": [],
   "summary": {
-    "encrypted_upd_packages": 8,
+    "encrypted_upd_packages": 29,
     "unidentified_encrypted_packages": 0,
     "missing_upd_section_manifests": 0,
     "plaintext_upd_packages": 12,
-    "unique_recipients": 7
+    "unique_recipients": 18
   }
 }
