@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "target": "google-play",
+  "provider": "google-play",
+  "status": "failed",
+  "executed": true,
+  "started_at": "2026-11-17T16:15:41.622157+00:00",
+  "steps": [
+    {
+      "name": "sweep_android_store_history",
+      "status": "failed",
+      "exit_code": 1,
+      "output_tail": ""
+    }
+  ],
+  "errors": [
+    {
+      "step": "sweep_android_store_history",
+      "exit_code": 1
+    }
+  ],
+  "pending": [
+    {
+      "step": "sweep_android_store_history",
+      "reason": "source reports incomplete work"
+    }
+  ],
+  "finished_at": "2026-11-17T16:15:45.856077+00:00",
+  "next_due": "2026-11-17T17:15:45.856077+00:00"
+}
