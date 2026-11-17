@@ -1,0 +1,24 @@
+{
+  "schema_version": 2,
+  "query_revision": "8aef2fdffe7b6159175a263f2a6b49a5f2104a9f71e1aa73eb368318238589ed",
+  "entries": {},
+  "artifacts": {},
+  "cursors": {},
+  "next_host": 0,
+  "completed_hosts": [],
+  "pending_hosts": [
+    "sonos.com"
+  ],
+  "status": "partial",
+  "observations": [],
+  "errors": [
+    {
+      "url": "https://web.archive.org/cdx/search/cdx?url=sonos.com%2F&matchType=domain&output=json&gzip=false&fl=timestamp%2Coriginal%2Cdigest&filter=statuscode%3A200&filter=original%3A.%2A%5B.%5D%28%3Fi%3Aexe%7Cdmg%29%28%5B%3F%5D.%2A%29%3F%24&collapse=digest&limit=500&showResumeKey=true",
+      "error": "HTTP Error 503: Service Unavailable",
+      "http_status": 503,
+      "checked_at": "2026-11-17T16:06:08.652084+00:00",
+      "consecutive_failures": 1,
+      "next_attempt_at": "2026-11-17T17:06:08.652084+00:00"
+    }
+  ]
+}
