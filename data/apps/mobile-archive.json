@@ -73,9 +73,9 @@
       }
     }
   },
-  "updated": "2026-11-17T16:03:57.676037+00:00",
+  "updated": "2026-11-17T16:08:03.176540+00:00",
   "repository": "BookCatKid/sonos-archive-bootstrap-validation",
-  "discovery": "/home/runner/work/_temp/sonos-mobile-1fold8ym/history/discovery.json",
+  "discovery": "/home/runner/work/_temp/sonos-mobile-s9v4k7rx/history/discovery.json",
   "artifact_total": 1,
   "gap_total": 0,
   "status": "partial",
@@ -86,9 +86,9 @@
         "url": "https://web.archive.org/cdx/search/cdx?url=sonos.com%2F&matchType=domain&output=json&gzip=false&fl=timestamp%2Coriginal%2Cdigest&filter=statuscode%3A200&filter=original%3A.%2A%5B.%5D%28%3Fi%3Aapk%29%28%5B%3F%5D.%2A%29%3F%24&collapse=digest&limit=500&showResumeKey=true",
         "error": "The read operation timed out",
         "http_status": null,
-        "checked_at": "2026-11-17T16:03:57.675102+00:00",
+        "checked_at": "2026-11-17T16:08:03.175497+00:00",
         "consecutive_failures": 1,
-        "next_attempt_at": "2026-11-17T17:03:57.675102+00:00"
+        "next_attempt_at": "2026-11-17T17:08:03.175497+00:00"
       }
     }
   ],

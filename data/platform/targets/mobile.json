@@ -4,7 +4,7 @@
   "provider": "mobile",
   "status": "partial",
   "executed": true,
-  "started_at": "2026-11-17T16:03:26.585541+00:00",
+  "started_at": "2026-11-17T16:07:44.721834+00:00",
   "steps": [
     {
       "name": "discover_mobile_installers",
@@ -16,7 +16,7 @@
       "name": "archive_mobile_installers",
       "status": "ok",
       "exit_code": 0,
-      "output_tail": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/tag/apps-fireos-s2\nverified artifacts=1 attempted=1 new=1\n"
+      "output_tail": "verified artifacts=1 attempted=0 new=0\n"
     },
     {
       "name": "archive-installer-history",
@@ -37,6 +37,6 @@
       "reason": "source reports incomplete work"
     }
   ],
-  "finished_at": "2026-11-17T16:03:57.701768+00:00",
-  "next_due": "2026-11-17T17:03:57.701768+00:00"
+  "finished_at": "2026-11-17T16:08:03.222422+00:00",
+  "next_due": "2026-11-17T17:08:03.222422+00:00"
 }
