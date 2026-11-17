@@ -4,13 +4,13 @@
   "provider": "web",
   "status": "failed",
   "executed": true,
-  "started_at": "2026-11-17T16:03:25.803799+00:00",
+  "started_at": "2026-11-17T16:31:37.537375+00:00",
   "steps": [
     {
       "name": "archive_web_apps",
       "status": "failed",
       "exit_code": 1,
-      "output_tail": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/tag/apps-web-controller\nhttps://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/tag/apps-web-pro\ncontroller: captured=4 gaps=1\npro: captured=77 gaps=0\n"
+      "output_tail": "controller: captured=5 gaps=33\npro: captured=77 gaps=0\n"
     }
   ],
   "errors": [
@@ -25,6 +25,6 @@
       "reason": "source reports incomplete work"
     }
   ],
-  "finished_at": "2026-11-17T16:06:26.972757+00:00",
-  "next_due": "2026-11-17T17:06:26.972757+00:00"
+  "finished_at": "2026-11-17T16:34:59.470519+00:00",
+  "next_due": "2026-11-17T17:34:59.470519+00:00"
 }
