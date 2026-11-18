@@ -4,9 +4,9 @@
     "BookCatKid/sonos-archive-bootstrap-validation": {
       "21e7b8c8199c8d6442d2a0a7a4e776c4efd4319c": {
         "02515d6b3143e47d3fb4ae29bc33ddcbcc936e1d0470a300177d1d8b8b8f8b99": {
-          "checked_at": "2026-11-17T19:38:14.785840+00:00",
+          "checked_at": "2026-11-18T00:52:53.036929+00:00",
           "consecutive_failures": 0,
-          "next_attempt_at": "2026-11-24T19:38:14.785840+00:00",
+          "next_attempt_at": "2026-11-25T00:52:53.036929+00:00",
           "status": "recovered",
           "proof": {
             "method": "legacy-updater",
@@ -33,9 +33,9 @@
       },
       "0cfddc3f6ac5c485ccc435885c42c52a9338e28b": {
         "d5811eea826c3eb5be5aa317ca6f3f37eccd05214945758ff832824cd78839a8": {
-          "checked_at": "2026-11-17T19:38:15.775316+00:00",
-          "consecutive_failures": 2,
-          "next_attempt_at": "2026-11-17T21:38:15.775316+00:00",
+          "checked_at": "2026-11-18T00:52:53.918418+00:00",
+          "consecutive_failures": 3,
+          "next_attempt_at": "2026-11-18T04:52:53.918418+00:00",
           "status": "failed",
           "source": {
             "sha256": "151ff1da61c4f17b9751ae6f96afc88deac376b4aa061a175db07c21db5d0f3c",
@@ -52,9 +52,9 @@
           "error_type": "ValueError"
         },
         "46805cd7bf683ca33dd2135a254d9184951fb64cd34ef7d3be3148a53ac59519": {
-          "checked_at": "2026-11-17T19:38:16.824721+00:00",
-          "consecutive_failures": 1,
-          "next_attempt_at": "2026-11-17T20:38:16.824721+00:00",
+          "checked_at": "2026-11-18T00:52:54.957392+00:00",
+          "consecutive_failures": 2,
+          "next_attempt_at": "2026-11-18T02:52:54.957392+00:00",
           "status": "failed",
           "source": {
             "sha256": "9c5835dbbd14a7b2d6691c2bafb331b3cd09b58149db7fd4589d7ce7e025043c",
@@ -73,9 +73,9 @@
       },
       "346ce6e38225ca8177024fbebfaad7043344b3bd": {
         "773952ab5cece9e4b850a39927db64636bf0e2f8dd24e7679f2d6011550b2150": {
-          "checked_at": "2026-11-17T19:38:17.799921+00:00",
+          "checked_at": "2026-11-18T00:52:55.920534+00:00",
           "consecutive_failures": 0,
-          "next_attempt_at": "2026-11-24T19:38:17.799921+00:00",
+          "next_attempt_at": "2026-11-25T00:52:55.920534+00:00",
           "status": "recovered",
           "proof": {
             "method": "legacy-updater",
@@ -102,9 +102,9 @@
       },
       "12e82a182af27801eba0ff3c94e8e649ed962dbb": {
         "7b852ec7593d6df0f2a473a0a7330b71ce576a53f9d24ecf5cdf75108afe5dd6": {
-          "checked_at": "2026-11-17T19:38:19.019406+00:00",
+          "checked_at": "2026-11-18T00:52:56.920523+00:00",
           "consecutive_failures": 0,
-          "next_attempt_at": "2026-11-24T19:38:19.019406+00:00",
+          "next_attempt_at": "2026-11-25T00:52:56.920523+00:00",
           "status": "recovered",
           "proof": {
             "method": "legacy-updater",
@@ -131,9 +131,9 @@
       },
       "e35f7c21c0ec00a768bfbd364a9a105cf300f023": {
         "b54147f6328c88d64df3f9edcd1ee41a618e2ee1d8c25c063adec851d33b6fd3": {
-          "checked_at": "2026-11-17T19:38:20.040752+00:00",
+          "checked_at": "2026-11-18T00:52:57.927634+00:00",
           "consecutive_failures": 0,
-          "next_attempt_at": "2026-11-24T19:38:20.040752+00:00",
+          "next_attempt_at": "2026-11-25T00:52:57.927634+00:00",
           "status": "recovered",
           "proof": {
             "method": "legacy-updater",
@@ -160,9 +160,9 @@
       },
       "fd88f2642a9c89a44747c7b4342cdb483fe1d437": {
         "3c29709d5f42184e2c37d812dda3ed71c96ee379afc5f67675cfe51eb6682c52": {
-          "checked_at": "2026-11-17T19:38:21.137650+00:00",
+          "checked_at": "2026-11-18T00:52:59.014227+00:00",
           "consecutive_failures": 0,
-          "next_attempt_at": "2026-11-24T19:38:21.137650+00:00",
+          "next_attempt_at": "2026-11-25T00:52:59.014227+00:00",
           "status": "recovered",
           "proof": {
             "method": "legacy-updater",
@@ -189,9 +189,9 @@
       },
       "f2acc70d8db3ee388c534d99d4bff64d9dab8154": {
         "ebaaf0b94123c84ba78779d35615cf4dccdb95783c6987bf78a569e3532d22e5": {
-          "checked_at": "2026-11-17T19:38:22.132229+00:00",
+          "checked_at": "2026-11-18T00:52:59.900472+00:00",
           "consecutive_failures": 0,
-          "next_attempt_at": "2026-11-24T19:38:22.132229+00:00",
+          "next_attempt_at": "2026-11-25T00:52:59.900472+00:00",
           "status": "recovered",
           "proof": {
             "method": "legacy-updater",

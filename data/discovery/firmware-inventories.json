@@ -114,6 +114,62 @@
               "decoder_seconds": 300
             }
           }
+        },
+        "34.16-37101-1-13": {
+          "status": "published",
+          "revision": {
+            "source_sha256": "4bdfdd788a11cc0844357fe6bd50b00071a15fd44b9d87f4ae52e666eb0f34a4",
+            "ready_recipients": [],
+            "decoder_revision": "0466521e88b05160affe47c538d7a6cd8d4154e386f8d539e5c98d0a90db8dff",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          }
+        },
+        "34.16-37101-1-16": {
+          "status": "published",
+          "revision": {
+            "source_sha256": "84632e02bdce626bf10ae846839e90d66e510a627320fff8690c2bdb998733f2",
+            "ready_recipients": [],
+            "decoder_revision": "0466521e88b05160affe47c538d7a6cd8d4154e386f8d539e5c98d0a90db8dff",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          }
+        },
+        "34.16-37101-1-17": {
+          "status": "published",
+          "revision": {
+            "source_sha256": "ccbb884d22a6dccae2c7dcdf9ecacb6a9217a5439a5f9b74a10e2598eb719e42",
+            "ready_recipients": [],
+            "decoder_revision": "0466521e88b05160affe47c538d7a6cd8d4154e386f8d539e5c98d0a90db8dff",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          }
+        },
+        "34.16-37101-1-20": {
+          "status": "published",
+          "revision": {
+            "source_sha256": "a43eafc4bf71ce13d8219f272226e9dc097ce7360d79003c23c483d954acde57",
+            "ready_recipients": [],
+            "decoder_revision": "0466521e88b05160affe47c538d7a6cd8d4154e386f8d539e5c98d0a90db8dff",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          }
         }
       },
       "captures": {
@@ -522,6 +578,210 @@
               "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-d4cc8d619e450c183d302610e12c7d2bd35dc3a56147b765cc2e17e98a313768-20914d9319ef95013671371dcc0a6608e40efb4b89279d7345f224a6a71234d5.tar.xz",
               "sha256": "20914d9319ef95013671371dcc0a6608e40efb4b89279d7345f224a6a71234d5",
               "bytes": 7531612
+            }
+          }
+        },
+        "5ac58acee8cac0a039e1a2b08a910fd88d6e70ece16bd4cf98b9c4115eb84ae9": {
+          "package_id": "34.16-37101-1-13",
+          "revision": {
+            "source_sha256": "4bdfdd788a11cc0844357fe6bd50b00071a15fd44b9d87f4ae52e666eb0f34a4",
+            "ready_recipients": [],
+            "decoder_revision": "0466521e88b05160affe47c538d7a6cd8d4154e386f8d539e5c98d0a90db8dff",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": false,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "5ac58acee8cac0a039e1a2b08a910fd88d6e70ece16bd4cf98b9c4115eb84ae9",
+              "bytes": 8521,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-4bdfdd788a11cc0844357fe6bd50b00071a15fd44b9d87f4ae52e666eb0f34a4-5ac58acee8cac0a039e1a2b08a910fd88d6e70ece16bd4cf98b9c4115eb84ae9.json"
+            },
+            "bundle": {
+              "sha256": "aead400225ea72a62835bbdd4cdb5960f66b4b528bb2b1a2be348ef2fae0992e",
+              "bytes": 3297272,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-4bdfdd788a11cc0844357fe6bd50b00071a15fd44b9d87f4ae52e666eb0f34a4-aead400225ea72a62835bbdd4cdb5960f66b4b528bb2b1a2be348ef2fae0992e.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-4bdfdd788a11cc0844357fe6bd50b00071a15fd44b9d87f4ae52e666eb0f34a4-5ac58acee8cac0a039e1a2b08a910fd88d6e70ece16bd4cf98b9c4115eb84ae9.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-4bdfdd788a11cc0844357fe6bd50b00071a15fd44b9d87f4ae52e666eb0f34a4-5ac58acee8cac0a039e1a2b08a910fd88d6e70ece16bd4cf98b9c4115eb84ae9.json",
+              "sha256": "5ac58acee8cac0a039e1a2b08a910fd88d6e70ece16bd4cf98b9c4115eb84ae9",
+              "bytes": 8521
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-4bdfdd788a11cc0844357fe6bd50b00071a15fd44b9d87f4ae52e666eb0f34a4-aead400225ea72a62835bbdd4cdb5960f66b4b528bb2b1a2be348ef2fae0992e.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-4bdfdd788a11cc0844357fe6bd50b00071a15fd44b9d87f4ae52e666eb0f34a4-aead400225ea72a62835bbdd4cdb5960f66b4b528bb2b1a2be348ef2fae0992e.tar.xz",
+              "sha256": "aead400225ea72a62835bbdd4cdb5960f66b4b528bb2b1a2be348ef2fae0992e",
+              "bytes": 3297272
+            }
+          }
+        },
+        "6224aa55d43736253f85d7881a1cf43e2aab9239b3c84da3b8309ae1c4940580": {
+          "package_id": "34.16-37101-1-16",
+          "revision": {
+            "source_sha256": "84632e02bdce626bf10ae846839e90d66e510a627320fff8690c2bdb998733f2",
+            "ready_recipients": [],
+            "decoder_revision": "0466521e88b05160affe47c538d7a6cd8d4154e386f8d539e5c98d0a90db8dff",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": true,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "6224aa55d43736253f85d7881a1cf43e2aab9239b3c84da3b8309ae1c4940580",
+              "bytes": 66095,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-84632e02bdce626bf10ae846839e90d66e510a627320fff8690c2bdb998733f2-6224aa55d43736253f85d7881a1cf43e2aab9239b3c84da3b8309ae1c4940580.json"
+            },
+            "bundle": {
+              "sha256": "09d606096849cc182f2f808bb32acf28c4f13064ad806c28acc23a36e904057e",
+              "bytes": 8560628,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-84632e02bdce626bf10ae846839e90d66e510a627320fff8690c2bdb998733f2-09d606096849cc182f2f808bb32acf28c4f13064ad806c28acc23a36e904057e.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-84632e02bdce626bf10ae846839e90d66e510a627320fff8690c2bdb998733f2-6224aa55d43736253f85d7881a1cf43e2aab9239b3c84da3b8309ae1c4940580.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-84632e02bdce626bf10ae846839e90d66e510a627320fff8690c2bdb998733f2-6224aa55d43736253f85d7881a1cf43e2aab9239b3c84da3b8309ae1c4940580.json",
+              "sha256": "6224aa55d43736253f85d7881a1cf43e2aab9239b3c84da3b8309ae1c4940580",
+              "bytes": 66095
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-84632e02bdce626bf10ae846839e90d66e510a627320fff8690c2bdb998733f2-09d606096849cc182f2f808bb32acf28c4f13064ad806c28acc23a36e904057e.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-84632e02bdce626bf10ae846839e90d66e510a627320fff8690c2bdb998733f2-09d606096849cc182f2f808bb32acf28c4f13064ad806c28acc23a36e904057e.tar.xz",
+              "sha256": "09d606096849cc182f2f808bb32acf28c4f13064ad806c28acc23a36e904057e",
+              "bytes": 8560628
+            }
+          }
+        },
+        "40be883aaea7a523774a7731484e30f2cff20686cacf83e8279c429be39dc6c5": {
+          "package_id": "34.16-37101-1-17",
+          "revision": {
+            "source_sha256": "ccbb884d22a6dccae2c7dcdf9ecacb6a9217a5439a5f9b74a10e2598eb719e42",
+            "ready_recipients": [],
+            "decoder_revision": "0466521e88b05160affe47c538d7a6cd8d4154e386f8d539e5c98d0a90db8dff",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": true,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "40be883aaea7a523774a7731484e30f2cff20686cacf83e8279c429be39dc6c5",
+              "bytes": 65239,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-ccbb884d22a6dccae2c7dcdf9ecacb6a9217a5439a5f9b74a10e2598eb719e42-40be883aaea7a523774a7731484e30f2cff20686cacf83e8279c429be39dc6c5.json"
+            },
+            "bundle": {
+              "sha256": "b89a0009275cf45739029ee08423b9d6acba1d44db36bd6f13990a1acdc73e2a",
+              "bytes": 9095260,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-ccbb884d22a6dccae2c7dcdf9ecacb6a9217a5439a5f9b74a10e2598eb719e42-b89a0009275cf45739029ee08423b9d6acba1d44db36bd6f13990a1acdc73e2a.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-ccbb884d22a6dccae2c7dcdf9ecacb6a9217a5439a5f9b74a10e2598eb719e42-40be883aaea7a523774a7731484e30f2cff20686cacf83e8279c429be39dc6c5.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-ccbb884d22a6dccae2c7dcdf9ecacb6a9217a5439a5f9b74a10e2598eb719e42-40be883aaea7a523774a7731484e30f2cff20686cacf83e8279c429be39dc6c5.json",
+              "sha256": "40be883aaea7a523774a7731484e30f2cff20686cacf83e8279c429be39dc6c5",
+              "bytes": 65239
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-ccbb884d22a6dccae2c7dcdf9ecacb6a9217a5439a5f9b74a10e2598eb719e42-b89a0009275cf45739029ee08423b9d6acba1d44db36bd6f13990a1acdc73e2a.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-ccbb884d22a6dccae2c7dcdf9ecacb6a9217a5439a5f9b74a10e2598eb719e42-b89a0009275cf45739029ee08423b9d6acba1d44db36bd6f13990a1acdc73e2a.tar.xz",
+              "sha256": "b89a0009275cf45739029ee08423b9d6acba1d44db36bd6f13990a1acdc73e2a",
+              "bytes": 9095260
+            }
+          }
+        },
+        "a32578f9fb4d66135645c42f80f70c9e6c98e68647acfe8ad969314924802766": {
+          "package_id": "34.16-37101-1-20",
+          "revision": {
+            "source_sha256": "a43eafc4bf71ce13d8219f272226e9dc097ce7360d79003c23c483d954acde57",
+            "ready_recipients": [],
+            "decoder_revision": "0466521e88b05160affe47c538d7a6cd8d4154e386f8d539e5c98d0a90db8dff",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": false,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "a32578f9fb4d66135645c42f80f70c9e6c98e68647acfe8ad969314924802766",
+              "bytes": 8521,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-a43eafc4bf71ce13d8219f272226e9dc097ce7360d79003c23c483d954acde57-a32578f9fb4d66135645c42f80f70c9e6c98e68647acfe8ad969314924802766.json"
+            },
+            "bundle": {
+              "sha256": "1e536d35b4db0ae8a4cc10e7aaca30cbe27362359a8d3edc8ee8bdf0595b4a63",
+              "bytes": 3296668,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-a43eafc4bf71ce13d8219f272226e9dc097ce7360d79003c23c483d954acde57-1e536d35b4db0ae8a4cc10e7aaca30cbe27362359a8d3edc8ee8bdf0595b4a63.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-a43eafc4bf71ce13d8219f272226e9dc097ce7360d79003c23c483d954acde57-a32578f9fb4d66135645c42f80f70c9e6c98e68647acfe8ad969314924802766.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-a43eafc4bf71ce13d8219f272226e9dc097ce7360d79003c23c483d954acde57-a32578f9fb4d66135645c42f80f70c9e6c98e68647acfe8ad969314924802766.json",
+              "sha256": "a32578f9fb4d66135645c42f80f70c9e6c98e68647acfe8ad969314924802766",
+              "bytes": 8521
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-a43eafc4bf71ce13d8219f272226e9dc097ce7360d79003c23c483d954acde57-1e536d35b4db0ae8a4cc10e7aaca30cbe27362359a8d3edc8ee8bdf0595b4a63.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-a43eafc4bf71ce13d8219f272226e9dc097ce7360d79003c23c483d954acde57-1e536d35b4db0ae8a4cc10e7aaca30cbe27362359a8d3edc8ee8bdf0595b4a63.tar.xz",
+              "sha256": "1e536d35b4db0ae8a4cc10e7aaca30cbe27362359a8d3edc8ee8bdf0595b4a63",
+              "bytes": 3296668
             }
           }
         }

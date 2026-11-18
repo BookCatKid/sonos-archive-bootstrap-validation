@@ -1,0 +1,127 @@
+{
+  "source": "86.11-82170-1-8.upd",
+  "source_sha256": "b4774d97c98c7b5279783d9811952f57a1c39d508875bac9bd95472f76aafd0b",
+  "components": [
+    {
+      "package_id": "86.11-82170-1-8",
+      "section_index": 0,
+      "section_type": 1,
+      "kind": "section-1",
+      "filename": "86.11-82170-1-8-section-1.bin",
+      "bytes": 12,
+      "sha256": "3c42fff614c892fdd2c8039df741d4ddb963b2be99f580c13fd34e1f28122488",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "86.11-82170-1-8",
+      "section_index": 1,
+      "section_type": 21,
+      "kind": "section-21",
+      "filename": "86.11-82170-1-8-section-21.bin",
+      "bytes": 128,
+      "sha256": "14274137933edaf29f96fa76f40718ee7934d5fc123bc60b723d928bae5fada4",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "86.11-82170-1-8",
+      "section_index": 2,
+      "section_type": 2,
+      "kind": "section-2",
+      "filename": "86.11-82170-1-8-section-2.bin",
+      "bytes": 28,
+      "sha256": "ef2da9a975f907eb41768e92f8dddfb7ae2dd2fc9b4dd9fd4af11d7de03c516d",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "86.11-82170-1-8",
+      "section_index": 3,
+      "section_type": 2,
+      "kind": "section-2",
+      "filename": "86.11-82170-1-8-section-2-section-03.bin",
+      "bytes": 132,
+      "sha256": "b4183ae7a503b6d41c6bf067c37c4808e2f25d3efba0a9fa1a75e746aca552d9",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "86.11-82170-1-8",
+      "section_index": 4,
+      "section_type": 2,
+      "kind": "section-2",
+      "filename": "86.11-82170-1-8-section-2-section-04.bin",
+      "bytes": 28,
+      "sha256": "1dfcb8ec3f72b5f7576057857d14a9d47f67d0c7a0ebf16cb7d06165dbd77cd6",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "86.11-82170-1-8",
+      "section_index": 5,
+      "section_type": 22,
+      "kind": "section-22",
+      "filename": "86.11-82170-1-8-section-22.bin",
+      "bytes": 149511,
+      "sha256": "3b2e7146bb019dbfb9f5816924692b2d3a955c5af5996307148cff3dc2fdcac3",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "86.11-82170-1-8",
+      "section_index": 6,
+      "section_type": 23,
+      "kind": "section-23",
+      "filename": "86.11-82170-1-8-section-23.bin",
+      "bytes": 14315520,
+      "sha256": "ff487c4316bcc9d85bbb3e0dd083995ddb18b1c733aefd4d0bf85893ed3f855b",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "86.11-82170-1-8",
+      "section_index": 7,
+      "section_type": 3,
+      "kind": "preinstall",
+      "filename": "86.11-82170-1-8-preinstall.sh",
+      "bytes": 1599,
+      "sha256": "feddb7ad14034b06c316ccbed244a11925093a882a9d7bd81ea64a61364cbe70",
+      "source_encrypted": true,
+      "recipient_id": "346ce6e38225ca8177024fbebfaad7043344b3bd"
+    },
+    {
+      "package_id": "86.11-82170-1-8",
+      "section_index": 8,
+      "section_type": 6,
+      "kind": "kernel",
+      "filename": "86.11-82170-1-8-kernel.uImage",
+      "bytes": 1495484,
+      "sha256": "edb5f96d1a64298e9c94d0b9502425ecd35049a60085868be64fb3e36b3bded7",
+      "source_encrypted": true,
+      "recipient_id": "346ce6e38225ca8177024fbebfaad7043344b3bd"
+    },
+    {
+      "package_id": "86.11-82170-1-8",
+      "section_index": 9,
+      "section_type": 4,
+      "kind": "rootfs",
+      "filename": "86.11-82170-1-8-rootfs.squashfs",
+      "bytes": 5459968,
+      "sha256": "63df8667e3c07dc3b704300ebccef29f51c4b808c8b9aef7a99e94b9e91eba78",
+      "source_encrypted": true,
+      "recipient_id": "346ce6e38225ca8177024fbebfaad7043344b3bd"
+    },
+    {
+      "package_id": "86.11-82170-1-8",
+      "section_index": 10,
+      "section_type": 17,
+      "kind": "section-17",
+      "filename": "86.11-82170-1-8-section-17.bin",
+      "bytes": 364,
+      "sha256": "f253eaf7123ba7c6b72763d77f6964d385ddbd9b62cc2b3511445854ad40f666",
+      "source_encrypted": false,
+      "recipient_id": null
+    }
+  ]
+}

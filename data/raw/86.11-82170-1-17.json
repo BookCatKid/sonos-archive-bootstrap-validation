@@ -1,0 +1,127 @@
+{
+  "source": "86.11-82170-1-17.upd",
+  "source_sha256": "2808a492a67580101cc3521f051cd4de29652c3c1c4f2781a2463edd4265f5a8",
+  "components": [
+    {
+      "package_id": "86.11-82170-1-17",
+      "section_index": 0,
+      "section_type": 1,
+      "kind": "section-1",
+      "filename": "86.11-82170-1-17-section-1.bin",
+      "bytes": 12,
+      "sha256": "3c42fff614c892fdd2c8039df741d4ddb963b2be99f580c13fd34e1f28122488",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "86.11-82170-1-17",
+      "section_index": 1,
+      "section_type": 21,
+      "kind": "section-21",
+      "filename": "86.11-82170-1-17-section-21.bin",
+      "bytes": 128,
+      "sha256": "14274137933edaf29f96fa76f40718ee7934d5fc123bc60b723d928bae5fada4",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "86.11-82170-1-17",
+      "section_index": 2,
+      "section_type": 2,
+      "kind": "section-2",
+      "filename": "86.11-82170-1-17-section-2.bin",
+      "bytes": 28,
+      "sha256": "7546bb7078cbd6bed0aa17a69545e156aaea35be168fe5bb052abc0664c94955",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "86.11-82170-1-17",
+      "section_index": 3,
+      "section_type": 2,
+      "kind": "section-2",
+      "filename": "86.11-82170-1-17-section-2-section-03.bin",
+      "bytes": 132,
+      "sha256": "b4183ae7a503b6d41c6bf067c37c4808e2f25d3efba0a9fa1a75e746aca552d9",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "86.11-82170-1-17",
+      "section_index": 4,
+      "section_type": 2,
+      "kind": "section-2",
+      "filename": "86.11-82170-1-17-section-2-section-04.bin",
+      "bytes": 28,
+      "sha256": "72a07112f150b88982440cb3fadc7d51afb90e01956ddee8f82a9aa43370be1b",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "86.11-82170-1-17",
+      "section_index": 5,
+      "section_type": 22,
+      "kind": "section-22",
+      "filename": "86.11-82170-1-17-section-22.bin",
+      "bytes": 149511,
+      "sha256": "3b2e7146bb019dbfb9f5816924692b2d3a955c5af5996307148cff3dc2fdcac3",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "86.11-82170-1-17",
+      "section_index": 6,
+      "section_type": 23,
+      "kind": "section-23",
+      "filename": "86.11-82170-1-17-section-23.bin",
+      "bytes": 14182400,
+      "sha256": "ae9e11abb18f4d533b842884a73464fd67d5c497ac08b5e40adb1b09faa04b4d",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "86.11-82170-1-17",
+      "section_index": 7,
+      "section_type": 3,
+      "kind": "preinstall",
+      "filename": "86.11-82170-1-17-preinstall.sh",
+      "bytes": 1599,
+      "sha256": "feddb7ad14034b06c316ccbed244a11925093a882a9d7bd81ea64a61364cbe70",
+      "source_encrypted": true,
+      "recipient_id": "f2acc70d8db3ee388c534d99d4bff64d9dab8154"
+    },
+    {
+      "package_id": "86.11-82170-1-17",
+      "section_index": 8,
+      "section_type": 6,
+      "kind": "kernel",
+      "filename": "86.11-82170-1-17-kernel.uImage",
+      "bytes": 1491058,
+      "sha256": "643ae9c67d42cc70ef54e9bd8ef158f1e79b166a2122b9fe5570ba489e1d30dc",
+      "source_encrypted": true,
+      "recipient_id": "f2acc70d8db3ee388c534d99d4bff64d9dab8154"
+    },
+    {
+      "package_id": "86.11-82170-1-17",
+      "section_index": 9,
+      "section_type": 4,
+      "kind": "rootfs",
+      "filename": "86.11-82170-1-17-rootfs.squashfs",
+      "bytes": 5070848,
+      "sha256": "6e180c7344e7048e6fe16094de71f2f642a5fd104e174f5f21e3990bdb477f9c",
+      "source_encrypted": true,
+      "recipient_id": "f2acc70d8db3ee388c534d99d4bff64d9dab8154"
+    },
+    {
+      "package_id": "86.11-82170-1-17",
+      "section_index": 10,
+      "section_type": 17,
+      "kind": "section-17",
+      "filename": "86.11-82170-1-17-section-17.bin",
+      "bytes": 364,
+      "sha256": "5325399457bcbe36969622f790d85bea46c6099bf1308ca1d4c7a7b97da0b6cd",
+      "source_encrypted": false,
+      "recipient_id": null
+    }
+  ]
+}
