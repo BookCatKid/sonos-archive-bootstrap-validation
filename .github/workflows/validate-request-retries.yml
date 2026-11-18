@@ -13,4 +13,12 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install -e '.[google-play]'
-      - run: python scripts/run_tests.py
+      - name: Validate changed workers against synthetic and empty-archive fixtures
+        run: |
+          python scripts/run_tests.py --pattern test_app_archive.py
+          python scripts/run_tests.py --pattern test_firmware_archive.py
+          python scripts/run_tests.py --pattern test_discovery_retry.py
+          python scripts/run_tests.py --pattern test_archive_index.py
+          python scripts/run_tests.py --pattern test_commoncrawl.py
+          python scripts/run_tests.py --pattern test_historical_firmware.py
+          python scripts/run_tests.py --pattern test_empty_platform.py
