@@ -13,7 +13,7 @@ roots=protocol_roots()
 headers={'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:154.0) Gecko/20100101 Firefox/154.0',
          'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
          'Accept-Language':'en-US,en;q=0.9','Cache-Control':'no-cache','Connection':'close','Pragma':'no-cache'}
-cache={};comparisons=[];requests=0;deadline=time.monotonic()+660
+cache={};comparisons=[];requests=0;deadline=time.monotonic()+1260
 
 def retrieve(url,browser=True):
     global requests
@@ -50,7 +50,7 @@ for url in roots:
         except Exception as error:
             comparisons.append({'url':url,'headers':'browser' if browser else 'archive',
                                 'http_status':getattr(error,'code',None),'error':type(error).__name__,'detail':str(error)[:160]})
-            if getattr(error,'code',None)==429:
+            if getattr(error,'code',None) in {403,429}:
                 paused.add(urlsplit(url).hostname);break
             if browser:cache[url]=error
 print(json.dumps({'phase':'header-comparison','results':comparisons}),flush=True)
@@ -66,7 +66,7 @@ def enqueue(url,parent):
             if other not in seen:queue.append(other)
             break
 
-while queue and len(seen)<80 and time.monotonic()<deadline:
+while queue and len(seen)<512 and time.monotonic()<deadline:
     url=queue.popleft()
     if url in seen or urlsplit(url).hostname in paused:continue
     seen.add(url)
@@ -90,12 +90,12 @@ while queue and len(seen)<80 and time.monotonic()<deadline:
             enqueue(target,canonical)
     except Exception as error:
         failures.append({'url':url,'http_status':getattr(error,'code',None),'error':type(error).__name__,'detail':str(error)[:160]})
-        if getattr(error,'code',None)==429:paused.add(urlsplit(url).hostname)
+        if getattr(error,'code',None) in {403,429}:paused.add(urlsplit(url).hostname)
     if len(seen)%10==0:print(json.dumps({'phase':'protocol-reference-traversal','visited':len(seen),'manifests':len(manifest_urls)}),flush=True)
     time.sleep(.1)
 
 with tempfile.TemporaryDirectory() as temporary:
-    production=crawl_manifests({},[{'url':u} for u in roots],[],Path(temporary),max_manifests=128,
+    production=crawl_manifests({},[{'url':u} for u in roots],[],Path(temporary),max_manifests=512,
         delay=.25,fetch=fetch,explore_channels=True,deadline=deadline,paused_hosts=paused)
 # Test literal HTTP seed transport without following redirects or reading payloads.
 class NoRedirect(urllib.request.HTTPRedirectHandler):
