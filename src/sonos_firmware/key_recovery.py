@@ -42,6 +42,9 @@ def select_updater_sources(root, catalog, model):
             receipt = json.loads(receipt_path.read_text()) if receipt_path.is_file() else {}
         except (OSError, ValueError):
             receipt = {}
+        if (not isinstance(receipt, dict) or not isinstance(receipt.get('components'), list) or
+                any(not isinstance(component, dict) for component in receipt['components'])):
+            receipt = {}
         for section in inventory.get('sections', []):
             if section.get('section_type') != 4:
                 continue

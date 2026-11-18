@@ -103,12 +103,26 @@ class RecoveryTests(unittest.TestCase):
             path = root/'data/raw/arbitrary-source.json'
             for bad in [{**receipt, 'source_sha256': '0'*64},
                         {**receipt, 'components': [{**receipt['components'][0], 'sha256': '0'*64}]},
-                        {**receipt, 'components': [{**receipt['components'][0], 'recipient_id': '0'*40}]}]:
+                        {**receipt, 'components': [{**receipt['components'][0], 'recipient_id': '0'*40}]},
+                        [], None, {**receipt, 'components': None}, {**receipt, 'components': {}},
+                        {**receipt, 'components': [None]}]:
                 with self.subTest(receipt=bad):
                     atomic_json(path, bad)
                     self.assertEqual(recovery.select_updater_sources(root, catalog, 17), [])
             path.unlink()
             self.assertEqual(recovery.select_updater_sources(root, catalog, 17), [])
+
+    def test_malformed_receipt_does_not_hide_other_updater_sources(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            catalog, filesystem, _ = self.chained_catalog(root)
+            atomic_json(root/'data/raw/arbitrary-source.json', None)
+            healthy, _ = source_catalog(root, 17, filesystem, identity='healthy-source')
+            catalog['packages'].extend(healthy['packages'])
+            catalog['raw_images'].extend(healthy['raw_images'])
+            sources = recovery.select_updater_sources(root, catalog, 17)
+            self.assertEqual([row['package_id'] for row in sources], ['healthy-source', 'healthy-source'])
+            self.assertEqual([row['kind'] for row in sources], ['raw', 'upd'])
 
     def updater(self, model, *, order='big', word=SYSTEM_WORD, relocated=False):
         body = _synthetic_updater_from_seed(legacy_seed(model, word, byte_order=order), self.key)

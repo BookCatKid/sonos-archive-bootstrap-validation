@@ -103,6 +103,14 @@ a filesystem encrypted with an older key, and reject missing, stale or
 conflicting extraction receipts. Failed-source queues and successful-source
 reproduction remain shared with the existing recovery worker.
 
+The [model-26 recovery validation](https://github.com/BookCatKid/sonos-archive-bootstrap-validation/actions/runs/44348573166)
+restored the two tracked public recovery inputs omitted from the isolated
+validation source. CI prepared seven recipient keys and completed raw extraction
+and inventories for all four preserved model-26 sources. Keys stayed ephemeral
+in CI; only publication/catalog evidence was retained. The published-input
+regression now runs only in CI, while local recovery tests use generated keys.
+The remaining unmatched recipient-group count is 27.
+
 Installer handoff tests cover an empty checkout and publication from a native
 manifest lead without a prior binary or hash. Channel traversal regressions
 cover a missing Prod sibling that leads to available Dev history, and a 429
