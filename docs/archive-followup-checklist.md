@@ -31,9 +31,9 @@ independent web-archive indexes.
 | 13 | Apple listing/history coverage is verified; IPA scope and authorization prerequisites are explicit. | Audit metadata and binary acquisition prerequisites. |
 | 14 | Unsupported firmware and missing-key cases are investigated; decoder/key improvements automatically trigger revisits. | Audit formats, recovery methods and live ledgers. |
 | 15 | Ranges, pagination, parsers, traversal and budgets impose no unintended lifetime discovery ceilings. | Snapshot publication now rolls full 1,000-asset releases into numbered partitions, with actual-tag receipts, cached inventories and no partition-count ceiling. Continue auditing other source adapters and worker checkpoints. |
-| 16 | 429/backoff, expired URLs, host failures and mixed retry/fresh queues preserve progress without starvation. | Mutable-root and inventory ordering fixed. Firmware/app request timing now survives download receipts and restarts, including new URLs, independent hosts and separate publication throttles. Continue remaining queue audits. |
+| 16 | 429/backoff, expired URLs, host failures and mixed retry/fresh queues preserve progress without starvation. | Mutable-root and inventory ordering fixed. Firmware/app downloads and historical manifest replay retain server retry timing across restarts, including new URLs, independent archive hosts and separate publication throttles. Release rollover propagates HTTP throttles instead of treating them as isolated inventory outages. Continue remaining queue audits. |
 | 17 | Existing publication references are reconciled; unrecorded assets and inconsistent metadata are investigated without deleting evidence. | Repair older references and investigate page snapshot. |
-| 18 | Interrupted publication, lost responses, conflicting names and changed content preserve successful work. | Document reconciliation tests cover fresh per-run inventories, corruption, outages and registration after earlier failures; continue other worker acceptance checks. |
+| 18 | Interrupted publication, lost responses, conflicting names and changed content preserve successful work. | Document reconciliation tests cover fresh inventories, corruption, outages, registration after earlier failures and interrupted overflow uploads. Historical recovery finds accepted numbered-partition assets without replay or cached bytes; older GitHub assets lacking digest metadata are verified by body hash. Continue other worker acceptance checks. |
 | 19 | Every target supports cold startup and migration, missing caches/tools, concurrent updates and worker restarts. | Extend per-target acceptance evidence. |
 | 20 | Obsolete entrypoints, duplicated logic and stale docs are reconciled; target registration requires no payloads or hashes. | ConnectX runtime documentation corrected; continue repository audit. |
 | 21 | After merge approval, the unified workflow runs successfully against the existing production archive. | Requires approved deployment after fixes and validation. |
@@ -60,6 +60,12 @@ The extraction bundle in the same release is 19,458,508 bytes with SHA-256
 It includes the inventoried `bin/anacapad` executable (13,651,008 bytes), whose
 SHA-256 is `e4f2514c5cae8ba44fcb975c20f23c200c6a5d9e1ba88ba0ba732224a853d84f`.
 Architecture comes from the executable's ELF header, rather than a fixed offset.
+The independent [published-bundle audit](https://github.com/BookCatKid/sonos-archive-bootstrap-validation/actions/runs/44340635676)
+downloaded the published inventory and bundle in CI, verified their receipt
+hashes, and streamed every regular member without extracting or executing it.
+All 190 regular files matched their inventoried sizes and SHA-256 hashes,
+including Anacapa; there were no missing, duplicate or uninventoried files.
+Only the resulting JSON evidence was downloaded for local review.
 
 The [next firmware validation](https://github.com/BookCatKid/sonos-archive-bootstrap-validation/actions/runs/44230244613)
 reached 120 preserved sources but exposed GitHub's 1,000-assets-per-release limit

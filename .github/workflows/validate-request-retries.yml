@@ -22,3 +22,6 @@ jobs:
           python scripts/run_tests.py --pattern test_commoncrawl.py
           python scripts/run_tests.py --pattern test_historical_firmware.py
           python scripts/run_tests.py --pattern test_empty_platform.py
+          python scripts/run_tests.py --pattern test_release_series.py
+          python scripts/run_tests.py --pattern test_frontier.py
+          python scripts/run_tests.py --pattern test_landing_pages.py
