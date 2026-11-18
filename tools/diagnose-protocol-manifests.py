@@ -1,9 +1,9 @@
 """Compare live Sonos manifest traversal using protocol roots only."""
-import hashlib,json,re,tempfile,time,urllib.error,urllib.request
+import gzip,hashlib,json,re,tempfile,time,urllib.error,urllib.request
 import xml.etree.ElementTree as ET
 from collections import deque
 from pathlib import Path
-from urllib.parse import urljoin,urlsplit
+from urllib.parse import urljoin,urlsplit,parse_qsl,urlencode
 from sonos_firmware.frontier import protocol_roots
 from sonos_firmware.crawl import crawl_manifests
 from sonos_firmware.discovery import USER_AGENT
@@ -49,7 +49,7 @@ for url in roots:
             if browser:cache[url]=result
         except Exception as error:
             comparisons.append({'url':url,'headers':'browser' if browser else 'archive',
-                                'http_status':getattr(error,'code',None),'error':type(error).__name__})
+                                'http_status':getattr(error,'code',None),'error':type(error).__name__,'detail':str(error)[:160]})
             if getattr(error,'code',None)==429:
                 paused.add(urlsplit(url).hostname);break
             if browser:cache[url]=error
@@ -72,9 +72,11 @@ while queue and len(seen)<80 and time.monotonic()<deadline:
     seen.add(url)
     try:
         body,resolved,location=fetch(url)
-        canonical=urljoin(resolved,location) if location else resolved
+        canonical=(urljoin(resolved,location) if location else resolved).replace('http://','https://',1)
         if not sonos_url(canonical):raise ValueError('non-Sonos manifest location')
         if canonical!=url:enqueue(canonical,url)
+        body=gzip.decompress(body) if body.startswith(b'\x1f\x8b') else body
+        if len(body)>2_000_000:raise ValueError('decoded manifest exceeds metadata bound')
         text=body.decode('utf-8');end=text.find('</update_manifest>')
         if end<0:raise ValueError('no complete XML manifest')
         tree=ET.fromstring(text[:end+len('</update_manifest>')]);manifest_urls.add(canonical)
@@ -87,15 +89,60 @@ while queue and len(seen)<80 and time.monotonic()<deadline:
             else:target=link
             enqueue(target,canonical)
     except Exception as error:
-        failures.append({'url':url,'http_status':getattr(error,'code',None),'error':type(error).__name__})
+        failures.append({'url':url,'http_status':getattr(error,'code',None),'error':type(error).__name__,'detail':str(error)[:160]})
         if getattr(error,'code',None)==429:paused.add(urlsplit(url).hostname)
     if len(seen)%10==0:print(json.dumps({'phase':'protocol-reference-traversal','visited':len(seen),'manifests':len(manifest_urls)}),flush=True)
     time.sleep(.1)
 
 with tempfile.TemporaryDirectory() as temporary:
     production=crawl_manifests({},[{'url':u} for u in roots],[],Path(temporary),max_manifests=128,
-        delay=0,fetch=fetch,explore_channels=True,deadline=deadline,paused_hosts=paused)
-report={'roots':roots,'header_comparison':comparisons,'request_total':requests,
+        delay=.25,fetch=fetch,explore_channels=True,deadline=deadline,paused_hosts=paused)
+# Test literal HTTP seed transport without following redirects or reading payloads.
+class NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self,*args,**kwargs):return None
+plain=urllib.request.build_opener(NoRedirect());http_results=[]
+for root in roots:
+    if time.monotonic()>=deadline:break
+    url=root.replace('https://','http://',1)
+    try:
+        with plain.open(urllib.request.Request(url,headers=headers),timeout=5) as response:
+            body=response.read(2_000_001)
+            http_results.append({'url':url,'http_status':response.status,'bytes':len(body),
+                                 'sha256':hashlib.sha256(body).hexdigest()})
+    except Exception as error:
+        location=getattr(error,'headers',{}).get('Location','')
+        http_results.append({'url':url,'http_status':getattr(error,'code',None),'error':type(error).__name__,
+                             'redirect_scheme':urlsplit(location).scheme,'redirect_host':urlsplit(location).hostname})
+        if hasattr(error,'close'):error.close()
+
+# Profile hints come only from this archive's own vendor observations.
+catalog=json.loads(Path('data/catalog.json').read_text()) if Path('data/catalog.json').exists() else {'packages':[]}
+versions=sorted({row.get('version','') for row in catalog['packages']})
+triples=[];majors=set()
+for version in versions:
+    match=re.fullmatch(r'(\d+)\.(\d+)-(\d+)',version)
+    if match and match[1] not in majors:
+        majors.add(match[1]);triples.append(tuple(map(int,match.groups())))
+for version in versions:
+    match=re.fullmatch(r'(\d+)\.(\d+)-(\d+)',version)
+    if match and tuple(map(int,match.groups())) not in triples:triples.append(tuple(map(int,match.groups())))
+profile_results=[]
+for triple in triples[:12]:
+    for generation in ('1','2'):
+        if time.monotonic()>=deadline:break
+        seed=next(u for u in roots if urlsplit(u).hostname=='update.sonos.com' and '/swgen/'+generation+'/' in u)
+        parsed=urlsplit(seed);query=dict(parse_qsl(parsed.query));query.update(dict(zip(('cmaj','cmin','cbld'),map(str,triple))))
+        url=parsed._replace(query=urlencode(query)).geturl()
+        try:
+            body,resolved,location=fetch(url)
+            profile_results.append({'profile':list(triple),'generation':generation,'http_status':200,
+                                    'sha256':hashlib.sha256(body).hexdigest(),'canonical':location or resolved})
+        except Exception as error:
+            profile_results.append({'profile':list(triple),'generation':generation,
+                                    'http_status':getattr(error,'code',None),'error':type(error).__name__})
+        time.sleep(.2)
+print(json.dumps({'phase':'transport-and-profile-comparison','http_results':http_results,'profiles':profile_results}),flush=True)
+report={'roots':roots,'header_comparison':comparisons,'request_total':requests,'http_comparison':http_results,'controller_profiles':profile_results,
         'reference_traversal':{'manifest_urls':sorted(manifest_urls),'installer_urls':sorted(installers),
                                'failures':failures,'pending_urls':list(dict.fromkeys(queue))},
         'production_traversal':{'manifest_urls':sorted({x['url'] for x in production['manifests']}),
