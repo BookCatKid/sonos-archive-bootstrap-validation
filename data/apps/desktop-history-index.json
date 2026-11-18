@@ -14,11 +14,11 @@
   "errors": [
     {
       "url": "https://web.archive.org/cdx/search/cdx?url=sonos.com%2F&matchType=domain&output=json&gzip=false&fl=timestamp%2Coriginal%2Cdigest&filter=statuscode%3A200&filter=original%3A.%2A%5B.%5D%28%3Fi%3Aexe%7Cdmg%29%28%5B%3F%5D.%2A%29%3F%24&collapse=digest&limit=500&showResumeKey=true",
-      "error": "HTTP Error 503: Service Unavailable",
-      "http_status": 503,
-      "checked_at": "2026-11-17T16:06:08.652084+00:00",
+      "error": "The read operation timed out",
+      "http_status": null,
+      "checked_at": "2026-11-18T03:20:17.264336+00:00",
       "consecutive_failures": 1,
-      "next_attempt_at": "2026-11-17T17:06:08.652084+00:00"
+      "next_attempt_at": "2026-11-18T04:20:17.264336+00:00"
     }
   ]
 }

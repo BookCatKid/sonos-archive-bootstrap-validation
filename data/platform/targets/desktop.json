@@ -4,25 +4,25 @@
   "provider": "desktop",
   "status": "partial",
   "executed": true,
-  "started_at": "2026-11-17T16:03:31.208027+00:00",
+  "started_at": "2026-11-18T03:18:20.306799+00:00",
   "steps": [
     {
       "name": "discover_desktop_installers",
       "status": "partial",
       "exit_code": 0,
-      "output_tail": "candidates=130 available=123\n"
+      "output_tail": "candidates=240 available=195\n"
     },
     {
       "name": "archive_desktop_installers",
       "status": "failed",
       "exit_code": 1,
-      "output_tail": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/tag/apps-legacy-macos\nhttps://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/tag/apps-legacy-windows\nverified artifacts=11 attempted=12 new=11\n"
+      "output_tail": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/tag/apps-s1-windows\nverified artifacts=26 attempted=12 new=7\n"
     },
     {
       "name": "archive-installer-history",
       "status": "failed",
       "exit_code": 1,
-      "output_tail": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/tag/apps-s1-macos\nTraceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/runner/work/sonos-archive-bootstrap-validation/sonos-archive-bootstrap-validation/src/sonos_firmware/platform/tasks.py\", line 167, in <module>\n    main()\n  File \"/home/runner/work/sonos-archive-bootstrap-validation/sonos-archive-bootstrap-validation/src/sonos_firmware/platform/tasks.py\", line 150, in main\n    raise RuntimeError('installer history has pending captures or incomplete discovery; verified progress retained')\nRuntimeError: installer history has pending captures or incomplete discovery; verified progress retained\n"
+      "output_tail": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/runner/work/sonos-archive-bootstrap-validation/sonos-archive-bootstrap-validation/src/sonos_firmware/platform/tasks.py\", line 167, in <module>\n    main()\n  File \"/home/runner/work/sonos-archive-bootstrap-validation/sonos-archive-bootstrap-validation/src/sonos_firmware/platform/tasks.py\", line 150, in main\n    raise RuntimeError('installer history has pending captures or incomplete discovery; verified progress retained')\nRuntimeError: installer history has pending captures or incomplete discovery; verified progress retained\n"
     }
   ],
   "errors": [
@@ -49,6 +49,6 @@
       "reason": "source reports incomplete work"
     }
   ],
-  "finished_at": "2026-11-17T16:06:55.367793+00:00",
-  "next_due": "2026-11-17T17:06:55.367793+00:00"
+  "finished_at": "2026-11-18T03:20:45.750817+00:00",
+  "next_due": "2026-11-18T04:20:45.750817+00:00"
 }
