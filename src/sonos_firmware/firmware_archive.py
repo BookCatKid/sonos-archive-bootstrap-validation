@@ -288,7 +288,7 @@ def archive_candidates(root, repository, candidates, work, *, limit=24, catalog_
         host = capture_host(candidate['archive_capture']) if candidate.get('archive_capture') is not None else urlsplit(candidate['url']).hostname
         previous = observations[url]
         capture = previous.get('pending_publication')
-        if host in blocked and not capture and previous.get('status') != 'preserved':
+        if (host in blocked or backoff.paused(host)) and not capture and previous.get('status') != 'preserved':
             continue
         attempted += 1
         phase = 'publication'

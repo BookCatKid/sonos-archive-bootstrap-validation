@@ -124,6 +124,15 @@ class AppArchiveTests(unittest.TestCase):
         resumed = self.run_archive(now=NOW+timedelta(seconds=76))
         self.assertEqual(resumed['status'], 'ok')
 
+    def test_source_throttle_does_not_pause_an_independent_host(self):
+        first, peer = self.candidate(), self.candidate('peer.exe')
+        healthy = self.candidate('healthy.exe', url='https://new-downloads.sonos.com/healthy.exe')
+        self.data[first['url']] = urllib.error.HTTPError(first['url'], 429, 'retry later', {'Retry-After': '75'}, None)
+        self.run_archive([first])
+        result = self.run_archive([first, peer, healthy], now=NOW+timedelta(seconds=1))
+        self.assertEqual(self.acquired, [first['url'], healthy['url']])
+        self.assertEqual(result['attempted_this_run'], 1)
+
     def test_inspection_failure_prevents_publication_and_respects_backoff(self):
         from dataclasses import replace
         from unittest.mock import Mock

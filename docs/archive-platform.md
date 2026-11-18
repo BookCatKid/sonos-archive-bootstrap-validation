@@ -140,9 +140,20 @@ object paths. Both providers share acquisition/publication queues; their host
 backoff is independent, honors Retry-After, and survives worker restarts.
 Capture records appear once in the shared checkpoint, with each provider's
 cursors stored separately. This adds no production workflow or release list.
+Historical installer receipts reference the durable index in `data/apps/`,
+including when no capture is due. The synthesized worker discovery file is an
+acquisition input; its temporary path is not the persisted provenance reference.
 The firmware target's `index_pages` option sets its per-provider page budget;
 installer targets use `history_pages`. These budgets control work per run, not
 the collections or historical captures that can eventually be discovered.
+
+Firmware and installer acquisition receipts retain normalized Retry-After timing
+when downloads fail. Their request-backoff ledgers distinguish source hosts from
+publication requests and remain scoped to the destination repository. New URLs
+on a throttled host wait across worker restarts; independent source hosts keep
+progressing. A publication throttle defers additional acquisition and retries
+the saved publication metadata after the deadline. Valid numeric and HTTP-date
+deadlines are honored in full; malformed values use the ordinary backoff policy.
 
 Historical index discovery queries both manifests and `.upd` payloads across
 `sonos.com` and all its subdomains, using the CDX
