@@ -1,0 +1,83 @@
+{
+  "source": "98.0-82170-1-41.upd",
+  "source_sha256": "f361dfbbd299ad3385de2d39d0ffcc0b45f4cf69bdaa84ce8252da6162ef0882",
+  "components": [
+    {
+      "package_id": "98.0-82170-1-41",
+      "section_index": 0,
+      "section_type": 1,
+      "kind": "section-1",
+      "filename": "98.0-82170-1-41-section-1.bin",
+      "bytes": 12,
+      "sha256": "091fcdff16ee13c6a34790b2af717826b64f75135d6a59903037395d17b8172b",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "98.0-82170-1-41",
+      "section_index": 1,
+      "section_type": 21,
+      "kind": "section-21",
+      "filename": "98.0-82170-1-41-section-21.bin",
+      "bytes": 145,
+      "sha256": "1a551f0c2b3d7f74772952271bd3d25e249b5f4aa666c7acc12aa92451f5f611",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "98.0-82170-1-41",
+      "section_index": 2,
+      "section_type": 2,
+      "kind": "section-2",
+      "filename": "98.0-82170-1-41-section-2.bin",
+      "bytes": 28,
+      "sha256": "47bafcb554315a915436f3c923316ccd477630e4e8f99e16ac4ec1b8aa3b91a8",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "98.0-82170-1-41",
+      "section_index": 3,
+      "section_type": 2,
+      "kind": "section-2",
+      "filename": "98.0-82170-1-41-section-2-section-03.bin",
+      "bytes": 132,
+      "sha256": "c611bcc816a20f1e6104e25b606c7d782c936c8d3cf35c66c9010fed37108416",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "98.0-82170-1-41",
+      "section_index": 4,
+      "section_type": 2,
+      "kind": "section-2",
+      "filename": "98.0-82170-1-41-section-2-section-04.bin",
+      "bytes": 28,
+      "sha256": "6473acbdb9dde8dd5e6fd2e31a413961f8f74882ade7a101e6fb7cfba1bcf494",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "98.0-82170-1-41",
+      "section_index": 5,
+      "section_type": 22,
+      "kind": "section-22",
+      "filename": "98.0-82170-1-41-section-22.bin",
+      "bytes": 172287,
+      "sha256": "a2ff8a5096f7e06b174292941fb644eabfc52d35607a2283d0b22ad0259d1dd3",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "98.0-82170-1-41",
+      "section_index": 10,
+      "section_type": 17,
+      "kind": "section-17",
+      "filename": "98.0-82170-1-41-section-17.bin",
+      "bytes": 364,
+      "sha256": "c4f1e67bff9b35c12b6d7247db09ff7941ffe848392e5472a19e11b811011a6e",
+      "source_encrypted": false,
+      "recipient_id": null
+    }
+  ]
+}

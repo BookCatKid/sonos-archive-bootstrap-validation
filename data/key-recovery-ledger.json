@@ -312,7 +312,7 @@
         16,
         17
       ],
-      "missing_recipient_groups": 12
+      "missing_recipient_groups": 28
     },
     "recovery_methods": [
       "legacy-updater"
@@ -334,6 +334,17 @@
       "packages": [
         {
           "artifact_status": "preserved",
+          "package_id": "98.0-82170-1-52",
+          "package_model": 52,
+          "version": "98.0-82170"
+        }
+      ],
+      "recipient_id": "0cffd0659d3c9e6a93c99bf6c0e72fc1eeadc296"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
           "package_id": "57.23-74170-1-28",
           "package_model": 28,
           "version": "57.23-74170"
@@ -343,9 +354,70 @@
           "package_id": "57.5-87010-1-28",
           "package_model": 28,
           "version": "57.5-87010"
+        },
+        {
+          "artifact_status": "preserved",
+          "package_id": "98.0-82170-1-28",
+          "package_model": 28,
+          "version": "98.0-82170"
         }
       ],
       "recipient_id": "13c6f1c74b396d2ad490381d12ccdd7c545fe1d7"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "98.0-82170-1-36",
+          "package_model": 36,
+          "version": "98.0-82170"
+        }
+      ],
+      "recipient_id": "3af77ce81e8a4e8d4797ce60641c97513dd9c5d6"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "98.0-82170-1-42",
+          "package_model": 42,
+          "version": "98.0-82170"
+        }
+      ],
+      "recipient_id": "4156015872873a373d8ac47cd25345142e4f1000"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "98.0-82170-1-49",
+          "package_model": 49,
+          "version": "98.0-82170"
+        }
+      ],
+      "recipient_id": "4469cb77823252824904a09879af356617271f79"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "98.0-82170-1-34",
+          "package_model": 34,
+          "version": "98.0-82170"
+        }
+      ],
+      "recipient_id": "4c06d2370192647af627afd3566cc2f021b5eac2"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "98.0-82170-1-35",
+          "package_model": 35,
+          "version": "98.0-82170"
+        }
+      ],
+      "recipient_id": "552e8388ee19100c81dc9f7da977b9341234fe03"
     },
     {
       "packages": [
@@ -360,9 +432,48 @@
           "package_id": "57.5-87010-1-29",
           "package_model": 29,
           "version": "57.5-87010"
+        },
+        {
+          "artifact_status": "preserved",
+          "package_id": "98.0-82170-1-29",
+          "package_model": 29,
+          "version": "98.0-82170"
         }
       ],
       "recipient_id": "5940a717079fb4f50ec9ae6f91a8dfb159789c1f"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "98.0-82170-1-41",
+          "package_model": 41,
+          "version": "98.0-82170"
+        }
+      ],
+      "recipient_id": "5a348050ec122d33560adae24180cf1605c28efc"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "98.0-82170-1-40",
+          "package_model": 40,
+          "version": "98.0-82170"
+        }
+      ],
+      "recipient_id": "61c5662ca6ef444dee98dfbf9df82bb03b3b0acb"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "98.0-82170-1-33",
+          "package_model": 33,
+          "version": "98.0-82170"
+        }
+      ],
+      "recipient_id": "6d8856b5767a077e6716870a4f87689614570b9e"
     },
     {
       "packages": [
@@ -386,6 +497,17 @@
         }
       ],
       "recipient_id": "73a52aa1366144a1bda8d256999fa0fa2cc2f0bb"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "98.0-82170-1-38",
+          "package_model": 38,
+          "version": "98.0-82170"
+        }
+      ],
+      "recipient_id": "73faa22a2c82c6244ce2acfad362064f4313f649"
     },
     {
       "packages": [
@@ -489,6 +611,17 @@
       "packages": [
         {
           "artifact_status": "preserved",
+          "package_id": "98.0-82170-1-32",
+          "package_model": 32,
+          "version": "98.0-82170"
+        }
+      ],
+      "recipient_id": "8e78af6201f25586cb8b605e677f44080a835d6b"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
           "package_id": "57.23-74170-1-24",
           "package_model": 24,
           "version": "57.23-74170"
@@ -512,12 +645,51 @@
       "packages": [
         {
           "artifact_status": "preserved",
+          "package_id": "98.0-82170-1-37",
+          "package_model": 37,
+          "version": "98.0-82170"
+        }
+      ],
+      "recipient_id": "affbd516ac88a5372dc5dc246f4dea5a1f8162b7"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
           "package_id": "57.23-74170-1-26",
           "package_model": 26,
           "version": "57.23-74170"
+        },
+        {
+          "artifact_status": "preserved",
+          "package_id": "98.0-82170-1-26",
+          "package_model": 26,
+          "version": "98.0-82170"
         }
       ],
       "recipient_id": "b271039ff7ab0f3d395039f1f079ff71af9dea71"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "98.0-82170-1-46",
+          "package_model": 46,
+          "version": "98.0-82170"
+        }
+      ],
+      "recipient_id": "c6b89d8a89ebec87884e21e988fbc5eaef454239"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "98.0-82170-1-27",
+          "package_model": 27,
+          "version": "98.0-82170"
+        }
+      ],
+      "recipient_id": "c9d56d385d3e0449fcc91dd57c315b387dbfa873"
     },
     {
       "packages": [
@@ -541,6 +713,28 @@
         }
       ],
       "recipient_id": "ced4316a9249b0297a452ecddbc1f6c619277789"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "98.0-82170-1-30",
+          "package_model": 30,
+          "version": "98.0-82170"
+        }
+      ],
+      "recipient_id": "efa0f2d1e890129b15646050b238fd1bba817f2f"
+    },
+    {
+      "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "98.0-82170-1-51",
+          "package_model": 51,
+          "version": "98.0-82170"
+        }
+      ],
+      "recipient_id": "f28d3c15f69a514984436e9ec129cc1a89aec6f3"
     },
     {
       "packages": [
@@ -629,6 +823,18 @@
     },
     {
       "artifact_status": "preserved",
+      "package_id": "36.4-43070-1-6",
+      "package_model": 6,
+      "version": "36.4-43070"
+    },
+    {
+      "artifact_status": "preserved",
+      "package_id": "36.4-77130-1-6",
+      "package_model": 6,
+      "version": "36.4-77130"
+    },
+    {
+      "artifact_status": "preserved",
       "package_id": "36.5-50160-1-6",
       "package_model": 6,
       "version": "36.5-50160"
@@ -642,10 +848,10 @@
   ],
   "unidentified_encrypted_packages": [],
   "summary": {
-    "encrypted_upd_packages": 49,
+    "encrypted_upd_packages": 68,
     "unidentified_encrypted_packages": 0,
     "missing_upd_section_manifests": 0,
-    "plaintext_upd_packages": 12,
-    "unique_recipients": 18
+    "plaintext_upd_packages": 14,
+    "unique_recipients": 34
   }
 }

@@ -1,0 +1,94 @@
+{
+  "source": "36.4-77130-1-6.upd",
+  "source_sha256": "6c37829cf0cd5aa07cdea6d9cea329fe5d5d63ca44df4d4be207c66e7cdddc95",
+  "components": [
+    {
+      "package_id": "36.4-77130-1-6",
+      "section_index": 0,
+      "section_type": 1,
+      "kind": "section-1",
+      "filename": "36.4-77130-1-6-section-1.bin",
+      "bytes": 12,
+      "sha256": "689c48de07b27147e449fe4181d031a95889ad3e0f03bc32a9c1903b42d24c32",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "36.4-77130-1-6",
+      "section_index": 1,
+      "section_type": 2,
+      "kind": "section-2",
+      "filename": "36.4-77130-1-6-section-2.bin",
+      "bytes": 28,
+      "sha256": "e31ddba1ca21c088ca65d6c9a7b1ae0d38bd0e984f9375051e045724b77f48f9",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "36.4-77130-1-6",
+      "section_index": 2,
+      "section_type": 2,
+      "kind": "section-2",
+      "filename": "36.4-77130-1-6-section-2-section-02.bin",
+      "bytes": 132,
+      "sha256": "bc1fc7e08ef71ced21c4edaece4072f7c17dcf5b43211c02c9d96823148b4973",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "36.4-77130-1-6",
+      "section_index": 3,
+      "section_type": 2,
+      "kind": "section-2",
+      "filename": "36.4-77130-1-6-section-2-section-03.bin",
+      "bytes": 28,
+      "sha256": "6473acbdb9dde8dd5e6fd2e31a413961f8f74882ade7a101e6fb7cfba1bcf494",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "36.4-77130-1-6",
+      "section_index": 4,
+      "section_type": 3,
+      "kind": "preinstall",
+      "filename": "36.4-77130-1-6-preinstall.sh",
+      "bytes": 4358,
+      "sha256": "ce408058502151ac7ea171e064025fb1fc338f02db118c873faa43c49d05f0fa",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "36.4-77130-1-6",
+      "section_index": 5,
+      "section_type": 6,
+      "kind": "kernel",
+      "filename": "36.4-77130-1-6-kernel.uImage",
+      "bytes": 1340644,
+      "sha256": "3586f38dae698182ae31f56a9e5339b218df179be5af3ed2d964cbb4dfff3912",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "36.4-77130-1-6",
+      "section_index": 6,
+      "section_type": 4,
+      "kind": "rootfs",
+      "filename": "36.4-77130-1-6-rootfs.bin",
+      "bytes": 20766720,
+      "sha256": "51b50aa32a143f48eb068a06c703f53c91f782237cdc232e9f99d64d115093ec",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "36.4-77130-1-6",
+      "section_index": 7,
+      "section_type": 4294967295,
+      "kind": "section-4294967295",
+      "filename": "36.4-77130-1-6-section-4294967295.bin",
+      "bytes": 128,
+      "sha256": "3115912477633fc954025a9def4bc4cc165ac9e356383320b8e3368dcd0d38ac",
+      "source_encrypted": false,
+      "recipient_id": null
+    }
+  ]
+}
