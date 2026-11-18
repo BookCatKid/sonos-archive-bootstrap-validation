@@ -4,19 +4,19 @@
   "provider": "mobile",
   "status": "partial",
   "executed": true,
-  "started_at": "2026-11-17T16:07:44.721834+00:00",
+  "started_at": "2026-11-18T03:18:22.283589+00:00",
   "steps": [
     {
       "name": "discover_mobile_installers",
       "status": "ok",
       "exit_code": 0,
-      "output_tail": "candidates=1 live=1\n"
+      "output_tail": "candidates=4 live=2\n"
     },
     {
       "name": "archive_mobile_installers",
-      "status": "ok",
-      "exit_code": 0,
-      "output_tail": "verified artifacts=1 attempted=0 new=0\n"
+      "status": "failed",
+      "exit_code": 1,
+      "output_tail": "verified artifacts=2 attempted=4 new=1\n"
     },
     {
       "name": "archive-installer-history",
@@ -27,16 +27,24 @@
   ],
   "errors": [
     {
+      "step": "archive_mobile_installers",
+      "exit_code": 1
+    },
+    {
       "step": "archive-installer-history",
       "exit_code": 1
     }
   ],
   "pending": [
     {
+      "step": "archive_mobile_installers",
+      "reason": "source reports incomplete work"
+    },
+    {
       "step": "archive-installer-history",
       "reason": "source reports incomplete work"
     }
   ],
-  "finished_at": "2026-11-17T16:08:03.222422+00:00",
-  "next_due": "2026-11-17T17:08:03.222422+00:00"
+  "finished_at": "2026-11-18T03:18:58.443447+00:00",
+  "next_due": "2026-11-18T04:18:58.443447+00:00"
 }
