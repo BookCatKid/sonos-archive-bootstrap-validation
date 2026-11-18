@@ -1,0 +1,73 @@
+name: Validate preserved firmware inventories
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    concurrency:
+      group: archive-firmware
+      queue: max
+      cancel-in-progress: false
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -e .
+      - run: sudo apt-get update && sudo apt-get install -y squashfs-tools
+      - name: Prepare automatically recoverable recipient keys
+        run: |
+          umask 077
+          python scripts/refresh_key_recovery_ledger.py
+          python scripts/prepare_model_keys.py --directory "$RUNNER_TEMP/inventory-keys" --report "$RUNNER_TEMP/inventory-keys.json" --repository "$GITHUB_REPOSITORY"
+      - name: Drain first inventories and due reanalysis without source discovery
+        run: |
+          python -u - <<'PYTHON'
+          import json, os, subprocess, time
+          from pathlib import Path
+          from sonos_firmware.inventory_archive import inventory_preserved
+          from sonos_firmware.storage import atomic_json
+          root = Path.cwd()
+          temporary = Path(os.environ['RUNNER_TEMP'])
+          deadline = time.monotonic() + 7200
+          results = []
+          while time.monotonic() < deadline:
+              result = inventory_preserved(root, temporary/'inventory-work', os.environ['GITHUB_REPOSITORY'],
+                                          temporary/'inventory-keys', limit=24)
+              results.append(result)
+              atomic_json(temporary/'inventory-validation.json', {'batches': results})
+              print(json.dumps(result), flush=True)
+              subprocess.run(['sonos-archive', 'commit', 'firmware'], check=True)
+              if not result['attempted'] or not result['pending']:
+                  break
+          PYTHON
+      - name: Save remaining metadata progress
+        if: always()
+        run: sonos-archive commit firmware
+      - name: Retain metadata evidence
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: inventory-validation-metadata
+          path: |
+            ${{ runner.temp }}/inventory-validation.json
+            ${{ runner.temp }}/metadata-checkpoint.patch
+            data/catalog.json
+            data/discovery/firmware-inventories.json
+          retention-days: 14
+      - name: Remove ephemeral recovered keys
+        if: always()
+        run: |
+          python - <<'PYTHON'
+          import os, shutil
+          from pathlib import Path
+          shutil.rmtree(Path(os.environ['RUNNER_TEMP'])/'inventory-keys', ignore_errors=True)
+          PYTHON
