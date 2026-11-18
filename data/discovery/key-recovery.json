@@ -4,9 +4,9 @@
     "BookCatKid/sonos-archive-bootstrap-validation": {
       "21e7b8c8199c8d6442d2a0a7a4e776c4efd4319c": {
         "02515d6b3143e47d3fb4ae29bc33ddcbcc936e1d0470a300177d1d8b8b8f8b99": {
-          "checked_at": "2026-11-18T05:08:50.148040+00:00",
+          "checked_at": "2026-11-18T05:21:10.951047+00:00",
           "consecutive_failures": 0,
-          "next_attempt_at": "2026-11-25T05:08:50.148040+00:00",
+          "next_attempt_at": "2026-11-25T05:21:10.951047+00:00",
           "status": "recovered",
           "proof": {
             "method": "legacy-updater",
@@ -73,9 +73,9 @@
       },
       "346ce6e38225ca8177024fbebfaad7043344b3bd": {
         "773952ab5cece9e4b850a39927db64636bf0e2f8dd24e7679f2d6011550b2150": {
-          "checked_at": "2026-11-18T05:08:52.603548+00:00",
+          "checked_at": "2026-11-18T05:21:11.924816+00:00",
           "consecutive_failures": 0,
-          "next_attempt_at": "2026-11-25T05:08:52.603548+00:00",
+          "next_attempt_at": "2026-11-25T05:21:11.924816+00:00",
           "status": "recovered",
           "proof": {
             "method": "legacy-updater",
@@ -102,9 +102,9 @@
       },
       "12e82a182af27801eba0ff3c94e8e649ed962dbb": {
         "7b852ec7593d6df0f2a473a0a7330b71ce576a53f9d24ecf5cdf75108afe5dd6": {
-          "checked_at": "2026-11-18T05:08:53.492211+00:00",
+          "checked_at": "2026-11-18T05:21:12.899402+00:00",
           "consecutive_failures": 0,
-          "next_attempt_at": "2026-11-25T05:08:53.492211+00:00",
+          "next_attempt_at": "2026-11-25T05:21:12.899402+00:00",
           "status": "recovered",
           "proof": {
             "method": "legacy-updater",
@@ -131,9 +131,9 @@
       },
       "e35f7c21c0ec00a768bfbd364a9a105cf300f023": {
         "b54147f6328c88d64df3f9edcd1ee41a618e2ee1d8c25c063adec851d33b6fd3": {
-          "checked_at": "2026-11-18T05:08:54.384162+00:00",
+          "checked_at": "2026-11-18T05:21:13.777762+00:00",
           "consecutive_failures": 0,
-          "next_attempt_at": "2026-11-25T05:08:54.384162+00:00",
+          "next_attempt_at": "2026-11-25T05:21:13.777762+00:00",
           "status": "recovered",
           "proof": {
             "method": "legacy-updater",
@@ -160,9 +160,9 @@
       },
       "fd88f2642a9c89a44747c7b4342cdb483fe1d437": {
         "3c29709d5f42184e2c37d812dda3ed71c96ee379afc5f67675cfe51eb6682c52": {
-          "checked_at": "2026-11-18T05:08:55.258169+00:00",
+          "checked_at": "2026-11-18T05:21:14.743506+00:00",
           "consecutive_failures": 0,
-          "next_attempt_at": "2026-11-25T05:08:55.258169+00:00",
+          "next_attempt_at": "2026-11-25T05:21:14.743506+00:00",
           "status": "recovered",
           "proof": {
             "method": "legacy-updater",
@@ -189,9 +189,9 @@
       },
       "f2acc70d8db3ee388c534d99d4bff64d9dab8154": {
         "ebaaf0b94123c84ba78779d35615cf4dccdb95783c6987bf78a569e3532d22e5": {
-          "checked_at": "2026-11-18T05:08:56.131807+00:00",
+          "checked_at": "2026-11-18T05:21:15.707409+00:00",
           "consecutive_failures": 0,
-          "next_attempt_at": "2026-11-25T05:08:56.131807+00:00",
+          "next_attempt_at": "2026-11-25T05:21:15.707409+00:00",
           "status": "recovered",
           "proof": {
             "method": "legacy-updater",
