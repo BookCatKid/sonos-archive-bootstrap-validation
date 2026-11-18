@@ -37,7 +37,28 @@
           "content_length": 339757559,
           "etag": "\"45672de678839368e45d43487401fcdd-41\""
         }
-      ]
+      ],
+      "verification": {
+        "verified": true,
+        "signer_sha256": "7c34eb3cfbda05faf56e8890a2abbac14b3036e6e4358849b98e8819b6b7b329",
+        "signer_subject": "CN=Sonos\\, Inc.,OU=Sonos Software Release Team,O=Sonos\\, Inc.,L=Santa Barbara,ST=CA,C=US",
+        "signers": [
+          {
+            "sha256": "7c34eb3cfbda05faf56e8890a2abbac14b3036e6e4358849b98e8819b6b7b329",
+            "subject": "CN=Sonos\\, Inc.,OU=Sonos Software Release Team,O=Sonos\\, Inc.,L=Santa Barbara,ST=CA,C=US"
+          }
+        ],
+        "schemes": [
+          "v3"
+        ],
+        "package": "com.sonos.acr2",
+        "version_code": "850000012",
+        "version_name": "85.00.12-beta+20260328.a23de06",
+        "split": null,
+        "advertised_version": "85.00.12",
+        "matches_store_signer": true
+      },
+      "inspection_revision": "e19954ae9fb807589fb5faba21f0827c11380fd4803b0052cfec5a287c4f3496"
     },
     {
       "family": "s2",
@@ -75,7 +96,28 @@
           "content_length": 259903267,
           "etag": "\"4c568627cc42005bab7041f6cb93bbd6-31\""
         }
-      ]
+      ],
+      "verification": {
+        "verified": true,
+        "signer_sha256": "7c34eb3cfbda05faf56e8890a2abbac14b3036e6e4358849b98e8819b6b7b329",
+        "signer_subject": "CN=Sonos\\, Inc.,OU=Sonos Software Release Team,O=Sonos\\, Inc.,L=Santa Barbara,ST=CA,C=US",
+        "signers": [
+          {
+            "sha256": "7c34eb3cfbda05faf56e8890a2abbac14b3036e6e4358849b98e8819b6b7b329",
+            "subject": "CN=Sonos\\, Inc.,OU=Sonos Software Release Team,O=Sonos\\, Inc.,L=Santa Barbara,ST=CA,C=US"
+          }
+        ],
+        "schemes": [
+          "v3"
+        ],
+        "package": "com.sonos.acr2",
+        "version_code": "1270401011",
+        "version_name": "91.01.11-release+20261110.b463dd1",
+        "split": null,
+        "advertised_version": "91.01.11",
+        "matches_store_signer": true
+      },
+      "inspection_revision": "e19954ae9fb807589fb5faba21f0827c11380fd4803b0052cfec5a287c4f3496"
     }
   ],
   "gaps": [
@@ -93,7 +135,7 @@
       "content_length": null,
       "etag": null,
       "reason": "HTTP Error 404: Not Found",
-      "checked_at": "2026-11-18T03:18:25.438678+00:00"
+      "checked_at": "2026-11-18T03:46:13.801091+00:00"
     },
     {
       "url": "https://update-stage.sonos.com/firmware/QAtest/70.1-12345-v12.0-SWGen1-FakeRelease1/70.1-12345-1-11-armeabi-v7a.apk",
@@ -109,15 +151,15 @@
       "content_length": null,
       "etag": null,
       "reason": "HTTP Error 404: Not Found",
-      "checked_at": "2026-11-18T03:18:25.491614+00:00"
+      "checked_at": "2026-11-18T03:46:14.105573+00:00"
     }
   ],
   "source_observations": {
     "BookCatKid/sonos-archive-bootstrap-validation": {
       "https://update-software.sonos.com/software/07426258-6f57-4f28-923e-8d72e41e686a/Sonos_91.01.11.apk": {
-        "checked_at": "2026-11-18T03:18:25.311370+00:00",
+        "checked_at": "2026-11-18T03:46:13.545799+00:00",
         "consecutive_failures": 0,
-        "next_attempt_at": "2026-11-18T09:18:25.311370+00:00",
+        "next_attempt_at": "2026-11-18T09:46:13.545799+00:00",
         "candidate": {
           "family": "s2",
           "platform": "fireos-android-apk",
@@ -140,12 +182,13 @@
         },
         "status": "preserved",
         "sha256": "1ff9546b2d8d5ec3887e31d8e34697ae9f580ecd654c243e551b7d8647352676",
-        "release_asset": "Sonos_91.01.11--1ff9546b2d8d5ec3887e31d8e34697ae9f580ecd654c243e551b7d8647352676.apk"
+        "release_asset": "Sonos_91.01.11--1ff9546b2d8d5ec3887e31d8e34697ae9f580ecd654c243e551b7d8647352676.apk",
+        "inspection_revision": "e19954ae9fb807589fb5faba21f0827c11380fd4803b0052cfec5a287c4f3496"
       },
       "https://update-stage.sonos.com/firmware/QAtest/70.1-12345-v12.0-SWGen1-FakeRelease1/70.1-12345-1-11-arm64-v8a.apk": {
-        "checked_at": "2026-11-18T03:18:25.438678+00:00",
-        "consecutive_failures": 1,
-        "next_attempt_at": "2026-11-25T03:18:25.438678+00:00",
+        "checked_at": "2026-11-18T03:46:13.801091+00:00",
+        "consecutive_failures": 2,
+        "next_attempt_at": "2026-11-25T03:46:13.801091+00:00",
         "candidate": {
           "url": "https://update-stage.sonos.com/firmware/QAtest/70.1-12345-v12.0-SWGen1-FakeRelease1/70.1-12345-1-11-arm64-v8a.apk",
           "family": "s2",
@@ -165,12 +208,13 @@
           "http_status": 404
         },
         "status": "failed",
-        "error": "HTTP Error 404: Not Found"
+        "error": "HTTP Error 404: Not Found",
+        "inspection_revision": "e19954ae9fb807589fb5faba21f0827c11380fd4803b0052cfec5a287c4f3496"
       },
       "https://update-stage.sonos.com/firmware/QAtest/70.1-12345-v12.0-SWGen1-FakeRelease1/70.1-12345-1-11-armeabi-v7a.apk": {
-        "checked_at": "2026-11-18T03:18:25.491614+00:00",
-        "consecutive_failures": 1,
-        "next_attempt_at": "2026-11-25T03:18:25.491614+00:00",
+        "checked_at": "2026-11-18T03:46:14.105573+00:00",
+        "consecutive_failures": 2,
+        "next_attempt_at": "2026-11-25T03:46:14.105573+00:00",
         "candidate": {
           "url": "https://update-stage.sonos.com/firmware/QAtest/70.1-12345-v12.0-SWGen1-FakeRelease1/70.1-12345-1-11-armeabi-v7a.apk",
           "family": "s2",
@@ -190,12 +234,13 @@
           "http_status": 404
         },
         "status": "failed",
-        "error": "HTTP Error 404: Not Found"
+        "error": "HTTP Error 404: Not Found",
+        "inspection_revision": "e19954ae9fb807589fb5faba21f0827c11380fd4803b0052cfec5a287c4f3496"
       },
       "https://update-beta.sonos.com/software/76c26d7b-8406-4bcc-ba6a-fda233a64235/Sonos_85.00.12.apk": {
-        "checked_at": "2026-11-18T03:18:42.999106+00:00",
+        "checked_at": "2026-11-18T03:46:27.032366+00:00",
         "consecutive_failures": 0,
-        "next_attempt_at": "2026-11-25T03:18:42.999106+00:00",
+        "next_attempt_at": "2026-11-25T03:46:27.032366+00:00",
         "candidate": {
           "url": "https://update-beta.sonos.com/software/76c26d7b-8406-4bcc-ba6a-fda233a64235/Sonos_85.00.12.apk",
           "family": "s2",
@@ -218,13 +263,14 @@
         },
         "status": "preserved",
         "sha256": "a00500e06f852ef3e5fe8099827b663ebc5dc8b0c9d509e97e5372abcc80d5a2",
-        "release_asset": "Sonos_85.00.12--a00500e06f852ef3e5fe8099827b663ebc5dc8b0c9d509e97e5372abcc80d5a2.apk"
+        "release_asset": "Sonos_85.00.12--a00500e06f852ef3e5fe8099827b663ebc5dc8b0c9d509e97e5372abcc80d5a2.apk",
+        "inspection_revision": "e19954ae9fb807589fb5faba21f0827c11380fd4803b0052cfec5a287c4f3496"
       }
     }
   },
-  "updated": "2026-11-18T03:18:58.392965+00:00",
+  "updated": "2026-11-18T03:46:42.696770+00:00",
   "repository": "BookCatKid/sonos-archive-bootstrap-validation",
-  "discovery": "/home/runner/work/_temp/sonos-mobile-pgw1al98/history/discovery.json",
+  "discovery": "/home/runner/work/_temp/sonos-mobile-d1qr17x8/history/discovery.json",
   "artifact_total": 2,
   "gap_total": 2,
   "status": "partial",
@@ -235,9 +281,9 @@
         "url": "https://web.archive.org/cdx/search/cdx?url=sonos.com%2F&matchType=domain&output=json&gzip=false&fl=timestamp%2Coriginal%2Cdigest&filter=statuscode%3A200&filter=original%3A.%2A%5B.%5D%28%3Fi%3Aapk%29%28%5B%3F%5D.%2A%29%3F%24&collapse=digest&limit=500&showResumeKey=true",
         "error": "The read operation timed out",
         "http_status": null,
-        "checked_at": "2026-11-18T03:18:58.391383+00:00",
+        "checked_at": "2026-11-18T03:46:42.694587+00:00",
         "consecutive_failures": 1,
-        "next_attempt_at": "2026-11-18T04:18:58.391383+00:00"
+        "next_attempt_at": "2026-11-18T04:46:42.694587+00:00"
       }
     },
     {

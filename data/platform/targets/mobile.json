@@ -4,7 +4,7 @@
   "provider": "mobile",
   "status": "partial",
   "executed": true,
-  "started_at": "2026-11-18T03:18:22.283589+00:00",
+  "started_at": "2026-11-18T03:45:52.477341+00:00",
   "steps": [
     {
       "name": "discover_mobile_installers",
@@ -16,7 +16,7 @@
       "name": "archive_mobile_installers",
       "status": "failed",
       "exit_code": 1,
-      "output_tail": "verified artifacts=2 attempted=4 new=1\n"
+      "output_tail": "hash-verified artifacts=2 signature-checked=2 attempted=4 new=0\n"
     },
     {
       "name": "archive-installer-history",
@@ -45,6 +45,6 @@
       "reason": "source reports incomplete work"
     }
   ],
-  "finished_at": "2026-11-18T03:18:58.443447+00:00",
-  "next_due": "2026-11-18T04:18:58.443447+00:00"
+  "finished_at": "2026-11-18T03:46:42.765994+00:00",
+  "next_due": "2026-11-18T04:46:42.765994+00:00"
 }
