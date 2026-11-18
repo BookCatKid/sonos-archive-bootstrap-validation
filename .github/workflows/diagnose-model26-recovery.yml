@@ -1,0 +1,66 @@
+name: Validate public model-26 key recovery
+'on':
+  workflow_dispatch: null
+permissions:
+  contents: write
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    concurrency:
+      group: archive-firmware
+      queue: max
+      cancel-in-progress: false
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+    - uses: actions/checkout@v5
+      with:
+        ref: main
+        fetch-depth: 0
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+    - run: python -m pip install -e .
+    - run: sudo apt-get update && sudo apt-get install -y squashfs-tools
+    - name: Restore public source inputs and verify shared recovery and publication
+      run: "python -u - <<'PYTHON'\nimport hashlib\nimport json\nimport os\nimport shutil\nimport subprocess\nimport urllib.request\n\
+        from pathlib import Path\nfrom sonos_firmware.model26 import FIELD_SHA256, OTP_SHA256, RECIPIENT_ID\nfrom sonos_firmware.platform.tasks\
+        \ import extract_firmware\n\nroot = Path.cwd()\nrepo = os.environ['GITHUB_REPOSITORY']\nsource_commit = '5fcc088a1db2374b356ff7ce240341b7c324779a'\n\
+        inputs = root/'data/key-material/model26'\ninputs.mkdir(parents=True, exist_ok=True)\nfor name, size, digest in [('mdp3-model-key.bin',\
+        \ 2048, FIELD_SHA256), ('otp.bin', 256, OTP_SHA256)]:\n    request = urllib.request.Request(f'https://raw.githubusercontent.com/BookCatKid/sonos-firmware-archive/{source_commit}/data/key-material/model26/{name}')\n\
+        \    with urllib.request.urlopen(request, timeout=45) as response:\n        body = response.read(size+1)\n    assert\
+        \ len(body) == size and hashlib.sha256(body).hexdigest() == digest\n    (inputs/name).write_bytes(body)\nrequest =\
+        \ urllib.request.Request(f'https://raw.githubusercontent.com/BookCatKid/sonos-firmware-archive/{source_commit}/data/key-material/model26/README.md')\n\
+        with urllib.request.urlopen(request, timeout=45) as response:\n    (inputs/'README.md').write_bytes(response.read(100000))\n\
+        subprocess.run(['git', 'config', 'user.name', 'github-actions[bot]'], check=True)\nsubprocess.run(['git', 'config',\
+        \ 'user.email', '41898282+github-actions[bot]@users.noreply.github.com'], check=True)\nsubprocess.run(['git', 'add',\
+        \ '--', 'data/key-material/model26'], check=True)\nif subprocess.run(['git', 'diff', '--cached', '--quiet']).returncode:\n\
+        \    subprocess.run(['git', 'commit', '-m', 'Restore tracked public model-26 recovery inputs to validation source'],\
+        \ check=True)\n    subprocess.run(['git', 'fetch', 'origin', 'main'], check=True)\n    subprocess.run(['git', 'rebase',\
+        \ 'origin/main'], check=True)\n    subprocess.run(['git', 'push', 'origin', 'HEAD:main'], check=True)\nwork = Path(os.environ['RUNNER_TEMP'])/'model26-worker'\n\
+        try:\n    extract_firmware(root, work, repo, limit=24, inventory_limit=24)\n    catalog = json.loads((root/'data/catalog.json').read_text())\n\
+        \    packages = [row for row in catalog['packages'] if row.get('package_model') == 26 and row.get('artifact_type')\
+        \ == 'upd']\n    assert packages, 'no preserved model-26 sources to validate'\n    result = {'repository': repo, 'source_commit':\
+        \ source_commit, 'recipient_id': RECIPIENT_ID,\n              'packages': [{'id': row['id'], 'sha256': row['sha256'],\
+        \ 'raw_status': row['raw_status'],\n                            'inventory': row.get('inventory')} for row in packages]}\n\
+        \    Path(os.environ['RUNNER_TEMP'], 'model26-validation.json').write_text(json.dumps(result, indent=2)+'\\n')\n \
+        \   assert all(row['raw_status'] == 'complete' and row.get('inventory', {}).get('complete') and\n               RECIPIENT_ID\
+        \ in row['inventory']['revision']['ready_recipients'] for row in packages)\n    print(json.dumps({'model26_packages':\
+        \ len(packages), 'all_raw_complete': True, 'all_inventories_complete': True}), flush=True)\nfinally:\n    subprocess.run(['sonos-archive',\
+        \ 'commit', 'firmware'], check=True)\n    shutil.rmtree(work, ignore_errors=True)\nPYTHON\n"
+    - name: Retain metadata proof only
+      if: always()
+      uses: actions/upload-artifact@v7
+      with:
+        name: model26-validation
+        path: '${{ runner.temp }}/model26-validation.json
+
+          data/catalog.json
+
+          data/key-recovery-ledger.json
+
+          data/discovery/firmware-inventories.json
+
+          '
+        retention-days: 14
