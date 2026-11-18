@@ -47,3 +47,27 @@ jobs:
                                     'http_status': getattr(error, 'status_code', None),
                                     'cause_kind': type(cause).__name__ if cause else None}), flush=True)
           PYCODE
+      - name: Compare verified TLS transports at the anonymous dispenser
+        run: |
+          timeout 60 python -u - <<'PYCODE'
+          import json
+          from curl_cffi import requests
+          from goopdl.auth import DEFAULT_DISPENSER_URL
+          from goopdl.profiles import find_profile
+          from sonos_firmware.android_store import play_profiles
+          profile = play_profiles()[0]
+          _, payload = find_profile(profile['profile'], profile['arch'])
+          response = requests.post(DEFAULT_DISPENSER_URL, json=payload,
+              headers={'User-Agent': 'com.aurora.store-4.6.1-70', 'Content-Type': 'application/json'},
+              impersonate='chrome', timeout=30)
+          try:
+              result = {'phase': 'dispenser-verified-curl', 'http_status': response.status_code,
+                        'content_type': response.headers.get('Content-Type', '').split(';')[0]}
+              try:
+                  result['token_issued'] = bool(response.json().get('authToken'))
+              except (ValueError, AttributeError):
+                  result['token_issued'] = False
+              print(json.dumps(result), flush=True)
+          finally:
+              response.close()
+          PYCODE
