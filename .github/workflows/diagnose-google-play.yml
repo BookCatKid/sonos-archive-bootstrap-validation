@@ -1,4 +1,4 @@
-name: Diagnose anonymous Google Play metadata
+name: Diagnose Aurora default anonymous session
 on:
   workflow_dispatch:
 permissions:
@@ -6,65 +6,28 @@ permissions:
 jobs:
   metadata:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - run: python -m pip install -e '.[google-play]'
-      - name: Separate token acquisition from Play metadata failures
-        run: |
-          timeout 240 python -u - <<'PYCODE'
-          import json, os
-          from pathlib import Path
-          from goopdl import auth
-          from sonos_firmware.android_store import play_client, play_profiles
-          original = auth.pick_pool_token
-          def token_phase(**kwargs):
-              try:
-                  result = original(**kwargs)
-              except Exception as error:
-                  print(json.dumps({'phase': 'anonymous-token', 'status': 'error',
-                                    'kind': type(error).__name__, 'http_status': getattr(error, 'status', None)}), flush=True)
-                  raise
-              print(json.dumps({'phase': 'anonymous-token', 'status': 'ok' if result else 'empty'}), flush=True)
-              return result
-          auth.pick_pool_token = token_phase
-          for index, profile in enumerate(play_profiles()[:2]):
-              print(json.dumps({'phase': 'profile', **profile}), flush=True)
-              client = play_client(Path(os.environ['RUNNER_TEMP'])/'anonymous-diagnostic'/str(index), **profile)
-              phase = 'details'
-              try:
-                  details = client.details('com.sonos.acr2')
-                  print(json.dumps({'phase': phase, 'status': 'ok', 'version_code': details.version_code}), flush=True)
-                  phase = 'delivery-metadata'
-                  delivery = client.delivery('com.sonos.acr2', details.version_code)
-                  print(json.dumps({'phase': phase, 'status': 'ok', 'version_code': delivery.version_code}), flush=True)
-              except Exception as error:
-                  cause = error.__cause__
-                  print(json.dumps({'phase': phase, 'status': 'error', 'kind': type(error).__name__,
-                                    'http_status': getattr(error, 'status_code', None),
-                                    'cause_kind': type(cause).__name__ if cause else None}), flush=True)
-          PYCODE
-      - name: Compare verified TLS transports at the anonymous dispenser
+      - name: Test the documented default-session GET endpoint
         run: |
           timeout 60 python -u - <<'PYCODE'
           import json
           from curl_cffi import requests
           from goopdl.auth import DEFAULT_DISPENSER_URL
-          from goopdl.profiles import find_profile
-          from sonos_firmware.android_store import play_profiles
-          profile = play_profiles()[0]
-          _, payload = find_profile(profile['profile'], profile['arch'])
-          response = requests.post(DEFAULT_DISPENSER_URL, json=payload,
-              headers={'User-Agent': 'com.aurora.store-4.6.1-70', 'Content-Type': 'application/json'},
-              impersonate='chrome', timeout=30)
+          response = requests.get(DEFAULT_DISPENSER_URL,
+              headers={'User-Agent': 'com.aurora.store-4.6.1-70', 'Accept': 'application/json'},
+              impersonate='chrome', timeout=30, allow_redirects=False)
           try:
-              result = {'phase': 'dispenser-verified-curl', 'http_status': response.status_code,
+              result = {'phase': 'dispenser-default-get', 'http_status': response.status_code,
                         'content_type': response.headers.get('Content-Type', '').split(';')[0]}
               try:
-                  result['token_issued'] = bool(response.json().get('authToken'))
+                  bundle = response.json()
+                  result['token_issued'] = isinstance(bundle, dict) and bool(bundle.get('authToken'))
               except (ValueError, AttributeError):
                   result['token_issued'] = False
               print(json.dumps(result), flush=True)
