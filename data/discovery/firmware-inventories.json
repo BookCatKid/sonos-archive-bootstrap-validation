@@ -8,7 +8,7 @@
           "revision": {
             "source_sha256": "34cf093de96313ea6b7ae8f786f4800fc6d8daa84c4a4ebe00f88f4ad68b9380",
             "ready_recipients": [],
-            "decoder_revision": "0466521e88b05160affe47c538d7a6cd8d4154e386f8d539e5c98d0a90db8dff",
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
             "limits": {
               "expanded_bytes": 536870912,
               "files": 100000,
@@ -22,7 +22,7 @@
           "revision": {
             "source_sha256": "8a1673b29ce23ac28038b0ed1916d21daa562aef19faacb93629404c48886ceb",
             "ready_recipients": [],
-            "decoder_revision": "0466521e88b05160affe47c538d7a6cd8d4154e386f8d539e5c98d0a90db8dff",
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
             "limits": {
               "expanded_bytes": 536870912,
               "files": 100000,
@@ -36,7 +36,7 @@
           "revision": {
             "source_sha256": "151ff1da61c4f17b9751ae6f96afc88deac376b4aa061a175db07c21db5d0f3c",
             "ready_recipients": [],
-            "decoder_revision": "0466521e88b05160affe47c538d7a6cd8d4154e386f8d539e5c98d0a90db8dff",
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
             "limits": {
               "expanded_bytes": 536870912,
               "files": 100000,
@@ -50,7 +50,7 @@
           "revision": {
             "source_sha256": "020db66f9cda104240987e43a8f1024a21b8def760f91cbd71b95e0a40595b66",
             "ready_recipients": [],
-            "decoder_revision": "0466521e88b05160affe47c538d7a6cd8d4154e386f8d539e5c98d0a90db8dff",
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
             "limits": {
               "expanded_bytes": 536870912,
               "files": 100000,
@@ -64,7 +64,7 @@
           "revision": {
             "source_sha256": "54f0908a8f77024da0ac7afde6b812bb360740d66460c714bb84fe7a96d22706",
             "ready_recipients": [],
-            "decoder_revision": "0466521e88b05160affe47c538d7a6cd8d4154e386f8d539e5c98d0a90db8dff",
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
             "limits": {
               "expanded_bytes": 536870912,
               "files": 100000,
@@ -78,7 +78,7 @@
           "revision": {
             "source_sha256": "3e1c827005dd4be569f86ac06212e2e523b2478491b7f06707fa80185a08482a",
             "ready_recipients": [],
-            "decoder_revision": "0466521e88b05160affe47c538d7a6cd8d4154e386f8d539e5c98d0a90db8dff",
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
             "limits": {
               "expanded_bytes": 536870912,
               "files": 100000,
@@ -92,7 +92,7 @@
           "revision": {
             "source_sha256": "fdfe94e01adbd823dcd9b59b327caef05896fc97be6f0a8835cdf7a70a28d5b7",
             "ready_recipients": [],
-            "decoder_revision": "0466521e88b05160affe47c538d7a6cd8d4154e386f8d539e5c98d0a90db8dff",
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
             "limits": {
               "expanded_bytes": 536870912,
               "files": 100000,
@@ -106,7 +106,7 @@
           "revision": {
             "source_sha256": "d4cc8d619e450c183d302610e12c7d2bd35dc3a56147b765cc2e17e98a313768",
             "ready_recipients": [],
-            "decoder_revision": "0466521e88b05160affe47c538d7a6cd8d4154e386f8d539e5c98d0a90db8dff",
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
             "limits": {
               "expanded_bytes": 536870912,
               "files": 100000,
@@ -120,7 +120,7 @@
           "revision": {
             "source_sha256": "4bdfdd788a11cc0844357fe6bd50b00071a15fd44b9d87f4ae52e666eb0f34a4",
             "ready_recipients": [],
-            "decoder_revision": "0466521e88b05160affe47c538d7a6cd8d4154e386f8d539e5c98d0a90db8dff",
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
             "limits": {
               "expanded_bytes": 536870912,
               "files": 100000,
@@ -134,7 +134,7 @@
           "revision": {
             "source_sha256": "84632e02bdce626bf10ae846839e90d66e510a627320fff8690c2bdb998733f2",
             "ready_recipients": [],
-            "decoder_revision": "0466521e88b05160affe47c538d7a6cd8d4154e386f8d539e5c98d0a90db8dff",
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
             "limits": {
               "expanded_bytes": 536870912,
               "files": 100000,
@@ -148,7 +148,7 @@
           "revision": {
             "source_sha256": "ccbb884d22a6dccae2c7dcdf9ecacb6a9217a5439a5f9b74a10e2598eb719e42",
             "ready_recipients": [],
-            "decoder_revision": "0466521e88b05160affe47c538d7a6cd8d4154e386f8d539e5c98d0a90db8dff",
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
             "limits": {
               "expanded_bytes": 536870912,
               "files": 100000,
@@ -162,7 +162,7 @@
           "revision": {
             "source_sha256": "a43eafc4bf71ce13d8219f272226e9dc097ce7360d79003c23c483d954acde57",
             "ready_recipients": [],
-            "decoder_revision": "0466521e88b05160affe47c538d7a6cd8d4154e386f8d539e5c98d0a90db8dff",
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
             "limits": {
               "expanded_bytes": 536870912,
               "files": 100000,
@@ -176,7 +176,7 @@
           "revision": {
             "source_sha256": "be255937688de91d654aed06171ba4ad35b06df5020b9e26002e31e7c816992e",
             "ready_recipients": [],
-            "decoder_revision": "0466521e88b05160affe47c538d7a6cd8d4154e386f8d539e5c98d0a90db8dff",
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
             "limits": {
               "expanded_bytes": 536870912,
               "files": 100000,
@@ -190,7 +190,7 @@
           "revision": {
             "source_sha256": "6c37829cf0cd5aa07cdea6d9cea329fe5d5d63ca44df4d4be207c66e7cdddc95",
             "ready_recipients": [],
-            "decoder_revision": "0466521e88b05160affe47c538d7a6cd8d4154e386f8d539e5c98d0a90db8dff",
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
             "limits": {
               "expanded_bytes": 536870912,
               "files": 100000,
@@ -204,7 +204,7 @@
           "revision": {
             "source_sha256": "36037a5f4309a165a8020ae36412b1fc5900aeb14eb60e8108352c0db6d40df6",
             "ready_recipients": [],
-            "decoder_revision": "0466521e88b05160affe47c538d7a6cd8d4154e386f8d539e5c98d0a90db8dff",
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
             "limits": {
               "expanded_bytes": 536870912,
               "files": 100000,
@@ -218,7 +218,7 @@
           "revision": {
             "source_sha256": "c8e5094c23c089e69c07522352cac5ae090107cd0624291f09a7a6aad8b9e875",
             "ready_recipients": [],
-            "decoder_revision": "0466521e88b05160affe47c538d7a6cd8d4154e386f8d539e5c98d0a90db8dff",
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
             "limits": {
               "expanded_bytes": 536870912,
               "files": 100000,
@@ -226,6 +226,1396 @@
               "decoder_seconds": 300
             }
           }
+        },
+        "55.1-74250-1-17": {
+          "status": "published",
+          "revision": {
+            "source_sha256": "d9e593b1535dcf12e63bf816c78a476953a1c24004c0f9076dd0f7ec4b1c0975",
+            "ready_recipients": [
+              "f2acc70d8db3ee388c534d99d4bff64d9dab8154"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          }
+        },
+        "57.19-46310-1-8": {
+          "status": "published",
+          "revision": {
+            "source_sha256": "753d2b117fb28a55baa0b17f632aa4d3ec75baf03137eab0730c451b0bf4b314",
+            "ready_recipients": [
+              "346ce6e38225ca8177024fbebfaad7043344b3bd"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          }
+        },
+        "57.19-46310-1-12": {
+          "status": "published",
+          "revision": {
+            "source_sha256": "13a4c016c2bf8a77c99dd0fbc8b36fbd049210a5fa525681954a859bf7c37eed",
+            "ready_recipients": [
+              "e35f7c21c0ec00a768bfbd364a9a105cf300f023"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          }
+        },
+        "57.19-46310-1-17": {
+          "status": "published",
+          "revision": {
+            "source_sha256": "2d7bfe64d6a0bda015600fbd537e55b5ccab543e07445173b4952e3fa809fd45",
+            "ready_recipients": [
+              "f2acc70d8db3ee388c534d99d4bff64d9dab8154"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          }
+        },
+        "57.22-63071-1-1": {
+          "status": "published",
+          "revision": {
+            "source_sha256": "e058475034797d859e6ab71f783feb885aa9fa929748ebe1dc292b59416e2035",
+            "ready_recipients": [
+              "21e7b8c8199c8d6442d2a0a7a4e776c4efd4319c"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          }
+        },
+        "57.22-63071-1-5": {
+          "status": "published",
+          "revision": {
+            "source_sha256": "4d0b1a4706666d5bcd400ed4488cd616ca0fc3180c15f8ae67da26cf6a38cc88",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          }
+        },
+        "57.22-63071-1-8": {
+          "status": "published",
+          "revision": {
+            "source_sha256": "0130c9bf685a5df0a481b4e3d96a01ac82008119923e5f72c5eb45568bcf21c1",
+            "ready_recipients": [
+              "346ce6e38225ca8177024fbebfaad7043344b3bd"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          }
+        },
+        "57.22-63071-1-9": {
+          "status": "published",
+          "revision": {
+            "source_sha256": "f9bc06e6c4582f5883c3b3c8b9939af60ad58b81fc49d1e932854076eca6c810",
+            "ready_recipients": [
+              "12e82a182af27801eba0ff3c94e8e649ed962dbb"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          }
+        },
+        "57.22-63071-1-12": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "633b0b7b579dee9daada584ba30e33daef09bbc48dc41c1aaaedc0cce863001e",
+            "ready_recipients": [
+              "e35f7c21c0ec00a768bfbd364a9a105cf300f023"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 25
+        },
+        "57.22-63071-1-13": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "78d8be5afb17912792c64e6fe9f465a3d7aade43446810248d464282e2bf82e8",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 26
+        },
+        "57.22-63071-1-14": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "2d92ce7ef783caadfbffd16a5a1cd45b0fd0b0c06e1e4a4e2cea83917f37628c",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 27
+        },
+        "57.22-63071-1-16": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "5ddd04137b8b8afdb9fa63f11afd7e89eb8f08f033373a39c29fe9e1f21e6bcd",
+            "ready_recipients": [
+              "fd88f2642a9c89a44747c7b4342cdb483fe1d437"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 28
+        },
+        "57.22-63071-1-17": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "414dacc2f1999e024d3e2e20fe510e19c7c32ad1c7f44bd2bea0038f15226905",
+            "ready_recipients": [
+              "f2acc70d8db3ee388c534d99d4bff64d9dab8154"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 29
+        },
+        "57.22-63071-1-20": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "b7e41593adc3037b0a139b2bf0ad6e0368e4633140e7f3686687ee93e47ac013",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 30
+        },
+        "57.22-63071-1-21": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "bf651e26a08eb446610664082d59cca82a1633708107df7932147996df0167c3",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 31
+        },
+        "57.22-63071-1-22": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "96310b3b9eecb52178c2051d6077a284a6686a223e9413d514bd326d932c57a6",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 32
+        },
+        "57.22-63071-1-23": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "555576f3b652ac12bc1d8a9c8c373dcfd90bd3c4bc060aa56a81dd8e5e81c042",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 33
+        },
+        "57.22-63071-1-24": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "af6e4d1144259eb316405fb7e8684d4a93e1f6bc7a9e7de7a6d660f987f5c73c",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 34
+        },
+        "57.22-63071-1-25": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "fd4cfbca51b4395e50742a87ed9e72d37b8fbca0520714618269b875e7c9ffdc",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 35
+        },
+        "57.22-63071-1-26": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "c83c1899dc00576389e46452fbc7d6f6d5d0c146430ba7a0a39e113d32c71fd3",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 36
+        },
+        "57.22-63071-1-28": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "df8b897481fd01e776a870b3cc05d73f2f077267f4e4b9fa6d29e3d5c4431433",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 37
+        },
+        "57.22-63071-1-29": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "caf98b9e4e33d72f4f663c59b6a32747786690d5df0f2f1fed32d34b9386b42a",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 38
+        },
+        "57.22-65130-1-13": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "6138def0ef7216ef29458684e2671d65b244ec79feb3d53d81354bc1c6af9ea7",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 39
+        },
+        "57.22-65130-1-14": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "b05859e04cc38a0ed82be55e019e8cd426c7303ac4b6258d700271aab9f7604f",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 40
+        },
+        "57.22-65130-1-20": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "8dc10c00af37b203ef335202c3041acb6547c6b2ea1f1ce940fd90a365364438",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 41
+        },
+        "57.22-65130-1-21": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "6d23636d71d9a1f9af057c2514df806c9342317fb6459fdd2389af1a5f6d7b23",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 42
+        },
+        "57.22-65130-1-23": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "5d9ea1160e96d210ca11c0750ced0b00c7b7a68260e642c810e56544fdb497e7",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 43
+        },
+        "57.22-65130-1-24": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "403f7e20cf0b73b6eede767375628c7e8fe2e0b4a2bbc2d49be32833e7c51046",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 44
+        },
+        "57.23-74170-1-1": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "54d8b171e06001e4332bcdafc7c2f71dc7945352bc37ca54d2d6794f52002f6b",
+            "ready_recipients": [
+              "21e7b8c8199c8d6442d2a0a7a4e776c4efd4319c"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 45
+        },
+        "57.23-74170-1-5": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "a446c83b199be68567577203bcc4757d989f1e8e6d5f7dbea943ec49739ea8a2",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 46
+        },
+        "57.23-74170-1-8": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "76ef72d8731cc317c42d884e2de1cbb7fe3d46de7f5f6bf98097b208543dd94a",
+            "ready_recipients": [
+              "346ce6e38225ca8177024fbebfaad7043344b3bd"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 47
+        },
+        "57.23-74170-1-9": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "86c191498ad812a3b65a8075f2cc7a9279abb162bc03bb36922c2eec0c8793f5",
+            "ready_recipients": [
+              "12e82a182af27801eba0ff3c94e8e649ed962dbb"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 48
+        },
+        "57.23-74170-1-12": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "05b91904f6a0bfe6a385757adf6f73236faff22e42c3f9089a9cc41361b39b3a",
+            "ready_recipients": [
+              "e35f7c21c0ec00a768bfbd364a9a105cf300f023"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 49
+        },
+        "57.23-74170-1-13": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "bf3aaa369cc9df106e9bf8a9c25cd1c7ae2ea0346384bb1e3bfa4580c268ff9c",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 50
+        },
+        "57.23-74170-1-14": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "af67625d2adbcb2a5386212da9ba3ed208efd036d02587967ee74ec3f2033590",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 51
+        },
+        "57.23-74170-1-16": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "e19a7bb28f2d940346c605ccfcff81f8d9a7dd1771ee991841ac1f9e07223ad4",
+            "ready_recipients": [
+              "fd88f2642a9c89a44747c7b4342cdb483fe1d437"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 52
+        },
+        "57.23-74170-1-17": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "aad8981038e71e868bf71c78e26a88493e443cd1bec2d80066412738d4631830",
+            "ready_recipients": [
+              "f2acc70d8db3ee388c534d99d4bff64d9dab8154"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 53
+        },
+        "57.23-74170-1-20": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "28e20817bb527d3aa8d0016fef697ea312362e57fcc5587a520f7b70021f2f7d",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 54
+        },
+        "57.23-74170-1-21": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "db9f53da394adfba2a829924f9f5717f99de347936f51d7c59c42c2c3659b202",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 55
+        },
+        "57.23-74170-1-22": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "66a1d66187520db856d63d9a01895cad92a15d6ea2faabacce9dbb0de9f2ae6b",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 56
+        },
+        "57.23-74170-1-23": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "2ff4076b4afd71f5bfe4cb5f3f566798002b09367b94dfaff317fb159a1f6254",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 57
+        },
+        "57.23-74170-1-24": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "503cf41f837e3bf992e9c7f2d0dfe0630f9606fb2f8c7c49048c8d078accee20",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 58
+        },
+        "57.23-74170-1-25": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "c41f4fcf20dd67cd2c396e9b0d78588cadbddd85457906de8057d9a42e103aab",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 59
+        },
+        "57.23-74170-1-26": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "2159166c5a22e01bba798ceac33dd63e150611e05b11108de9ce6ae1f28e5d43",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 60
+        },
+        "57.23-74170-1-28": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "a0964b854275d243162a8d6f536dc1d2df6084a4e9a6b7b1d072af5319964a6c",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 61
+        },
+        "57.23-74170-1-29": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "51e4af316f4a9f9e43574b744defa722d6bc348ec5dfc6feb3882991a56dee22",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 62
+        },
+        "57.5-87010-1-13": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "4a80be6b7238065f4664ea1440f944f11ada21e40bf8621270482fb7e9c625c8",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 63
+        },
+        "57.5-87010-1-14": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "82a6e09df3614876e75783f67649b5383698cf9a170cac7be55a8126bf52c2b5",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 64
+        },
+        "57.5-87010-1-20": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "32a71494590555ba3e279b4a50068249aa5ed2d2d20f599a0767c46c5067122d",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 65
+        },
+        "57.5-87010-1-21": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "75ef246584f612461b19a0374b595e900f35dcc83031c9b0eb7db437982ece54",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 66
+        },
+        "57.5-87010-1-22": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "5835650859cf0222a7931c038ca41b6951024e2e8e79b48131e83ffe2095d936",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 67
+        },
+        "57.5-87010-1-23": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "b08c674e41612f624663dc0a672e4f85719fe1c05c7e517cea29b2e1dce69009",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 68
+        },
+        "57.5-87010-1-24": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "3bc24a874c894b6c9f21874a58c0b264a27ef63ab234c6ea2576a123a6d0b6c7",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 69
+        },
+        "57.5-87010-1-28": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "7455617c21735e6f6b1bdb1c5082dc6c76b9ad3cb38772ac9dd906fcd630ab2b",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 70
+        },
+        "57.5-87010-1-29": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "0e75154ea6cb096e3a280a64a943591731981168742e00e176e4c8396c9936de",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 71
+        },
+        "73.0-42060-1-8": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "05f9dfce3acd37b1c8e3ae389cb3e17bd6dcea2d50dae8f51c4cf20a0a98fdbd",
+            "ready_recipients": [
+              "346ce6e38225ca8177024fbebfaad7043344b3bd"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 72
+        },
+        "73.0-42060-1-12": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "01324f5207f49a5bf70c2fe456a628d2b886378e97f8e891d0540cde5b830702",
+            "ready_recipients": [
+              "e35f7c21c0ec00a768bfbd364a9a105cf300f023"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 73
+        },
+        "73.0-42060-1-17": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "c6f85eedb24ab648875ff5235797e907064db7aa5193ed4e9577cab3e4a0b751",
+            "ready_recipients": [
+              "f2acc70d8db3ee388c534d99d4bff64d9dab8154"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 74
+        },
+        "86.11-82170-1-8": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "b4774d97c98c7b5279783d9811952f57a1c39d508875bac9bd95472f76aafd0b",
+            "ready_recipients": [
+              "346ce6e38225ca8177024fbebfaad7043344b3bd"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 75
+        },
+        "86.11-82170-1-9": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "45cba67242f68606e79becea4b168ecd6e8cd8a901a7e8dbebd42168982fc57b",
+            "ready_recipients": [
+              "12e82a182af27801eba0ff3c94e8e649ed962dbb"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 76
+        },
+        "86.11-82170-1-12": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "31ef0ed204b1cf03d814af10afaf23c87ef81c72cf924e609473f47b216aedd8",
+            "ready_recipients": [
+              "e35f7c21c0ec00a768bfbd364a9a105cf300f023"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 77
+        },
+        "86.11-82170-1-13": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "80a9b07ee15d81f7699d1b38672014701af8b96d951f56f19e5a90a564d03b3f",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 78
+        },
+        "86.11-82170-1-14": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "322a1fdabf4e080c340e5bd6fa85290618fc8f29c9d4a03925caeaf8059a12a7",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 79
+        },
+        "86.11-82170-1-17": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "2808a492a67580101cc3521f051cd4de29652c3c1c4f2781a2463edd4265f5a8",
+            "ready_recipients": [
+              "f2acc70d8db3ee388c534d99d4bff64d9dab8154"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 80
+        },
+        "86.11-82170-1-20": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "1083475fa0fb3431204eb3b2a73c02f367bfa493fde6809e36f8c509be9a4f91",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 81
+        },
+        "86.11-82170-1-22": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "a96026931779c565fc430224d33280fd7537023eb41dd09d9aabfca3555fc239",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 82
+        },
+        "connectx": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "5e4c5bf49d02a9c61fa93c010b5e6c44a0fc5f178e7ff2414f7d4d2711e1501a",
+            "ready_recipients": [
+              "f2acc70d8db3ee388c534d99d4bff64d9dab8154"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 83
+        },
+        "98.0-82170-1-21": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "bd32fa63f0da61113e55b993d11020aa7da95ab3ed16b30e469cbc4cf9c86ec5",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 84
+        },
+        "98.0-82170-1-23": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "fb3b4e13c3ec24c3d96ffc265a3024da30cf8181ae093e7c4fa061dbdb098c58",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 85
+        },
+        "98.0-82170-1-24": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "ed7ec3899207375dba93078da85328f55f6e84eefbd183d508d9964ecb198305",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 86
+        },
+        "98.0-82170-1-25": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "74099575e8fbc18d98d12c00182e618aa19705afed0aa1090c01039f2cc954eb",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 87
+        },
+        "98.0-82170-1-26": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "8f6d24332ad988985774b0e27f4d98d746fab8b70a1767f1ee09fd78f97c4f14",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 88
+        },
+        "98.0-82170-1-27": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "14a740a804917e463b99175997246b4794ed908a9b6330069ac1b8609851cef4",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 89
+        },
+        "98.0-82170-1-28": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "86479b4dc9385da692ce09706d254ea456addbf25084ee0e1cf3248c0f454ee2",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 90
+        },
+        "98.0-82170-1-29": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "e16b63ba35caf8fe0363d0adc60a3603015f8079914d8aea60faed82bed558ba",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 91
+        },
+        "98.0-82170-1-30": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "aabec45fedc2116f6037e7019ce6f8858e2bb22af31c35e0a284217a446e667a",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 92
+        },
+        "98.0-82170-1-32": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "1ca47035070f92eb34dae94afb2f4142e342ea905cfff070fd112ea1301cf0a5",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 93
+        },
+        "98.0-82170-1-33": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "edb6507108d7a4181dbf5ab726338dcfa424e43b8eb45dae13e050076cff063a",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 94
+        },
+        "98.0-82170-1-34": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "04b982f5d97afc6d6af39b20351915fe97aebc20935f8097c6807c1103c2eca4",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 95
+        },
+        "98.0-82170-1-35": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "41303b97a12ee493aa7dcd92f882c3adf18c498cc8cd46ca1d07f88eb4e9524b",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 96
+        },
+        "98.0-82170-1-36": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "148d5fde1c03985391b366bfdacf1416a591005914fc064f61cd77929e9375a2",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 97
+        },
+        "98.0-82170-1-37": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "f4c733d7ed259251776a884fd28f62d61dfdf0a572cfa67d0bf2ad4f5971ed34",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 98
+        },
+        "98.0-82170-1-38": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "5707a0f8b1c665cc8885f8c9a8602acc64e9ab28b5cc8e0eb3e2bd9947a9cd78",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 99
+        },
+        "98.0-82170-1-40": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "842d815304f01cc1a34c3e6cf9f54d7e3e48d40733e1b5b8f342364ef5d9f69e",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 100
+        },
+        "98.0-82170-1-41": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "f361dfbbd299ad3385de2d39d0ffcc0b45f4cf69bdaa84ce8252da6162ef0882",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 101
+        },
+        "98.0-82170-1-42": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "4f750f774ff85481bca6166601aaedc27624170080586a61c16d1f8d394ae790",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 102
+        },
+        "98.0-82170-1-46": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "2d4e78a29b3dbc13c97a2782f9a826a856f826bf4097903c30842b8cfce7a74a",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 103
+        },
+        "98.0-82170-1-49": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "333d32fd1953937197dcd0b4e01388e0ea4979edb1cd5e4dabc023182bf07ba1",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 104
+        },
+        "98.0-82170-1-51": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "622146afc339fde5553a50bc5ee7c9470d90b02d9854288c37180ba3c070e36f",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 105
+        },
+        "98.0-82170-1-52": {
+          "status": "pending",
+          "revision": {
+            "source_sha256": "567ee5386284ff738d3e9445e74ebf64def0b8dfeca0ab7ad0b10f574a860c9c",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "queued_order": 106
         }
       },
       "captures": {
@@ -1044,11 +2434,1250 @@
               "bytes": 5882012
             }
           }
+        },
+        "02923409c61ef81f64dfa1ba06c7759fe74bab6fdd8e7fc38cc4c0f5171611d7": {
+          "package_id": "25.2-50130-1-2",
+          "revision": {
+            "source_sha256": "34cf093de96313ea6b7ae8f786f4800fc6d8daa84c4a4ebe00f88f4ad68b9380",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": true,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "02923409c61ef81f64dfa1ba06c7759fe74bab6fdd8e7fc38cc4c0f5171611d7",
+              "bytes": 76955,
+              "release_tag": "firmware-25.2-50130",
+              "release_asset": "inventory-34cf093de96313ea6b7ae8f786f4800fc6d8daa84c4a4ebe00f88f4ad68b9380-02923409c61ef81f64dfa1ba06c7759fe74bab6fdd8e7fc38cc4c0f5171611d7.json"
+            },
+            "bundle": {
+              "sha256": "a9a8c6cf5edb8d72efec6eaef3a911eff97a78528559a947fd1b21df7d6d0c4e",
+              "bytes": 8497436,
+              "release_tag": "firmware-25.2-50130",
+              "release_asset": "inventory-34cf093de96313ea6b7ae8f786f4800fc6d8daa84c4a4ebe00f88f4ad68b9380-a9a8c6cf5edb8d72efec6eaef3a911eff97a78528559a947fd1b21df7d6d0c4e.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-25.2-50130",
+              "release_asset": "inventory-34cf093de96313ea6b7ae8f786f4800fc6d8daa84c4a4ebe00f88f4ad68b9380-02923409c61ef81f64dfa1ba06c7759fe74bab6fdd8e7fc38cc4c0f5171611d7.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-25.2-50130/inventory-34cf093de96313ea6b7ae8f786f4800fc6d8daa84c4a4ebe00f88f4ad68b9380-02923409c61ef81f64dfa1ba06c7759fe74bab6fdd8e7fc38cc4c0f5171611d7.json",
+              "sha256": "02923409c61ef81f64dfa1ba06c7759fe74bab6fdd8e7fc38cc4c0f5171611d7",
+              "bytes": 76955
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-25.2-50130",
+              "release_asset": "inventory-34cf093de96313ea6b7ae8f786f4800fc6d8daa84c4a4ebe00f88f4ad68b9380-a9a8c6cf5edb8d72efec6eaef3a911eff97a78528559a947fd1b21df7d6d0c4e.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-25.2-50130/inventory-34cf093de96313ea6b7ae8f786f4800fc6d8daa84c4a4ebe00f88f4ad68b9380-a9a8c6cf5edb8d72efec6eaef3a911eff97a78528559a947fd1b21df7d6d0c4e.tar.xz",
+              "sha256": "a9a8c6cf5edb8d72efec6eaef3a911eff97a78528559a947fd1b21df7d6d0c4e",
+              "bytes": 8497436
+            }
+          }
+        },
+        "61c98efd25904d0aa7e112ceab9bccba7c3784bd8eb2719638cea2350270dc57": {
+          "package_id": "34.16-37101-1-1",
+          "revision": {
+            "source_sha256": "8a1673b29ce23ac28038b0ed1916d21daa562aef19faacb93629404c48886ceb",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": true,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "61c98efd25904d0aa7e112ceab9bccba7c3784bd8eb2719638cea2350270dc57",
+              "bytes": 62619,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-8a1673b29ce23ac28038b0ed1916d21daa562aef19faacb93629404c48886ceb-61c98efd25904d0aa7e112ceab9bccba7c3784bd8eb2719638cea2350270dc57.json"
+            },
+            "bundle": {
+              "sha256": "308afa0a4073ed3d309f2bf0a48ebb08b3dddc1f082aae4fa67562d987ac7f7d",
+              "bytes": 9106176,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-8a1673b29ce23ac28038b0ed1916d21daa562aef19faacb93629404c48886ceb-308afa0a4073ed3d309f2bf0a48ebb08b3dddc1f082aae4fa67562d987ac7f7d.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-8a1673b29ce23ac28038b0ed1916d21daa562aef19faacb93629404c48886ceb-61c98efd25904d0aa7e112ceab9bccba7c3784bd8eb2719638cea2350270dc57.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-8a1673b29ce23ac28038b0ed1916d21daa562aef19faacb93629404c48886ceb-61c98efd25904d0aa7e112ceab9bccba7c3784bd8eb2719638cea2350270dc57.json",
+              "sha256": "61c98efd25904d0aa7e112ceab9bccba7c3784bd8eb2719638cea2350270dc57",
+              "bytes": 62619
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-8a1673b29ce23ac28038b0ed1916d21daa562aef19faacb93629404c48886ceb-308afa0a4073ed3d309f2bf0a48ebb08b3dddc1f082aae4fa67562d987ac7f7d.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-8a1673b29ce23ac28038b0ed1916d21daa562aef19faacb93629404c48886ceb-308afa0a4073ed3d309f2bf0a48ebb08b3dddc1f082aae4fa67562d987ac7f7d.tar.xz",
+              "sha256": "308afa0a4073ed3d309f2bf0a48ebb08b3dddc1f082aae4fa67562d987ac7f7d",
+              "bytes": 9106176
+            }
+          }
+        },
+        "919a6bd227d5866bc12ec5a9d8ed56707fde0fa85ec89d4bb9d27cf7670b2f4a": {
+          "package_id": "34.16-37101-1-5",
+          "revision": {
+            "source_sha256": "151ff1da61c4f17b9751ae6f96afc88deac376b4aa061a175db07c21db5d0f3c",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": true,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "919a6bd227d5866bc12ec5a9d8ed56707fde0fa85ec89d4bb9d27cf7670b2f4a",
+              "bytes": 41746,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-151ff1da61c4f17b9751ae6f96afc88deac376b4aa061a175db07c21db5d0f3c-919a6bd227d5866bc12ec5a9d8ed56707fde0fa85ec89d4bb9d27cf7670b2f4a.json"
+            },
+            "bundle": {
+              "sha256": "c2b30ef21c455167b42690901d9ce806fb8323c8737eb48a91d582bb105deb99",
+              "bytes": 3688288,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-151ff1da61c4f17b9751ae6f96afc88deac376b4aa061a175db07c21db5d0f3c-c2b30ef21c455167b42690901d9ce806fb8323c8737eb48a91d582bb105deb99.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-151ff1da61c4f17b9751ae6f96afc88deac376b4aa061a175db07c21db5d0f3c-919a6bd227d5866bc12ec5a9d8ed56707fde0fa85ec89d4bb9d27cf7670b2f4a.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-151ff1da61c4f17b9751ae6f96afc88deac376b4aa061a175db07c21db5d0f3c-919a6bd227d5866bc12ec5a9d8ed56707fde0fa85ec89d4bb9d27cf7670b2f4a.json",
+              "sha256": "919a6bd227d5866bc12ec5a9d8ed56707fde0fa85ec89d4bb9d27cf7670b2f4a",
+              "bytes": 41746
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-151ff1da61c4f17b9751ae6f96afc88deac376b4aa061a175db07c21db5d0f3c-c2b30ef21c455167b42690901d9ce806fb8323c8737eb48a91d582bb105deb99.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-151ff1da61c4f17b9751ae6f96afc88deac376b4aa061a175db07c21db5d0f3c-c2b30ef21c455167b42690901d9ce806fb8323c8737eb48a91d582bb105deb99.tar.xz",
+              "sha256": "c2b30ef21c455167b42690901d9ce806fb8323c8737eb48a91d582bb105deb99",
+              "bytes": 3688288
+            }
+          }
+        },
+        "218c93c8e6a095d43134ce2076e69d906b11786df695b1df3fd269df3a33e143": {
+          "package_id": "34.16-37101-1-6",
+          "revision": {
+            "source_sha256": "020db66f9cda104240987e43a8f1024a21b8def760f91cbd71b95e0a40595b66",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": true,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "218c93c8e6a095d43134ce2076e69d906b11786df695b1df3fd269df3a33e143",
+              "bytes": 399407,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-020db66f9cda104240987e43a8f1024a21b8def760f91cbd71b95e0a40595b66-218c93c8e6a095d43134ce2076e69d906b11786df695b1df3fd269df3a33e143.json"
+            },
+            "bundle": {
+              "sha256": "d97098ce65598fcb33b2d9b11ea2a3582804f347be229fc88cbff104e45dec03",
+              "bytes": 36076072,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-020db66f9cda104240987e43a8f1024a21b8def760f91cbd71b95e0a40595b66-d97098ce65598fcb33b2d9b11ea2a3582804f347be229fc88cbff104e45dec03.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-020db66f9cda104240987e43a8f1024a21b8def760f91cbd71b95e0a40595b66-218c93c8e6a095d43134ce2076e69d906b11786df695b1df3fd269df3a33e143.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-020db66f9cda104240987e43a8f1024a21b8def760f91cbd71b95e0a40595b66-218c93c8e6a095d43134ce2076e69d906b11786df695b1df3fd269df3a33e143.json",
+              "sha256": "218c93c8e6a095d43134ce2076e69d906b11786df695b1df3fd269df3a33e143",
+              "bytes": 399407
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-020db66f9cda104240987e43a8f1024a21b8def760f91cbd71b95e0a40595b66-d97098ce65598fcb33b2d9b11ea2a3582804f347be229fc88cbff104e45dec03.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-020db66f9cda104240987e43a8f1024a21b8def760f91cbd71b95e0a40595b66-d97098ce65598fcb33b2d9b11ea2a3582804f347be229fc88cbff104e45dec03.tar.xz",
+              "sha256": "d97098ce65598fcb33b2d9b11ea2a3582804f347be229fc88cbff104e45dec03",
+              "bytes": 36076072
+            }
+          }
+        },
+        "0aedd240fd812af62d4cc90ae663a4791188cd75445563ad262b7f22816baac6": {
+          "package_id": "34.16-37101-1-7",
+          "revision": {
+            "source_sha256": "54f0908a8f77024da0ac7afde6b812bb360740d66460c714bb84fe7a96d22706",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": true,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "0aedd240fd812af62d4cc90ae663a4791188cd75445563ad262b7f22816baac6",
+              "bytes": 82130,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-54f0908a8f77024da0ac7afde6b812bb360740d66460c714bb84fe7a96d22706-0aedd240fd812af62d4cc90ae663a4791188cd75445563ad262b7f22816baac6.json"
+            },
+            "bundle": {
+              "sha256": "5a2c13116ca5546a1328a7bc7d9375c44e6bfc20f99541a1aa7f23810c4a1035",
+              "bytes": 5598796,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-54f0908a8f77024da0ac7afde6b812bb360740d66460c714bb84fe7a96d22706-5a2c13116ca5546a1328a7bc7d9375c44e6bfc20f99541a1aa7f23810c4a1035.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-54f0908a8f77024da0ac7afde6b812bb360740d66460c714bb84fe7a96d22706-0aedd240fd812af62d4cc90ae663a4791188cd75445563ad262b7f22816baac6.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-54f0908a8f77024da0ac7afde6b812bb360740d66460c714bb84fe7a96d22706-0aedd240fd812af62d4cc90ae663a4791188cd75445563ad262b7f22816baac6.json",
+              "sha256": "0aedd240fd812af62d4cc90ae663a4791188cd75445563ad262b7f22816baac6",
+              "bytes": 82130
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-54f0908a8f77024da0ac7afde6b812bb360740d66460c714bb84fe7a96d22706-5a2c13116ca5546a1328a7bc7d9375c44e6bfc20f99541a1aa7f23810c4a1035.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-54f0908a8f77024da0ac7afde6b812bb360740d66460c714bb84fe7a96d22706-5a2c13116ca5546a1328a7bc7d9375c44e6bfc20f99541a1aa7f23810c4a1035.tar.xz",
+              "sha256": "5a2c13116ca5546a1328a7bc7d9375c44e6bfc20f99541a1aa7f23810c4a1035",
+              "bytes": 5598796
+            }
+          }
+        },
+        "66e75bcb9da3f6fdafe36a5f14827a7f20aec7037b8fd194cc7dbe11ee80139a": {
+          "package_id": "34.16-37101-1-8",
+          "revision": {
+            "source_sha256": "3e1c827005dd4be569f86ac06212e2e523b2478491b7f06707fa80185a08482a",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": true,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "66e75bcb9da3f6fdafe36a5f14827a7f20aec7037b8fd194cc7dbe11ee80139a",
+              "bytes": 164301,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-3e1c827005dd4be569f86ac06212e2e523b2478491b7f06707fa80185a08482a-66e75bcb9da3f6fdafe36a5f14827a7f20aec7037b8fd194cc7dbe11ee80139a.json"
+            },
+            "bundle": {
+              "sha256": "fd747b27d1e6bddc6fea2805360666b8b58953d892726b3ce7b1c77ffed6d8e6",
+              "bytes": 14566016,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-3e1c827005dd4be569f86ac06212e2e523b2478491b7f06707fa80185a08482a-fd747b27d1e6bddc6fea2805360666b8b58953d892726b3ce7b1c77ffed6d8e6.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-3e1c827005dd4be569f86ac06212e2e523b2478491b7f06707fa80185a08482a-66e75bcb9da3f6fdafe36a5f14827a7f20aec7037b8fd194cc7dbe11ee80139a.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-3e1c827005dd4be569f86ac06212e2e523b2478491b7f06707fa80185a08482a-66e75bcb9da3f6fdafe36a5f14827a7f20aec7037b8fd194cc7dbe11ee80139a.json",
+              "sha256": "66e75bcb9da3f6fdafe36a5f14827a7f20aec7037b8fd194cc7dbe11ee80139a",
+              "bytes": 164301
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-3e1c827005dd4be569f86ac06212e2e523b2478491b7f06707fa80185a08482a-fd747b27d1e6bddc6fea2805360666b8b58953d892726b3ce7b1c77ffed6d8e6.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-3e1c827005dd4be569f86ac06212e2e523b2478491b7f06707fa80185a08482a-fd747b27d1e6bddc6fea2805360666b8b58953d892726b3ce7b1c77ffed6d8e6.tar.xz",
+              "sha256": "fd747b27d1e6bddc6fea2805360666b8b58953d892726b3ce7b1c77ffed6d8e6",
+              "bytes": 14566016
+            }
+          }
+        },
+        "04dac7b272ec67c465cc3e2978b0c2b95adbccc054bb40d8b3f6b4e330ee659c": {
+          "package_id": "34.16-37101-1-9",
+          "revision": {
+            "source_sha256": "fdfe94e01adbd823dcd9b59b327caef05896fc97be6f0a8835cdf7a70a28d5b7",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": true,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "04dac7b272ec67c465cc3e2978b0c2b95adbccc054bb40d8b3f6b4e330ee659c",
+              "bytes": 167653,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-fdfe94e01adbd823dcd9b59b327caef05896fc97be6f0a8835cdf7a70a28d5b7-04dac7b272ec67c465cc3e2978b0c2b95adbccc054bb40d8b3f6b4e330ee659c.json"
+            },
+            "bundle": {
+              "sha256": "705fae5442868ef44e405e9192fca3e0fcb61ef9d3ec369b27b6b9af916d6056",
+              "bytes": 15785956,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-fdfe94e01adbd823dcd9b59b327caef05896fc97be6f0a8835cdf7a70a28d5b7-705fae5442868ef44e405e9192fca3e0fcb61ef9d3ec369b27b6b9af916d6056.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-fdfe94e01adbd823dcd9b59b327caef05896fc97be6f0a8835cdf7a70a28d5b7-04dac7b272ec67c465cc3e2978b0c2b95adbccc054bb40d8b3f6b4e330ee659c.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-fdfe94e01adbd823dcd9b59b327caef05896fc97be6f0a8835cdf7a70a28d5b7-04dac7b272ec67c465cc3e2978b0c2b95adbccc054bb40d8b3f6b4e330ee659c.json",
+              "sha256": "04dac7b272ec67c465cc3e2978b0c2b95adbccc054bb40d8b3f6b4e330ee659c",
+              "bytes": 167653
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-fdfe94e01adbd823dcd9b59b327caef05896fc97be6f0a8835cdf7a70a28d5b7-705fae5442868ef44e405e9192fca3e0fcb61ef9d3ec369b27b6b9af916d6056.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-fdfe94e01adbd823dcd9b59b327caef05896fc97be6f0a8835cdf7a70a28d5b7-705fae5442868ef44e405e9192fca3e0fcb61ef9d3ec369b27b6b9af916d6056.tar.xz",
+              "sha256": "705fae5442868ef44e405e9192fca3e0fcb61ef9d3ec369b27b6b9af916d6056",
+              "bytes": 15785956
+            }
+          }
+        },
+        "83def6b4885b2e6b3a7d074fa27d9353596ef35d04e11f937bdb95d2156bf223": {
+          "package_id": "34.16-37101-1-12",
+          "revision": {
+            "source_sha256": "d4cc8d619e450c183d302610e12c7d2bd35dc3a56147b765cc2e17e98a313768",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": true,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "83def6b4885b2e6b3a7d074fa27d9353596ef35d04e11f937bdb95d2156bf223",
+              "bytes": 86245,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-d4cc8d619e450c183d302610e12c7d2bd35dc3a56147b765cc2e17e98a313768-83def6b4885b2e6b3a7d074fa27d9353596ef35d04e11f937bdb95d2156bf223.json"
+            },
+            "bundle": {
+              "sha256": "a370e6739043e4aa56037976811ed0d439d6503ae76b51deca01fa4fd43aee9f",
+              "bytes": 7531612,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-d4cc8d619e450c183d302610e12c7d2bd35dc3a56147b765cc2e17e98a313768-a370e6739043e4aa56037976811ed0d439d6503ae76b51deca01fa4fd43aee9f.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-d4cc8d619e450c183d302610e12c7d2bd35dc3a56147b765cc2e17e98a313768-83def6b4885b2e6b3a7d074fa27d9353596ef35d04e11f937bdb95d2156bf223.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-d4cc8d619e450c183d302610e12c7d2bd35dc3a56147b765cc2e17e98a313768-83def6b4885b2e6b3a7d074fa27d9353596ef35d04e11f937bdb95d2156bf223.json",
+              "sha256": "83def6b4885b2e6b3a7d074fa27d9353596ef35d04e11f937bdb95d2156bf223",
+              "bytes": 86245
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-d4cc8d619e450c183d302610e12c7d2bd35dc3a56147b765cc2e17e98a313768-a370e6739043e4aa56037976811ed0d439d6503ae76b51deca01fa4fd43aee9f.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-d4cc8d619e450c183d302610e12c7d2bd35dc3a56147b765cc2e17e98a313768-a370e6739043e4aa56037976811ed0d439d6503ae76b51deca01fa4fd43aee9f.tar.xz",
+              "sha256": "a370e6739043e4aa56037976811ed0d439d6503ae76b51deca01fa4fd43aee9f",
+              "bytes": 7531612
+            }
+          }
+        },
+        "b204acbf1c5c55c8bad11fb7d9c895f8892a874b00eda996e51d861c6db08133": {
+          "package_id": "34.16-37101-1-13",
+          "revision": {
+            "source_sha256": "4bdfdd788a11cc0844357fe6bd50b00071a15fd44b9d87f4ae52e666eb0f34a4",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": false,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "b204acbf1c5c55c8bad11fb7d9c895f8892a874b00eda996e51d861c6db08133",
+              "bytes": 8521,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-4bdfdd788a11cc0844357fe6bd50b00071a15fd44b9d87f4ae52e666eb0f34a4-b204acbf1c5c55c8bad11fb7d9c895f8892a874b00eda996e51d861c6db08133.json"
+            },
+            "bundle": {
+              "sha256": "417a9e4ed5ad084c288a6032b1adf91d366ac4921aa14971867160ad4f5f1691",
+              "bytes": 3297272,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-4bdfdd788a11cc0844357fe6bd50b00071a15fd44b9d87f4ae52e666eb0f34a4-417a9e4ed5ad084c288a6032b1adf91d366ac4921aa14971867160ad4f5f1691.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-4bdfdd788a11cc0844357fe6bd50b00071a15fd44b9d87f4ae52e666eb0f34a4-b204acbf1c5c55c8bad11fb7d9c895f8892a874b00eda996e51d861c6db08133.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-4bdfdd788a11cc0844357fe6bd50b00071a15fd44b9d87f4ae52e666eb0f34a4-b204acbf1c5c55c8bad11fb7d9c895f8892a874b00eda996e51d861c6db08133.json",
+              "sha256": "b204acbf1c5c55c8bad11fb7d9c895f8892a874b00eda996e51d861c6db08133",
+              "bytes": 8521
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-4bdfdd788a11cc0844357fe6bd50b00071a15fd44b9d87f4ae52e666eb0f34a4-417a9e4ed5ad084c288a6032b1adf91d366ac4921aa14971867160ad4f5f1691.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-4bdfdd788a11cc0844357fe6bd50b00071a15fd44b9d87f4ae52e666eb0f34a4-417a9e4ed5ad084c288a6032b1adf91d366ac4921aa14971867160ad4f5f1691.tar.xz",
+              "sha256": "417a9e4ed5ad084c288a6032b1adf91d366ac4921aa14971867160ad4f5f1691",
+              "bytes": 3297272
+            }
+          }
+        },
+        "087dbc0bfd6df266c495e95202df225b25568784708652365815d97cf58f9df1": {
+          "package_id": "34.16-37101-1-16",
+          "revision": {
+            "source_sha256": "84632e02bdce626bf10ae846839e90d66e510a627320fff8690c2bdb998733f2",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": true,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "087dbc0bfd6df266c495e95202df225b25568784708652365815d97cf58f9df1",
+              "bytes": 66095,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-84632e02bdce626bf10ae846839e90d66e510a627320fff8690c2bdb998733f2-087dbc0bfd6df266c495e95202df225b25568784708652365815d97cf58f9df1.json"
+            },
+            "bundle": {
+              "sha256": "022b1e8c97d8164332e5dbb58f0bd050cb9b3fd839ef615fc4cb5c022d0dac53",
+              "bytes": 8560628,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-84632e02bdce626bf10ae846839e90d66e510a627320fff8690c2bdb998733f2-022b1e8c97d8164332e5dbb58f0bd050cb9b3fd839ef615fc4cb5c022d0dac53.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-84632e02bdce626bf10ae846839e90d66e510a627320fff8690c2bdb998733f2-087dbc0bfd6df266c495e95202df225b25568784708652365815d97cf58f9df1.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-84632e02bdce626bf10ae846839e90d66e510a627320fff8690c2bdb998733f2-087dbc0bfd6df266c495e95202df225b25568784708652365815d97cf58f9df1.json",
+              "sha256": "087dbc0bfd6df266c495e95202df225b25568784708652365815d97cf58f9df1",
+              "bytes": 66095
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-84632e02bdce626bf10ae846839e90d66e510a627320fff8690c2bdb998733f2-022b1e8c97d8164332e5dbb58f0bd050cb9b3fd839ef615fc4cb5c022d0dac53.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-84632e02bdce626bf10ae846839e90d66e510a627320fff8690c2bdb998733f2-022b1e8c97d8164332e5dbb58f0bd050cb9b3fd839ef615fc4cb5c022d0dac53.tar.xz",
+              "sha256": "022b1e8c97d8164332e5dbb58f0bd050cb9b3fd839ef615fc4cb5c022d0dac53",
+              "bytes": 8560628
+            }
+          }
+        },
+        "ec5b4ee228f3ac04630f7b8884eff820794beb3ddb64c00bfe890af88ce73c22": {
+          "package_id": "34.16-37101-1-17",
+          "revision": {
+            "source_sha256": "ccbb884d22a6dccae2c7dcdf9ecacb6a9217a5439a5f9b74a10e2598eb719e42",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": true,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "ec5b4ee228f3ac04630f7b8884eff820794beb3ddb64c00bfe890af88ce73c22",
+              "bytes": 65239,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-ccbb884d22a6dccae2c7dcdf9ecacb6a9217a5439a5f9b74a10e2598eb719e42-ec5b4ee228f3ac04630f7b8884eff820794beb3ddb64c00bfe890af88ce73c22.json"
+            },
+            "bundle": {
+              "sha256": "b802b6ccd4737e2df905a02204064a8eb28e5e694cfa98f6dc25f99d39524ec9",
+              "bytes": 9095260,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-ccbb884d22a6dccae2c7dcdf9ecacb6a9217a5439a5f9b74a10e2598eb719e42-b802b6ccd4737e2df905a02204064a8eb28e5e694cfa98f6dc25f99d39524ec9.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-ccbb884d22a6dccae2c7dcdf9ecacb6a9217a5439a5f9b74a10e2598eb719e42-ec5b4ee228f3ac04630f7b8884eff820794beb3ddb64c00bfe890af88ce73c22.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-ccbb884d22a6dccae2c7dcdf9ecacb6a9217a5439a5f9b74a10e2598eb719e42-ec5b4ee228f3ac04630f7b8884eff820794beb3ddb64c00bfe890af88ce73c22.json",
+              "sha256": "ec5b4ee228f3ac04630f7b8884eff820794beb3ddb64c00bfe890af88ce73c22",
+              "bytes": 65239
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-ccbb884d22a6dccae2c7dcdf9ecacb6a9217a5439a5f9b74a10e2598eb719e42-b802b6ccd4737e2df905a02204064a8eb28e5e694cfa98f6dc25f99d39524ec9.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-ccbb884d22a6dccae2c7dcdf9ecacb6a9217a5439a5f9b74a10e2598eb719e42-b802b6ccd4737e2df905a02204064a8eb28e5e694cfa98f6dc25f99d39524ec9.tar.xz",
+              "sha256": "b802b6ccd4737e2df905a02204064a8eb28e5e694cfa98f6dc25f99d39524ec9",
+              "bytes": 9095260
+            }
+          }
+        },
+        "a07e7fd83770f01726d1a741ff0cce9f731c0b25cdce0a0b10200b46c8bb2b71": {
+          "package_id": "34.16-37101-1-20",
+          "revision": {
+            "source_sha256": "a43eafc4bf71ce13d8219f272226e9dc097ce7360d79003c23c483d954acde57",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": false,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "a07e7fd83770f01726d1a741ff0cce9f731c0b25cdce0a0b10200b46c8bb2b71",
+              "bytes": 8521,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-a43eafc4bf71ce13d8219f272226e9dc097ce7360d79003c23c483d954acde57-a07e7fd83770f01726d1a741ff0cce9f731c0b25cdce0a0b10200b46c8bb2b71.json"
+            },
+            "bundle": {
+              "sha256": "6139610a776e0c8cfe452fafc04d1dbd4bacd2419f18bf0cebb08222a7275750",
+              "bytes": 3296668,
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-a43eafc4bf71ce13d8219f272226e9dc097ce7360d79003c23c483d954acde57-6139610a776e0c8cfe452fafc04d1dbd4bacd2419f18bf0cebb08222a7275750.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-a43eafc4bf71ce13d8219f272226e9dc097ce7360d79003c23c483d954acde57-a07e7fd83770f01726d1a741ff0cce9f731c0b25cdce0a0b10200b46c8bb2b71.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-a43eafc4bf71ce13d8219f272226e9dc097ce7360d79003c23c483d954acde57-a07e7fd83770f01726d1a741ff0cce9f731c0b25cdce0a0b10200b46c8bb2b71.json",
+              "sha256": "a07e7fd83770f01726d1a741ff0cce9f731c0b25cdce0a0b10200b46c8bb2b71",
+              "bytes": 8521
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-34.16-37101",
+              "release_asset": "inventory-a43eafc4bf71ce13d8219f272226e9dc097ce7360d79003c23c483d954acde57-6139610a776e0c8cfe452fafc04d1dbd4bacd2419f18bf0cebb08222a7275750.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-34.16-37101/inventory-a43eafc4bf71ce13d8219f272226e9dc097ce7360d79003c23c483d954acde57-6139610a776e0c8cfe452fafc04d1dbd4bacd2419f18bf0cebb08222a7275750.tar.xz",
+              "sha256": "6139610a776e0c8cfe452fafc04d1dbd4bacd2419f18bf0cebb08222a7275750",
+              "bytes": 3296668
+            }
+          }
+        },
+        "bc25c60439294f6cfdbfc5d5b398932826ea67d5c9fd3cc4e6d971781d9be7ac": {
+          "package_id": "36.4-43070-1-6",
+          "revision": {
+            "source_sha256": "be255937688de91d654aed06171ba4ad35b06df5020b9e26002e31e7c816992e",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": true,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "bc25c60439294f6cfdbfc5d5b398932826ea67d5c9fd3cc4e6d971781d9be7ac",
+              "bytes": 397655,
+              "release_tag": "firmware-36.4-43070",
+              "release_asset": "inventory-be255937688de91d654aed06171ba4ad35b06df5020b9e26002e31e7c816992e-bc25c60439294f6cfdbfc5d5b398932826ea67d5c9fd3cc4e6d971781d9be7ac.json"
+            },
+            "bundle": {
+              "sha256": "a0fe827eb94d2d2dc4a3ffdade16c1d298c8f6fa8c192ef8975a16a2b2c82358",
+              "bytes": 38174268,
+              "release_tag": "firmware-36.4-43070",
+              "release_asset": "inventory-be255937688de91d654aed06171ba4ad35b06df5020b9e26002e31e7c816992e-a0fe827eb94d2d2dc4a3ffdade16c1d298c8f6fa8c192ef8975a16a2b2c82358.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-36.4-43070",
+              "release_asset": "inventory-be255937688de91d654aed06171ba4ad35b06df5020b9e26002e31e7c816992e-bc25c60439294f6cfdbfc5d5b398932826ea67d5c9fd3cc4e6d971781d9be7ac.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-36.4-43070/inventory-be255937688de91d654aed06171ba4ad35b06df5020b9e26002e31e7c816992e-bc25c60439294f6cfdbfc5d5b398932826ea67d5c9fd3cc4e6d971781d9be7ac.json",
+              "sha256": "bc25c60439294f6cfdbfc5d5b398932826ea67d5c9fd3cc4e6d971781d9be7ac",
+              "bytes": 397655
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-36.4-43070",
+              "release_asset": "inventory-be255937688de91d654aed06171ba4ad35b06df5020b9e26002e31e7c816992e-a0fe827eb94d2d2dc4a3ffdade16c1d298c8f6fa8c192ef8975a16a2b2c82358.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-36.4-43070/inventory-be255937688de91d654aed06171ba4ad35b06df5020b9e26002e31e7c816992e-a0fe827eb94d2d2dc4a3ffdade16c1d298c8f6fa8c192ef8975a16a2b2c82358.tar.xz",
+              "sha256": "a0fe827eb94d2d2dc4a3ffdade16c1d298c8f6fa8c192ef8975a16a2b2c82358",
+              "bytes": 38174268
+            }
+          }
+        },
+        "e22c57a7b4ed5ae1466a77084ac0addd6a8f11b89f0012adbdf9e14de5a87d59": {
+          "package_id": "36.4-77130-1-6",
+          "revision": {
+            "source_sha256": "6c37829cf0cd5aa07cdea6d9cea329fe5d5d63ca44df4d4be207c66e7cdddc95",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": true,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "e22c57a7b4ed5ae1466a77084ac0addd6a8f11b89f0012adbdf9e14de5a87d59",
+              "bytes": 397656,
+              "release_tag": "firmware-36.4-77130",
+              "release_asset": "inventory-6c37829cf0cd5aa07cdea6d9cea329fe5d5d63ca44df4d4be207c66e7cdddc95-e22c57a7b4ed5ae1466a77084ac0addd6a8f11b89f0012adbdf9e14de5a87d59.json"
+            },
+            "bundle": {
+              "sha256": "3df345feaf765f2f9f30ebc14d7cb096b9561f6892a7fcf22fe0d5249dfff907",
+              "bytes": 38178096,
+              "release_tag": "firmware-36.4-77130",
+              "release_asset": "inventory-6c37829cf0cd5aa07cdea6d9cea329fe5d5d63ca44df4d4be207c66e7cdddc95-3df345feaf765f2f9f30ebc14d7cb096b9561f6892a7fcf22fe0d5249dfff907.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-36.4-77130",
+              "release_asset": "inventory-6c37829cf0cd5aa07cdea6d9cea329fe5d5d63ca44df4d4be207c66e7cdddc95-e22c57a7b4ed5ae1466a77084ac0addd6a8f11b89f0012adbdf9e14de5a87d59.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-36.4-77130/inventory-6c37829cf0cd5aa07cdea6d9cea329fe5d5d63ca44df4d4be207c66e7cdddc95-e22c57a7b4ed5ae1466a77084ac0addd6a8f11b89f0012adbdf9e14de5a87d59.json",
+              "sha256": "e22c57a7b4ed5ae1466a77084ac0addd6a8f11b89f0012adbdf9e14de5a87d59",
+              "bytes": 397656
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-36.4-77130",
+              "release_asset": "inventory-6c37829cf0cd5aa07cdea6d9cea329fe5d5d63ca44df4d4be207c66e7cdddc95-3df345feaf765f2f9f30ebc14d7cb096b9561f6892a7fcf22fe0d5249dfff907.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-36.4-77130/inventory-6c37829cf0cd5aa07cdea6d9cea329fe5d5d63ca44df4d4be207c66e7cdddc95-3df345feaf765f2f9f30ebc14d7cb096b9561f6892a7fcf22fe0d5249dfff907.tar.xz",
+              "sha256": "3df345feaf765f2f9f30ebc14d7cb096b9561f6892a7fcf22fe0d5249dfff907",
+              "bytes": 38178096
+            }
+          }
+        },
+        "54e4712f3eaec8f90c93385be51eb5d456f1d83ddebc811e384a7ae30b84cdd8": {
+          "package_id": "36.5-50160-1-6",
+          "revision": {
+            "source_sha256": "36037a5f4309a165a8020ae36412b1fc5900aeb14eb60e8108352c0db6d40df6",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": true,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "54e4712f3eaec8f90c93385be51eb5d456f1d83ddebc811e384a7ae30b84cdd8",
+              "bytes": 397656,
+              "release_tag": "firmware-36.5-50160",
+              "release_asset": "inventory-36037a5f4309a165a8020ae36412b1fc5900aeb14eb60e8108352c0db6d40df6-54e4712f3eaec8f90c93385be51eb5d456f1d83ddebc811e384a7ae30b84cdd8.json"
+            },
+            "bundle": {
+              "sha256": "6b7a32c40f785003b1e783ff3e147dc2f7fb2e62d6400e8cd5a1918555462c8d",
+              "bytes": 38178844,
+              "release_tag": "firmware-36.5-50160",
+              "release_asset": "inventory-36037a5f4309a165a8020ae36412b1fc5900aeb14eb60e8108352c0db6d40df6-6b7a32c40f785003b1e783ff3e147dc2f7fb2e62d6400e8cd5a1918555462c8d.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-36.5-50160",
+              "release_asset": "inventory-36037a5f4309a165a8020ae36412b1fc5900aeb14eb60e8108352c0db6d40df6-54e4712f3eaec8f90c93385be51eb5d456f1d83ddebc811e384a7ae30b84cdd8.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-36.5-50160/inventory-36037a5f4309a165a8020ae36412b1fc5900aeb14eb60e8108352c0db6d40df6-54e4712f3eaec8f90c93385be51eb5d456f1d83ddebc811e384a7ae30b84cdd8.json",
+              "sha256": "54e4712f3eaec8f90c93385be51eb5d456f1d83ddebc811e384a7ae30b84cdd8",
+              "bytes": 397656
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-36.5-50160",
+              "release_asset": "inventory-36037a5f4309a165a8020ae36412b1fc5900aeb14eb60e8108352c0db6d40df6-6b7a32c40f785003b1e783ff3e147dc2f7fb2e62d6400e8cd5a1918555462c8d.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-36.5-50160/inventory-36037a5f4309a165a8020ae36412b1fc5900aeb14eb60e8108352c0db6d40df6-6b7a32c40f785003b1e783ff3e147dc2f7fb2e62d6400e8cd5a1918555462c8d.tar.xz",
+              "sha256": "6b7a32c40f785003b1e783ff3e147dc2f7fb2e62d6400e8cd5a1918555462c8d",
+              "bytes": 38178844
+            }
+          }
+        },
+        "db9f0fc353551ae2b3bc347d0c3d31a5a4644126c696bca62ac72db033953b4b": {
+          "package_id": "45.1-56150-1-7",
+          "revision": {
+            "source_sha256": "c8e5094c23c089e69c07522352cac5ae090107cd0624291f09a7a6aad8b9e875",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": true,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "db9f0fc353551ae2b3bc347d0c3d31a5a4644126c696bca62ac72db033953b4b",
+              "bytes": 81522,
+              "release_tag": "firmware-45.1-56150",
+              "release_asset": "inventory-c8e5094c23c089e69c07522352cac5ae090107cd0624291f09a7a6aad8b9e875-db9f0fc353551ae2b3bc347d0c3d31a5a4644126c696bca62ac72db033953b4b.json"
+            },
+            "bundle": {
+              "sha256": "1e163d383ed693f53c84c833cb4a363143c62e2af18786d096ef066ae99923fd",
+              "bytes": 5882012,
+              "release_tag": "firmware-45.1-56150",
+              "release_asset": "inventory-c8e5094c23c089e69c07522352cac5ae090107cd0624291f09a7a6aad8b9e875-1e163d383ed693f53c84c833cb4a363143c62e2af18786d096ef066ae99923fd.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-45.1-56150",
+              "release_asset": "inventory-c8e5094c23c089e69c07522352cac5ae090107cd0624291f09a7a6aad8b9e875-db9f0fc353551ae2b3bc347d0c3d31a5a4644126c696bca62ac72db033953b4b.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-45.1-56150/inventory-c8e5094c23c089e69c07522352cac5ae090107cd0624291f09a7a6aad8b9e875-db9f0fc353551ae2b3bc347d0c3d31a5a4644126c696bca62ac72db033953b4b.json",
+              "sha256": "db9f0fc353551ae2b3bc347d0c3d31a5a4644126c696bca62ac72db033953b4b",
+              "bytes": 81522
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-45.1-56150",
+              "release_asset": "inventory-c8e5094c23c089e69c07522352cac5ae090107cd0624291f09a7a6aad8b9e875-1e163d383ed693f53c84c833cb4a363143c62e2af18786d096ef066ae99923fd.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-45.1-56150/inventory-c8e5094c23c089e69c07522352cac5ae090107cd0624291f09a7a6aad8b9e875-1e163d383ed693f53c84c833cb4a363143c62e2af18786d096ef066ae99923fd.tar.xz",
+              "sha256": "1e163d383ed693f53c84c833cb4a363143c62e2af18786d096ef066ae99923fd",
+              "bytes": 5882012
+            }
+          }
+        },
+        "f4bc14b4afa3825b3c365fe7b88fd686f88c3dd1d8fd5f1b38d7d7647094de71": {
+          "package_id": "55.1-74250-1-17",
+          "revision": {
+            "source_sha256": "d9e593b1535dcf12e63bf816c78a476953a1c24004c0f9076dd0f7ec4b1c0975",
+            "ready_recipients": [
+              "f2acc70d8db3ee388c534d99d4bff64d9dab8154"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": true,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "f4bc14b4afa3825b3c365fe7b88fd686f88c3dd1d8fd5f1b38d7d7647094de71",
+              "bytes": 55101,
+              "release_tag": "firmware-55.1-74250",
+              "release_asset": "inventory-d9e593b1535dcf12e63bf816c78a476953a1c24004c0f9076dd0f7ec4b1c0975-f4bc14b4afa3825b3c365fe7b88fd686f88c3dd1d8fd5f1b38d7d7647094de71.json"
+            },
+            "bundle": {
+              "sha256": "d857c191e085d085f4ecc3639137e240be312ed0767ceb4c6f3bff9b140ad488",
+              "bytes": 10022992,
+              "release_tag": "firmware-55.1-74250",
+              "release_asset": "inventory-d9e593b1535dcf12e63bf816c78a476953a1c24004c0f9076dd0f7ec4b1c0975-d857c191e085d085f4ecc3639137e240be312ed0767ceb4c6f3bff9b140ad488.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-55.1-74250",
+              "release_asset": "inventory-d9e593b1535dcf12e63bf816c78a476953a1c24004c0f9076dd0f7ec4b1c0975-f4bc14b4afa3825b3c365fe7b88fd686f88c3dd1d8fd5f1b38d7d7647094de71.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-55.1-74250/inventory-d9e593b1535dcf12e63bf816c78a476953a1c24004c0f9076dd0f7ec4b1c0975-f4bc14b4afa3825b3c365fe7b88fd686f88c3dd1d8fd5f1b38d7d7647094de71.json",
+              "sha256": "f4bc14b4afa3825b3c365fe7b88fd686f88c3dd1d8fd5f1b38d7d7647094de71",
+              "bytes": 55101
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-55.1-74250",
+              "release_asset": "inventory-d9e593b1535dcf12e63bf816c78a476953a1c24004c0f9076dd0f7ec4b1c0975-d857c191e085d085f4ecc3639137e240be312ed0767ceb4c6f3bff9b140ad488.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-55.1-74250/inventory-d9e593b1535dcf12e63bf816c78a476953a1c24004c0f9076dd0f7ec4b1c0975-d857c191e085d085f4ecc3639137e240be312ed0767ceb4c6f3bff9b140ad488.tar.xz",
+              "sha256": "d857c191e085d085f4ecc3639137e240be312ed0767ceb4c6f3bff9b140ad488",
+              "bytes": 10022992
+            }
+          }
+        },
+        "6aa6249438ee5bdc1f0986a773e550f87964782bde9d8ad24020118f863ed5b6": {
+          "package_id": "57.19-46310-1-8",
+          "revision": {
+            "source_sha256": "753d2b117fb28a55baa0b17f632aa4d3ec75baf03137eab0730c451b0bf4b314",
+            "ready_recipients": [
+              "346ce6e38225ca8177024fbebfaad7043344b3bd"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": true,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "6aa6249438ee5bdc1f0986a773e550f87964782bde9d8ad24020118f863ed5b6",
+              "bytes": 156957,
+              "release_tag": "firmware-57.19-46310",
+              "release_asset": "inventory-753d2b117fb28a55baa0b17f632aa4d3ec75baf03137eab0730c451b0bf4b314-6aa6249438ee5bdc1f0986a773e550f87964782bde9d8ad24020118f863ed5b6.json"
+            },
+            "bundle": {
+              "sha256": "e6b68d25cbecdf228c8c23adba256fbac6ef475b99c004f5a08ab46cd8c084c5",
+              "bytes": 15378056,
+              "release_tag": "firmware-57.19-46310",
+              "release_asset": "inventory-753d2b117fb28a55baa0b17f632aa4d3ec75baf03137eab0730c451b0bf4b314-e6b68d25cbecdf228c8c23adba256fbac6ef475b99c004f5a08ab46cd8c084c5.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-57.19-46310",
+              "release_asset": "inventory-753d2b117fb28a55baa0b17f632aa4d3ec75baf03137eab0730c451b0bf4b314-6aa6249438ee5bdc1f0986a773e550f87964782bde9d8ad24020118f863ed5b6.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-57.19-46310/inventory-753d2b117fb28a55baa0b17f632aa4d3ec75baf03137eab0730c451b0bf4b314-6aa6249438ee5bdc1f0986a773e550f87964782bde9d8ad24020118f863ed5b6.json",
+              "sha256": "6aa6249438ee5bdc1f0986a773e550f87964782bde9d8ad24020118f863ed5b6",
+              "bytes": 156957
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-57.19-46310",
+              "release_asset": "inventory-753d2b117fb28a55baa0b17f632aa4d3ec75baf03137eab0730c451b0bf4b314-e6b68d25cbecdf228c8c23adba256fbac6ef475b99c004f5a08ab46cd8c084c5.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-57.19-46310/inventory-753d2b117fb28a55baa0b17f632aa4d3ec75baf03137eab0730c451b0bf4b314-e6b68d25cbecdf228c8c23adba256fbac6ef475b99c004f5a08ab46cd8c084c5.tar.xz",
+              "sha256": "e6b68d25cbecdf228c8c23adba256fbac6ef475b99c004f5a08ab46cd8c084c5",
+              "bytes": 15378056
+            }
+          }
+        },
+        "6daf56edae6944abb94957232da7a5897c20cfa4a45c9a34826bebd3c92dce9d": {
+          "package_id": "57.19-46310-1-12",
+          "revision": {
+            "source_sha256": "13a4c016c2bf8a77c99dd0fbc8b36fbd049210a5fa525681954a859bf7c37eed",
+            "ready_recipients": [
+              "e35f7c21c0ec00a768bfbd364a9a105cf300f023"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": true,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "6daf56edae6944abb94957232da7a5897c20cfa4a45c9a34826bebd3c92dce9d",
+              "bytes": 79167,
+              "release_tag": "firmware-57.19-46310",
+              "release_asset": "inventory-13a4c016c2bf8a77c99dd0fbc8b36fbd049210a5fa525681954a859bf7c37eed-6daf56edae6944abb94957232da7a5897c20cfa4a45c9a34826bebd3c92dce9d.json"
+            },
+            "bundle": {
+              "sha256": "09e013fb9999c4a4e4a3ab68f40360c7e160c27b8c18b2c28600408eb42a57b3",
+              "bytes": 8201084,
+              "release_tag": "firmware-57.19-46310",
+              "release_asset": "inventory-13a4c016c2bf8a77c99dd0fbc8b36fbd049210a5fa525681954a859bf7c37eed-09e013fb9999c4a4e4a3ab68f40360c7e160c27b8c18b2c28600408eb42a57b3.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-57.19-46310",
+              "release_asset": "inventory-13a4c016c2bf8a77c99dd0fbc8b36fbd049210a5fa525681954a859bf7c37eed-6daf56edae6944abb94957232da7a5897c20cfa4a45c9a34826bebd3c92dce9d.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-57.19-46310/inventory-13a4c016c2bf8a77c99dd0fbc8b36fbd049210a5fa525681954a859bf7c37eed-6daf56edae6944abb94957232da7a5897c20cfa4a45c9a34826bebd3c92dce9d.json",
+              "sha256": "6daf56edae6944abb94957232da7a5897c20cfa4a45c9a34826bebd3c92dce9d",
+              "bytes": 79167
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-57.19-46310",
+              "release_asset": "inventory-13a4c016c2bf8a77c99dd0fbc8b36fbd049210a5fa525681954a859bf7c37eed-09e013fb9999c4a4e4a3ab68f40360c7e160c27b8c18b2c28600408eb42a57b3.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-57.19-46310/inventory-13a4c016c2bf8a77c99dd0fbc8b36fbd049210a5fa525681954a859bf7c37eed-09e013fb9999c4a4e4a3ab68f40360c7e160c27b8c18b2c28600408eb42a57b3.tar.xz",
+              "sha256": "09e013fb9999c4a4e4a3ab68f40360c7e160c27b8c18b2c28600408eb42a57b3",
+              "bytes": 8201084
+            }
+          }
+        },
+        "208e87ca7a828a83d013a3dceb72586f48a0a2a42af54385fd634d22c82cfaf6": {
+          "package_id": "57.19-46310-1-17",
+          "revision": {
+            "source_sha256": "2d7bfe64d6a0bda015600fbd537e55b5ccab543e07445173b4952e3fa809fd45",
+            "ready_recipients": [
+              "f2acc70d8db3ee388c534d99d4bff64d9dab8154"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": true,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "208e87ca7a828a83d013a3dceb72586f48a0a2a42af54385fd634d22c82cfaf6",
+              "bytes": 57522,
+              "release_tag": "firmware-57.19-46310",
+              "release_asset": "inventory-2d7bfe64d6a0bda015600fbd537e55b5ccab543e07445173b4952e3fa809fd45-208e87ca7a828a83d013a3dceb72586f48a0a2a42af54385fd634d22c82cfaf6.json"
+            },
+            "bundle": {
+              "sha256": "08b81d4252e01a30020c36df6212d2771834e14d6f7c80190a2e9330588fdef7",
+              "bytes": 10201672,
+              "release_tag": "firmware-57.19-46310",
+              "release_asset": "inventory-2d7bfe64d6a0bda015600fbd537e55b5ccab543e07445173b4952e3fa809fd45-08b81d4252e01a30020c36df6212d2771834e14d6f7c80190a2e9330588fdef7.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-57.19-46310",
+              "release_asset": "inventory-2d7bfe64d6a0bda015600fbd537e55b5ccab543e07445173b4952e3fa809fd45-208e87ca7a828a83d013a3dceb72586f48a0a2a42af54385fd634d22c82cfaf6.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-57.19-46310/inventory-2d7bfe64d6a0bda015600fbd537e55b5ccab543e07445173b4952e3fa809fd45-208e87ca7a828a83d013a3dceb72586f48a0a2a42af54385fd634d22c82cfaf6.json",
+              "sha256": "208e87ca7a828a83d013a3dceb72586f48a0a2a42af54385fd634d22c82cfaf6",
+              "bytes": 57522
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-57.19-46310",
+              "release_asset": "inventory-2d7bfe64d6a0bda015600fbd537e55b5ccab543e07445173b4952e3fa809fd45-08b81d4252e01a30020c36df6212d2771834e14d6f7c80190a2e9330588fdef7.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-57.19-46310/inventory-2d7bfe64d6a0bda015600fbd537e55b5ccab543e07445173b4952e3fa809fd45-08b81d4252e01a30020c36df6212d2771834e14d6f7c80190a2e9330588fdef7.tar.xz",
+              "sha256": "08b81d4252e01a30020c36df6212d2771834e14d6f7c80190a2e9330588fdef7",
+              "bytes": 10201672
+            }
+          }
+        },
+        "4645d2af8705b7e2f710e2129c6af799f4a5fee1352ac24ae8bb3c19d16996b1": {
+          "package_id": "57.22-63071-1-1",
+          "revision": {
+            "source_sha256": "e058475034797d859e6ab71f783feb885aa9fa929748ebe1dc292b59416e2035",
+            "ready_recipients": [
+              "21e7b8c8199c8d6442d2a0a7a4e776c4efd4319c"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": true,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "4645d2af8705b7e2f710e2129c6af799f4a5fee1352ac24ae8bb3c19d16996b1",
+              "bytes": 57048,
+              "release_tag": "firmware-57.22-63071",
+              "release_asset": "inventory-e058475034797d859e6ab71f783feb885aa9fa929748ebe1dc292b59416e2035-4645d2af8705b7e2f710e2129c6af799f4a5fee1352ac24ae8bb3c19d16996b1.json"
+            },
+            "bundle": {
+              "sha256": "4cbb8f890b1f0e73a29732890925a19d1d10281f164a73cf32981eb54d6275d8",
+              "bytes": 10402376,
+              "release_tag": "firmware-57.22-63071",
+              "release_asset": "inventory-e058475034797d859e6ab71f783feb885aa9fa929748ebe1dc292b59416e2035-4cbb8f890b1f0e73a29732890925a19d1d10281f164a73cf32981eb54d6275d8.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-57.22-63071",
+              "release_asset": "inventory-e058475034797d859e6ab71f783feb885aa9fa929748ebe1dc292b59416e2035-4645d2af8705b7e2f710e2129c6af799f4a5fee1352ac24ae8bb3c19d16996b1.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-57.22-63071/inventory-e058475034797d859e6ab71f783feb885aa9fa929748ebe1dc292b59416e2035-4645d2af8705b7e2f710e2129c6af799f4a5fee1352ac24ae8bb3c19d16996b1.json",
+              "sha256": "4645d2af8705b7e2f710e2129c6af799f4a5fee1352ac24ae8bb3c19d16996b1",
+              "bytes": 57048
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-57.22-63071",
+              "release_asset": "inventory-e058475034797d859e6ab71f783feb885aa9fa929748ebe1dc292b59416e2035-4cbb8f890b1f0e73a29732890925a19d1d10281f164a73cf32981eb54d6275d8.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-57.22-63071/inventory-e058475034797d859e6ab71f783feb885aa9fa929748ebe1dc292b59416e2035-4cbb8f890b1f0e73a29732890925a19d1d10281f164a73cf32981eb54d6275d8.tar.xz",
+              "sha256": "4cbb8f890b1f0e73a29732890925a19d1d10281f164a73cf32981eb54d6275d8",
+              "bytes": 10402376
+            }
+          }
+        },
+        "0001d9df64c25201a0fdceff7116d691d7e35a985f11ec04506176006b767cd0": {
+          "package_id": "57.22-63071-1-5",
+          "revision": {
+            "source_sha256": "4d0b1a4706666d5bcd400ed4488cd616ca0fc3180c15f8ae67da26cf6a38cc88",
+            "ready_recipients": [],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": false,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "0001d9df64c25201a0fdceff7116d691d7e35a985f11ec04506176006b767cd0",
+              "bytes": 8284,
+              "release_tag": "firmware-57.22-63071",
+              "release_asset": "inventory-4d0b1a4706666d5bcd400ed4488cd616ca0fc3180c15f8ae67da26cf6a38cc88-0001d9df64c25201a0fdceff7116d691d7e35a985f11ec04506176006b767cd0.json"
+            },
+            "bundle": {
+              "sha256": "dbdde6f8d1d772f95321320dfa1235016954adc29c1b708b7d0ee09e246ea4a7",
+              "bytes": 109316,
+              "release_tag": "firmware-57.22-63071",
+              "release_asset": "inventory-4d0b1a4706666d5bcd400ed4488cd616ca0fc3180c15f8ae67da26cf6a38cc88-dbdde6f8d1d772f95321320dfa1235016954adc29c1b708b7d0ee09e246ea4a7.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-57.22-63071",
+              "release_asset": "inventory-4d0b1a4706666d5bcd400ed4488cd616ca0fc3180c15f8ae67da26cf6a38cc88-0001d9df64c25201a0fdceff7116d691d7e35a985f11ec04506176006b767cd0.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-57.22-63071/inventory-4d0b1a4706666d5bcd400ed4488cd616ca0fc3180c15f8ae67da26cf6a38cc88-0001d9df64c25201a0fdceff7116d691d7e35a985f11ec04506176006b767cd0.json",
+              "sha256": "0001d9df64c25201a0fdceff7116d691d7e35a985f11ec04506176006b767cd0",
+              "bytes": 8284
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-57.22-63071",
+              "release_asset": "inventory-4d0b1a4706666d5bcd400ed4488cd616ca0fc3180c15f8ae67da26cf6a38cc88-dbdde6f8d1d772f95321320dfa1235016954adc29c1b708b7d0ee09e246ea4a7.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-57.22-63071/inventory-4d0b1a4706666d5bcd400ed4488cd616ca0fc3180c15f8ae67da26cf6a38cc88-dbdde6f8d1d772f95321320dfa1235016954adc29c1b708b7d0ee09e246ea4a7.tar.xz",
+              "sha256": "dbdde6f8d1d772f95321320dfa1235016954adc29c1b708b7d0ee09e246ea4a7",
+              "bytes": 109316
+            }
+          }
+        },
+        "d44441a3e6d1ff299dba29ebfea8ff48fd557e9c06ece199967a6d110c53804b": {
+          "package_id": "57.22-63071-1-8",
+          "revision": {
+            "source_sha256": "0130c9bf685a5df0a481b4e3d96a01ac82008119923e5f72c5eb45568bcf21c1",
+            "ready_recipients": [
+              "346ce6e38225ca8177024fbebfaad7043344b3bd"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": true,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "d44441a3e6d1ff299dba29ebfea8ff48fd557e9c06ece199967a6d110c53804b",
+              "bytes": 156959,
+              "release_tag": "firmware-57.22-63071",
+              "release_asset": "inventory-0130c9bf685a5df0a481b4e3d96a01ac82008119923e5f72c5eb45568bcf21c1-d44441a3e6d1ff299dba29ebfea8ff48fd557e9c06ece199967a6d110c53804b.json"
+            },
+            "bundle": {
+              "sha256": "ea955fcf41ecf73132cbf2702b73f79a19d75755b6d93ec83cbc47f747ce6571",
+              "bytes": 15375460,
+              "release_tag": "firmware-57.22-63071",
+              "release_asset": "inventory-0130c9bf685a5df0a481b4e3d96a01ac82008119923e5f72c5eb45568bcf21c1-ea955fcf41ecf73132cbf2702b73f79a19d75755b6d93ec83cbc47f747ce6571.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-57.22-63071",
+              "release_asset": "inventory-0130c9bf685a5df0a481b4e3d96a01ac82008119923e5f72c5eb45568bcf21c1-d44441a3e6d1ff299dba29ebfea8ff48fd557e9c06ece199967a6d110c53804b.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-57.22-63071/inventory-0130c9bf685a5df0a481b4e3d96a01ac82008119923e5f72c5eb45568bcf21c1-d44441a3e6d1ff299dba29ebfea8ff48fd557e9c06ece199967a6d110c53804b.json",
+              "sha256": "d44441a3e6d1ff299dba29ebfea8ff48fd557e9c06ece199967a6d110c53804b",
+              "bytes": 156959
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-57.22-63071",
+              "release_asset": "inventory-0130c9bf685a5df0a481b4e3d96a01ac82008119923e5f72c5eb45568bcf21c1-ea955fcf41ecf73132cbf2702b73f79a19d75755b6d93ec83cbc47f747ce6571.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-57.22-63071/inventory-0130c9bf685a5df0a481b4e3d96a01ac82008119923e5f72c5eb45568bcf21c1-ea955fcf41ecf73132cbf2702b73f79a19d75755b6d93ec83cbc47f747ce6571.tar.xz",
+              "sha256": "ea955fcf41ecf73132cbf2702b73f79a19d75755b6d93ec83cbc47f747ce6571",
+              "bytes": 15375460
+            }
+          }
+        },
+        "54e9c9dd7c08d98f2113340d9cfaef575a81a4907d083a6fcd15813388d347c1": {
+          "package_id": "57.22-63071-1-9",
+          "revision": {
+            "source_sha256": "f9bc06e6c4582f5883c3b3c8b9939af60ad58b81fc49d1e932854076eca6c810",
+            "ready_recipients": [
+              "12e82a182af27801eba0ff3c94e8e649ed962dbb"
+            ],
+            "decoder_revision": "ae4c4d97e29f5d2363b13802b650876112a035c89ae0da5a5f5879a301c8bd17",
+            "limits": {
+              "expanded_bytes": 536870912,
+              "files": 100000,
+              "depth": 64,
+              "decoder_seconds": 300
+            }
+          },
+          "complete": true,
+          "analysis_errors": [],
+          "assets": {
+            "manifest": {
+              "sha256": "54e9c9dd7c08d98f2113340d9cfaef575a81a4907d083a6fcd15813388d347c1",
+              "bytes": 159719,
+              "release_tag": "firmware-57.22-63071",
+              "release_asset": "inventory-f9bc06e6c4582f5883c3b3c8b9939af60ad58b81fc49d1e932854076eca6c810-54e9c9dd7c08d98f2113340d9cfaef575a81a4907d083a6fcd15813388d347c1.json"
+            },
+            "bundle": {
+              "sha256": "7fed564e6d3caf1ec927409ad342f412db13f1255163fb281755201e48ad22c4",
+              "bytes": 17269468,
+              "release_tag": "firmware-57.22-63071",
+              "release_asset": "inventory-f9bc06e6c4582f5883c3b3c8b9939af60ad58b81fc49d1e932854076eca6c810-7fed564e6d3caf1ec927409ad342f412db13f1255163fb281755201e48ad22c4.tar.xz"
+            }
+          },
+          "status": "published",
+          "publications": {
+            "manifest": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-57.22-63071",
+              "release_asset": "inventory-f9bc06e6c4582f5883c3b3c8b9939af60ad58b81fc49d1e932854076eca6c810-54e9c9dd7c08d98f2113340d9cfaef575a81a4907d083a6fcd15813388d347c1.json",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-57.22-63071/inventory-f9bc06e6c4582f5883c3b3c8b9939af60ad58b81fc49d1e932854076eca6c810-54e9c9dd7c08d98f2113340d9cfaef575a81a4907d083a6fcd15813388d347c1.json",
+              "sha256": "54e9c9dd7c08d98f2113340d9cfaef575a81a4907d083a6fcd15813388d347c1",
+              "bytes": 159719
+            },
+            "bundle": {
+              "status": "verified",
+              "repository": "BookCatKid/sonos-archive-bootstrap-validation",
+              "release_tag": "firmware-57.22-63071",
+              "release_asset": "inventory-f9bc06e6c4582f5883c3b3c8b9939af60ad58b81fc49d1e932854076eca6c810-7fed564e6d3caf1ec927409ad342f412db13f1255163fb281755201e48ad22c4.tar.xz",
+              "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/firmware-57.22-63071/inventory-f9bc06e6c4582f5883c3b3c8b9939af60ad58b81fc49d1e932854076eca6c810-7fed564e6d3caf1ec927409ad342f412db13f1255163fb281755201e48ad22c4.tar.xz",
+              "sha256": "7fed564e6d3caf1ec927409ad342f412db13f1255163fb281755201e48ad22c4",
+              "bytes": 17269468
+            }
+          }
         }
       },
       "retry_rotation": {
         "publication": {}
-      }
+      },
+      "queue_sequence": 106
     }
   }
 }

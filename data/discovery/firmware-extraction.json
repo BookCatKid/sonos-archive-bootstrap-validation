@@ -1103,6 +1103,330 @@
           "ready_recipients": [],
           "policy": "all-sections"
         }
+      },
+      "57.22-63071-1-9": {
+        "checked_at": "2026-11-18T05:08:57.187681+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T06:08:57.187681+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "f9bc06e6c4582f5883c3b3c8b9939af60ad58b81fc49d1e932854076eca6c810",
+          "recipient": "12e82a182af27801eba0ff3c94e8e649ed962dbb",
+          "key_available": true,
+          "ready_recipients": [
+            "12e82a182af27801eba0ff3c94e8e649ed962dbb"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-63071-1-1": {
+        "checked_at": "2026-11-18T05:08:57.948900+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T06:08:57.948900+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "e058475034797d859e6ab71f783feb885aa9fa929748ebe1dc292b59416e2035",
+          "recipient": "21e7b8c8199c8d6442d2a0a7a4e776c4efd4319c",
+          "key_available": true,
+          "ready_recipients": [
+            "21e7b8c8199c8d6442d2a0a7a4e776c4efd4319c"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-63071-1-8": {
+        "checked_at": "2026-11-18T05:08:58.818230+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T06:08:58.818230+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "0130c9bf685a5df0a481b4e3d96a01ac82008119923e5f72c5eb45568bcf21c1",
+          "recipient": "346ce6e38225ca8177024fbebfaad7043344b3bd",
+          "key_available": true,
+          "ready_recipients": [
+            "346ce6e38225ca8177024fbebfaad7043344b3bd"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-63071-1-12": {
+        "checked_at": "2026-11-18T05:08:59.572061+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T06:08:59.572061+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "633b0b7b579dee9daada584ba30e33daef09bbc48dc41c1aaaedc0cce863001e",
+          "recipient": "e35f7c21c0ec00a768bfbd364a9a105cf300f023",
+          "key_available": true,
+          "ready_recipients": [
+            "e35f7c21c0ec00a768bfbd364a9a105cf300f023"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-63071-1-17": {
+        "checked_at": "2026-11-18T05:09:00.328398+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T06:09:00.328398+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "414dacc2f1999e024d3e2e20fe510e19c7c32ad1c7f44bd2bea0038f15226905",
+          "recipient": "f2acc70d8db3ee388c534d99d4bff64d9dab8154",
+          "key_available": true,
+          "ready_recipients": [
+            "f2acc70d8db3ee388c534d99d4bff64d9dab8154"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-63071-1-16": {
+        "checked_at": "2026-11-18T05:09:01.182336+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T06:09:01.182336+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "5ddd04137b8b8afdb9fa63f11afd7e89eb8f08f033373a39c29fe9e1f21e6bcd",
+          "recipient": "fd88f2642a9c89a44747c7b4342cdb483fe1d437",
+          "key_available": true,
+          "ready_recipients": [
+            "fd88f2642a9c89a44747c7b4342cdb483fe1d437"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-63071-1-5": {
+        "checked_at": "2026-11-18T05:09:01.891319+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T06:09:01.891319+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "4d0b1a4706666d5bcd400ed4488cd616ca0fc3180c15f8ae67da26cf6a38cc88",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-63071-1-13": {
+        "checked_at": "2026-11-18T05:09:02.920515+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T06:09:02.920515+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "78d8be5afb17912792c64e6fe9f465a3d7aade43446810248d464282e2bf82e8",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-63071-1-14": {
+        "checked_at": "2026-11-18T05:09:03.953356+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T06:09:03.953356+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "2d92ce7ef783caadfbffd16a5a1cd45b0fd0b0c06e1e4a4e2cea83917f37628c",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-63071-1-20": {
+        "checked_at": "2026-11-18T05:09:04.882110+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T06:09:04.882110+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "b7e41593adc3037b0a139b2bf0ad6e0368e4633140e7f3686687ee93e47ac013",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-63071-1-21": {
+        "checked_at": "2026-11-18T05:09:06.357300+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T06:09:06.357300+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "bf651e26a08eb446610664082d59cca82a1633708107df7932147996df0167c3",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-63071-1-22": {
+        "checked_at": "2026-11-18T05:09:07.183444+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T06:09:07.183444+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "96310b3b9eecb52178c2051d6077a284a6686a223e9413d514bd326d932c57a6",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-63071-1-23": {
+        "checked_at": "2026-11-18T05:09:08.692592+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T06:09:08.692592+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "555576f3b652ac12bc1d8a9c8c373dcfd90bd3c4bc060aa56a81dd8e5e81c042",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-63071-1-24": {
+        "checked_at": "2026-11-18T05:09:10.043772+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T06:09:10.043772+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "af6e4d1144259eb316405fb7e8684d4a93e1f6bc7a9e7de7a6d660f987f5c73c",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-63071-1-25": {
+        "checked_at": "2026-11-18T05:09:11.852449+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T06:09:11.852449+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "fd4cfbca51b4395e50742a87ed9e72d37b8fbca0520714618269b875e7c9ffdc",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-63071-1-26": {
+        "checked_at": "2026-11-18T05:09:13.557363+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T06:09:13.557363+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "c83c1899dc00576389e46452fbc7d6f6d5d0c146430ba7a0a39e113d32c71fd3",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-63071-1-28": {
+        "checked_at": "2026-11-18T05:09:14.394180+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T06:09:14.394180+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "df8b897481fd01e776a870b3cc05d73f2f077267f4e4b9fa6d29e3d5c4431433",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-63071-1-29": {
+        "checked_at": "2026-11-18T05:09:15.430872+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T06:09:15.430872+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "caf98b9e4e33d72f4f663c59b6a32747786690d5df0f2f1fed32d34b9386b42a",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-65130-1-13": {
+        "checked_at": "2026-11-18T05:09:16.359307+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T06:09:16.359307+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "6138def0ef7216ef29458684e2671d65b244ec79feb3d53d81354bc1c6af9ea7",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-65130-1-14": {
+        "checked_at": "2026-11-18T05:09:17.390541+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T06:09:17.390541+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "b05859e04cc38a0ed82be55e019e8cd426c7303ac4b6258d700271aab9f7604f",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-65130-1-20": {
+        "checked_at": "2026-11-18T05:09:18.320046+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T06:09:18.320046+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "8dc10c00af37b203ef335202c3041acb6547c6b2ea1f1ce940fd90a365364438",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-65130-1-21": {
+        "checked_at": "2026-11-18T05:09:19.993697+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T06:09:19.993697+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "6d23636d71d9a1f9af057c2514df806c9342317fb6459fdd2389af1a5f6d7b23",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-65130-1-23": {
+        "checked_at": "2026-11-18T05:09:21.499738+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T06:09:21.499738+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "5d9ea1160e96d210ca11c0750ced0b00c7b7a68260e642c810e56544fdb497e7",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-65130-1-24": {
+        "checked_at": "2026-11-18T05:09:22.561110+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T06:09:22.561110+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "403f7e20cf0b73b6eede767375628c7e8fe2e0b4a2bbc2d49be32833e7c51046",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
       }
     }
   }
