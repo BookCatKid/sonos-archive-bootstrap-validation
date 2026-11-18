@@ -1,0 +1,54 @@
+name: Audit published ConnectX extraction bundle
+'on':
+  workflow_dispatch: null
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+    - uses: actions/checkout@v5
+      with:
+        ref: main
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+    - run: python -m pip install -e .
+    - name: Verify published files against their inventory without extracting or executing
+      run: "python -u - <<'PYTHON'\nimport hashlib\nimport json\nimport os\nimport tarfile\nimport tempfile\nfrom pathlib\
+        \ import Path\nfrom sonos_firmware.releases import download_verified\n\nrepo = os.environ['GITHUB_REPOSITORY']\ncatalog\
+        \ = json.loads(Path('data/catalog.json').read_text())\npackage = next(row for row in catalog['packages'] if row['id']\
+        \ == 'connectx')\npublications = package['inventory']['publications']\nwith tempfile.TemporaryDirectory(dir=os.environ['RUNNER_TEMP'])\
+        \ as directory:\n    directory = Path(directory)\n    paths = {}\n    for kind in ('manifest', 'bundle'):\n      \
+        \  paths[kind] = directory/publications[kind]['release_asset']\n        download_verified(publications[kind], paths[kind],\
+        \ repo)\n    report = json.loads(paths['manifest'].read_text())\n    assert report['complete'] and not report['errors']\n\
+        \    assert report['sha256'] == package['sha256'] == package['inventory']['source_sha256']\n    expected = {row['filename']:\
+        \ (row['bytes'], row['sha256']) for row in report['components']+report['derived']}\n    expected['inventory.json']\
+        \ = (publications['manifest']['bytes'], publications['manifest']['sha256'])\n    anacapa = []\n    for section in\
+        \ report['sections']:\n        prefix = f\"{Path(report['source']).stem}-section-{section['index']:02d}-{section['name']}-files/\"\
+        \n        for row in section.get('members', []) + section.get('filesystem', {}).get('entries', []):\n            if\
+        \ 'sha256' in row:\n                name = prefix+row['path']\n                expected[name] = (row.get('bytes',\
+        \ row.get('size')), row['sha256'])\n                if row['path'].endswith('/anacapad'):\n                    anacapa.append({'path':\
+        \ name, 'sha256': row['sha256'], 'elf': row.get('elf')})\n    checked = set()\n    names = set()\n    with tarfile.open(paths['bundle'],\
+        \ 'r:xz') as archive:\n        for member in archive:\n            assert member.name not in names, ('duplicate member',\
+        \ member.name)\n            names.add(member.name)\n            if not member.isfile():\n                continue\n\
+        \            assert member.name in expected, ('uninventoried file', member.name)\n            size, digest = expected[member.name]\n\
+        \            assert member.size == size, ('size mismatch', member.name)\n            hasher = hashlib.sha256()\n \
+        \           with archive.extractfile(member) as stream:\n                while chunk := stream.read(1024*1024):\n\
+        \                    hasher.update(chunk)\n            assert hasher.hexdigest() == digest, ('hash mismatch', member.name)\n\
+        \            checked.add(member.name)\n    assert checked == set(expected), ('missing files', sorted(set(expected)-checked))\n\
+        \    assert anacapa and all(row['path'] in checked for row in anacapa)\n    result = {'status': 'verified', 'repository':\
+        \ repo, 'source_sha256': report['sha256'],\n              'verified_regular_files': len(checked), 'bundle_members':\
+        \ len(names),\n              'anacapa': anacapa, 'publications': publications}\n    Path(os.environ['RUNNER_TEMP'],\
+        \ 'published-inventory-audit.json').write_text(json.dumps(result, indent=2)+'\\n')\n    print(json.dumps(result),\
+        \ flush=True)\nPYTHON\n"
+    - name: Retain metadata proof only
+      if: always()
+      uses: actions/upload-artifact@v7
+      with:
+        name: published-inventory-audit
+        path: ${{ runner.temp }}/published-inventory-audit.json
+        retention-days: 14
