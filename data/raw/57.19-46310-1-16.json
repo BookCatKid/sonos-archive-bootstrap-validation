@@ -1,0 +1,116 @@
+{
+  "source": "57.19-46310-1-16.upd",
+  "source_sha256": "723f21538a1147420a195f3777fffafbdeed39ebd3e08cf909ca14317ef4310c",
+  "components": [
+    {
+      "package_id": "57.19-46310-1-16",
+      "section_index": 0,
+      "section_type": 1,
+      "kind": "section-1",
+      "filename": "57.19-46310-1-16-section-1.bin",
+      "bytes": 12,
+      "sha256": "43fde49b68003e7bdf0c5f5f42d0fb7abe43c48c796bdbd5a0db7c79a2775ea4",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "57.19-46310-1-16",
+      "section_index": 1,
+      "section_type": 21,
+      "kind": "section-21",
+      "filename": "57.19-46310-1-16-section-21.bin",
+      "bytes": 34,
+      "sha256": "b05af201925c1d957cf4f59e2ff2598ca029c836aa2dbbe912bafdc1ca53ace8",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "57.19-46310-1-16",
+      "section_index": 2,
+      "section_type": 2,
+      "kind": "section-2",
+      "filename": "57.19-46310-1-16-section-2.bin",
+      "bytes": 28,
+      "sha256": "540a25f8ed42fa68316687827c043d8bc00d4f7d93001db1260a62faed3491aa",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "57.19-46310-1-16",
+      "section_index": 3,
+      "section_type": 2,
+      "kind": "section-2",
+      "filename": "57.19-46310-1-16-section-2-section-03.bin",
+      "bytes": 132,
+      "sha256": "d33c2404149e40e0a890249f97cf9591ddc6499ea75fae4bcff97d1dc608339a",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "57.19-46310-1-16",
+      "section_index": 4,
+      "section_type": 2,
+      "kind": "section-2",
+      "filename": "57.19-46310-1-16-section-2-section-04.bin",
+      "bytes": 28,
+      "sha256": "72a07112f150b88982440cb3fadc7d51afb90e01956ddee8f82a9aa43370be1b",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "57.19-46310-1-16",
+      "section_index": 5,
+      "section_type": 22,
+      "kind": "section-22",
+      "filename": "57.19-46310-1-16-section-22.bin",
+      "bytes": 150358,
+      "sha256": "3bf33a8b71080cce0bf883a5b5f4eec8244b4d01764db6ccbf990fe7536b93fb",
+      "source_encrypted": false,
+      "recipient_id": null
+    },
+    {
+      "package_id": "57.19-46310-1-16",
+      "section_index": 6,
+      "section_type": 3,
+      "kind": "preinstall",
+      "filename": "57.19-46310-1-16-preinstall.sh",
+      "bytes": 175675,
+      "sha256": "a217dd41d5870140a8aeee8bc24b41478d05edf9cc2f3c37964a9ca18c615b1d",
+      "source_encrypted": true,
+      "recipient_id": "fd88f2642a9c89a44747c7b4342cdb483fe1d437"
+    },
+    {
+      "package_id": "57.19-46310-1-16",
+      "section_index": 7,
+      "section_type": 6,
+      "kind": "kernel",
+      "filename": "57.19-46310-1-16-kernel.uImage",
+      "bytes": 708608,
+      "sha256": "cb13bbe2357a58b5616a8b0dc4cf430c9a1685c587bf6891a7fef898d2d0109d",
+      "source_encrypted": true,
+      "recipient_id": "fd88f2642a9c89a44747c7b4342cdb483fe1d437"
+    },
+    {
+      "package_id": "57.19-46310-1-16",
+      "section_index": 8,
+      "section_type": 4,
+      "kind": "rootfs",
+      "filename": "57.19-46310-1-16-rootfs.bin",
+      "bytes": 4571136,
+      "sha256": "96be3cddf9e47c5f7cfb74a543dd05b40bb97dc3d3d3e44e84043edcbbd16a9a",
+      "source_encrypted": true,
+      "recipient_id": "fd88f2642a9c89a44747c7b4342cdb483fe1d437"
+    },
+    {
+      "package_id": "57.19-46310-1-16",
+      "section_index": 9,
+      "section_type": 17,
+      "kind": "section-17",
+      "filename": "57.19-46310-1-16-section-17.bin",
+      "bytes": 364,
+      "sha256": "256374ec84a9ef702521c4b36ab5df9660c01b68f861644c0dea947527691947",
+      "source_encrypted": false,
+      "recipient_id": null
+    }
+  ]
+}

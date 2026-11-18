@@ -1427,6 +1427,256 @@
           "ready_recipients": [],
           "policy": "all-sections"
         }
+      },
+      "55.1-74250-1-9": {
+        "checked_at": "2026-11-18T16:08:46.068596+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T17:08:46.068596+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "72a39beba1a52732b07002c52f3cbf1e3620aa81d497d90e177daac6f6551462",
+          "recipient": "12e82a182af27801eba0ff3c94e8e649ed962dbb",
+          "key_available": true,
+          "ready_recipients": [
+            "12e82a182af27801eba0ff3c94e8e649ed962dbb"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "57.19-46310-1-9": {
+        "checked_at": "2026-11-18T16:08:46.953940+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T17:08:46.953940+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "b15b817a1ddd0d943213ae2c05c6f7a577d6b0b057dc971e9f99ca892fe74673",
+          "recipient": "12e82a182af27801eba0ff3c94e8e649ed962dbb",
+          "key_available": true,
+          "ready_recipients": [
+            "12e82a182af27801eba0ff3c94e8e649ed962dbb"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "55.1-74250-1-1": {
+        "checked_at": "2026-11-18T16:08:47.613070+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T17:08:47.613070+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "ed0225c8a7ad89f39e6012d3e8ff165f5b08dcc187713effd6b9334c52d66704",
+          "recipient": "21e7b8c8199c8d6442d2a0a7a4e776c4efd4319c",
+          "key_available": true,
+          "ready_recipients": [
+            "21e7b8c8199c8d6442d2a0a7a4e776c4efd4319c"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "57.19-46310-1-1": {
+        "checked_at": "2026-11-18T16:08:48.670572+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T17:08:48.670572+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "f52f23457dd963aa4a903b4794d0c103cb79938e224d70ac5b09ccfaf495885f",
+          "recipient": "21e7b8c8199c8d6442d2a0a7a4e776c4efd4319c",
+          "key_available": true,
+          "ready_recipients": [
+            "21e7b8c8199c8d6442d2a0a7a4e776c4efd4319c"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "55.1-74250-1-8": {
+        "checked_at": "2026-11-18T16:08:49.341599+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T17:08:49.341599+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "88027b067e9b687f822b5cf2166878a0261e7d67afd960e64e39826b718b90cc",
+          "recipient": "346ce6e38225ca8177024fbebfaad7043344b3bd",
+          "key_available": true,
+          "ready_recipients": [
+            "346ce6e38225ca8177024fbebfaad7043344b3bd"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "55.1-74250-1-12": {
+        "checked_at": "2026-11-18T16:08:49.997203+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T17:08:49.997203+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "ee18282bb4bd6b3d4dcc05649a9e26901c3eb772c75c4b005b9bbeb00db5e495",
+          "recipient": "e35f7c21c0ec00a768bfbd364a9a105cf300f023",
+          "key_available": true,
+          "ready_recipients": [
+            "e35f7c21c0ec00a768bfbd364a9a105cf300f023"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "55.1-74250-1-16": {
+        "checked_at": "2026-11-18T16:08:50.655635+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T17:08:50.655635+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "3f3959a63aa4b8e065bd3767c9a7c877947727277fad1b0031214277dedfad95",
+          "recipient": "fd88f2642a9c89a44747c7b4342cdb483fe1d437",
+          "key_available": true,
+          "ready_recipients": [
+            "fd88f2642a9c89a44747c7b4342cdb483fe1d437"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "57.19-46310-1-16": {
+        "checked_at": "2026-11-18T16:08:51.412377+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T17:08:51.412377+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "723f21538a1147420a195f3777fffafbdeed39ebd3e08cf909ca14317ef4310c",
+          "recipient": "fd88f2642a9c89a44747c7b4342cdb483fe1d437",
+          "key_available": true,
+          "ready_recipients": [
+            "fd88f2642a9c89a44747c7b4342cdb483fe1d437"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "55.1-74250-1-5": {
+        "checked_at": "2026-11-18T16:08:52.021684+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T17:08:52.021684+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "0e937da49245de643abf14c7541f6bb5eba85c4f57c47055bacc6d50cb65548a",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "55.1-74250-1-13": {
+        "checked_at": "2026-11-18T16:08:52.852704+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T17:08:52.852704+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "1b9eb4e544642e47f0ecbd1bd7bdcf4ce7f2b56cf339dcc12918be90913011e8",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "55.1-74250-1-20": {
+        "checked_at": "2026-11-18T16:08:53.583440+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T17:08:53.583440+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "96741640ff486fc1cb6361a996b92ed156e3fda021952b204a22b8d5b757f349",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.19-46310-1-5": {
+        "checked_at": "2026-11-18T16:08:54.092650+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T17:08:54.092650+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "e501acf24f9540db0edc1811a78753da23afb29d7b98b01cda9133e3a4953573",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.19-46310-1-13": {
+        "checked_at": "2026-11-18T16:08:54.823475+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T17:08:54.823475+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "ef1422ca614f5de8cfe0c0fd35f7b521bec781221405f1f830d022bee3c27647",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.19-46310-1-14": {
+        "checked_at": "2026-11-18T16:08:55.557762+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T17:08:55.557762+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "935f09ff730d986ce58e4e001c6475c38f151d5acac7a4d8dc60ff6124e56c74",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-65130-1-25": {
+        "checked_at": "2026-11-18T16:08:56.684838+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T17:08:56.684838+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "605468ccc2ff5edea1d33f854318fa7a85df1fb69452c7ed978a498904ba5e84",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-65130-1-26": {
+        "checked_at": "2026-11-18T16:08:57.894104+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T17:08:57.894104+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "49005145780481f494d91e6c0129f654cd7dce5d36a81441eae8f54a7f710c79",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-65130-1-28": {
+        "checked_at": "2026-11-18T16:08:58.734555+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T17:08:58.734555+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "82f61868fdd3ba4429224f405888b6faf5b1187ce8af4b426c0defbadb6d6814",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.22-65130-1-29": {
+        "checked_at": "2026-11-18T16:08:59.675045+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-18T17:08:59.675045+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "fd4b6154f6f84a822682d9f1f79c90846cf72521d93d75d4535086c8a73a9813",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
       }
     }
   }
