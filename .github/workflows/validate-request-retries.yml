@@ -26,3 +26,4 @@ jobs:
           python scripts/run_tests.py --pattern test_frontier.py
           python scripts/run_tests.py --pattern test_landing_pages.py
           python scripts/run_tests.py --pattern test_metadata_sweep.py
+          python scripts/run_tests.py --pattern test_key_recovery.py
