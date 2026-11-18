@@ -1,0 +1,48 @@
+name: Inspect incomplete firmware inventories
+'on':
+  workflow_dispatch: null
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+    - uses: actions/checkout@v5
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+    - run: python -m pip install -e .
+    - name: Verify and classify published inventory metadata
+      run: "python -u - <<'PYTHON'\nimport collections\nimport json\nimport os\nimport tempfile\nfrom pathlib import Path\n\
+        from sonos_firmware.releases import download_verified\n\nrepo = os.environ['GITHUB_REPOSITORY']\ncatalog = json.loads(Path('data/catalog.json').read_text())\n\
+        packages = [row for row in catalog['packages'] if row.get('inventory') and not row['inventory'].get('complete')]\n\
+        recipients = collections.defaultdict(lambda: {'packages': set(), 'sections': 0, 'reasons': set()})\nanalyses = collections.defaultdict(lambda:\
+        \ {'packages': set(), 'count': 0})\nfailures = []\nchecked = 0\nwith tempfile.TemporaryDirectory(dir=os.environ['RUNNER_TEMP'])\
+        \ as temporary:\n    for package in packages:\n        try:\n            receipt = package['inventory']['publications']['manifest']\n\
+        \            destination = Path(temporary)/receipt['release_asset']\n            download_verified(receipt, destination,\
+        \ repo)\n            report = json.loads(destination.read_text())\n            assert report['sha256'] == package['inventory']['source_sha256']\
+        \ == package['sha256']\n            for skipped in report.get('skipped', []):\n                row = recipients[skipped.get('recipient_id')\
+        \ or 'unidentified']\n                row['packages'].add(package['id'])\n                row['sections'] += 1\n \
+        \               row['reasons'].add(skipped.get('reason', 'unspecified'))\n            for error in report.get('errors',\
+        \ []):\n                identity = error.get('type', 'unknown')+': '+error.get('message', 'unspecified')\n       \
+        \         row = analyses[identity]\n                row['packages'].add(package['id'])\n                row['count']\
+        \ += 1\n            checked += 1\n            destination.unlink()\n        except Exception as error:\n         \
+        \   failures.append({'package_id': package['id'], 'error': str(error)})\n        print(json.dumps({'checked': checked,\
+        \ 'selected': len(packages), 'errors': len(failures)}), flush=True)\nsummary = {'repository': repo, 'selected': len(packages),\
+        \ 'verified_reports': checked,\n           'recipient_groups': {key: {'packages': sorted(value['packages']), 'sections':\
+        \ value['sections'],\n                                    'reasons': sorted(value['reasons'])} for key, value in sorted(recipients.items())},\n\
+        \           'analysis_failures': {key: {'packages': sorted(value['packages']), 'count': value['count']}\n        \
+        \                         for key, value in sorted(analyses.items())}, 'errors': failures}\nPath(os.environ['RUNNER_TEMP'],\
+        \ 'inventory-coverage.json').write_text(json.dumps(summary, indent=2)+'\\n')\nprint(json.dumps({'verified_reports':\
+        \ checked, 'recipient_groups': len(recipients),\n                  'analysis_failure_groups': len(analyses), 'errors':\
+        \ failures}), flush=True)\nif failures:\n    raise SystemExit(1)\nPYTHON\n"
+    - name: Retain metadata evidence
+      if: always()
+      uses: actions/upload-artifact@v7
+      with:
+        name: inventory-coverage
+        path: ${{ runner.temp }}/inventory-coverage.json
+        retention-days: 14
