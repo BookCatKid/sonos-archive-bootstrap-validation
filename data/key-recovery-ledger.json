@@ -383,23 +383,65 @@
           "byte_order": "big"
         }
       ]
+    },
+    "b271039ff7ab0f3d395039f1f079ff71af9dea71": {
+      "coverage_packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.22-63071-1-26",
+          "package_model": 26,
+          "version": "57.22-63071"
+        },
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.22-65130-1-26",
+          "package_model": 26,
+          "version": "57.22-65130"
+        },
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.23-74170-1-26",
+          "package_model": 26,
+          "version": "57.23-74170"
+        },
+        {
+          "artifact_status": "preserved",
+          "package_id": "98.0-82170-1-26",
+          "package_model": 26,
+          "version": "98.0-82170"
+        }
+      ],
+      "key_family": "public-model26-mdp3",
+      "package_model": 26,
+      "package_models": [
+        26
+      ],
+      "recovery_provenance": [
+        {
+          "method": "public-model26-mdp3",
+          "model": 26,
+          "recipient_id": "b271039ff7ab0f3d395039f1f079ff71af9dea71"
+        }
+      ]
     }
   },
   "key_origin": {
     "summary": {
-      "recovered_recipients": 6,
+      "recovered_recipients": 7,
       "models": [
         1,
         8,
         9,
         12,
         16,
-        17
+        17,
+        26
       ],
-      "missing_recipient_groups": 28
+      "missing_recipient_groups": 27
     },
     "recovery_methods": [
-      "legacy-updater"
+      "legacy-updater",
+      "public-model26-mdp3"
     ]
   },
   "missing_keys": [
@@ -867,35 +909,6 @@
         }
       ],
       "recipient_id": "affbd516ac88a5372dc5dc246f4dea5a1f8162b7"
-    },
-    {
-      "packages": [
-        {
-          "artifact_status": "preserved",
-          "package_id": "57.22-63071-1-26",
-          "package_model": 26,
-          "version": "57.22-63071"
-        },
-        {
-          "artifact_status": "preserved",
-          "package_id": "57.22-65130-1-26",
-          "package_model": 26,
-          "version": "57.22-65130"
-        },
-        {
-          "artifact_status": "preserved",
-          "package_id": "57.23-74170-1-26",
-          "package_model": 26,
-          "version": "57.23-74170"
-        },
-        {
-          "artifact_status": "preserved",
-          "package_id": "98.0-82170-1-26",
-          "package_model": 26,
-          "version": "98.0-82170"
-        }
-      ],
-      "recipient_id": "b271039ff7ab0f3d395039f1f079ff71af9dea71"
     },
     {
       "packages": [

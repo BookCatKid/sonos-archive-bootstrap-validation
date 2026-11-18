@@ -78,6 +78,50 @@
       "sha256": "c056484bf89e63ef02ffb557ac0468adedc68da7741ef3c8fbb6220dd91ab0cd",
       "source_encrypted": false,
       "recipient_id": null
+    },
+    {
+      "package_id": "98.0-82170-1-26",
+      "section_index": 6,
+      "section_type": 3,
+      "kind": "preinstall",
+      "filename": "98.0-82170-1-26-preinstall.sh",
+      "bytes": 2755,
+      "sha256": "7b36fa85f2963ca24645a18cd33fbd368a3c2f2d9d1ba17e2d133573a6346034",
+      "source_encrypted": true,
+      "recipient_id": "b271039ff7ab0f3d395039f1f079ff71af9dea71"
+    },
+    {
+      "package_id": "98.0-82170-1-26",
+      "section_index": 7,
+      "section_type": 6,
+      "kind": "kernel",
+      "filename": "98.0-82170-1-26-kernel.uImage",
+      "bytes": 9024036,
+      "sha256": "373044007aec73bfb6f8fcbb9d8df69a17d7a9cca7bf6bf5597a0e0c2c3c6bd3",
+      "source_encrypted": true,
+      "recipient_id": "b271039ff7ab0f3d395039f1f079ff71af9dea71"
+    },
+    {
+      "package_id": "98.0-82170-1-26",
+      "section_index": 8,
+      "section_type": 4,
+      "kind": "rootfs",
+      "filename": "98.0-82170-1-26-rootfs.squashfs",
+      "bytes": 84545536,
+      "sha256": "b753f0a7bbeaf084eed88a44b03dae732051c05410a287e0d06b5d95bc6f2410",
+      "source_encrypted": true,
+      "recipient_id": "b271039ff7ab0f3d395039f1f079ff71af9dea71"
+    },
+    {
+      "package_id": "98.0-82170-1-26",
+      "section_index": 9,
+      "section_type": 15,
+      "kind": "section-15",
+      "filename": "98.0-82170-1-26-section-15.bin",
+      "bytes": 971264,
+      "sha256": "c00ad56d2c9a498dc38774bd28e2c041b1cacf7aca556270c5a8f98ff68b508d",
+      "source_encrypted": true,
+      "recipient_id": "b271039ff7ab0f3d395039f1f079ff71af9dea71"
     }
   ]
 }

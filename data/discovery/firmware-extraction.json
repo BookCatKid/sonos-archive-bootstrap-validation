@@ -452,15 +452,17 @@
         }
       },
       "57.23-74170-1-26": {
-        "checked_at": "2026-11-17T19:38:42.681774+00:00",
+        "checked_at": "2026-11-18T16:33:55.458990+00:00",
         "consecutive_failures": 0,
-        "next_attempt_at": "2026-11-17T20:38:42.681774+00:00",
+        "next_attempt_at": "2026-11-18T17:33:55.458990+00:00",
         "status": "extracted",
         "revision": {
           "sha256": "2159166c5a22e01bba798ceac33dd63e150611e05b11108de9ce6ae1f28e5d43",
-          "recipient": null,
-          "key_available": false,
-          "ready_recipients": [],
+          "recipient": "b271039ff7ab0f3d395039f1f079ff71af9dea71",
+          "key_available": true,
+          "ready_recipients": [
+            "b271039ff7ab0f3d395039f1f079ff71af9dea71"
+          ],
           "policy": "all-sections"
         }
       },
@@ -858,15 +860,17 @@
         }
       },
       "98.0-82170-1-26": {
-        "checked_at": "2026-11-18T02:17:24.806596+00:00",
+        "checked_at": "2026-11-18T16:33:58.670709+00:00",
         "consecutive_failures": 0,
-        "next_attempt_at": "2026-11-18T03:17:24.806596+00:00",
+        "next_attempt_at": "2026-11-18T17:33:58.670709+00:00",
         "status": "extracted",
         "revision": {
           "sha256": "8f6d24332ad988985774b0e27f4d98d746fab8b70a1767f1ee09fd78f97c4f14",
-          "recipient": null,
-          "key_available": false,
-          "ready_recipients": [],
+          "recipient": "b271039ff7ab0f3d395039f1f079ff71af9dea71",
+          "key_available": true,
+          "ready_recipients": [
+            "b271039ff7ab0f3d395039f1f079ff71af9dea71"
+          ],
           "policy": "all-sections"
         }
       },
@@ -1312,15 +1316,17 @@
         }
       },
       "57.22-63071-1-26": {
-        "checked_at": "2026-11-18T05:09:13.557363+00:00",
+        "checked_at": "2026-11-18T16:33:51.319598+00:00",
         "consecutive_failures": 0,
-        "next_attempt_at": "2026-11-18T06:09:13.557363+00:00",
+        "next_attempt_at": "2026-11-18T17:33:51.319598+00:00",
         "status": "extracted",
         "revision": {
           "sha256": "c83c1899dc00576389e46452fbc7d6f6d5d0c146430ba7a0a39e113d32c71fd3",
-          "recipient": null,
-          "key_available": false,
-          "ready_recipients": [],
+          "recipient": "b271039ff7ab0f3d395039f1f079ff71af9dea71",
+          "key_available": true,
+          "ready_recipients": [
+            "b271039ff7ab0f3d395039f1f079ff71af9dea71"
+          ],
           "policy": "all-sections"
         }
       },
@@ -1640,15 +1646,17 @@
         }
       },
       "57.22-65130-1-26": {
-        "checked_at": "2026-11-18T16:08:57.894104+00:00",
+        "checked_at": "2026-11-18T16:33:53.686487+00:00",
         "consecutive_failures": 0,
-        "next_attempt_at": "2026-11-18T17:08:57.894104+00:00",
+        "next_attempt_at": "2026-11-18T17:33:53.686487+00:00",
         "status": "extracted",
         "revision": {
           "sha256": "49005145780481f494d91e6c0129f654cd7dce5d36a81441eae8f54a7f710c79",
-          "recipient": null,
-          "key_available": false,
-          "ready_recipients": [],
+          "recipient": "b271039ff7ab0f3d395039f1f079ff71af9dea71",
+          "key_available": true,
+          "ready_recipients": [
+            "b271039ff7ab0f3d395039f1f079ff71af9dea71"
+          ],
           "policy": "all-sections"
         }
       },
