@@ -4,7 +4,7 @@
   "provider": "web",
   "status": "failed",
   "executed": true,
-  "started_at": "2026-11-17T16:31:37.537375+00:00",
+  "started_at": "2026-11-19T07:40:09.691527+00:00",
   "steps": [
     {
       "name": "archive_web_apps",
@@ -25,6 +25,6 @@
       "reason": "source reports incomplete work"
     }
   ],
-  "finished_at": "2026-11-17T16:34:59.470519+00:00",
-  "next_due": "2026-11-17T17:34:59.470519+00:00"
+  "finished_at": "2026-11-19T07:42:55.606898+00:00",
+  "next_due": "2026-11-19T08:42:55.606898+00:00"
 }
