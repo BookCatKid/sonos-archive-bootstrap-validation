@@ -1,20 +1,20 @@
 {
-  "binary_executable_text_bytes_scanned": 84086709,
+  "binary_executable_text_bytes_scanned": 250102549,
   "binary_incomplete_scans": 0,
   "binary_linked_gpl_versions": [],
-  "binary_pending_inputs": 97,
+  "binary_pending_inputs": 1117,
   "binary_scan_errors": 0,
-  "binary_scanned_inputs": 4,
-  "candidate_checks": 96,
+  "binary_scanned_inputs": 8,
+  "candidate_checks": 168,
   "candidate_states": {
-    "access-denied": 70,
-    "verified": 26
+    "access-denied": 130,
+    "verified": 38
   },
   "completeness_proven": false,
-  "external_upstream_links": 208,
+  "external_upstream_links": 292,
   "full_compressed_stream_verified_source_archives": 50,
   "fully_published_releases": 6,
-  "generated": "2026-11-19T07:40:46+00:00",
+  "generated": "2026-11-19T07:46:10+00:00",
   "limitations": [
     "The version grammar is unbounded in principle; unsuccessful probes do not prove a release never existed.",
     "HTTP 403 is not treated as proof of absence.",
@@ -49,6 +49,33 @@
       "published_assets": 0,
       "published_source_archives": 0,
       "remaining_assets": 39,
+      "stream_integrity_problems": 0
+    },
+    "10.3": {
+      "complete_publication": false,
+      "expected_assets": 39,
+      "full_compressed_stream_verified": 0,
+      "published_assets": 0,
+      "published_source_archives": 0,
+      "remaining_assets": 39,
+      "stream_integrity_problems": 0
+    },
+    "10.4": {
+      "complete_publication": false,
+      "expected_assets": 40,
+      "full_compressed_stream_verified": 0,
+      "published_assets": 0,
+      "published_source_archives": 0,
+      "remaining_assets": 40,
+      "stream_integrity_problems": 0
+    },
+    "10.5": {
+      "complete_publication": false,
+      "expected_assets": 40,
+      "full_compressed_stream_verified": 0,
+      "published_assets": 0,
+      "published_source_archives": 0,
+      "remaining_assets": 40,
       "stream_integrity_problems": 0
     },
     "10.6": {
@@ -87,6 +114,42 @@
       "remaining_assets": 38,
       "stream_integrity_problems": 0
     },
+    "12.1": {
+      "complete_publication": false,
+      "expected_assets": 39,
+      "full_compressed_stream_verified": 0,
+      "published_assets": 0,
+      "published_source_archives": 0,
+      "remaining_assets": 39,
+      "stream_integrity_problems": 0
+    },
+    "12.2": {
+      "complete_publication": false,
+      "expected_assets": 39,
+      "full_compressed_stream_verified": 0,
+      "published_assets": 0,
+      "published_source_archives": 0,
+      "remaining_assets": 39,
+      "stream_integrity_problems": 0
+    },
+    "13.0": {
+      "complete_publication": false,
+      "expected_assets": 41,
+      "full_compressed_stream_verified": 0,
+      "published_assets": 0,
+      "published_source_archives": 0,
+      "remaining_assets": 41,
+      "stream_integrity_problems": 0
+    },
+    "13.1": {
+      "complete_publication": false,
+      "expected_assets": 42,
+      "full_compressed_stream_verified": 0,
+      "published_assets": 0,
+      "published_source_archives": 0,
+      "remaining_assets": 42,
+      "stream_integrity_problems": 0
+    },
     "13.2": {
       "complete_publication": false,
       "expected_assets": 43,
@@ -94,6 +157,33 @@
       "published_assets": 0,
       "published_source_archives": 0,
       "remaining_assets": 43,
+      "stream_integrity_problems": 0
+    },
+    "13.3": {
+      "complete_publication": false,
+      "expected_assets": 42,
+      "full_compressed_stream_verified": 0,
+      "published_assets": 0,
+      "published_source_archives": 0,
+      "remaining_assets": 42,
+      "stream_integrity_problems": 0
+    },
+    "13.4": {
+      "complete_publication": false,
+      "expected_assets": 45,
+      "full_compressed_stream_verified": 0,
+      "published_assets": 0,
+      "published_source_archives": 0,
+      "remaining_assets": 45,
+      "stream_integrity_problems": 0
+    },
+    "14.12": {
+      "complete_publication": false,
+      "expected_assets": 45,
+      "full_compressed_stream_verified": 0,
+      "published_assets": 0,
+      "published_source_archives": 0,
+      "remaining_assets": 45,
       "stream_integrity_problems": 0
     },
     "14.18": {
@@ -222,6 +312,24 @@
       "remaining_assets": 29,
       "stream_integrity_problems": 0
     },
+    "8.5": {
+      "complete_publication": false,
+      "expected_assets": 29,
+      "full_compressed_stream_verified": 0,
+      "published_assets": 0,
+      "published_source_archives": 0,
+      "remaining_assets": 29,
+      "stream_integrity_problems": 0
+    },
+    "8.6": {
+      "complete_publication": false,
+      "expected_assets": 29,
+      "full_compressed_stream_verified": 0,
+      "published_assets": 0,
+      "published_source_archives": 0,
+      "remaining_assets": 29,
+      "stream_integrity_problems": 0
+    },
     "9.0": {
       "complete_publication": false,
       "expected_assets": 35,
@@ -262,12 +370,12 @@
   "schema_version": 1,
   "site_linked_gpl_versions": [],
   "site_related_pages": 0,
-  "site_sitemaps_checked": 8,
-  "site_sitemaps_valid_xml": 8,
-  "sonos_download_links": 701,
+  "site_sitemaps_checked": 16,
+  "site_sitemaps_valid_xml": 16,
+  "sonos_download_links": 1075,
   "source": "direct-sonos",
   "verified_downloads": 187,
-  "verified_index_total": 26,
+  "verified_index_total": 38,
   "verified_index_versions": [
     "6.4",
     "7.0",
@@ -280,6 +388,8 @@
     "8.2",
     "8.3",
     "8.4",
+    "8.5",
+    "8.6",
     "9.0",
     "9.1",
     "9.2",
@@ -287,12 +397,22 @@
     "10.0",
     "10.1",
     "10.2",
+    "10.3",
+    "10.4",
+    "10.5",
     "10.6",
     "11.0",
     "11.1",
     "12.0",
+    "12.1",
+    "12.2",
+    "13.0",
+    "13.1",
     "13.2",
+    "13.3",
+    "13.4",
     "14.4",
+    "14.12",
     "14.18",
     "18.6"
   ]
