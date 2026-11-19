@@ -25,6 +25,9 @@ def firmware(c: Context):
                '--inventory-limit', c.options.get('inventory_limit', 24),
                '--inventory-limits', json.dumps(c.options.get('inventory_limits', {})),
                after_failure=True, report=str(c.work / 'extract/extraction.json')),
+        c.script('audit_connectx_coverage.py',
+                 '--output', c.root / 'data/discovery/connectx-coverage.json',
+                 after_failure=True, report=str(c.root / 'data/discovery/connectx-coverage.json')),
     ]
 
 
@@ -139,7 +142,10 @@ def gpl_archive(c: Context):
 
 
 def gpl_audit(c: Context):
-    return [c.script('audit_gpl_published_streams.py', '--store', c.work / 'audit',
+    return [c.script('audit_gpl_link_coverage.py',
+                     '--output', c.root / 'data/gpl/live/link-coverage.json',
+                     report=str(c.root/'data/gpl/live/link-coverage.json')),
+            c.script('audit_gpl_published_streams.py', '--store', c.work / 'audit',
                      '--reserve-bytes', 2_000_000_000, '--limit', c.options.get('limit', 25), '--delay', 2.5,
                      report=str(c.root/'data/gpl/live/stream-audit.json')),
             c.script('archive_gpl_direct.py', 'report', after_failure=True)]
