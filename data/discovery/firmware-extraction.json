@@ -1685,6 +1685,271 @@
           "ready_recipients": [],
           "policy": "all-sections"
         }
+      },
+      "57.5-87010-1-9": {
+        "checked_at": "2026-11-19T06:41:35.243451+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-19T07:41:35.243451+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "0594237d4e714182688e85c6ed24083c197bbf147776daef7698e34fe479b30a",
+          "recipient": "12e82a182af27801eba0ff3c94e8e649ed962dbb",
+          "key_available": true,
+          "ready_recipients": [
+            "12e82a182af27801eba0ff3c94e8e649ed962dbb"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "57.5-87010-1-1": {
+        "checked_at": "2026-11-19T06:41:35.906115+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-19T07:41:35.906115+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "9e1df12ca56501fcee9ae70f90cc7d9ca9cfe4b4ac2156f6bcc5b656e3714632",
+          "recipient": "21e7b8c8199c8d6442d2a0a7a4e776c4efd4319c",
+          "key_available": true,
+          "ready_recipients": [
+            "21e7b8c8199c8d6442d2a0a7a4e776c4efd4319c"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "57.5-87010-1-8": {
+        "checked_at": "2026-11-19T06:41:36.680984+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-19T07:41:36.680984+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "89b981fe6b23b565440abe31802ef56ee3c471d84eb1c02fc0536e5bdf054f5c",
+          "recipient": "346ce6e38225ca8177024fbebfaad7043344b3bd",
+          "key_available": true,
+          "ready_recipients": [
+            "346ce6e38225ca8177024fbebfaad7043344b3bd"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "64.3-19080-1-8": {
+        "checked_at": "2026-11-19T06:41:37.366332+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-19T07:41:37.366332+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "0a4f54ffa79d4b1bb7c16e724c2d4463f27a24d16930a051fb0dcc12b00ba97c",
+          "recipient": "346ce6e38225ca8177024fbebfaad7043344b3bd",
+          "key_available": true,
+          "ready_recipients": [
+            "346ce6e38225ca8177024fbebfaad7043344b3bd"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "57.19-46310-1-26": {
+        "checked_at": "2026-11-19T06:41:38.619766+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-19T07:41:38.619766+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "b535888120ce209b27e9561cccca76c95ead66b98655006c7db32ec83359d809",
+          "recipient": "b271039ff7ab0f3d395039f1f079ff71af9dea71",
+          "key_available": true,
+          "ready_recipients": [
+            "b271039ff7ab0f3d395039f1f079ff71af9dea71"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "57.5-87010-1-26": {
+        "checked_at": "2026-11-19T06:41:39.750478+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-19T07:41:39.750478+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "1cb5499b59e6f8c06d9a657740eee7ded052fbc45ac610cdd5f26ba5f7217792",
+          "recipient": "b271039ff7ab0f3d395039f1f079ff71af9dea71",
+          "key_available": true,
+          "ready_recipients": [
+            "b271039ff7ab0f3d395039f1f079ff71af9dea71"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "57.5-87010-1-12": {
+        "checked_at": "2026-11-19T06:41:40.407088+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-19T07:41:40.407088+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "f6f15cbf6169c0f7d5739406ad6d9df8320abfcb6f5bc5fb30a910c3e837e569",
+          "recipient": "e35f7c21c0ec00a768bfbd364a9a105cf300f023",
+          "key_available": true,
+          "ready_recipients": [
+            "e35f7c21c0ec00a768bfbd364a9a105cf300f023"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "57.5-87010-1-17": {
+        "checked_at": "2026-11-19T06:41:41.367028+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-19T07:41:41.367028+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "aee5fdd3f52393d6eb19edcc747a2f028ffc0a89bce2364a41202d856545040e",
+          "recipient": "f2acc70d8db3ee388c534d99d4bff64d9dab8154",
+          "key_available": true,
+          "ready_recipients": [
+            "f2acc70d8db3ee388c534d99d4bff64d9dab8154"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "57.5-87010-1-16": {
+        "checked_at": "2026-11-19T06:41:42.123497+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-19T07:41:42.123497+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "570d22355ea15c0a077de08b6bb93cf24e6e73c98a314add7cd1be8deade43c8",
+          "recipient": "fd88f2642a9c89a44747c7b4342cdb483fe1d437",
+          "key_available": true,
+          "ready_recipients": [
+            "fd88f2642a9c89a44747c7b4342cdb483fe1d437"
+          ],
+          "policy": "all-sections"
+        }
+      },
+      "57.19-46310-1-20": {
+        "checked_at": "2026-11-19T06:41:42.853664+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-19T07:41:42.853664+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "62f81e3b3777178aa2c78afd780925e73d7b5c55be6dabcf1cab86a56c04a2ee",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.19-46310-1-21": {
+        "checked_at": "2026-11-19T06:41:43.930873+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-19T07:41:43.930873+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "238c821610a4812dfb708c0b6604677e85363461494118b4c8233a4e7ce0b162",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.19-46310-1-22": {
+        "checked_at": "2026-11-19T06:41:44.959620+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-19T07:41:44.959620+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "1ec6579959d49785391606cae0f858186edff814ffba7bbf25e2c160f3f4044f",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.19-46310-1-23": {
+        "checked_at": "2026-11-19T06:41:46.267725+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-19T07:41:46.267725+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "e132411b38ce7e45c8355ad7264e5cb5bea4700de7f34a532303beda64bf88be",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.19-46310-1-24": {
+        "checked_at": "2026-11-19T06:41:47.028635+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-19T07:41:47.028635+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "480b23a86b0946fc90b6ecc9a1c0eae149601e9bae3149bddf6a9e482e270a34",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.19-46310-1-25": {
+        "checked_at": "2026-11-19T06:41:48.340173+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-19T07:41:48.340173+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "6bb0eb038ed73adbcf499738b9963aeae55f8c13e9e3661eadb8ea6e240c26be",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.19-46310-1-28": {
+        "checked_at": "2026-11-19T06:41:49.280570+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-19T07:41:49.280570+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "6e948452a642f9279fa3885efa2ee322db77bb312847966991ab2a7762126d31",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.19-46310-1-29": {
+        "checked_at": "2026-11-19T06:41:50.020419+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-19T07:41:50.020419+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "1adbf917206b8daeb7d2f38f85700fcb18bc1872780eeda3126568dc25732f21",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.5-87010-1-5": {
+        "checked_at": "2026-11-19T06:41:50.629649+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-19T07:41:50.629649+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "8f47d3ffa1f666122f96574a10d89c4a04b5ab8b28f95c11eb839a9bcf5e3974",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
+      },
+      "57.5-87010-1-25": {
+        "checked_at": "2026-11-19T06:41:51.839409+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-19T07:41:51.839409+00:00",
+        "status": "extracted",
+        "revision": {
+          "sha256": "fb1f1f2508045919558a65bafb7c5ab592257405227d826fb91daa1dfb6f1089",
+          "recipient": null,
+          "key_available": false,
+          "ready_recipients": [],
+          "policy": "all-sections"
+        }
       }
     }
   }

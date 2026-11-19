@@ -25,6 +25,12 @@
           "package_id": "57.23-74170-1-1",
           "package_model": 1,
           "version": "57.23-74170"
+        },
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.5-87010-1-1",
+          "package_model": 1,
+          "version": "57.5-87010"
         }
       ],
       "key_family": "legacy-updater",
@@ -81,6 +87,18 @@
           "package_id": "57.23-74170-1-8",
           "package_model": 8,
           "version": "57.23-74170"
+        },
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.5-87010-1-8",
+          "package_model": 8,
+          "version": "57.5-87010"
+        },
+        {
+          "artifact_status": "preserved",
+          "package_id": "64.3-19080-1-8",
+          "package_model": 8,
+          "version": "64.3-19080"
         },
         {
           "artifact_status": "preserved",
@@ -152,6 +170,12 @@
         },
         {
           "artifact_status": "preserved",
+          "package_id": "57.5-87010-1-9",
+          "package_model": 9,
+          "version": "57.5-87010"
+        },
+        {
+          "artifact_status": "preserved",
           "package_id": "86.11-82170-1-9",
           "package_model": 9,
           "version": "86.11-82170"
@@ -211,6 +235,12 @@
           "package_id": "57.23-74170-1-12",
           "package_model": 12,
           "version": "57.23-74170"
+        },
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.5-87010-1-12",
+          "package_model": 12,
+          "version": "57.5-87010"
         },
         {
           "artifact_status": "preserved",
@@ -279,6 +309,12 @@
           "package_id": "57.23-74170-1-16",
           "package_model": 16,
           "version": "57.23-74170"
+        },
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.5-87010-1-16",
+          "package_model": 16,
+          "version": "57.5-87010"
         }
       ],
       "key_family": "legacy-updater",
@@ -338,6 +374,12 @@
         },
         {
           "artifact_status": "preserved",
+          "package_id": "57.5-87010-1-17",
+          "package_model": 17,
+          "version": "57.5-87010"
+        },
+        {
+          "artifact_status": "preserved",
           "package_id": "73.0-42060-1-17",
           "package_model": 17,
           "version": "73.0-42060"
@@ -388,6 +430,12 @@
       "coverage_packages": [
         {
           "artifact_status": "preserved",
+          "package_id": "57.19-46310-1-26",
+          "package_model": 26,
+          "version": "57.19-46310"
+        },
+        {
+          "artifact_status": "preserved",
           "package_id": "57.22-63071-1-26",
           "package_model": 26,
           "version": "57.22-63071"
@@ -403,6 +451,12 @@
           "package_id": "57.23-74170-1-26",
           "package_model": 26,
           "version": "57.23-74170"
+        },
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.5-87010-1-26",
+          "package_model": 26,
+          "version": "57.5-87010"
         },
         {
           "artifact_status": "preserved",
@@ -470,6 +524,12 @@
           "package_id": "57.23-74170-1-5",
           "package_model": 5,
           "version": "57.23-74170"
+        },
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.5-87010-1-5",
+          "package_model": 5,
+          "version": "57.5-87010"
         }
       ],
       "recipient_id": "0cfddc3f6ac5c485ccc435885c42c52a9338e28b"
@@ -487,6 +547,12 @@
     },
     {
       "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.19-46310-1-28",
+          "package_model": 28,
+          "version": "57.19-46310"
+        },
         {
           "artifact_status": "preserved",
           "package_id": "57.22-63071-1-28",
@@ -579,6 +645,12 @@
       "packages": [
         {
           "artifact_status": "preserved",
+          "package_id": "57.19-46310-1-29",
+          "package_model": 29,
+          "version": "57.19-46310"
+        },
+        {
+          "artifact_status": "preserved",
           "package_id": "57.22-63071-1-29",
           "package_model": 29,
           "version": "57.22-63071"
@@ -645,6 +717,12 @@
     },
     {
       "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.19-46310-1-22",
+          "package_model": 22,
+          "version": "57.19-46310"
+        },
         {
           "artifact_status": "preserved",
           "package_id": "57.22-63071-1-22",
@@ -728,6 +806,12 @@
       "packages": [
         {
           "artifact_status": "preserved",
+          "package_id": "57.19-46310-1-25",
+          "package_model": 25,
+          "version": "57.19-46310"
+        },
+        {
+          "artifact_status": "preserved",
           "package_id": "57.22-63071-1-25",
           "package_model": 25,
           "version": "57.22-63071"
@@ -743,6 +827,12 @@
           "package_id": "57.23-74170-1-25",
           "package_model": 25,
           "version": "57.23-74170"
+        },
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.5-87010-1-25",
+          "package_model": 25,
+          "version": "57.5-87010"
         },
         {
           "artifact_status": "preserved",
@@ -822,6 +912,12 @@
         },
         {
           "artifact_status": "preserved",
+          "package_id": "57.19-46310-1-20",
+          "package_model": 20,
+          "version": "57.19-46310"
+        },
+        {
+          "artifact_status": "preserved",
           "package_id": "57.22-63071-1-20",
           "package_model": 20,
           "version": "57.22-63071"
@@ -866,6 +962,12 @@
     },
     {
       "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.19-46310-1-24",
+          "package_model": 24,
+          "version": "57.19-46310"
+        },
         {
           "artifact_status": "preserved",
           "package_id": "57.22-63071-1-24",
@@ -936,6 +1038,12 @@
       "packages": [
         {
           "artifact_status": "preserved",
+          "package_id": "57.19-46310-1-23",
+          "package_model": 23,
+          "version": "57.19-46310"
+        },
+        {
+          "artifact_status": "preserved",
           "package_id": "57.22-63071-1-23",
           "package_model": 23,
           "version": "57.22-63071"
@@ -991,6 +1099,12 @@
     },
     {
       "packages": [
+        {
+          "artifact_status": "preserved",
+          "package_id": "57.19-46310-1-21",
+          "package_model": 21,
+          "version": "57.19-46310"
+        },
         {
           "artifact_status": "preserved",
           "package_id": "57.22-63071-1-21",
@@ -1113,7 +1227,7 @@
   ],
   "unidentified_encrypted_packages": [],
   "summary": {
-    "encrypted_upd_packages": 110,
+    "encrypted_upd_packages": 129,
     "unidentified_encrypted_packages": 0,
     "missing_upd_section_manifests": 0,
     "plaintext_upd_packages": 14,

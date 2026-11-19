@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "advertised_versions": 9,
+  "advertised_components": 9,
+  "preserved_components": 9,
+  "distinct_preserved_contents": 9,
+  "reused_content_across_versions": [],
+  "manifest_attributed": 0,
+  "provenance": {
+    "versioned-url": 8,
+    "other": 1
+  },
+  "unavailable": [],
+  "errors": []
+}

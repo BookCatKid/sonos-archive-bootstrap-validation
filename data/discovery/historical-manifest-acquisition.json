@@ -2,5 +2,8 @@
   "schema_version": 1,
   "sources": {
     "BookCatKid/sonos-archive-bootstrap-validation": {}
+  },
+  "request_backoff": {
+    "BookCatKid/sonos-archive-bootstrap-validation": {}
   }
 }
