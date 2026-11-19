@@ -157,9 +157,9 @@
   "source_observations": {
     "BookCatKid/sonos-archive-bootstrap-validation": {
       "https://update-software.sonos.com/software/07426258-6f57-4f28-923e-8d72e41e686a/Sonos_91.01.11.apk": {
-        "checked_at": "2026-11-18T03:46:13.545799+00:00",
+        "checked_at": "2026-11-19T06:16:49.278437+00:00",
         "consecutive_failures": 0,
-        "next_attempt_at": "2026-11-18T09:46:13.545799+00:00",
+        "next_attempt_at": "2026-11-19T12:16:49.278437+00:00",
         "candidate": {
           "family": "s2",
           "platform": "fireos-android-apk",
@@ -268,9 +268,9 @@
       }
     }
   },
-  "updated": "2026-11-18T03:46:42.696770+00:00",
+  "updated": "2026-11-19T06:17:07.994714+00:00",
   "repository": "BookCatKid/sonos-archive-bootstrap-validation",
-  "discovery": "/home/runner/work/_temp/sonos-mobile-d1qr17x8/history/discovery.json",
+  "discovery": "data/apps/mobile-history-index.json",
   "artifact_total": 2,
   "gap_total": 2,
   "status": "partial",
@@ -281,9 +281,23 @@
         "url": "https://web.archive.org/cdx/search/cdx?url=sonos.com%2F&matchType=domain&output=json&gzip=false&fl=timestamp%2Coriginal%2Cdigest&filter=statuscode%3A200&filter=original%3A.%2A%5B.%5D%28%3Fi%3Aapk%29%28%5B%3F%5D.%2A%29%3F%24&collapse=digest&limit=500&showResumeKey=true",
         "error": "The read operation timed out",
         "http_status": null,
-        "checked_at": "2026-11-18T03:46:42.694587+00:00",
+        "checked_at": "2026-11-19T06:17:04.689513+00:00",
+        "consecutive_failures": 2,
+        "next_attempt_at": "2026-11-19T08:17:04.689513+00:00"
+      }
+    },
+    {
+      "phase": "discovery",
+      "error": {
+        "pages": 12,
+        "next_page": 0,
+        "checked_at": "2026-11-19T06:17:07.983388+00:00",
         "consecutive_failures": 1,
-        "next_attempt_at": "2026-11-18T04:46:42.694587+00:00"
+        "next_attempt_at": "2026-11-19T07:17:07.983388+00:00",
+        "status": "failed",
+        "error": "HTTP Error 503: Service Temporarily Unavailable",
+        "url": "https://index.commoncrawl.org/CC-MAIN-2026-43-index",
+        "http_status": 503
       }
     },
     {
@@ -299,5 +313,8 @@
   "discovery_status": "partial",
   "attempted_this_run": 0,
   "added_this_run": 0,
-  "unpublished_captures": []
+  "unpublished_captures": [],
+  "request_backoff": {
+    "BookCatKid/sonos-archive-bootstrap-validation": {}
+  }
 }
