@@ -4,17 +4,17 @@
   "provider": "release-audit",
   "status": "ok",
   "executed": true,
-  "started_at": "2026-11-19T07:08:59.330411+00:00",
+  "started_at": "2026-11-19T07:30:02.974879+00:00",
   "steps": [
     {
       "name": "audit_release_assets",
       "status": "ok",
       "exit_code": 0,
-      "output_tail": "releases=49 github=4459 recorded=4375 missing=0 mismatched=0 extras=84 duplicated=81 unexplained=3\n"
+      "output_tail": "releases=50 github=4580 recorded=4498 missing=0 mismatched=0 extras=82 duplicated=81 unexplained=1\n"
     }
   ],
   "errors": [],
   "pending": [],
-  "finished_at": "2026-11-19T07:09:49.940922+00:00",
-  "next_due": "2026-11-26T07:09:49.940922+00:00"
+  "finished_at": "2026-11-19T07:31:13.976711+00:00",
+  "next_due": "2026-11-26T07:31:13.976711+00:00"
 }

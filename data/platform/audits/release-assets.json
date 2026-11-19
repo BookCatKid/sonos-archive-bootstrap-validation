@@ -1,34 +1,18 @@
 {
   "schema_version": 1,
-  "checked": "2026-11-19T07:09:49.873344+00:00",
+  "checked": "2026-11-19T07:31:13.924834+00:00",
   "repository": "BookCatKid/sonos-archive-bootstrap-validation",
-  "release_total": 49,
-  "github_asset_total": 4459,
-  "recorded_asset_total": 4375,
+  "release_total": 50,
+  "github_asset_total": 4580,
+  "recorded_asset_total": 4498,
   "missing_total": 0,
   "mismatched_total": 0,
-  "unrecorded_extra_total": 84,
+  "unrecorded_extra_total": 82,
   "duplicated_extra_total": 81,
-  "unexplained_extra_total": 3,
+  "unexplained_extra_total": 1,
   "missing": [],
   "mismatched": [],
   "unrecorded_extras": [
-    {
-      "release_tag": "apps-google-play-recovery-s1",
-      "release_asset": "com.sonos.acr--11.16.2--base--9a42547d2a37850f2350e4f010ee177858e3ea602b9fd2d316c6a47baed21311.apk",
-      "bytes": 61029712,
-      "sha256": "9a42547d2a37850f2350e4f010ee177858e3ea602b9fd2d316c6a47baed21311",
-      "url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/apps-google-play-recovery-s1/com.sonos.acr--11.16.2--base--9a42547d2a37850f2350e4f010ee177858e3ea602b9fd2d316c6a47baed21311.apk",
-      "recorded_as": []
-    },
-    {
-      "release_tag": "apps-google-play-recovery-s1",
-      "release_asset": "com.sonos.acr--11.2.3--base--d000e43b4f67569d1d9197d6434be68c5e1de025ad8025bb2d0234f4cab67f70.apk",
-      "bytes": 50512566,
-      "sha256": "",
-      "url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/apps-google-play-recovery-s1/com.sonos.acr--11.2.3--base--d000e43b4f67569d1d9197d6434be68c5e1de025ad8025bb2d0234f4cab67f70.apk",
-      "recorded_as": []
-    },
     {
       "release_tag": "apps-web-controller",
       "release_asset": "20261117T160325Z--logo512x512--9102530dd0a09107a26218f626df63273900b450e74a9ccab6d538cc3da0c16e.png",
@@ -2203,22 +2187,6 @@
     }
   ],
   "unexplained_extras": [
-    {
-      "release_tag": "apps-google-play-recovery-s1",
-      "release_asset": "com.sonos.acr--11.16.2--base--9a42547d2a37850f2350e4f010ee177858e3ea602b9fd2d316c6a47baed21311.apk",
-      "bytes": 61029712,
-      "sha256": "9a42547d2a37850f2350e4f010ee177858e3ea602b9fd2d316c6a47baed21311",
-      "url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/apps-google-play-recovery-s1/com.sonos.acr--11.16.2--base--9a42547d2a37850f2350e4f010ee177858e3ea602b9fd2d316c6a47baed21311.apk",
-      "recorded_as": []
-    },
-    {
-      "release_tag": "apps-google-play-recovery-s1",
-      "release_asset": "com.sonos.acr--11.2.3--base--d000e43b4f67569d1d9197d6434be68c5e1de025ad8025bb2d0234f4cab67f70.apk",
-      "bytes": 50512566,
-      "sha256": "",
-      "url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/apps-google-play-recovery-s1/com.sonos.acr--11.2.3--base--d000e43b4f67569d1d9197d6434be68c5e1de025ad8025bb2d0234f4cab67f70.apk",
-      "recorded_as": []
-    },
     {
       "release_tag": "manifest-snapshots-2026-11-17",
       "release_asset": "page-14b38cf71a2e49bbb9e5671580e42ffe36ba1602c2737b7ad5b1c95825d0d225-859e67acbddb003742f0b63a26cc3ee2ee26de97499747e4413f22a0ff425396.html",
