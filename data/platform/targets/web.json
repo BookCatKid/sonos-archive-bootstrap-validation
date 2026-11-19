@@ -2,29 +2,19 @@
   "schema_version": 1,
   "target": "web",
   "provider": "web",
-  "status": "failed",
+  "status": "ok",
   "executed": true,
-  "started_at": "2026-11-19T07:47:38.428913+00:00",
+  "started_at": "2026-11-19T07:53:20.120187+00:00",
   "steps": [
     {
       "name": "archive_web_apps",
-      "status": "failed",
-      "exit_code": 1,
+      "status": "ok",
+      "exit_code": 0,
       "output_tail": "controller: captured=5 gaps=33\npro: captured=77 gaps=0\n"
     }
   ],
-  "errors": [
-    {
-      "step": "archive_web_apps",
-      "exit_code": 1
-    }
-  ],
-  "pending": [
-    {
-      "step": "archive_web_apps",
-      "reason": "source reports incomplete work"
-    }
-  ],
-  "finished_at": "2026-11-19T07:50:57.612492+00:00",
-  "next_due": "2026-11-19T08:50:57.612492+00:00"
+  "errors": [],
+  "pending": [],
+  "finished_at": "2026-11-19T07:56:06.862490+00:00",
+  "next_due": "2026-11-19T08:56:06.862490+00:00"
 }
