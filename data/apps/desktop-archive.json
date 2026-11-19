@@ -1491,7 +1491,9 @@
         "https://update-software.sonos.com/software/72ynP0v9lu/Sonos_57.22-59130.exe"
       ],
       "sources": [
-        "derived-cross-platform"
+        "derived-cross-platform",
+        "winget-history:manifests/s/Sonos/S1Controller/57.22.59130/Sonos.S1Controller.installer.yaml:509840f88a3d6fecd4e1a48d8d97c6f9292f3151",
+        "winget:S1Controller/57.22.59130:509840f88a3d6fecd4e1a48d8d97c6f9292f3151"
       ],
       "release_tag": "apps-s1-windows",
       "release_asset": "Sonos_57.22-59130--dd26a2fd6cb3084ff3dcc90c7a37b179e43542ba4caeae2dc99b7820c5e98501.exe",
@@ -1499,7 +1501,8 @@
       "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/apps-s1-windows/Sonos_57.22-59130--dd26a2fd6cb3084ff3dcc90c7a37b179e43542ba4caeae2dc99b7820c5e98501.exe",
       "fetched_from": "https://update-software.sonos.com/software/72ynP0v9lu/Sonos_57.22-59130.exe",
       "versions": [
-        "57.22-59130"
+        "57.22-59130",
+        "57.22.59130"
       ],
       "acquisitions": [
         {
@@ -1514,6 +1517,30 @@
           "advertised_urls": [
             "https://update-software.sonos.com/software/72ynP0v9lu/Sonos_57.22-59130.exe"
           ],
+          "current": false,
+          "http_status": 200,
+          "content_length": 37953416,
+          "etag": "\"b44cac9793ab1a1db6fffe70c9c3f587-5\""
+        },
+        {
+          "family": "s1",
+          "platform": "windows",
+          "version": "57.22.59130",
+          "url": "https://update-software.sonos.com/software/72ynP0v9lu/Sonos_57.22-59130.exe",
+          "expected_sha256": "dd26a2fd6cb3084ff3dcc90c7a37b179e43542ba4caeae2dc99b7820c5e98501",
+          "sources": [
+            "winget-history:manifests/s/Sonos/S1Controller/57.22.59130/Sonos.S1Controller.installer.yaml:509840f88a3d6fecd4e1a48d8d97c6f9292f3151",
+            "winget:S1Controller/57.22.59130:509840f88a3d6fecd4e1a48d8d97c6f9292f3151"
+          ],
+          "advertised_urls": [
+            "https://update-software.sonos.com/software/72ynP0v9lu/Sonos_57.22-59130.exe"
+          ],
+          "advertised_by": {
+            "repository": "microsoft/winget-pkgs",
+            "git_blob": "509840f88a3d6fecd4e1a48d8d97c6f9292f3151",
+            "path": "manifests/s/Sonos/S1Controller/57.22.59130/Sonos.S1Controller.installer.yaml"
+          },
+          "acquisition_id": "package-metadata:10edd11877b1c99a5b34dfa42b18700dec726ceae7695a91c71582c46898c20a",
           "current": false,
           "http_status": 200,
           "content_length": 37953416,
@@ -1573,7 +1600,9 @@
         "https://update-software.sonos.com/software/mEHO1buPlR/Sonos_57.22-71190.exe"
       ],
       "sources": [
-        "derived-cross-platform"
+        "derived-cross-platform",
+        "winget-history:manifests/s/Sonos/S1Controller/57.22.71190/Sonos.S1Controller.installer.yaml:1669216c7c00b6a49f27e37f0c2e69fa4e92caf2",
+        "winget:S1Controller/57.22.71190:1669216c7c00b6a49f27e37f0c2e69fa4e92caf2"
       ],
       "release_tag": "apps-s1-windows",
       "release_asset": "Sonos_57.22-71190--4dfe77785aa98f640430ddf9d4acd6766337bbbf95d65450265b420e72229c34.exe",
@@ -1581,7 +1610,8 @@
       "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/apps-s1-windows/Sonos_57.22-71190--4dfe77785aa98f640430ddf9d4acd6766337bbbf95d65450265b420e72229c34.exe",
       "fetched_from": "https://update-software.sonos.com/software/mEHO1buPlR/Sonos_57.22-71190.exe",
       "versions": [
-        "57.22-71190"
+        "57.22-71190",
+        "57.22.71190"
       ],
       "acquisitions": [
         {
@@ -1600,11 +1630,427 @@
           "http_status": 200,
           "content_length": 37947768,
           "etag": "\"3eca0cfe00c698d4707e8ac95a4f1c1b-3\""
+        },
+        {
+          "family": "s1",
+          "platform": "windows",
+          "version": "57.22.71190",
+          "url": "https://update-software.sonos.com/software/mEHO1buPlR/Sonos_57.22-71190.exe",
+          "expected_sha256": "4dfe77785aa98f640430ddf9d4acd6766337bbbf95d65450265b420e72229c34",
+          "sources": [
+            "winget-history:manifests/s/Sonos/S1Controller/57.22.71190/Sonos.S1Controller.installer.yaml:1669216c7c00b6a49f27e37f0c2e69fa4e92caf2",
+            "winget:S1Controller/57.22.71190:1669216c7c00b6a49f27e37f0c2e69fa4e92caf2"
+          ],
+          "advertised_urls": [
+            "https://update-software.sonos.com/software/mEHO1buPlR/Sonos_57.22-71190.exe"
+          ],
+          "advertised_by": {
+            "repository": "microsoft/winget-pkgs",
+            "git_blob": "1669216c7c00b6a49f27e37f0c2e69fa4e92caf2",
+            "path": "manifests/s/Sonos/S1Controller/57.22.71190/Sonos.S1Controller.installer.yaml"
+          },
+          "acquisition_id": "package-metadata:709d4038aa1fcb4b08b78b8499245b7968686fa9a33436ba982c3001292bcb16",
+          "current": false,
+          "http_status": 200,
+          "content_length": 37947768,
+          "etag": "\"3eca0cfe00c698d4707e8ac95a4f1c1b-3\""
+        }
+      ]
+    },
+    {
+      "family": "s1",
+      "platform": "windows",
+      "version": "57.22.68080",
+      "original_filename": "Sonos_57.22-68080.exe",
+      "bytes": 37954624,
+      "sha256": "8e5c5929b23acdf7ff63982f9e5a2b9508c8e513e7a2c6a07ad54919909bf30f",
+      "source_urls": [
+        "https://update-software.sonos.com/software/NUPz7mPXln/Sonos_57.22-68080.exe"
+      ],
+      "sources": [
+        "winget-history:manifests/s/Sonos/S1Controller/57.22.68080/Sonos.S1Controller.installer.yaml:19f0ef8ef1769b00efe3018bc5b04286aca6fd45",
+        "winget:S1Controller/57.22.68080:19f0ef8ef1769b00efe3018bc5b04286aca6fd45"
+      ],
+      "release_tag": "apps-s1-windows",
+      "release_asset": "Sonos_57.22-68080--8e5c5929b23acdf7ff63982f9e5a2b9508c8e513e7a2c6a07ad54919909bf30f.exe",
+      "acquired_at": "2026-11-19T07:09:59.750542+00:00",
+      "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/apps-s1-windows/Sonos_57.22-68080--8e5c5929b23acdf7ff63982f9e5a2b9508c8e513e7a2c6a07ad54919909bf30f.exe",
+      "fetched_from": "https://update-software.sonos.com/software/NUPz7mPXln/Sonos_57.22-68080.exe",
+      "versions": [
+        "57.22.68080"
+      ],
+      "acquisitions": [
+        {
+          "family": "s1",
+          "platform": "windows",
+          "version": "57.22.68080",
+          "url": "https://update-software.sonos.com/software/NUPz7mPXln/Sonos_57.22-68080.exe",
+          "expected_sha256": "8e5c5929b23acdf7ff63982f9e5a2b9508c8e513e7a2c6a07ad54919909bf30f",
+          "sources": [
+            "winget-history:manifests/s/Sonos/S1Controller/57.22.68080/Sonos.S1Controller.installer.yaml:19f0ef8ef1769b00efe3018bc5b04286aca6fd45",
+            "winget:S1Controller/57.22.68080:19f0ef8ef1769b00efe3018bc5b04286aca6fd45"
+          ],
+          "advertised_urls": [
+            "https://update-software.sonos.com/software/NUPz7mPXln/Sonos_57.22-68080.exe"
+          ],
+          "advertised_by": {
+            "repository": "microsoft/winget-pkgs",
+            "git_blob": "19f0ef8ef1769b00efe3018bc5b04286aca6fd45",
+            "path": "manifests/s/Sonos/S1Controller/57.22.68080/Sonos.S1Controller.installer.yaml"
+          },
+          "acquisition_id": "package-metadata:70be8fe689bff39e785372a159544bbca6787f8210c736e75cb100ca7ed1435a",
+          "current": false,
+          "http_status": 200,
+          "content_length": 37954624,
+          "etag": "\"35337c89ec8c055d3c49cdd06c4c7063-5\""
+        }
+      ]
+    },
+    {
+      "family": "s1",
+      "platform": "windows",
+      "version": "57.23-74170",
+      "original_filename": "Sonos_57.23-74170.exe",
+      "bytes": 37946736,
+      "sha256": "3f055bfb194403890875a9d6042aafe708d81e0da9d54cd9ea698d81982569be",
+      "source_urls": [
+        "https://update-software.sonos.com/software/DILU1Q33hC/Sonos_57.23-74170.exe"
+      ],
+      "sources": [
+        "derived-cross-platform",
+        "winget-history:manifests/s/Sonos/S1Controller/57.23.74170/Sonos.S1Controller.installer.yaml:2c2814c69a5e70d4b6fcb09be9b8cd192f85ef7e",
+        "winget-history:manifests/s/Sonos/S1Controller/57.23.74170/Sonos.S1Controller.installer.yaml:7c1a695f313b91c78c8410f98abf449cb98143e3",
+        "winget:S1Controller/57.23.74170:7c1a695f313b91c78c8410f98abf449cb98143e3"
+      ],
+      "release_tag": "apps-s1-windows",
+      "release_asset": "Sonos_57.23-74170--3f055bfb194403890875a9d6042aafe708d81e0da9d54cd9ea698d81982569be.exe",
+      "acquired_at": "2026-11-19T07:10:02.574699+00:00",
+      "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/apps-s1-windows/Sonos_57.23-74170--3f055bfb194403890875a9d6042aafe708d81e0da9d54cd9ea698d81982569be.exe",
+      "fetched_from": "https://update-software.sonos.com/software/DILU1Q33hC/Sonos_57.23-74170.exe",
+      "versions": [
+        "57.23-74170",
+        "57.23.74170"
+      ],
+      "acquisitions": [
+        {
+          "family": "s1",
+          "platform": "windows",
+          "version": "57.23-74170",
+          "url": "https://update-software.sonos.com/software/DILU1Q33hC/Sonos_57.23-74170.exe",
+          "expected_sha256": null,
+          "sources": [
+            "derived-cross-platform"
+          ],
+          "advertised_urls": [
+            "https://update-software.sonos.com/software/DILU1Q33hC/Sonos_57.23-74170.exe"
+          ],
+          "current": false,
+          "http_status": 200,
+          "content_length": 37946736,
+          "etag": "\"d25242602460d4d214857aa2b2109afd-3\""
+        },
+        {
+          "family": "s1",
+          "platform": "windows",
+          "version": "57.23.74170",
+          "url": "https://update-software.sonos.com/software/DILU1Q33hC/Sonos_57.23-74170.exe",
+          "expected_sha256": "3f055bfb194403890875a9d6042aafe708d81e0da9d54cd9ea698d81982569be",
+          "sources": [
+            "winget-history:manifests/s/Sonos/S1Controller/57.23.74170/Sonos.S1Controller.installer.yaml:7c1a695f313b91c78c8410f98abf449cb98143e3",
+            "winget-history:manifests/s/Sonos/S1Controller/57.23.74170/Sonos.S1Controller.installer.yaml:2c2814c69a5e70d4b6fcb09be9b8cd192f85ef7e",
+            "winget:S1Controller/57.23.74170:7c1a695f313b91c78c8410f98abf449cb98143e3"
+          ],
+          "advertised_urls": [
+            "https://update-software.sonos.com/software/DILU1Q33hC/Sonos_57.23-74170.exe"
+          ],
+          "advertised_by": {
+            "repository": "microsoft/winget-pkgs",
+            "git_blob": "7c1a695f313b91c78c8410f98abf449cb98143e3",
+            "path": "manifests/s/Sonos/S1Controller/57.23.74170/Sonos.S1Controller.installer.yaml"
+          },
+          "acquisition_id": "package-metadata:380a8637f386f053ee074bb935aada91175cfdb3439e3128e53e6bfe438609f7",
+          "current": false,
+          "http_status": 200,
+          "content_length": 37946736,
+          "etag": "\"d25242602460d4d214857aa2b2109afd-3\""
+        }
+      ]
+    },
+    {
+      "family": "s1",
+      "platform": "windows",
+      "version": "57.9.23010",
+      "original_filename": "SonosDesktopController11213.exe",
+      "bytes": 37763680,
+      "sha256": "1d59d04d044fe7052db2b4d5f5b51a100bbe433b908b9111384d46ece7c8681e",
+      "source_urls": [
+        "https://update-software.sonos.com/software/pc/dcr/SonosDesktopController11213.exe"
+      ],
+      "sources": [
+        "winget-history:manifests/s/Sonos/S1Controller/57.9.23010/Sonos.S1Controller.installer.yaml:4ee26740087f3b43d1606533bd8bc648bd21953e",
+        "winget:S1Controller/57.9.23010:4ee26740087f3b43d1606533bd8bc648bd21953e"
+      ],
+      "release_tag": "apps-s1-windows",
+      "release_asset": "SonosDesktopController11213--1d59d04d044fe7052db2b4d5f5b51a100bbe433b908b9111384d46ece7c8681e.exe",
+      "acquired_at": "2026-11-19T07:10:05.329607+00:00",
+      "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/apps-s1-windows/SonosDesktopController11213--1d59d04d044fe7052db2b4d5f5b51a100bbe433b908b9111384d46ece7c8681e.exe",
+      "fetched_from": "https://update-software.sonos.com/software/pc/dcr/SonosDesktopController11213.exe",
+      "versions": [
+        "57.9.23010"
+      ],
+      "acquisitions": [
+        {
+          "family": "s1",
+          "platform": "windows",
+          "version": "57.9.23010",
+          "url": "https://update-software.sonos.com/software/pc/dcr/SonosDesktopController11213.exe",
+          "expected_sha256": "1d59d04d044fe7052db2b4d5f5b51a100bbe433b908b9111384d46ece7c8681e",
+          "sources": [
+            "winget-history:manifests/s/Sonos/S1Controller/57.9.23010/Sonos.S1Controller.installer.yaml:4ee26740087f3b43d1606533bd8bc648bd21953e",
+            "winget:S1Controller/57.9.23010:4ee26740087f3b43d1606533bd8bc648bd21953e"
+          ],
+          "advertised_urls": [
+            "https://update-software.sonos.com/software/pc/dcr/SonosDesktopController11213.exe"
+          ],
+          "advertised_by": {
+            "repository": "microsoft/winget-pkgs",
+            "git_blob": "4ee26740087f3b43d1606533bd8bc648bd21953e",
+            "path": "manifests/s/Sonos/S1Controller/57.9.23010/Sonos.S1Controller.installer.yaml"
+          },
+          "acquisition_id": "package-metadata:4ffdc0fbc94d047c8dc69e4d429657743e236e64be5f626aca6c2b256c20731d",
+          "current": false,
+          "http_status": 200,
+          "content_length": 37763680,
+          "etag": "\"6edda7938d103cd5340596b71fb8fde6-5\""
+        }
+      ]
+    },
+    {
+      "family": "s2",
+      "platform": "macos",
+      "version": "12.0",
+      "original_filename": "SonosDesktopController120.dmg",
+      "bytes": 48763494,
+      "sha256": "7dcab807a75f9faef5941f96eff3e823771187e9f6fea3892d2674f192c0a02f",
+      "source_urls": [
+        "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController120.dmg"
+      ],
+      "sources": [
+        "derived-cross-platform"
+      ],
+      "release_tag": "apps-s2-macos",
+      "release_asset": "SonosDesktopController120--7dcab807a75f9faef5941f96eff3e823771187e9f6fea3892d2674f192c0a02f.dmg",
+      "acquired_at": "2026-11-19T07:10:07.425264+00:00",
+      "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/apps-s2-macos/SonosDesktopController120--7dcab807a75f9faef5941f96eff3e823771187e9f6fea3892d2674f192c0a02f.dmg",
+      "fetched_from": "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController120.dmg",
+      "versions": [
+        "12.0"
+      ],
+      "acquisitions": [
+        {
+          "family": "s2",
+          "platform": "macos",
+          "version": "12.0",
+          "url": "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController120.dmg",
+          "expected_sha256": null,
+          "sources": [
+            "derived-cross-platform"
+          ],
+          "advertised_urls": [
+            "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController120.dmg"
+          ],
+          "current": false,
+          "http_status": 200,
+          "content_length": 48763494,
+          "etag": "\"193bd890270d2f5902e0084de4bc476a-6\""
+        }
+      ]
+    },
+    {
+      "family": "s2",
+      "platform": "macos",
+      "version": "12.0.1",
+      "original_filename": "SonosDesktopController1201.dmg",
+      "bytes": 49142937,
+      "sha256": "7420cc84d3eaf3537df73f8cfbf3a9c8457b51206d1212bfb422912825df98b4",
+      "source_urls": [
+        "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController1201.dmg"
+      ],
+      "sources": [
+        "derived-cross-platform"
+      ],
+      "release_tag": "apps-s2-macos",
+      "release_asset": "SonosDesktopController1201--7420cc84d3eaf3537df73f8cfbf3a9c8457b51206d1212bfb422912825df98b4.dmg",
+      "acquired_at": "2026-11-19T07:10:12.828133+00:00",
+      "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/apps-s2-macos/SonosDesktopController1201--7420cc84d3eaf3537df73f8cfbf3a9c8457b51206d1212bfb422912825df98b4.dmg",
+      "fetched_from": "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController1201.dmg",
+      "versions": [
+        "12.0.1"
+      ],
+      "acquisitions": [
+        {
+          "family": "s2",
+          "platform": "macos",
+          "version": "12.0.1",
+          "url": "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController1201.dmg",
+          "expected_sha256": null,
+          "sources": [
+            "derived-cross-platform"
+          ],
+          "advertised_urls": [
+            "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController1201.dmg"
+          ],
+          "current": false,
+          "http_status": 200,
+          "content_length": 49142937,
+          "etag": "\"797ea6739be967cae384a26dab8f746e-6\""
+        }
+      ]
+    },
+    {
+      "family": "s2",
+      "platform": "macos",
+      "version": "12.1",
+      "original_filename": "SonosDesktopController121.dmg",
+      "bytes": 55665335,
+      "sha256": "2322294f582dcb53c905d4a2df38db8519d0f551302a8f7afde03968958a46ca",
+      "source_urls": [
+        "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController121.dmg"
+      ],
+      "sources": [
+        "derived-cross-platform"
+      ],
+      "release_tag": "apps-s2-macos",
+      "release_asset": "SonosDesktopController121--2322294f582dcb53c905d4a2df38db8519d0f551302a8f7afde03968958a46ca.dmg",
+      "acquired_at": "2026-11-19T07:10:16.552695+00:00",
+      "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/apps-s2-macos/SonosDesktopController121--2322294f582dcb53c905d4a2df38db8519d0f551302a8f7afde03968958a46ca.dmg",
+      "fetched_from": "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController121.dmg",
+      "versions": [
+        "12.1"
+      ],
+      "acquisitions": [
+        {
+          "family": "s2",
+          "platform": "macos",
+          "version": "12.1",
+          "url": "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController121.dmg",
+          "expected_sha256": null,
+          "sources": [
+            "derived-cross-platform"
+          ],
+          "advertised_urls": [
+            "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController121.dmg"
+          ],
+          "current": false,
+          "http_status": 200,
+          "content_length": 55665335,
+          "etag": "\"97b20c9ece336aef2171e09f226d4b16-7\""
+        }
+      ]
+    },
+    {
+      "family": "s2",
+      "platform": "macos",
+      "version": "12.2.2",
+      "original_filename": "SonosDesktopController1222.dmg",
+      "bytes": 57147132,
+      "sha256": "c4eeba983d7f0fa6637b14a40abe40908b7db9e3bb4ef9d7cdb99cd1f4ec769d",
+      "source_urls": [
+        "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController1222.dmg"
+      ],
+      "sources": [
+        "derived-cross-platform"
+      ],
+      "release_tag": "apps-s2-macos",
+      "release_asset": "SonosDesktopController1222--c4eeba983d7f0fa6637b14a40abe40908b7db9e3bb4ef9d7cdb99cd1f4ec769d.dmg",
+      "acquired_at": "2026-11-19T07:10:20.318285+00:00",
+      "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/apps-s2-macos/SonosDesktopController1222--c4eeba983d7f0fa6637b14a40abe40908b7db9e3bb4ef9d7cdb99cd1f4ec769d.dmg",
+      "fetched_from": "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController1222.dmg",
+      "versions": [
+        "12.2.2"
+      ],
+      "acquisitions": [
+        {
+          "family": "s2",
+          "platform": "macos",
+          "version": "12.2.2",
+          "url": "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController1222.dmg",
+          "expected_sha256": null,
+          "sources": [
+            "derived-cross-platform"
+          ],
+          "advertised_urls": [
+            "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController1222.dmg"
+          ],
+          "current": false,
+          "http_status": 200,
+          "content_length": 57147132,
+          "etag": "\"4c3b8758e6ee19f8dfad8389ef04c522-7\""
+        }
+      ]
+    },
+    {
+      "family": "s2",
+      "platform": "macos",
+      "version": "13.0.0",
+      "original_filename": "SonosDesktopController130.dmg",
+      "bytes": 57041732,
+      "sha256": "f4a0112cbd5b8340ca25e6349daa8000690dd80f182702bdc399787e0e861101",
+      "source_urls": [
+        "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController130.dmg"
+      ],
+      "sources": [
+        "derived-cross-platform"
+      ],
+      "release_tag": "apps-s2-macos",
+      "release_asset": "SonosDesktopController130--f4a0112cbd5b8340ca25e6349daa8000690dd80f182702bdc399787e0e861101.dmg",
+      "acquired_at": "2026-11-19T07:10:40.101490+00:00",
+      "release_url": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/download/apps-s2-macos/SonosDesktopController130--f4a0112cbd5b8340ca25e6349daa8000690dd80f182702bdc399787e0e861101.dmg",
+      "fetched_from": "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController130.dmg",
+      "versions": [
+        "13.0.0"
+      ],
+      "acquisitions": [
+        {
+          "family": "s2",
+          "platform": "macos",
+          "version": "13.0.0",
+          "url": "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController130.dmg",
+          "expected_sha256": null,
+          "sources": [
+            "derived-cross-platform"
+          ],
+          "advertised_urls": [
+            "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController130.dmg"
+          ],
+          "current": false,
+          "http_status": 200,
+          "content_length": 57041732,
+          "etag": "\"b6c202dc969959ac91bdffa3bdf7b63f-7\""
         }
       ]
     }
   ],
   "gaps": [
+    {
+      "family": "s1",
+      "platform": "windows",
+      "version": "57.23-80060",
+      "url": "https://update-software.sonos.com/software/9tmT45qD4t/Sonos_57.23-80060.exe",
+      "expected_sha256": null,
+      "sources": [
+        "derived-cross-platform"
+      ],
+      "advertised_urls": [
+        "https://update-software.sonos.com/software/9tmT45qD4t/Sonos_57.23-80060.exe"
+      ],
+      "current": false,
+      "http_status": 404,
+      "content_length": null,
+      "etag": null,
+      "reason": "HTTP Error 404: Not Found",
+      "checked_at": "2026-11-19T07:10:04.836397+00:00"
+    },
     {
       "family": "s1",
       "platform": "macos",
@@ -1623,6 +2069,182 @@
       "etag": null,
       "reason": "HTTP Error 404: Not Found",
       "checked_at": "2026-11-18T03:19:42.623422+00:00"
+    },
+    {
+      "family": "s2",
+      "platform": "macos",
+      "version": "15.10",
+      "url": "https://www.sonos.com/en/redir/controller_software_mac2",
+      "expected_sha256": "b6818fdaa4689cb559d69bc8142a6faccb056dae7c1642ae04e9561c1538444d",
+      "sources": [
+        "homebrew-history:f6f9fc6122a8a28f582962116d5a0e9a08b3ae05:Casks/s/sonos.rb"
+      ],
+      "advertised_urls": [
+        "https://www.sonos.com/en/redir/controller_software_mac2"
+      ],
+      "advertised_by": {
+        "repository": "Homebrew/homebrew-cask",
+        "path": "Casks/s/sonos.rb",
+        "git_commit": "f6f9fc6122a8a28f582962116d5a0e9a08b3ae05"
+      },
+      "acquisition_id": "package-metadata:206a5ff40090766e84b93b636dbce386fc2522f5f54413633dbb077603fa4c33",
+      "current": false,
+      "http_status": 200,
+      "content_length": 71829492,
+      "etag": "\"d1bb2835ae26035dafbabb4665a7bab4-5\"",
+      "reason": "installer SHA-256 does not match the discovery checksum",
+      "checked_at": "2026-11-19T07:10:43.984459+00:00"
+    },
+    {
+      "family": "s2",
+      "platform": "macos",
+      "version": "15.11",
+      "url": "https://www.sonos.com/en/redir/controller_software_mac2",
+      "expected_sha256": "62f6f978660c4a553ed82bcb2c27712ee53b09c51b9922671ed52484924690d0",
+      "sources": [
+        "homebrew-history:8aac475c220574c9ad34a6b62920657d0819bc25:Casks/s/sonos.rb"
+      ],
+      "advertised_urls": [
+        "https://www.sonos.com/en/redir/controller_software_mac2"
+      ],
+      "advertised_by": {
+        "repository": "Homebrew/homebrew-cask",
+        "path": "Casks/s/sonos.rb",
+        "git_commit": "8aac475c220574c9ad34a6b62920657d0819bc25"
+      },
+      "acquisition_id": "package-metadata:a7fbdbe5be36d378122f8e4d2fbb5a15a53fea4ca56c2d38d6d6edfbad96dfdb",
+      "current": false,
+      "http_status": 200,
+      "content_length": 71829492,
+      "etag": "\"d1bb2835ae26035dafbabb4665a7bab4-5\"",
+      "reason": "installer SHA-256 does not match the discovery checksum",
+      "checked_at": "2026-11-19T07:10:44.402046+00:00"
+    },
+    {
+      "family": "s2",
+      "platform": "macos",
+      "version": "15.2",
+      "url": "https://www.sonos.com/en/redir/controller_software_mac2",
+      "expected_sha256": "cd6ec19343371907e2683aea45b84f9e6b3e4bad7d801f5b4eb2f8663f9fbb0c",
+      "sources": [
+        "homebrew-history:0c6f4e578ab50db3ac00fe8bd383d562c897b44f:Casks/sonos.rb"
+      ],
+      "advertised_urls": [
+        "https://www.sonos.com/en/redir/controller_software_mac2"
+      ],
+      "advertised_by": {
+        "repository": "Homebrew/homebrew-cask",
+        "path": "Casks/sonos.rb",
+        "git_commit": "0c6f4e578ab50db3ac00fe8bd383d562c897b44f"
+      },
+      "acquisition_id": "package-metadata:6d61fded33085efa33a8d033382479f0b339cfac11c57121c8f126ca49bc5c4f",
+      "current": false,
+      "http_status": 200,
+      "content_length": 71829492,
+      "etag": "\"d1bb2835ae26035dafbabb4665a7bab4-5\"",
+      "reason": "installer SHA-256 does not match the discovery checksum",
+      "checked_at": "2026-11-19T07:10:44.908342+00:00"
+    },
+    {
+      "family": "s2",
+      "platform": "macos",
+      "version": "15.3",
+      "url": "https://www.sonos.com/en/redir/controller_software_mac2",
+      "expected_sha256": "5778943d5517d1f0da07808cc43f87fd45d99d0a657912ac24a1de7e49cb0bf2",
+      "sources": [
+        "homebrew-history:e62a535a0f0a12365c4c1448c199d6fcce94abdd:Casks/sonos.rb"
+      ],
+      "advertised_urls": [
+        "https://www.sonos.com/en/redir/controller_software_mac2"
+      ],
+      "advertised_by": {
+        "repository": "Homebrew/homebrew-cask",
+        "path": "Casks/sonos.rb",
+        "git_commit": "e62a535a0f0a12365c4c1448c199d6fcce94abdd"
+      },
+      "acquisition_id": "package-metadata:b72650130ddce1694091e22b77f1315ee0bc94f2d3be8c20ce07f97d82a71a42",
+      "current": false,
+      "http_status": 200,
+      "content_length": 71829492,
+      "etag": "\"d1bb2835ae26035dafbabb4665a7bab4-5\"",
+      "reason": "installer SHA-256 does not match the discovery checksum",
+      "checked_at": "2026-11-19T07:10:45.371286+00:00"
+    },
+    {
+      "family": "s2",
+      "platform": "macos",
+      "version": "15.4",
+      "url": "https://www.sonos.com/en/redir/controller_software_mac2",
+      "expected_sha256": "3925b4f116e90318752e120ab8739133fe8daca5c92094a8145982f10fc696a1",
+      "sources": [
+        "homebrew-history:7cb03dfd9198cf2a390e28b38eeae3a5b790bb37:Casks/sonos.rb"
+      ],
+      "advertised_urls": [
+        "https://www.sonos.com/en/redir/controller_software_mac2"
+      ],
+      "advertised_by": {
+        "repository": "Homebrew/homebrew-cask",
+        "path": "Casks/sonos.rb",
+        "git_commit": "7cb03dfd9198cf2a390e28b38eeae3a5b790bb37"
+      },
+      "acquisition_id": "package-metadata:39d67e4c18b873a7021fb286280a8061e1788bdcafa10d7b41a1e314bab16e6a",
+      "current": false,
+      "http_status": 200,
+      "content_length": 71829492,
+      "etag": "\"d1bb2835ae26035dafbabb4665a7bab4-5\"",
+      "reason": "installer SHA-256 does not match the discovery checksum",
+      "checked_at": "2026-11-19T07:10:45.800118+00:00"
+    },
+    {
+      "family": "s2",
+      "platform": "macos",
+      "version": "15.5",
+      "url": "https://www.sonos.com/en/redir/controller_software_mac2",
+      "expected_sha256": "5ac0feeeb40b4241aaafacf76a343f359342b4cd3725532e6518c00a5fdcf653",
+      "sources": [
+        "homebrew-history:8ea76eb09a5b6c24cb37728cf8a5d2eafb9d896c:Casks/sonos.rb"
+      ],
+      "advertised_urls": [
+        "https://www.sonos.com/en/redir/controller_software_mac2"
+      ],
+      "advertised_by": {
+        "repository": "Homebrew/homebrew-cask",
+        "path": "Casks/sonos.rb",
+        "git_commit": "8ea76eb09a5b6c24cb37728cf8a5d2eafb9d896c"
+      },
+      "acquisition_id": "package-metadata:e8c3c32768904f14fcb321c08010f864f5ee113e7ecc88fca842b8a2fb76b15b",
+      "current": false,
+      "http_status": 200,
+      "content_length": 71829492,
+      "etag": "\"d1bb2835ae26035dafbabb4665a7bab4-5\"",
+      "reason": "installer SHA-256 does not match the discovery checksum",
+      "checked_at": "2026-11-19T07:10:46.236940+00:00"
+    },
+    {
+      "family": "s2",
+      "platform": "macos",
+      "version": "15.6",
+      "url": "https://www.sonos.com/en/redir/controller_software_mac2",
+      "expected_sha256": "797310d0e604c395dc50061e1375e0f1921bdc811c43311473b0b3320840ddf9",
+      "sources": [
+        "homebrew-history:aa461148bbb5119af26b82cccf5003e2b4e50d95:Casks/s/sonos.rb",
+        "homebrew-history:3a86ce28a17e33133c30f4e1c1153f06cd0db82e:Casks/sonos.rb"
+      ],
+      "advertised_urls": [
+        "https://www.sonos.com/en/redir/controller_software_mac2"
+      ],
+      "advertised_by": {
+        "repository": "Homebrew/homebrew-cask",
+        "path": "Casks/sonos.rb",
+        "git_commit": "3a86ce28a17e33133c30f4e1c1153f06cd0db82e"
+      },
+      "acquisition_id": "package-metadata:bc5edc5136599f95486d1c7b7e2e607cad6f044ee500337f3fa9742c892719a5",
+      "current": false,
+      "http_status": 200,
+      "content_length": 71829492,
+      "etag": "\"d1bb2835ae26035dafbabb4665a7bab4-5\"",
+      "reason": "installer SHA-256 does not match the discovery checksum",
+      "checked_at": "2026-11-19T07:10:46.853270+00:00"
     }
   ],
   "source_observations": {
@@ -2588,9 +3210,9 @@
         "release_asset": "Sonos_57.23-74170--3f3495441881b7767d1724aeabed595aa053cdf4780b156dbece56943f023377.dmg"
       },
       "https://update-software.sonos.com/software/9tmT45qD4t/Sonos_57.23-80060.dmg": {
-        "checked_at": "2026-11-18T03:19:51.539360+00:00",
+        "checked_at": "2026-11-19T07:09:58.853281+00:00",
         "consecutive_failures": 0,
-        "next_attempt_at": "2026-11-18T09:19:51.539360+00:00",
+        "next_attempt_at": "2026-11-19T13:09:58.853281+00:00",
         "candidate": {
           "family": "s1",
           "platform": "macos",
@@ -3001,7 +3623,9 @@
         "release_asset": "Sonos_57.22-71190--4dfe77785aa98f640430ddf9d4acd6766337bbbf95d65450265b420e72229c34.exe"
       },
       "package-metadata:10edd11877b1c99a5b34dfa42b18700dec726ceae7695a91c71582c46898c20a": {
-        "status": "pending",
+        "checked_at": "2026-11-19T07:09:59.578791+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-26T07:09:59.578791+00:00",
         "candidate": {
           "family": "s1",
           "platform": "windows",
@@ -3025,10 +3649,22 @@
           "http_status": 200,
           "content_length": 37953416,
           "etag": "\"b44cac9793ab1a1db6fffe70c9c3f587-5\""
-        }
+        },
+        "revision": {
+          "version": "57.22.59130",
+          "expected_sha256": "dd26a2fd6cb3084ff3dcc90c7a37b179e43542ba4caeae2dc99b7820c5e98501",
+          "etag": "\"b44cac9793ab1a1db6fffe70c9c3f587-5\"",
+          "content_length": 37953416,
+          "http_status": 200
+        },
+        "status": "preserved",
+        "sha256": "dd26a2fd6cb3084ff3dcc90c7a37b179e43542ba4caeae2dc99b7820c5e98501",
+        "release_asset": "Sonos_57.22-59130--dd26a2fd6cb3084ff3dcc90c7a37b179e43542ba4caeae2dc99b7820c5e98501.exe"
       },
       "package-metadata:70be8fe689bff39e785372a159544bbca6787f8210c736e75cb100ca7ed1435a": {
-        "status": "pending",
+        "checked_at": "2026-11-19T07:10:02.221598+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-26T07:10:02.221598+00:00",
         "candidate": {
           "family": "s1",
           "platform": "windows",
@@ -3052,10 +3688,22 @@
           "http_status": 200,
           "content_length": 37954624,
           "etag": "\"35337c89ec8c055d3c49cdd06c4c7063-5\""
-        }
+        },
+        "revision": {
+          "version": "57.22.68080",
+          "expected_sha256": "8e5c5929b23acdf7ff63982f9e5a2b9508c8e513e7a2c6a07ad54919909bf30f",
+          "etag": "\"35337c89ec8c055d3c49cdd06c4c7063-5\"",
+          "content_length": 37954624,
+          "http_status": 200
+        },
+        "status": "preserved",
+        "sha256": "8e5c5929b23acdf7ff63982f9e5a2b9508c8e513e7a2c6a07ad54919909bf30f",
+        "release_asset": "Sonos_57.22-68080--8e5c5929b23acdf7ff63982f9e5a2b9508c8e513e7a2c6a07ad54919909bf30f.exe"
       },
       "package-metadata:709d4038aa1fcb4b08b78b8499245b7968686fa9a33436ba982c3001292bcb16": {
-        "status": "pending",
+        "checked_at": "2026-11-19T07:10:02.408687+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-26T07:10:02.408687+00:00",
         "candidate": {
           "family": "s1",
           "platform": "windows",
@@ -3063,6 +3711,7 @@
           "url": "https://update-software.sonos.com/software/mEHO1buPlR/Sonos_57.22-71190.exe",
           "expected_sha256": "4dfe77785aa98f640430ddf9d4acd6766337bbbf95d65450265b420e72229c34",
           "sources": [
+            "winget-history:manifests/s/Sonos/S1Controller/57.22.71190/Sonos.S1Controller.installer.yaml:1669216c7c00b6a49f27e37f0c2e69fa4e92caf2",
             "winget:S1Controller/57.22.71190:1669216c7c00b6a49f27e37f0c2e69fa4e92caf2"
           ],
           "advertised_urls": [
@@ -3078,10 +3727,22 @@
           "http_status": 200,
           "content_length": 37947768,
           "etag": "\"3eca0cfe00c698d4707e8ac95a4f1c1b-3\""
-        }
+        },
+        "revision": {
+          "version": "57.22.71190",
+          "expected_sha256": "4dfe77785aa98f640430ddf9d4acd6766337bbbf95d65450265b420e72229c34",
+          "etag": "\"3eca0cfe00c698d4707e8ac95a4f1c1b-3\"",
+          "content_length": 37947768,
+          "http_status": 200
+        },
+        "status": "preserved",
+        "sha256": "4dfe77785aa98f640430ddf9d4acd6766337bbbf95d65450265b420e72229c34",
+        "release_asset": "Sonos_57.22-71190--4dfe77785aa98f640430ddf9d4acd6766337bbbf95d65450265b420e72229c34.exe"
       },
       "https://update-software.sonos.com/software/DILU1Q33hC/Sonos_57.23-74170.exe": {
-        "status": "pending",
+        "checked_at": "2026-11-19T07:10:04.783838+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-26T07:10:04.783838+00:00",
         "candidate": {
           "family": "s1",
           "platform": "windows",
@@ -3089,21 +3750,30 @@
           "url": "https://update-software.sonos.com/software/DILU1Q33hC/Sonos_57.23-74170.exe",
           "expected_sha256": null,
           "sources": [
-            "official-direct:s1-windows:live-redirect",
             "derived-cross-platform"
           ],
           "advertised_urls": [
             "https://update-software.sonos.com/software/DILU1Q33hC/Sonos_57.23-74170.exe"
           ],
-          "advertised_by": "https://www.sonos.com/redir/controller_software_pc",
-          "current": true,
+          "current": false,
           "http_status": 200,
           "content_length": 37946736,
           "etag": "\"d25242602460d4d214857aa2b2109afd-3\""
-        }
+        },
+        "revision": {
+          "version": "57.23-74170",
+          "etag": "\"d25242602460d4d214857aa2b2109afd-3\"",
+          "content_length": 37946736,
+          "http_status": 200
+        },
+        "status": "preserved",
+        "sha256": "3f055bfb194403890875a9d6042aafe708d81e0da9d54cd9ea698d81982569be",
+        "release_asset": "Sonos_57.23-74170--3f055bfb194403890875a9d6042aafe708d81e0da9d54cd9ea698d81982569be.exe"
       },
       "https://update-software.sonos.com/software/9tmT45qD4t/Sonos_57.23-80060.exe": {
-        "status": "pending",
+        "checked_at": "2026-11-19T07:10:04.836397+00:00",
+        "consecutive_failures": 1,
+        "next_attempt_at": "2026-11-26T07:10:04.836397+00:00",
         "candidate": {
           "family": "s1",
           "platform": "windows",
@@ -3120,10 +3790,18 @@
           "http_status": 404,
           "content_length": null,
           "etag": null
-        }
+        },
+        "revision": {
+          "version": "57.23-80060",
+          "http_status": 404
+        },
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
       },
       "package-metadata:380a8637f386f053ee074bb935aada91175cfdb3439e3128e53e6bfe438609f7": {
-        "status": "pending",
+        "checked_at": "2026-11-19T07:10:05.178822+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-26T07:10:05.178822+00:00",
         "candidate": {
           "family": "s1",
           "platform": "windows",
@@ -3131,6 +3809,8 @@
           "url": "https://update-software.sonos.com/software/DILU1Q33hC/Sonos_57.23-74170.exe",
           "expected_sha256": "3f055bfb194403890875a9d6042aafe708d81e0da9d54cd9ea698d81982569be",
           "sources": [
+            "winget-history:manifests/s/Sonos/S1Controller/57.23.74170/Sonos.S1Controller.installer.yaml:7c1a695f313b91c78c8410f98abf449cb98143e3",
+            "winget-history:manifests/s/Sonos/S1Controller/57.23.74170/Sonos.S1Controller.installer.yaml:2c2814c69a5e70d4b6fcb09be9b8cd192f85ef7e",
             "winget:S1Controller/57.23.74170:7c1a695f313b91c78c8410f98abf449cb98143e3"
           ],
           "advertised_urls": [
@@ -3142,14 +3822,26 @@
             "path": "manifests/s/Sonos/S1Controller/57.23.74170/Sonos.S1Controller.installer.yaml"
           },
           "acquisition_id": "package-metadata:380a8637f386f053ee074bb935aada91175cfdb3439e3128e53e6bfe438609f7",
-          "current": true,
+          "current": false,
           "http_status": 200,
           "content_length": 37946736,
           "etag": "\"d25242602460d4d214857aa2b2109afd-3\""
-        }
+        },
+        "revision": {
+          "version": "57.23.74170",
+          "expected_sha256": "3f055bfb194403890875a9d6042aafe708d81e0da9d54cd9ea698d81982569be",
+          "etag": "\"d25242602460d4d214857aa2b2109afd-3\"",
+          "content_length": 37946736,
+          "http_status": 200
+        },
+        "status": "preserved",
+        "sha256": "3f055bfb194403890875a9d6042aafe708d81e0da9d54cd9ea698d81982569be",
+        "release_asset": "Sonos_57.23-74170--3f055bfb194403890875a9d6042aafe708d81e0da9d54cd9ea698d81982569be.exe"
       },
       "package-metadata:4ffdc0fbc94d047c8dc69e4d429657743e236e64be5f626aca6c2b256c20731d": {
-        "status": "pending",
+        "checked_at": "2026-11-19T07:10:07.183156+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-26T07:10:07.183156+00:00",
         "candidate": {
           "family": "s1",
           "platform": "windows",
@@ -3157,6 +3849,7 @@
           "url": "https://update-software.sonos.com/software/pc/dcr/SonosDesktopController11213.exe",
           "expected_sha256": "1d59d04d044fe7052db2b4d5f5b51a100bbe433b908b9111384d46ece7c8681e",
           "sources": [
+            "winget-history:manifests/s/Sonos/S1Controller/57.9.23010/Sonos.S1Controller.installer.yaml:4ee26740087f3b43d1606533bd8bc648bd21953e",
             "winget:S1Controller/57.9.23010:4ee26740087f3b43d1606533bd8bc648bd21953e"
           ],
           "advertised_urls": [
@@ -3172,10 +3865,22 @@
           "http_status": 200,
           "content_length": 37763680,
           "etag": "\"6edda7938d103cd5340596b71fb8fde6-5\""
-        }
+        },
+        "revision": {
+          "version": "57.9.23010",
+          "expected_sha256": "1d59d04d044fe7052db2b4d5f5b51a100bbe433b908b9111384d46ece7c8681e",
+          "etag": "\"6edda7938d103cd5340596b71fb8fde6-5\"",
+          "content_length": 37763680,
+          "http_status": 200
+        },
+        "status": "preserved",
+        "sha256": "1d59d04d044fe7052db2b4d5f5b51a100bbe433b908b9111384d46ece7c8681e",
+        "release_asset": "SonosDesktopController11213--1d59d04d044fe7052db2b4d5f5b51a100bbe433b908b9111384d46ece7c8681e.exe"
       },
       "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController120.dmg": {
-        "status": "pending",
+        "checked_at": "2026-11-19T07:10:11.267059+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-26T07:10:11.267059+00:00",
         "candidate": {
           "family": "s2",
           "platform": "macos",
@@ -3192,10 +3897,21 @@
           "http_status": 200,
           "content_length": 48763494,
           "etag": "\"193bd890270d2f5902e0084de4bc476a-6\""
-        }
+        },
+        "revision": {
+          "version": "12.0",
+          "etag": "\"193bd890270d2f5902e0084de4bc476a-6\"",
+          "content_length": 48763494,
+          "http_status": 200
+        },
+        "status": "preserved",
+        "sha256": "7dcab807a75f9faef5941f96eff3e823771187e9f6fea3892d2674f192c0a02f",
+        "release_asset": "SonosDesktopController120--7dcab807a75f9faef5941f96eff3e823771187e9f6fea3892d2674f192c0a02f.dmg"
       },
       "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController1201.dmg": {
-        "status": "pending",
+        "checked_at": "2026-11-19T07:10:15.374842+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-26T07:10:15.374842+00:00",
         "candidate": {
           "family": "s2",
           "platform": "macos",
@@ -3212,10 +3928,21 @@
           "http_status": 200,
           "content_length": 49142937,
           "etag": "\"797ea6739be967cae384a26dab8f746e-6\""
-        }
+        },
+        "revision": {
+          "version": "12.0.1",
+          "etag": "\"797ea6739be967cae384a26dab8f746e-6\"",
+          "content_length": 49142937,
+          "http_status": 200
+        },
+        "status": "preserved",
+        "sha256": "7420cc84d3eaf3537df73f8cfbf3a9c8457b51206d1212bfb422912825df98b4",
+        "release_asset": "SonosDesktopController1201--7420cc84d3eaf3537df73f8cfbf3a9c8457b51206d1212bfb422912825df98b4.dmg"
       },
       "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController121.dmg": {
-        "status": "pending",
+        "checked_at": "2026-11-19T07:10:19.020579+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-26T07:10:19.020579+00:00",
         "candidate": {
           "family": "s2",
           "platform": "macos",
@@ -3232,10 +3959,21 @@
           "http_status": 200,
           "content_length": 55665335,
           "etag": "\"97b20c9ece336aef2171e09f226d4b16-7\""
-        }
+        },
+        "revision": {
+          "version": "12.1",
+          "etag": "\"97b20c9ece336aef2171e09f226d4b16-7\"",
+          "content_length": 55665335,
+          "http_status": 200
+        },
+        "status": "preserved",
+        "sha256": "2322294f582dcb53c905d4a2df38db8519d0f551302a8f7afde03968958a46ca",
+        "release_asset": "SonosDesktopController121--2322294f582dcb53c905d4a2df38db8519d0f551302a8f7afde03968958a46ca.dmg"
       },
       "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController1222.dmg": {
-        "status": "pending",
+        "checked_at": "2026-11-19T07:10:23.098637+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-26T07:10:23.098637+00:00",
         "candidate": {
           "family": "s2",
           "platform": "macos",
@@ -3252,10 +3990,21 @@
           "http_status": 200,
           "content_length": 57147132,
           "etag": "\"4c3b8758e6ee19f8dfad8389ef04c522-7\""
-        }
+        },
+        "revision": {
+          "version": "12.2.2",
+          "etag": "\"4c3b8758e6ee19f8dfad8389ef04c522-7\"",
+          "content_length": 57147132,
+          "http_status": 200
+        },
+        "status": "preserved",
+        "sha256": "c4eeba983d7f0fa6637b14a40abe40908b7db9e3bb4ef9d7cdb99cd1f4ec769d",
+        "release_asset": "SonosDesktopController1222--c4eeba983d7f0fa6637b14a40abe40908b7db9e3bb4ef9d7cdb99cd1f4ec769d.dmg"
       },
       "https://update-software.sonos.com/software/mac/mdcr/SonosDesktopController130.dmg": {
-        "status": "pending",
+        "checked_at": "2026-11-19T07:10:43.263347+00:00",
+        "consecutive_failures": 0,
+        "next_attempt_at": "2026-11-26T07:10:43.263347+00:00",
         "candidate": {
           "family": "s2",
           "platform": "macos",
@@ -3272,10 +4021,21 @@
           "http_status": 200,
           "content_length": 57041732,
           "etag": "\"b6c202dc969959ac91bdffa3bdf7b63f-7\""
-        }
+        },
+        "revision": {
+          "version": "13.0.0",
+          "etag": "\"b6c202dc969959ac91bdffa3bdf7b63f-7\"",
+          "content_length": 57041732,
+          "http_status": 200
+        },
+        "status": "preserved",
+        "sha256": "f4a0112cbd5b8340ca25e6349daa8000690dd80f182702bdc399787e0e861101",
+        "release_asset": "SonosDesktopController130--f4a0112cbd5b8340ca25e6349daa8000690dd80f182702bdc399787e0e861101.dmg"
       },
       "package-metadata:206a5ff40090766e84b93b636dbce386fc2522f5f54413633dbb077603fa4c33": {
-        "status": "pending",
+        "checked_at": "2026-11-19T07:10:43.984459+00:00",
+        "consecutive_failures": 1,
+        "next_attempt_at": "2026-11-19T08:10:43.984459+00:00",
         "candidate": {
           "family": "s2",
           "platform": "macos",
@@ -3298,10 +4058,21 @@
           "http_status": 200,
           "content_length": 71829492,
           "etag": "\"d1bb2835ae26035dafbabb4665a7bab4-5\""
-        }
+        },
+        "revision": {
+          "version": "15.10",
+          "expected_sha256": "b6818fdaa4689cb559d69bc8142a6faccb056dae7c1642ae04e9561c1538444d",
+          "etag": "\"d1bb2835ae26035dafbabb4665a7bab4-5\"",
+          "content_length": 71829492,
+          "http_status": 200
+        },
+        "status": "failed",
+        "error": "installer SHA-256 does not match the discovery checksum"
       },
       "package-metadata:a7fbdbe5be36d378122f8e4d2fbb5a15a53fea4ca56c2d38d6d6edfbad96dfdb": {
-        "status": "pending",
+        "checked_at": "2026-11-19T07:10:44.402046+00:00",
+        "consecutive_failures": 1,
+        "next_attempt_at": "2026-11-19T08:10:44.402046+00:00",
         "candidate": {
           "family": "s2",
           "platform": "macos",
@@ -3324,10 +4095,21 @@
           "http_status": 200,
           "content_length": 71829492,
           "etag": "\"d1bb2835ae26035dafbabb4665a7bab4-5\""
-        }
+        },
+        "revision": {
+          "version": "15.11",
+          "expected_sha256": "62f6f978660c4a553ed82bcb2c27712ee53b09c51b9922671ed52484924690d0",
+          "etag": "\"d1bb2835ae26035dafbabb4665a7bab4-5\"",
+          "content_length": 71829492,
+          "http_status": 200
+        },
+        "status": "failed",
+        "error": "installer SHA-256 does not match the discovery checksum"
       },
       "package-metadata:6d61fded33085efa33a8d033382479f0b339cfac11c57121c8f126ca49bc5c4f": {
-        "status": "pending",
+        "checked_at": "2026-11-19T07:10:44.908342+00:00",
+        "consecutive_failures": 1,
+        "next_attempt_at": "2026-11-19T08:10:44.908342+00:00",
         "candidate": {
           "family": "s2",
           "platform": "macos",
@@ -3350,10 +4132,21 @@
           "http_status": 200,
           "content_length": 71829492,
           "etag": "\"d1bb2835ae26035dafbabb4665a7bab4-5\""
-        }
+        },
+        "revision": {
+          "version": "15.2",
+          "expected_sha256": "cd6ec19343371907e2683aea45b84f9e6b3e4bad7d801f5b4eb2f8663f9fbb0c",
+          "etag": "\"d1bb2835ae26035dafbabb4665a7bab4-5\"",
+          "content_length": 71829492,
+          "http_status": 200
+        },
+        "status": "failed",
+        "error": "installer SHA-256 does not match the discovery checksum"
       },
       "package-metadata:b72650130ddce1694091e22b77f1315ee0bc94f2d3be8c20ce07f97d82a71a42": {
-        "status": "pending",
+        "checked_at": "2026-11-19T07:10:45.371286+00:00",
+        "consecutive_failures": 1,
+        "next_attempt_at": "2026-11-19T08:10:45.371286+00:00",
         "candidate": {
           "family": "s2",
           "platform": "macos",
@@ -3376,10 +4169,21 @@
           "http_status": 200,
           "content_length": 71829492,
           "etag": "\"d1bb2835ae26035dafbabb4665a7bab4-5\""
-        }
+        },
+        "revision": {
+          "version": "15.3",
+          "expected_sha256": "5778943d5517d1f0da07808cc43f87fd45d99d0a657912ac24a1de7e49cb0bf2",
+          "etag": "\"d1bb2835ae26035dafbabb4665a7bab4-5\"",
+          "content_length": 71829492,
+          "http_status": 200
+        },
+        "status": "failed",
+        "error": "installer SHA-256 does not match the discovery checksum"
       },
       "package-metadata:39d67e4c18b873a7021fb286280a8061e1788bdcafa10d7b41a1e314bab16e6a": {
-        "status": "pending",
+        "checked_at": "2026-11-19T07:10:45.800118+00:00",
+        "consecutive_failures": 1,
+        "next_attempt_at": "2026-11-19T08:10:45.800118+00:00",
         "candidate": {
           "family": "s2",
           "platform": "macos",
@@ -3402,10 +4206,21 @@
           "http_status": 200,
           "content_length": 71829492,
           "etag": "\"d1bb2835ae26035dafbabb4665a7bab4-5\""
-        }
+        },
+        "revision": {
+          "version": "15.4",
+          "expected_sha256": "3925b4f116e90318752e120ab8739133fe8daca5c92094a8145982f10fc696a1",
+          "etag": "\"d1bb2835ae26035dafbabb4665a7bab4-5\"",
+          "content_length": 71829492,
+          "http_status": 200
+        },
+        "status": "failed",
+        "error": "installer SHA-256 does not match the discovery checksum"
       },
       "package-metadata:e8c3c32768904f14fcb321c08010f864f5ee113e7ecc88fca842b8a2fb76b15b": {
-        "status": "pending",
+        "checked_at": "2026-11-19T07:10:46.236940+00:00",
+        "consecutive_failures": 1,
+        "next_attempt_at": "2026-11-19T08:10:46.236940+00:00",
         "candidate": {
           "family": "s2",
           "platform": "macos",
@@ -3428,10 +4243,21 @@
           "http_status": 200,
           "content_length": 71829492,
           "etag": "\"d1bb2835ae26035dafbabb4665a7bab4-5\""
-        }
+        },
+        "revision": {
+          "version": "15.5",
+          "expected_sha256": "5ac0feeeb40b4241aaafacf76a343f359342b4cd3725532e6518c00a5fdcf653",
+          "etag": "\"d1bb2835ae26035dafbabb4665a7bab4-5\"",
+          "content_length": 71829492,
+          "http_status": 200
+        },
+        "status": "failed",
+        "error": "installer SHA-256 does not match the discovery checksum"
       },
       "package-metadata:bc5edc5136599f95486d1c7b7e2e607cad6f044ee500337f3fa9742c892719a5": {
-        "status": "pending",
+        "checked_at": "2026-11-19T07:10:46.853270+00:00",
+        "consecutive_failures": 1,
+        "next_attempt_at": "2026-11-19T08:10:46.853270+00:00",
         "candidate": {
           "family": "s2",
           "platform": "macos",
@@ -3455,7 +4281,16 @@
           "http_status": 200,
           "content_length": 71829492,
           "etag": "\"d1bb2835ae26035dafbabb4665a7bab4-5\""
-        }
+        },
+        "revision": {
+          "version": "15.6",
+          "expected_sha256": "797310d0e604c395dc50061e1375e0f1921bdc811c43311473b0b3320840ddf9",
+          "etag": "\"d1bb2835ae26035dafbabb4665a7bab4-5\"",
+          "content_length": 71829492,
+          "http_status": 200
+        },
+        "status": "failed",
+        "error": "installer SHA-256 does not match the discovery checksum"
       },
       "package-metadata:b7ede2e9e901bbba458f7055415a00f8ac5471f944b2abaeb8a72892d56960bc": {
         "status": "pending",
@@ -4356,8 +5191,8 @@
           },
           "current": false,
           "http_status": 200,
-          "content_length": 56051852,
-          "etag": "\"f4d06fe360417438cdce76fef65f5c8a-7\""
+          "content_length": 56084400,
+          "etag": "\"b3a9550028c8ce095b5c1782a697c7eb-7\""
         }
       },
       "package-metadata:8f946bb1797d55ad438b7c719659e3b03d5fe3e3d5440b113cf920b9a1392654": {
@@ -5098,6 +5933,7 @@
           "expected_sha256": "1a90fb565d9a2d077af52441d1f66312ca134a4732ad0c084587f72bdc4e14d0",
           "sources": [
             "winget-history:manifests/s/Sonos/Controller/90.0.67300/Sonos.Controller.installer.yaml:7643e05802bc4d537d65274144e174d6ca277c93",
+            "winget-history:manifests/s/Sonos/Controller/90.0.67300/Sonos.Controller.installer.yaml:e9fd474e7a0e515dc8985d715b915bea306239dd",
             "winget:Controller/90.0.67300:7643e05802bc4d537d65274144e174d6ca277c93"
           ],
           "advertised_urls": [
@@ -5178,6 +6014,7 @@
           "url": "https://update-firmware.sonos.com/firmware/Prod/57.19-46310-v11.12-rozcvdwa-GA-1/57.19-46310-1-4.dmg",
           "expected_sha256": null,
           "sources": [
+            "firmware-observation:data/catalog.json",
             "firmware-observation:data/discovery/firmware-frontier.json",
             "derived-cross-platform"
           ],
@@ -5305,13 +6142,14 @@
           "url": "https://update-firmware.sonos.com/firmware/Prod/57.22-67080-v11.15.4-yNhAXS5QQR-SP-6/57.22-67080-1-4.dmg",
           "expected_sha256": null,
           "sources": [
+            "firmware-observation:data/catalog.json",
             "firmware-observation:data/discovery/firmware-frontier.json",
             "derived-cross-platform"
           ],
           "advertised_urls": [
             "https://update-firmware.sonos.com/firmware/Prod/57.22-67080-v11.15.4-yNhAXS5QQR-SP-6/57.22-67080-1-4.dmg"
           ],
-          "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/57.22-67080-v11.15.4-yNhAXS5QQR-SP-6/update.upm",
+          "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/57.22-68080-v11.15.6-NUPz7mPXln-SP-8/update.upm",
           "current": false,
           "http_status": 200,
           "content_length": 49053384,
@@ -5517,6 +6355,7 @@
           "url": "https://update-firmware.sonos.com/firmware/Prod/57.5-87010-v11.2.6-aocdfj-GA-1/57.5-87010-1-4.dmg",
           "expected_sha256": null,
           "sources": [
+            "firmware-observation:data/catalog.json",
             "firmware-observation:data/discovery/firmware-frontier.json",
             "derived-cross-platform"
           ],
@@ -5560,6 +6399,7 @@
           "url": "https://update-firmware.sonos.com/firmware/Prod/57.19-46310-v11.12-rozcvdwa-GA-1/57.19-46310-1-3.exe",
           "expected_sha256": null,
           "sources": [
+            "firmware-observation:data/catalog.json",
             "firmware-observation:data/discovery/firmware-frontier.json",
             "derived-cross-platform"
           ],
@@ -5735,7 +6575,7 @@
           "advertised_urls": [
             "https://update-firmware.sonos.com/firmware/Prod/57.22-68080-v11.15.6-NUPz7mPXln-SP-8/57.22-68080-1-3.exe"
           ],
-          "advertised_by": "https://update.sonos.com/firmware/Prod/57.23-80060-v11.16.2-9tmT45qD4t-SP-1/update.upm",
+          "advertised_by": "https://update.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/update.upm",
           "current": false,
           "http_status": 200,
           "content_length": 37954624,
@@ -5898,6 +6738,7 @@
           "url": "https://update-firmware.sonos.com/firmware/Prod/57.5-87010-v11.2.6-aocdfj-GA-1/57.5-87010-1-3.exe",
           "expected_sha256": null,
           "sources": [
+            "firmware-observation:data/catalog.json",
             "firmware-observation:data/discovery/firmware-frontier.json",
             "derived-cross-platform"
           ],
@@ -5947,7 +6788,7 @@
           "advertised_urls": [
             "https://update-firmware.sonos.com/firmware/Prod/28.1-86141-v5.3.2-twphva-LR-1/28.1-86141-1-4.dmg"
           ],
-          "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/90.0-79210-v17.2.3-HBVQeC4A1l-RC-1/update.upm",
+          "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/97.1-80312-v18.8-jZ0oXJNpeN-RC-6/update.upm",
           "current": false,
           "http_status": 200,
           "content_length": 14570415,
@@ -5989,7 +6830,7 @@
           "advertised_urls": [
             "https://update-firmware.sonos.com/firmware/Prod/34.16-37101-v7.1-nzhemz-LR-1/34.16-37101-1-4.dmg"
           ],
-          "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/90.0-79210-v17.2.3-HBVQeC4A1l-RC-1/update.upm",
+          "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/97.1-80312-v18.8-jZ0oXJNpeN-RC-6/update.upm",
           "current": false,
           "http_status": 404,
           "content_length": null,
@@ -6031,7 +6872,7 @@
           "advertised_urls": [
             "https://update-firmware.sonos.com/firmware/Prod/38.9-46251-v8.1.1-mvckho-LR-1/38.9-46251-1-4.dmg"
           ],
-          "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/90.0-79210-v17.2.3-HBVQeC4A1l-RC-1/update.upm",
+          "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/97.1-80312-v18.8-jZ0oXJNpeN-RC-6/update.upm",
           "current": false,
           "http_status": 404,
           "content_length": null,
@@ -6073,7 +6914,7 @@
           "advertised_urls": [
             "https://update-firmware.sonos.com/firmware/Prod/47.2-59120-v9.3-fctsul-LR-1/47.2-59120-1-4.dmg"
           ],
-          "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/86.10-80260-v17.2.7-WghpQDvg5l-RC-2/update.upm",
+          "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/97.1-80312-v18.8-jZ0oXJNpeN-RC-6/update.upm",
           "current": false,
           "http_status": 200,
           "content_length": 33984908,
@@ -6109,6 +6950,7 @@
           "url": "https://update-firmware.sonos.com/firmware/Prod/55.1-74250-v11.0-ytwbbr-GA-1/55.1-74250-1-4.dmg",
           "expected_sha256": null,
           "sources": [
+            "firmware-observation:data/catalog.json",
             "firmware-observation:data/discovery/firmware-frontier.json",
             "derived-cross-platform"
           ],
@@ -6172,6 +7014,7 @@
           "url": "https://update-firmware.sonos.com/firmware/Prod/64.3-19080-v13.2-udvsve-GA-1/64.3-19080-1-4.dmg",
           "expected_sha256": null,
           "sources": [
+            "firmware-observation:data/catalog.json",
             "firmware-observation:data/discovery/firmware-frontier.json"
           ],
           "advertised_urls": [
@@ -6488,7 +7331,7 @@
           "advertised_urls": [
             "https://update-firmware.sonos.com/firmware/Prod/90.0-75190-v17.2.3-lDpGfsxQdy-RC-5/90.0-75190-1-4.dmg"
           ],
-          "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/90.0-75190-v17.2.3-lDpGfsxQdy-RC-5/update.upm",
+          "advertised_by": "https://update-test.sonos.com/releases/alpha/c6f38e9f884349afba786f630ead94ca/update.upm",
           "current": false,
           "http_status": 200,
           "content_length": 63194611,
@@ -6593,7 +7436,7 @@
           "advertised_urls": [
             "https://update-firmware.sonos.com/firmware/Prod/90.0-79210-v17.2.3-HBVQeC4A1l-RC-1/90.0-79210-1-4.dmg"
           ],
-          "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/90.0-79210-v17.2.3-HBVQeC4A1l-RC-1/update.upm",
+          "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/97.1-80312-v18.8-jZ0oXJNpeN-RC-6/update.upm",
           "current": false,
           "http_status": 200,
           "content_length": 71832943,
@@ -6758,7 +7601,7 @@
           "advertised_urls": [
             "https://update-firmware.sonos.com/firmware/Prod/34.16-37101-v7.1-nzhemz-LR-1/34.16-37101-1-3.exe"
           ],
-          "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/90.0-79210-v17.2.3-HBVQeC4A1l-RC-1/update.upm",
+          "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/97.1-80312-v18.8-jZ0oXJNpeN-RC-6/update.upm",
           "current": false,
           "http_status": 404,
           "content_length": null,
@@ -6875,6 +7718,7 @@
           "url": "https://update-firmware.sonos.com/firmware/Prod/55.1-74250-v11.0-ytwbbr-GA-1/55.1-74250-1-3.exe",
           "expected_sha256": null,
           "sources": [
+            "firmware-observation:data/catalog.json",
             "firmware-observation:data/discovery/firmware-frontier.json",
             "derived-cross-platform"
           ],
@@ -6918,6 +7762,7 @@
           "url": "https://update-firmware.sonos.com/firmware/Prod/64.3-19080-v13.2-qelzft-LR-1/64.3-19080-1-3.exe",
           "expected_sha256": null,
           "sources": [
+            "firmware-observation:data/catalog.json",
             "firmware-observation:data/discovery/firmware-frontier.json"
           ],
           "advertised_urls": [
@@ -7005,7 +7850,7 @@
           "advertised_urls": [
             "https://update-firmware.sonos.com/firmware/Prod/64.3-21150-v13.2.3-hkzgqn-LR-1/64.3-21150-1-3.exe"
           ],
-          "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/90.0-79210-v17.2.3-HBVQeC4A1l-RC-1/update.upm",
+          "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/97.1-80312-v18.8-jZ0oXJNpeN-RC-6/update.upm",
           "current": false,
           "http_status": 200,
           "content_length": 48124216,
@@ -7155,7 +8000,7 @@
           "advertised_urls": [
             "https://update-firmware.sonos.com/firmware/Prod/90.0-67300-v17.2.1-Lp7WoQPkxr-RC-1/90.0-67300-1-3.exe"
           ],
-          "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/90.0-79210-v17.2.3-HBVQeC4A1l-RC-1/update.upm",
+          "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/97.1-80312-v18.8-jZ0oXJNpeN-RC-6/update.upm",
           "current": false,
           "http_status": 200,
           "content_length": 57509160,
@@ -7324,7 +8169,7 @@
           "advertised_urls": [
             "https://update-firmware.sonos.com/firmware/Prod/90.0-77070-v17.2.3-rT0797IawE-RC-6/90.0-77070-1-3.exe"
           ],
-          "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/86.10-80260-v17.2.7-WghpQDvg5l-RC-2/update.upm",
+          "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/97.1-80312-v18.8-jZ0oXJNpeN-RC-6/update.upm",
           "current": false,
           "http_status": 200,
           "content_length": 57599144,
@@ -7471,35 +8316,245 @@
           "content_length": 57610736,
           "etag": "\"b3b8dbfa75f162a968cb51fe9d8961a4-7\""
         }
+      },
+      "https://update-firmware.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/57.23-83121-1-4.dmg": {
+        "status": "pending",
+        "candidate": {
+          "family": "s1",
+          "platform": "macos",
+          "version": "57.23-83121",
+          "url": "https://update-firmware.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/57.23-83121-1-4.dmg",
+          "expected_sha256": null,
+          "sources": [
+            "firmware-observation:data/discovery/firmware-frontier.json",
+            "derived-cross-platform"
+          ],
+          "advertised_urls": [
+            "https://update-firmware.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/57.23-83121-1-4.dmg"
+          ],
+          "advertised_by": "https://update.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/update.upm",
+          "current": false,
+          "http_status": 200,
+          "content_length": 56084400,
+          "etag": "\"b3a9550028c8ce095b5c1782a697c7eb-7\""
+        }
+      },
+      "https://update-software.sonos.com/software/40G2W5Dpkq/Sonos_57.23-83121.dmg": {
+        "status": "pending",
+        "candidate": {
+          "family": "s1",
+          "platform": "macos",
+          "version": "57.23-83121",
+          "url": "https://update-software.sonos.com/software/40G2W5Dpkq/Sonos_57.23-83121.dmg",
+          "expected_sha256": null,
+          "sources": [
+            "official-direct:s1-macos:live-redirect",
+            "derived-cross-platform"
+          ],
+          "advertised_urls": [
+            "https://update-software.sonos.com/software/40G2W5Dpkq/Sonos_57.23-83121.dmg"
+          ],
+          "advertised_by": "https://www.sonos.com/redir/controller_software_mac",
+          "current": true,
+          "http_status": 200,
+          "content_length": 56084400,
+          "etag": "\"b3a9550028c8ce095b5c1782a697c7eb-7\""
+        }
+      },
+      "https://update.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/57.23-83121-1-4.dmg": {
+        "status": "pending",
+        "candidate": {
+          "family": "s1",
+          "platform": "macos",
+          "version": "57.23-83121",
+          "url": "https://update.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/57.23-83121-1-4.dmg",
+          "expected_sha256": null,
+          "sources": [
+            "firmware-observation:data/discovery/firmware-frontier.json",
+            "derived-cross-platform"
+          ],
+          "advertised_urls": [
+            "https://update.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/57.23-83121-1-4.dmg"
+          ],
+          "current": false,
+          "http_status": 200,
+          "content_length": 56084400,
+          "etag": "\"b3a9550028c8ce095b5c1782a697c7eb-7\""
+        }
+      },
+      "https://update-firmware.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/57.23-83121-1-3.exe": {
+        "status": "pending",
+        "candidate": {
+          "family": "s1",
+          "platform": "windows",
+          "version": "57.23-83121",
+          "url": "https://update-firmware.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/57.23-83121-1-3.exe",
+          "expected_sha256": null,
+          "sources": [
+            "firmware-observation:data/discovery/firmware-frontier.json",
+            "derived-cross-platform"
+          ],
+          "advertised_urls": [
+            "https://update-firmware.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/57.23-83121-1-3.exe"
+          ],
+          "advertised_by": "https://update.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/update.upm",
+          "current": false,
+          "http_status": 200,
+          "content_length": 37934968,
+          "etag": "\"cc2bc002db8c71d2b4b413bab677dbb5-5\""
+        }
+      },
+      "https://update-software.sonos.com/software/40G2W5Dpkq/Sonos_57.23-83121.exe": {
+        "status": "pending",
+        "candidate": {
+          "family": "s1",
+          "platform": "windows",
+          "version": "57.23-83121",
+          "url": "https://update-software.sonos.com/software/40G2W5Dpkq/Sonos_57.23-83121.exe",
+          "expected_sha256": null,
+          "sources": [
+            "official-direct:s1-windows:live-redirect",
+            "derived-cross-platform"
+          ],
+          "advertised_urls": [
+            "https://update-software.sonos.com/software/40G2W5Dpkq/Sonos_57.23-83121.exe"
+          ],
+          "advertised_by": "https://www.sonos.com/redir/controller_software_pc",
+          "current": true,
+          "http_status": 200,
+          "content_length": 37934968,
+          "etag": "\"cc2bc002db8c71d2b4b413bab677dbb5-5\""
+        }
+      },
+      "https://update.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/57.23-83121-1-3.exe": {
+        "status": "pending",
+        "candidate": {
+          "family": "s1",
+          "platform": "windows",
+          "version": "57.23-83121",
+          "url": "https://update.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/57.23-83121-1-3.exe",
+          "expected_sha256": null,
+          "sources": [
+            "firmware-observation:data/discovery/firmware-frontier.json",
+            "derived-cross-platform"
+          ],
+          "advertised_urls": [
+            "https://update.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/57.23-83121-1-3.exe"
+          ],
+          "current": false,
+          "http_status": 200,
+          "content_length": 37934968,
+          "etag": "\"cc2bc002db8c71d2b4b413bab677dbb5-5\""
+        }
+      },
+      "package-metadata:854ea5eea32343eaaf1fafdba6324b4658a002a1a5a9d529f40c38cf638e9b57": {
+        "status": "pending",
+        "candidate": {
+          "family": "s1",
+          "platform": "windows",
+          "version": "57.23.83121",
+          "url": "https://update-software.sonos.com/software/40G2W5Dpkq/Sonos_57.23-83121.exe",
+          "expected_sha256": "907f218e537dd18dd89e76cad10caf48af46a93c1fce749f38d6e9a490bc4a60",
+          "sources": [
+            "winget:S1Controller/57.23.83121:654db071a75d8bf013e0f26e2dd1a0f3303e7a41"
+          ],
+          "advertised_urls": [
+            "https://update-software.sonos.com/software/40G2W5Dpkq/Sonos_57.23-83121.exe"
+          ],
+          "advertised_by": {
+            "repository": "microsoft/winget-pkgs",
+            "git_blob": "654db071a75d8bf013e0f26e2dd1a0f3303e7a41",
+            "path": "manifests/s/Sonos/S1Controller/57.23.83121/Sonos.S1Controller.installer.yaml"
+          },
+          "acquisition_id": "package-metadata:854ea5eea32343eaaf1fafdba6324b4658a002a1a5a9d529f40c38cf638e9b57",
+          "current": true,
+          "http_status": 200,
+          "content_length": 37934968,
+          "etag": "\"cc2bc002db8c71d2b4b413bab677dbb5-5\""
+        }
       }
     }
   },
-  "updated": "2026-11-18T03:20:45.679222+00:00",
+  "updated": "2026-11-19T07:10:46.853390+00:00",
   "repository": "BookCatKid/sonos-archive-bootstrap-validation",
-  "discovery": "/home/runner/work/_temp/sonos-desktop-61891ioa/history/discovery.json",
-  "artifact_total": 33,
-  "gap_total": 1,
+  "discovery": "data/apps/desktop-history-index.json",
+  "artifact_total": 41,
+  "gap_total": 9,
   "status": "partial",
   "errors": [
     {
       "phase": "discovery",
       "error": {
         "url": "https://web.archive.org/cdx/search/cdx?url=sonos.com%2F&matchType=domain&output=json&gzip=false&fl=timestamp%2Coriginal%2Cdigest&filter=statuscode%3A200&filter=original%3A.%2A%5B.%5D%28%3Fi%3Aexe%7Cdmg%29%28%5B%3F%5D.%2A%29%3F%24&collapse=digest&limit=500&showResumeKey=true",
-        "error": "The read operation timed out",
-        "http_status": null,
-        "checked_at": "2026-11-18T03:20:17.264336+00:00",
+        "error": "HTTP Error 503: Service Unavailable",
+        "http_status": 503,
+        "checked_at": "2026-11-19T07:10:28.611970+00:00",
+        "consecutive_failures": 2,
+        "next_attempt_at": "2026-11-19T09:10:28.611970+00:00"
+      }
+    },
+    {
+      "phase": "discovery",
+      "error": {
+        "checked_at": "2026-11-19T07:10:38.831725+00:00",
         "consecutive_failures": 1,
-        "next_attempt_at": "2026-11-18T04:20:17.264336+00:00"
+        "next_attempt_at": "2026-11-19T08:10:38.831725+00:00",
+        "status": "failed",
+        "error": "HTTP Error 504: Gateway Time-out",
+        "url": "https://index.commoncrawl.org/CC-MAIN-2026-43-index",
+        "http_status": 504
       }
     },
     {
       "url": "https://update-software.sonos.com/software/NUPz7mPXln/Sonos_57.22-68080.dmg",
       "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://update-software.sonos.com/software/9tmT45qD4t/Sonos_57.23-80060.exe",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.sonos.com/en/redir/controller_software_mac2",
+      "error": "installer SHA-256 does not match the discovery checksum",
+      "acquisition_id": "package-metadata:206a5ff40090766e84b93b636dbce386fc2522f5f54413633dbb077603fa4c33"
+    },
+    {
+      "url": "https://www.sonos.com/en/redir/controller_software_mac2",
+      "error": "installer SHA-256 does not match the discovery checksum",
+      "acquisition_id": "package-metadata:a7fbdbe5be36d378122f8e4d2fbb5a15a53fea4ca56c2d38d6d6edfbad96dfdb"
+    },
+    {
+      "url": "https://www.sonos.com/en/redir/controller_software_mac2",
+      "error": "installer SHA-256 does not match the discovery checksum",
+      "acquisition_id": "package-metadata:6d61fded33085efa33a8d033382479f0b339cfac11c57121c8f126ca49bc5c4f"
+    },
+    {
+      "url": "https://www.sonos.com/en/redir/controller_software_mac2",
+      "error": "installer SHA-256 does not match the discovery checksum",
+      "acquisition_id": "package-metadata:b72650130ddce1694091e22b77f1315ee0bc94f2d3be8c20ce07f97d82a71a42"
+    },
+    {
+      "url": "https://www.sonos.com/en/redir/controller_software_mac2",
+      "error": "installer SHA-256 does not match the discovery checksum",
+      "acquisition_id": "package-metadata:39d67e4c18b873a7021fb286280a8061e1788bdcafa10d7b41a1e314bab16e6a"
+    },
+    {
+      "url": "https://www.sonos.com/en/redir/controller_software_mac2",
+      "error": "installer SHA-256 does not match the discovery checksum",
+      "acquisition_id": "package-metadata:e8c3c32768904f14fcb321c08010f864f5ee113e7ecc88fca842b8a2fb76b15b"
+    },
+    {
+      "url": "https://www.sonos.com/en/redir/controller_software_mac2",
+      "error": "installer SHA-256 does not match the discovery checksum",
+      "acquisition_id": "package-metadata:bc5edc5136599f95486d1c7b7e2e607cad6f044ee500337f3fa9742c892719a5"
     }
   ],
-  "pending_total": 200,
+  "pending_total": 188,
   "discovery_status": "partial",
   "attempted_this_run": 8,
-  "added_this_run": 7,
-  "unpublished_captures": []
+  "added_this_run": 1,
+  "unpublished_captures": [],
+  "request_backoff": {
+    "BookCatKid/sonos-archive-bootstrap-validation": {}
+  }
 }

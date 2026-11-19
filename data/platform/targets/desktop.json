@@ -4,19 +4,19 @@
   "provider": "desktop",
   "status": "partial",
   "executed": true,
-  "started_at": "2026-11-18T03:18:20.306799+00:00",
+  "started_at": "2026-11-19T07:09:02.780521+00:00",
   "steps": [
     {
       "name": "discover_desktop_installers",
       "status": "partial",
       "exit_code": 0,
-      "output_tail": "candidates=240 available=195\n"
+      "output_tail": "candidates=245 available=201\n"
     },
     {
       "name": "archive_desktop_installers",
       "status": "failed",
       "exit_code": 1,
-      "output_tail": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/tag/apps-s1-windows\nverified artifacts=26 attempted=12 new=7\n"
+      "output_tail": "https://github.com/BookCatKid/sonos-archive-bootstrap-validation/releases/tag/apps-s2-macos\nverified artifacts=40 attempted=12 new=7\n"
     },
     {
       "name": "archive-installer-history",
@@ -49,6 +49,6 @@
       "reason": "source reports incomplete work"
     }
   ],
-  "finished_at": "2026-11-18T03:20:45.750817+00:00",
-  "next_due": "2026-11-18T04:20:45.750817+00:00"
+  "finished_at": "2026-11-19T07:10:46.908558+00:00",
+  "next_due": "2026-11-19T08:10:46.908558+00:00"
 }

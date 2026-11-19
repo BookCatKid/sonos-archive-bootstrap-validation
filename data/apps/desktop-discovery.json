@@ -3,11 +3,11 @@
   "errors": [],
   "package_history": {
     "status": "partial",
-    "pending_total": 74,
+    "pending_total": 65,
     "errors": []
   },
   "schema_version": 1,
-  "checked": "2026-11-18T03:19:26.670766+00:00",
+  "checked": "2026-11-19T07:09:58.046193+00:00",
   "sources": [
     "microsoft/winget-pkgs",
     "Homebrew/homebrew-cask",
@@ -33,22 +33,22 @@
       "name": "s1-windows",
       "url": "https://www.sonos.com/redir/controller_software_pc",
       "http_status": 302,
-      "location": "https://update-software.sonos.com/software/DILU1Q33hC/Sonos_57.23-74170.exe",
+      "location": "https://update-software.sonos.com/software/40G2W5Dpkq/Sonos_57.23-83121.exe",
       "location_source": "live-redirect"
     },
     {
       "name": "s1-macos",
       "url": "https://www.sonos.com/redir/controller_software_mac",
       "http_status": 302,
-      "location": "https://update-software.sonos.com/software/9tmT45qD4t/Sonos_57.23-80060.dmg",
+      "location": "https://update-software.sonos.com/software/40G2W5Dpkq/Sonos_57.23-83121.dmg",
       "location_source": "live-redirect"
     }
   ],
   "wayback": {
     "provider": "shared-installer-history"
   },
-  "candidate_total": 240,
-  "available_total": 195,
+  "candidate_total": 245,
+  "available_total": 201,
   "candidates": [
     {
       "family": "legacy",
@@ -430,6 +430,7 @@
       "url": "https://update-firmware.sonos.com/firmware/Prod/57.19-46310-v11.12-rozcvdwa-GA-1/57.19-46310-1-4.dmg",
       "expected_sha256": null,
       "sources": [
+        "firmware-observation:data/catalog.json",
         "firmware-observation:data/discovery/firmware-frontier.json",
         "derived-cross-platform"
       ],
@@ -606,13 +607,14 @@
       "url": "https://update-firmware.sonos.com/firmware/Prod/57.22-67080-v11.15.4-yNhAXS5QQR-SP-6/57.22-67080-1-4.dmg",
       "expected_sha256": null,
       "sources": [
+        "firmware-observation:data/catalog.json",
         "firmware-observation:data/discovery/firmware-frontier.json",
         "derived-cross-platform"
       ],
       "advertised_urls": [
         "https://update-firmware.sonos.com/firmware/Prod/57.22-67080-v11.15.4-yNhAXS5QQR-SP-6/57.22-67080-1-4.dmg"
       ],
-      "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/57.22-67080-v11.15.4-yNhAXS5QQR-SP-6/update.upm",
+      "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/57.22-68080-v11.15.6-NUPz7mPXln-SP-8/update.upm",
       "current": false,
       "http_status": 200,
       "content_length": 49053384,
@@ -852,24 +854,6 @@
       "family": "s1",
       "platform": "macos",
       "version": "57.23-80060",
-      "url": "https://update-software.sonos.com/software/9tmT45qD4t/Sonos_57.23-80060.dmg",
-      "expected_sha256": null,
-      "sources": [
-        "official-direct:s1-macos:live-redirect"
-      ],
-      "advertised_urls": [
-        "https://update-software.sonos.com/software/9tmT45qD4t/Sonos_57.23-80060.dmg"
-      ],
-      "advertised_by": "https://www.sonos.com/redir/controller_software_mac",
-      "current": true,
-      "http_status": 200,
-      "content_length": 56051852,
-      "etag": "\"f4d06fe360417438cdce76fef65f5c8a-7\""
-    },
-    {
-      "family": "s1",
-      "platform": "macos",
-      "version": "57.23-80060",
       "url": "https://update.sonos.com/firmware/Prod/57.23-80060-v11.16.2-9tmT45qD4t-SP-1/57.23-80060-1-4.dmg",
       "expected_sha256": null,
       "sources": [
@@ -882,6 +866,62 @@
       "http_status": 200,
       "content_length": 56051852,
       "etag": "\"f4d06fe360417438cdce76fef65f5c8a-7\""
+    },
+    {
+      "family": "s1",
+      "platform": "macos",
+      "version": "57.23-83121",
+      "url": "https://update-firmware.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/57.23-83121-1-4.dmg",
+      "expected_sha256": null,
+      "sources": [
+        "firmware-observation:data/discovery/firmware-frontier.json",
+        "derived-cross-platform"
+      ],
+      "advertised_urls": [
+        "https://update-firmware.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/57.23-83121-1-4.dmg"
+      ],
+      "advertised_by": "https://update.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/update.upm",
+      "current": false,
+      "http_status": 200,
+      "content_length": 56084400,
+      "etag": "\"b3a9550028c8ce095b5c1782a697c7eb-7\""
+    },
+    {
+      "family": "s1",
+      "platform": "macos",
+      "version": "57.23-83121",
+      "url": "https://update-software.sonos.com/software/40G2W5Dpkq/Sonos_57.23-83121.dmg",
+      "expected_sha256": null,
+      "sources": [
+        "official-direct:s1-macos:live-redirect",
+        "derived-cross-platform"
+      ],
+      "advertised_urls": [
+        "https://update-software.sonos.com/software/40G2W5Dpkq/Sonos_57.23-83121.dmg"
+      ],
+      "advertised_by": "https://www.sonos.com/redir/controller_software_mac",
+      "current": true,
+      "http_status": 200,
+      "content_length": 56084400,
+      "etag": "\"b3a9550028c8ce095b5c1782a697c7eb-7\""
+    },
+    {
+      "family": "s1",
+      "platform": "macos",
+      "version": "57.23-83121",
+      "url": "https://update.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/57.23-83121-1-4.dmg",
+      "expected_sha256": null,
+      "sources": [
+        "firmware-observation:data/discovery/firmware-frontier.json",
+        "derived-cross-platform"
+      ],
+      "advertised_urls": [
+        "https://update.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/57.23-83121-1-4.dmg"
+      ],
+      "current": false,
+      "http_status": 200,
+      "content_length": 56084400,
+      "etag": "\"b3a9550028c8ce095b5c1782a697c7eb-7\""
     },
     {
       "family": "s1",
@@ -944,6 +984,7 @@
       "url": "https://update-firmware.sonos.com/firmware/Prod/57.5-87010-v11.2.6-aocdfj-GA-1/57.5-87010-1-4.dmg",
       "expected_sha256": null,
       "sources": [
+        "firmware-observation:data/catalog.json",
         "firmware-observation:data/discovery/firmware-frontier.json",
         "derived-cross-platform"
       ],
@@ -1094,6 +1135,7 @@
       "url": "https://update-firmware.sonos.com/firmware/Prod/57.19-46310-v11.12-rozcvdwa-GA-1/57.19-46310-1-3.exe",
       "expected_sha256": null,
       "sources": [
+        "firmware-observation:data/catalog.json",
         "firmware-observation:data/discovery/firmware-frontier.json",
         "derived-cross-platform"
       ],
@@ -1320,7 +1362,7 @@
       "advertised_urls": [
         "https://update-firmware.sonos.com/firmware/Prod/57.22-68080-v11.15.6-NUPz7mPXln-SP-8/57.22-68080-1-3.exe"
       ],
-      "advertised_by": "https://update.sonos.com/firmware/Prod/57.23-80060-v11.16.2-9tmT45qD4t-SP-1/update.upm",
+      "advertised_by": "https://update.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/update.upm",
       "current": false,
       "http_status": 200,
       "content_length": 37954624,
@@ -1415,6 +1457,7 @@
       "url": "https://update-software.sonos.com/software/mEHO1buPlR/Sonos_57.22-71190.exe",
       "expected_sha256": "4dfe77785aa98f640430ddf9d4acd6766337bbbf95d65450265b420e72229c34",
       "sources": [
+        "winget-history:manifests/s/Sonos/S1Controller/57.22.71190/Sonos.S1Controller.installer.yaml:1669216c7c00b6a49f27e37f0c2e69fa4e92caf2",
         "winget:S1Controller/57.22.71190:1669216c7c00b6a49f27e37f0c2e69fa4e92caf2"
       ],
       "advertised_urls": [
@@ -1458,14 +1501,12 @@
       "url": "https://update-software.sonos.com/software/DILU1Q33hC/Sonos_57.23-74170.exe",
       "expected_sha256": null,
       "sources": [
-        "official-direct:s1-windows:live-redirect",
         "derived-cross-platform"
       ],
       "advertised_urls": [
         "https://update-software.sonos.com/software/DILU1Q33hC/Sonos_57.23-74170.exe"
       ],
-      "advertised_by": "https://www.sonos.com/redir/controller_software_pc",
-      "current": true,
+      "current": false,
       "http_status": 200,
       "content_length": 37946736,
       "etag": "\"d25242602460d4d214857aa2b2109afd-3\""
@@ -1509,23 +1550,6 @@
       "family": "s1",
       "platform": "windows",
       "version": "57.23-80060",
-      "url": "https://update-software.sonos.com/software/9tmT45qD4t/Sonos_57.23-80060.exe",
-      "expected_sha256": null,
-      "sources": [
-        "derived-cross-platform"
-      ],
-      "advertised_urls": [
-        "https://update-software.sonos.com/software/9tmT45qD4t/Sonos_57.23-80060.exe"
-      ],
-      "current": false,
-      "http_status": 404,
-      "content_length": null,
-      "etag": null
-    },
-    {
-      "family": "s1",
-      "platform": "windows",
-      "version": "57.23-80060",
       "url": "https://update.sonos.com/firmware/Prod/57.23-80060-v11.16.2-9tmT45qD4t-SP-1/57.23-80060-1-3.exe",
       "expected_sha256": null,
       "sources": [
@@ -1542,10 +1566,68 @@
     {
       "family": "s1",
       "platform": "windows",
+      "version": "57.23-83121",
+      "url": "https://update-firmware.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/57.23-83121-1-3.exe",
+      "expected_sha256": null,
+      "sources": [
+        "firmware-observation:data/discovery/firmware-frontier.json",
+        "derived-cross-platform"
+      ],
+      "advertised_urls": [
+        "https://update-firmware.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/57.23-83121-1-3.exe"
+      ],
+      "advertised_by": "https://update.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/update.upm",
+      "current": false,
+      "http_status": 200,
+      "content_length": 37934968,
+      "etag": "\"cc2bc002db8c71d2b4b413bab677dbb5-5\""
+    },
+    {
+      "family": "s1",
+      "platform": "windows",
+      "version": "57.23-83121",
+      "url": "https://update-software.sonos.com/software/40G2W5Dpkq/Sonos_57.23-83121.exe",
+      "expected_sha256": null,
+      "sources": [
+        "official-direct:s1-windows:live-redirect",
+        "derived-cross-platform"
+      ],
+      "advertised_urls": [
+        "https://update-software.sonos.com/software/40G2W5Dpkq/Sonos_57.23-83121.exe"
+      ],
+      "advertised_by": "https://www.sonos.com/redir/controller_software_pc",
+      "current": true,
+      "http_status": 200,
+      "content_length": 37934968,
+      "etag": "\"cc2bc002db8c71d2b4b413bab677dbb5-5\""
+    },
+    {
+      "family": "s1",
+      "platform": "windows",
+      "version": "57.23-83121",
+      "url": "https://update.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/57.23-83121-1-3.exe",
+      "expected_sha256": null,
+      "sources": [
+        "firmware-observation:data/discovery/firmware-frontier.json",
+        "derived-cross-platform"
+      ],
+      "advertised_urls": [
+        "https://update.sonos.com/firmware/Prod/57.23-83121-v11.16.2-40G2W5Dpkq-GA-1/57.23-83121-1-3.exe"
+      ],
+      "current": false,
+      "http_status": 200,
+      "content_length": 37934968,
+      "etag": "\"cc2bc002db8c71d2b4b413bab677dbb5-5\""
+    },
+    {
+      "family": "s1",
+      "platform": "windows",
       "version": "57.23.74170",
       "url": "https://update-software.sonos.com/software/DILU1Q33hC/Sonos_57.23-74170.exe",
       "expected_sha256": "3f055bfb194403890875a9d6042aafe708d81e0da9d54cd9ea698d81982569be",
       "sources": [
+        "winget-history:manifests/s/Sonos/S1Controller/57.23.74170/Sonos.S1Controller.installer.yaml:7c1a695f313b91c78c8410f98abf449cb98143e3",
+        "winget-history:manifests/s/Sonos/S1Controller/57.23.74170/Sonos.S1Controller.installer.yaml:2c2814c69a5e70d4b6fcb09be9b8cd192f85ef7e",
         "winget:S1Controller/57.23.74170:7c1a695f313b91c78c8410f98abf449cb98143e3"
       ],
       "advertised_urls": [
@@ -1557,10 +1639,33 @@
         "path": "manifests/s/Sonos/S1Controller/57.23.74170/Sonos.S1Controller.installer.yaml"
       },
       "acquisition_id": "package-metadata:380a8637f386f053ee074bb935aada91175cfdb3439e3128e53e6bfe438609f7",
-      "current": true,
+      "current": false,
       "http_status": 200,
       "content_length": 37946736,
       "etag": "\"d25242602460d4d214857aa2b2109afd-3\""
+    },
+    {
+      "family": "s1",
+      "platform": "windows",
+      "version": "57.23.83121",
+      "url": "https://update-software.sonos.com/software/40G2W5Dpkq/Sonos_57.23-83121.exe",
+      "expected_sha256": "907f218e537dd18dd89e76cad10caf48af46a93c1fce749f38d6e9a490bc4a60",
+      "sources": [
+        "winget:S1Controller/57.23.83121:654db071a75d8bf013e0f26e2dd1a0f3303e7a41"
+      ],
+      "advertised_urls": [
+        "https://update-software.sonos.com/software/40G2W5Dpkq/Sonos_57.23-83121.exe"
+      ],
+      "advertised_by": {
+        "repository": "microsoft/winget-pkgs",
+        "git_blob": "654db071a75d8bf013e0f26e2dd1a0f3303e7a41",
+        "path": "manifests/s/Sonos/S1Controller/57.23.83121/Sonos.S1Controller.installer.yaml"
+      },
+      "acquisition_id": "package-metadata:854ea5eea32343eaaf1fafdba6324b4658a002a1a5a9d529f40c38cf638e9b57",
+      "current": true,
+      "http_status": 200,
+      "content_length": 37934968,
+      "etag": "\"cc2bc002db8c71d2b4b413bab677dbb5-5\""
     },
     {
       "family": "s1",
@@ -1606,6 +1711,7 @@
       "url": "https://update-firmware.sonos.com/firmware/Prod/57.5-87010-v11.2.6-aocdfj-GA-1/57.5-87010-1-3.exe",
       "expected_sha256": null,
       "sources": [
+        "firmware-observation:data/catalog.json",
         "firmware-observation:data/discovery/firmware-frontier.json",
         "derived-cross-platform"
       ],
@@ -1643,6 +1749,7 @@
       "url": "https://update-software.sonos.com/software/pc/dcr/SonosDesktopController11213.exe",
       "expected_sha256": "1d59d04d044fe7052db2b4d5f5b51a100bbe433b908b9111384d46ece7c8681e",
       "sources": [
+        "winget-history:manifests/s/Sonos/S1Controller/57.9.23010/Sonos.S1Controller.installer.yaml:4ee26740087f3b43d1606533bd8bc648bd21953e",
         "winget:S1Controller/57.9.23010:4ee26740087f3b43d1606533bd8bc648bd21953e"
       ],
       "advertised_urls": [
@@ -2692,8 +2799,8 @@
       },
       "current": false,
       "http_status": 200,
-      "content_length": 56051852,
-      "etag": "\"f4d06fe360417438cdce76fef65f5c8a-7\""
+      "content_length": 56084400,
+      "etag": "\"b3a9550028c8ce095b5c1782a697c7eb-7\""
     },
     {
       "family": "s2",
@@ -3341,6 +3448,7 @@
       "expected_sha256": "1a90fb565d9a2d077af52441d1f66312ca134a4732ad0c084587f72bdc4e14d0",
       "sources": [
         "winget-history:manifests/s/Sonos/Controller/90.0.67300/Sonos.Controller.installer.yaml:7643e05802bc4d537d65274144e174d6ca277c93",
+        "winget-history:manifests/s/Sonos/Controller/90.0.67300/Sonos.Controller.installer.yaml:e9fd474e7a0e515dc8985d715b915bea306239dd",
         "winget:Controller/90.0.67300:7643e05802bc4d537d65274144e174d6ca277c93"
       ],
       "advertised_urls": [
@@ -3418,7 +3526,7 @@
       "advertised_urls": [
         "https://update-firmware.sonos.com/firmware/Prod/28.1-86141-v5.3.2-twphva-LR-1/28.1-86141-1-4.dmg"
       ],
-      "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/90.0-79210-v17.2.3-HBVQeC4A1l-RC-1/update.upm",
+      "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/97.1-80312-v18.8-jZ0oXJNpeN-RC-6/update.upm",
       "current": false,
       "http_status": 200,
       "content_length": 14570415,
@@ -3454,7 +3562,7 @@
       "advertised_urls": [
         "https://update-firmware.sonos.com/firmware/Prod/34.16-37101-v7.1-nzhemz-LR-1/34.16-37101-1-4.dmg"
       ],
-      "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/90.0-79210-v17.2.3-HBVQeC4A1l-RC-1/update.upm",
+      "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/97.1-80312-v18.8-jZ0oXJNpeN-RC-6/update.upm",
       "current": false,
       "http_status": 404,
       "content_length": null,
@@ -3490,7 +3598,7 @@
       "advertised_urls": [
         "https://update-firmware.sonos.com/firmware/Prod/38.9-46251-v8.1.1-mvckho-LR-1/38.9-46251-1-4.dmg"
       ],
-      "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/90.0-79210-v17.2.3-HBVQeC4A1l-RC-1/update.upm",
+      "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/97.1-80312-v18.8-jZ0oXJNpeN-RC-6/update.upm",
       "current": false,
       "http_status": 404,
       "content_length": null,
@@ -3526,7 +3634,7 @@
       "advertised_urls": [
         "https://update-firmware.sonos.com/firmware/Prod/47.2-59120-v9.3-fctsul-LR-1/47.2-59120-1-4.dmg"
       ],
-      "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/86.10-80260-v17.2.7-WghpQDvg5l-RC-2/update.upm",
+      "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/97.1-80312-v18.8-jZ0oXJNpeN-RC-6/update.upm",
       "current": false,
       "http_status": 200,
       "content_length": 33984908,
@@ -3556,6 +3664,7 @@
       "url": "https://update-firmware.sonos.com/firmware/Prod/55.1-74250-v11.0-ytwbbr-GA-1/55.1-74250-1-4.dmg",
       "expected_sha256": null,
       "sources": [
+        "firmware-observation:data/catalog.json",
         "firmware-observation:data/discovery/firmware-frontier.json",
         "derived-cross-platform"
       ],
@@ -3610,6 +3719,7 @@
       "url": "https://update-firmware.sonos.com/firmware/Prod/64.3-19080-v13.2-udvsve-GA-1/64.3-19080-1-4.dmg",
       "expected_sha256": null,
       "sources": [
+        "firmware-observation:data/catalog.json",
         "firmware-observation:data/discovery/firmware-frontier.json"
       ],
       "advertised_urls": [
@@ -3881,7 +3991,7 @@
       "advertised_urls": [
         "https://update-firmware.sonos.com/firmware/Prod/90.0-75190-v17.2.3-lDpGfsxQdy-RC-5/90.0-75190-1-4.dmg"
       ],
-      "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/90.0-75190-v17.2.3-lDpGfsxQdy-RC-5/update.upm",
+      "advertised_by": "https://update-test.sonos.com/releases/alpha/c6f38e9f884349afba786f630ead94ca/update.upm",
       "current": false,
       "http_status": 200,
       "content_length": 63194611,
@@ -3971,7 +4081,7 @@
       "advertised_urls": [
         "https://update-firmware.sonos.com/firmware/Prod/90.0-79210-v17.2.3-HBVQeC4A1l-RC-1/90.0-79210-1-4.dmg"
       ],
-      "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/90.0-79210-v17.2.3-HBVQeC4A1l-RC-1/update.upm",
+      "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/97.1-80312-v18.8-jZ0oXJNpeN-RC-6/update.upm",
       "current": false,
       "http_status": 200,
       "content_length": 71832943,
@@ -4112,7 +4222,7 @@
       "advertised_urls": [
         "https://update-firmware.sonos.com/firmware/Prod/34.16-37101-v7.1-nzhemz-LR-1/34.16-37101-1-3.exe"
       ],
-      "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/90.0-79210-v17.2.3-HBVQeC4A1l-RC-1/update.upm",
+      "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/97.1-80312-v18.8-jZ0oXJNpeN-RC-6/update.upm",
       "current": false,
       "http_status": 404,
       "content_length": null,
@@ -4211,6 +4321,7 @@
       "url": "https://update-firmware.sonos.com/firmware/Prod/55.1-74250-v11.0-ytwbbr-GA-1/55.1-74250-1-3.exe",
       "expected_sha256": null,
       "sources": [
+        "firmware-observation:data/catalog.json",
         "firmware-observation:data/discovery/firmware-frontier.json",
         "derived-cross-platform"
       ],
@@ -4248,6 +4359,7 @@
       "url": "https://update-firmware.sonos.com/firmware/Prod/64.3-19080-v13.2-qelzft-LR-1/64.3-19080-1-3.exe",
       "expected_sha256": null,
       "sources": [
+        "firmware-observation:data/catalog.json",
         "firmware-observation:data/discovery/firmware-frontier.json"
       ],
       "advertised_urls": [
@@ -4323,7 +4435,7 @@
       "advertised_urls": [
         "https://update-firmware.sonos.com/firmware/Prod/64.3-21150-v13.2.3-hkzgqn-LR-1/64.3-21150-1-3.exe"
       ],
-      "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/90.0-79210-v17.2.3-HBVQeC4A1l-RC-1/update.upm",
+      "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/97.1-80312-v18.8-jZ0oXJNpeN-RC-6/update.upm",
       "current": false,
       "http_status": 200,
       "content_length": 48124216,
@@ -4452,7 +4564,7 @@
       "advertised_urls": [
         "https://update-firmware.sonos.com/firmware/Prod/90.0-67300-v17.2.1-Lp7WoQPkxr-RC-1/90.0-67300-1-3.exe"
       ],
-      "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/90.0-79210-v17.2.3-HBVQeC4A1l-RC-1/update.upm",
+      "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/97.1-80312-v18.8-jZ0oXJNpeN-RC-6/update.upm",
       "current": false,
       "http_status": 200,
       "content_length": 57509160,
@@ -4597,7 +4709,7 @@
       "advertised_urls": [
         "https://update-firmware.sonos.com/firmware/Prod/90.0-77070-v17.2.3-rT0797IawE-RC-6/90.0-77070-1-3.exe"
       ],
-      "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/86.10-80260-v17.2.7-WghpQDvg5l-RC-2/update.upm",
+      "advertised_by": "https://update-firmware.sonos.com/firmware/Prod/97.1-80312-v18.8-jZ0oXJNpeN-RC-6/update.upm",
       "current": false,
       "http_status": 200,
       "content_length": 57599144,
