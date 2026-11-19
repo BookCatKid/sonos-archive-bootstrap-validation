@@ -1,0 +1,5300 @@
+{
+  "schema_version": 1,
+  "versions": 26,
+  "link_total": 909,
+  "state_totals": {
+    "published": 180,
+    "unattempted": 729
+  },
+  "unattempted_total": 729,
+  "unattempted": [
+    {
+      "version": "8.0",
+      "filename": "glibc-2.3.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.3.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.0",
+      "filename": "glibc-2.8.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.8.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.0",
+      "filename": "glibc-2.17.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.17.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.0",
+      "filename": "glibc-2.19.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.19.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.0",
+      "filename": "includes1.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.0/includes1.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.0",
+      "filename": "includes2.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.0/includes2.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.0",
+      "filename": "linux-2.4.22.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.0/linux-2.4.22.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.0",
+      "filename": "linux-2.4.25.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.0/linux-2.4.25.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.0",
+      "filename": "linux-2.6.15.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.0/linux-2.6.15.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.0",
+      "filename": "linux-2.6.35.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.0/linux-2.6.35.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.0",
+      "filename": "linux-3.10.53.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.0/linux-3.10.53.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.0",
+      "filename": "mpg123.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.0/mpg123.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.0",
+      "filename": "rng-tools.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.0/rng-tools.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.0",
+      "filename": "sbclib.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.0/sbclib.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.0",
+      "filename": "sonos-kernel.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.0/sonos-kernel.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.0",
+      "filename": "uClibc-0.9.26.tar.bz2",
+      "url": "https://www.uclibc.org/downloads/old-releases/uClibc-0.9.26.tar.bz2",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.0",
+      "filename": "uClibc-0.9.28.tar.bz2",
+      "url": "https://www.uclibc.org/downloads/old-releases/uClibc-0.9.28.tar.bz2",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.0",
+      "filename": "udhcp-0.9.8.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.0/udhcp-0.9.8.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "SonosOpenSourceAttributions.pdf",
+      "url": "https://www.sonos.com/documents/gpl/8.1/SonosOpenSourceAttributions.pdf",
+      "origin": "sonos",
+      "kind": "attribution"
+    },
+    {
+      "version": "8.1",
+      "filename": "bridge-utils.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.1/bridge-utils.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "busybox1.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.1/busybox1.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "busybox2.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.1/busybox2.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "busybox3.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.1/busybox3.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "event_reporter.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.1/event_reporter.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "fscrypt.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.1/fscrypt.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "glibc-2.2.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.2.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "glibc-2.3.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.3.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "glibc-2.8.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.8.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "glibc-2.17.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.17.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "glibc-2.19.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.19.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "glibc-2.23.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.23.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "glibc-2.24.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.24.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "includes1.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.1/includes1.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "includes2.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.1/includes2.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "linux-2.4.22.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.1/linux-2.4.22.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "linux-2.4.25.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.1/linux-2.4.25.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "linux-2.6.15.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.1/linux-2.6.15.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "linux-2.6.35.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.1/linux-2.6.35.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "linux-3.10.53.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.1/linux-3.10.53.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "mpg123.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.1/mpg123.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "rng-tools.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.1/rng-tools.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "sbclib.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.1/sbclib.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "sonos-kernel.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.1/sonos-kernel.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "uClibc-0.9.26.tar.bz2",
+      "url": "https://www.uclibc.org/downloads/old-releases/uClibc-0.9.26.tar.bz2",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "uClibc-0.9.28.tar.bz2",
+      "url": "https://www.uclibc.org/downloads/old-releases/uClibc-0.9.28.tar.bz2",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.1",
+      "filename": "udhcp-0.9.8.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.1/udhcp-0.9.8.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "SonosOpenSourceAttributions.pdf",
+      "url": "https://www.sonos.com/documents/gpl/8.2/SonosOpenSourceAttributions.pdf",
+      "origin": "sonos",
+      "kind": "attribution"
+    },
+    {
+      "version": "8.2",
+      "filename": "bridge-utils.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.2/bridge-utils.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "busybox1.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.2/busybox1.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "busybox2.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.2/busybox2.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "busybox3.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.2/busybox3.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "event_reporter.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.2/event_reporter.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "fscrypt.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.2/fscrypt.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "glibc-2.2.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.2.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "glibc-2.3.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.3.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "glibc-2.8.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.8.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "glibc-2.17.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.17.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "glibc-2.19.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.19.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "glibc-2.23.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.23.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "glibc-2.24.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.24.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "includes1.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.2/includes1.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "includes2.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.2/includes2.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "linux-2.4.22.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.2/linux-2.4.22.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "linux-2.4.25.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.2/linux-2.4.25.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "linux-2.6.15.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.2/linux-2.6.15.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "linux-2.6.35.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.2/linux-2.6.35.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "linux-3.10.53.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.2/linux-3.10.53.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "mpg123.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.2/mpg123.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "rng-tools.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.2/rng-tools.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "sbclib.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.2/sbclib.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "sonos-kernel.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.2/sonos-kernel.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "uClibc-0.9.26.tar.bz2",
+      "url": "https://www.uclibc.org/downloads/old-releases/uClibc-0.9.26.tar.bz2",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "uClibc-0.9.28.tar.bz2",
+      "url": "https://www.uclibc.org/downloads/old-releases/uClibc-0.9.28.tar.bz2",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.2",
+      "filename": "udhcp-0.9.8.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.2/udhcp-0.9.8.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "SonosOpenSourceAttributions.pdf",
+      "url": "https://www.sonos.com/documents/gpl/8.3/SonosOpenSourceAttributions.pdf",
+      "origin": "sonos",
+      "kind": "attribution"
+    },
+    {
+      "version": "8.3",
+      "filename": "bridge-utils.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.3/bridge-utils.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "busybox1.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.3/busybox1.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "busybox2.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.3/busybox2.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "busybox3.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.3/busybox3.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "event_reporter.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.3/event_reporter.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "fscrypt.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.3/fscrypt.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "glibc-2.2.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.2.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "glibc-2.3.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.3.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "glibc-2.8.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.8.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "glibc-2.17.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.17.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "glibc-2.19.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.19.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "glibc-2.23.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.23.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "glibc-2.24.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.24.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "includes1.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.3/includes1.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "includes2.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.3/includes2.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "linux-2.4.22.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.3/linux-2.4.22.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "linux-2.4.25.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.3/linux-2.4.25.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "linux-2.6.15.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.3/linux-2.6.15.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "linux-2.6.35.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.3/linux-2.6.35.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "linux-3.10.53.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.3/linux-3.10.53.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "mpg123.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.3/mpg123.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "rng-tools.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.3/rng-tools.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "sbclib.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.3/sbclib.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "sonos-kernel.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.3/sonos-kernel.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "uClibc-0.9.26.tar.bz2",
+      "url": "https://www.uclibc.org/downloads/old-releases/uClibc-0.9.26.tar.bz2",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "uClibc-0.9.28.tar.bz2",
+      "url": "https://www.uclibc.org/downloads/old-releases/uClibc-0.9.28.tar.bz2",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.3",
+      "filename": "udhcp-0.9.8.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.3/udhcp-0.9.8.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "SonosOpenSourceAttributions.pdf",
+      "url": "https://www.sonos.com/documents/gpl/8.4/SonosOpenSourceAttributions.pdf",
+      "origin": "sonos",
+      "kind": "attribution"
+    },
+    {
+      "version": "8.4",
+      "filename": "bridge-utils.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.4/bridge-utils.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "busybox1.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.4/busybox1.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "busybox2.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.4/busybox2.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "busybox3.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.4/busybox3.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "event_reporter.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.4/event_reporter.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "fscrypt.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.4/fscrypt.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "glibc-2.2.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.2.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "glibc-2.3.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.3.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "glibc-2.8.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.8.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "glibc-2.17.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.17.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "glibc-2.19.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.19.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "glibc-2.23.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.23.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "glibc-2.24.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.24.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "includes1.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.4/includes1.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "includes2.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.4/includes2.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "linux-2.4.22.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.4/linux-2.4.22.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "linux-2.4.25.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.4/linux-2.4.25.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "linux-2.6.15.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.4/linux-2.6.15.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "linux-2.6.35.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.4/linux-2.6.35.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "linux-3.10.53.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.4/linux-3.10.53.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "mpg123.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.4/mpg123.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "rng-tools.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.4/rng-tools.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "sbclib.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.4/sbclib.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "sonos-kernel.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.4/sonos-kernel.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "uClibc-0.9.26.tar.bz2",
+      "url": "https://www.uclibc.org/downloads/old-releases/uClibc-0.9.26.tar.bz2",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "uClibc-0.9.28.tar.bz2",
+      "url": "https://www.uclibc.org/downloads/old-releases/uClibc-0.9.28.tar.bz2",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "8.4",
+      "filename": "udhcp-0.9.8.tgz",
+      "url": "https://www.sonos.com/documents/gpl/8.4/udhcp-0.9.8.tgz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "SonosOpenSourceAttributions.pdf",
+      "url": "https://www.sonos.com/documents/gpl/9.0/SonosOpenSourceAttributions.pdf",
+      "origin": "sonos",
+      "kind": "attribution"
+    },
+    {
+      "version": "9.0",
+      "filename": "bluez.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.0/bluez.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "bridge-utils.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.0/bridge-utils.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "busybox1.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.0/busybox1.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "busybox2.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.0/busybox2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "busybox3.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.0/busybox3.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "busybox4.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.0/busybox4.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "dbus.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.0/dbus.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "drivers.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.0/drivers.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "event_reporter.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.0/event_reporter.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "fscrypt.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.0/fscrypt.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "glib.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.0/glib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "glibc-2.2.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.2.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "glibc-2.3.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.3.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "glibc-2.8.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.8.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "glibc-2.17.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.17.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "glibc-2.19.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.19.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "glibc-2.23.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.23.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "glibc-2.24.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.24.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "includes1.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.0/includes1.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "includes2.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.0/includes2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "linux-2.4.22.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.0/linux-2.4.22.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "linux-2.4.25.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.0/linux-2.4.25.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "linux-2.6.15.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.0/linux-2.6.15.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "linux-2.6.35.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.0/linux-2.6.35.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "linux-3.10.53.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.0/linux-3.10.53.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "linux-4.4.24.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.0/linux-4.4.24.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "mpg123.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.0/mpg123.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "rng-tools.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.0/rng-tools.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "sbclib.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.0/sbclib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "sonos-kernel.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.0/sonos-kernel.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "uClibc-0.9.26.tar.bz2",
+      "url": "https://www.uclibc.org/downloads/old-releases/uClibc-0.9.26.tar.bz2",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "uClibc-0.9.28.tar.bz2",
+      "url": "https://www.uclibc.org/downloads/old-releases/uClibc-0.9.28.tar.bz2",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.0",
+      "filename": "udhcp-0.9.8.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.0/udhcp-0.9.8.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "SonosOpenSourceAttributions.pdf",
+      "url": "https://www.sonos.com/documents/gpl/9.1/SonosOpenSourceAttributions.pdf",
+      "origin": "sonos",
+      "kind": "attribution"
+    },
+    {
+      "version": "9.1",
+      "filename": "bluez.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.1/bluez.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "bridge-utils.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.1/bridge-utils.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "busybox1.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.1/busybox1.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "busybox2.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.1/busybox2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "busybox3.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.1/busybox3.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "busybox4.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.1/busybox4.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "dbus.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.1/dbus.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "drivers.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.1/drivers.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "event_reporter.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.1/event_reporter.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "fscrypt.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.1/fscrypt.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "glib.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.1/glib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "glibc-2.2.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.2.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "glibc-2.3.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.3.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "glibc-2.8.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.8.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "glibc-2.17.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.17.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "glibc-2.19.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.19.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "glibc-2.23.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.23.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "glibc-2.24.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.24.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "includes1.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.1/includes1.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "includes2.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.1/includes2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "linux-2.4.22.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.1/linux-2.4.22.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "linux-2.4.25.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.1/linux-2.4.25.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "linux-2.6.15.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.1/linux-2.6.15.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "linux-2.6.35.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.1/linux-2.6.35.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "linux-3.10.53.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.1/linux-3.10.53.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "linux-4.4.24.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.1/linux-4.4.24.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "mpg123.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.1/mpg123.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "rng-tools.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.1/rng-tools.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "sbclib.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.1/sbclib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "sonos-kernel.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.1/sonos-kernel.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "uClibc-0.9.26.tar.bz2",
+      "url": "https://www.uclibc.org/downloads/old-releases/uClibc-0.9.26.tar.bz2",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "uClibc-0.9.28.tar.bz2",
+      "url": "https://www.uclibc.org/downloads/old-releases/uClibc-0.9.28.tar.bz2",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.1",
+      "filename": "udhcp-0.9.8.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.1/udhcp-0.9.8.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "SonosOpenSourceAttributions.pdf",
+      "url": "https://www.sonos.com/documents/gpl/9.2/SonosOpenSourceAttributions.pdf",
+      "origin": "sonos",
+      "kind": "attribution"
+    },
+    {
+      "version": "9.2",
+      "filename": "bluez.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.2/bluez.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "bridge-utils.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.2/bridge-utils.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "busybox1.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.2/busybox1.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "busybox2.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.2/busybox2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "busybox3.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.2/busybox3.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "busybox4.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.2/busybox4.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "dbus.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.2/dbus.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "drivers.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.2/drivers.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "event_reporter.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.2/event_reporter.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "fscrypt.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.2/fscrypt.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "glib.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.2/glib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "glibc-2.2.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.2.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "glibc-2.3.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.3.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "glibc-2.8.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.8.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "glibc-2.17.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.17.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "glibc-2.19.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.19.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "glibc-2.23.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.23.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "glibc-2.24.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.24.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "includes1.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.2/includes1.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "includes2.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.2/includes2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "linux-2.4.22.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.2/linux-2.4.22.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "linux-2.4.25.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.2/linux-2.4.25.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "linux-2.6.35.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.2/linux-2.6.35.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "linux-3.10.53.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.2/linux-3.10.53.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "linux-4.4.24.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.2/linux-4.4.24.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "mpg123.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.2/mpg123.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "rng-tools.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.2/rng-tools.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "sbclib.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.2/sbclib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "sonos-kernel.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.2/sonos-kernel.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "uClibc-0.9.26.tar.bz2",
+      "url": "https://www.uclibc.org/downloads/old-releases/uClibc-0.9.26.tar.bz2",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.2",
+      "filename": "udhcp-0.9.8.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.2/udhcp-0.9.8.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "SonosOpenSourceAttributions.pdf",
+      "url": "https://www.sonos.com/documents/gpl/9.3/SonosOpenSourceAttributions.pdf",
+      "origin": "sonos",
+      "kind": "attribution"
+    },
+    {
+      "version": "9.3",
+      "filename": "bluez.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/bluez.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "bridge-utils.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/bridge-utils.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "busybox1.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/busybox1.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "busybox2.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/busybox2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "busybox3.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/busybox3.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "busybox4.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/busybox4.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "cryptsetup.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/cryptsetup.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "dbus.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/dbus.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "drivers.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/drivers.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "e2fsprogs.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/e2fsprogs.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "event_reporter.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/event_reporter.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "fscrypt.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/fscrypt.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "glib.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/glib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "glibc-2.2.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.2.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "glibc-2.3.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.3.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "glibc-2.8.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.8.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "glibc-2.17.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.17.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "glibc-2.19.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.19.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "glibc-2.23.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.23.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "glibc-2.24.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.24.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "glibc-2.25.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.25.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "includes1.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/includes1.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "includes2.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/includes2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "libgcrypt.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/libgcrypt.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "libgpg-error.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/libgpg-error.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "linux-2.4.22.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/linux-2.4.22.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "linux-2.4.25.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/linux-2.4.25.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "linux-2.6.35.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/linux-2.6.35.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "linux-3.10.53.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/linux-3.10.53.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "linux-4.4.24.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/linux-4.4.24.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "linux-4.9.42.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/linux-4.9.42.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "lvm2.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/lvm2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "mpg123.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/mpg123.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "rng-tools.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/rng-tools.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "sbclib.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/sbclib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "sonos-kernel.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/sonos-kernel.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "uClibc-0.9.26.tar.bz2",
+      "url": "https://www.uclibc.org/downloads/old-releases/uClibc-0.9.26.tar.bz2",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "9.3",
+      "filename": "udhcp-0.9.8.txz",
+      "url": "https://www.sonos.com/documents/gpl/9.3/udhcp-0.9.8.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "SonosOpenSourceAttributions.pdf",
+      "url": "https://www.sonos.com/documents/gpl/10.0/SonosOpenSourceAttributions.pdf",
+      "origin": "sonos",
+      "kind": "attribution"
+    },
+    {
+      "version": "10.0",
+      "filename": "bluez.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/bluez.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "bridge-utils.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/bridge-utils.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "busybox1.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/busybox1.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "busybox2.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/busybox2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "busybox3.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/busybox3.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "busybox4.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/busybox4.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "chrony.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/chrony.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "cryptsetup.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/cryptsetup.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "dbus.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/dbus.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "drivers.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/drivers.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "e2fsprogs.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/e2fsprogs.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "event_reporter.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/event_reporter.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "fscrypt.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/fscrypt.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "glib.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/glib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "glibc-2.2.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.2.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "glibc-2.3.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.3.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "glibc-2.8.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.8.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "glibc-2.17.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.17.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "glibc-2.19.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.19.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "glibc-2.23.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.23.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "glibc-2.24.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.24.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "glibc-2.25.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.25.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "includes1.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/includes1.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "includes2.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/includes2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "libgcrypt.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/libgcrypt.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "libgpg-error.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/libgpg-error.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "linux-2.4.22.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/linux-2.4.22.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "linux-2.4.25.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/linux-2.4.25.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "linux-2.6.35.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/linux-2.6.35.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "linux-3.10.53.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/linux-3.10.53.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "linux-4.4.24.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/linux-4.4.24.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "linux-4.9.42.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/linux-4.9.42.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "lvm2.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/lvm2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "mpg123.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/mpg123.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "rng-tools.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/rng-tools.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "sbclib.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/sbclib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "sonos-kernel.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/sonos-kernel.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "uClibc-0.9.26.tar.bz2",
+      "url": "https://www.uclibc.org/downloads/old-releases/uClibc-0.9.26.tar.bz2",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.0",
+      "filename": "udhcp-0.9.8.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.0/udhcp-0.9.8.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "SonosOpenSourceAttributions.pdf",
+      "url": "https://www.sonos.com/documents/gpl/10.1/SonosOpenSourceAttributions.pdf",
+      "origin": "sonos",
+      "kind": "attribution"
+    },
+    {
+      "version": "10.1",
+      "filename": "bluez.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/bluez.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "bridge-utils.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/bridge-utils.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "busybox1.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/busybox1.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "busybox2.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/busybox2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "busybox3.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/busybox3.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "busybox4.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/busybox4.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "chrony.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/chrony.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "cryptsetup.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/cryptsetup.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "dbus.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/dbus.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "drivers.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/drivers.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "e2fsprogs.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/e2fsprogs.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "event_reporter.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/event_reporter.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "fscrypt.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/fscrypt.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "glib.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/glib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "glibc-2.2.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.2.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "glibc-2.3.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.3.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "glibc-2.8.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.8.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "glibc-2.17.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.17.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "glibc-2.19.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.19.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "glibc-2.23.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.23.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "glibc-2.24.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.24.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "glibc-2.25.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.25.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "includes1.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/includes1.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "includes2.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/includes2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "libgcrypt.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/libgcrypt.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "libgpg-error.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/libgpg-error.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "linux-2.4.22.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/linux-2.4.22.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "linux-2.4.25.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/linux-2.4.25.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "linux-2.6.35.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/linux-2.6.35.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "linux-3.10.53.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/linux-3.10.53.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "linux-4.4.24.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/linux-4.4.24.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "linux-4.9.42.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/linux-4.9.42.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "lvm2.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/lvm2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "mpg123.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/mpg123.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "rng-tools.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/rng-tools.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "sbclib.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/sbclib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "sonos-kernel.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/sonos-kernel.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "uClibc-0.9.26.tar.bz2",
+      "url": "https://www.uclibc.org/downloads/old-releases/uClibc-0.9.26.tar.bz2",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.1",
+      "filename": "udhcp-0.9.8.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.1/udhcp-0.9.8.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "SonosOpenSourceAttributions.pdf",
+      "url": "https://www.sonos.com/documents/gpl/10.2/SonosOpenSourceAttributions.pdf",
+      "origin": "sonos",
+      "kind": "attribution"
+    },
+    {
+      "version": "10.2",
+      "filename": "bluez.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/bluez.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "bridge-utils.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/bridge-utils.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "busybox1.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/busybox1.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "busybox2.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/busybox2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "chrony.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/chrony.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "cryptsetup.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/cryptsetup.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "dbus.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/dbus.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "drivers.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/drivers.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "e2fsprogs.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/e2fsprogs.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "event_reporter.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/event_reporter.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "fscrypt.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/fscrypt.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "glib.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/glib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "glibc-2.2.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.2.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "glibc-2.3.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.3.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "glibc-2.8.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.8.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "glibc-2.17.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.17.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "glibc-2.19.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.19.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "glibc-2.23.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.23.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "glibc-2.24.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.24.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "glibc-2.25.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.25.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "includes1.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/includes1.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "includes2.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/includes2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "libgcrypt.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/libgcrypt.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "libgpg-error.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/libgpg-error.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "linux-2.4.22.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/linux-2.4.22.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "linux-2.4.25.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/linux-2.4.25.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "linux-2.6.35.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/linux-2.6.35.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "linux-3.10.53.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/linux-3.10.53.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "linux-4.4.24.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/linux-4.4.24.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "linux-4.9.99.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/linux-4.9.99.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "lvm2.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/lvm2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "mpg123.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/mpg123.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "rng-tools.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/rng-tools.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "sbclib.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/sbclib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "sonos-kernel.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/sonos-kernel.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "uClibc-0.9.26.tar.bz2",
+      "url": "https://www.uclibc.org/downloads/old-releases/uClibc-0.9.26.tar.bz2",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.2",
+      "filename": "udhcp-0.9.8.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.2/udhcp-0.9.8.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "SonosOpenSourceAttributions.pdf",
+      "url": "https://www.sonos.com/documents/gpl/10.6/SonosOpenSourceAttributions.pdf",
+      "origin": "sonos",
+      "kind": "attribution"
+    },
+    {
+      "version": "10.6",
+      "filename": "bluez.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/bluez.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "bridge-utils.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/bridge-utils.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "busybox1.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/busybox1.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "busybox2.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/busybox2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "chrony.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/chrony.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "cryptsetup.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/cryptsetup.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "dbus.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/dbus.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "drivers.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/drivers.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "e2fsprogs.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/e2fsprogs.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "eigen.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/eigen.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "event_reporter.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/event_reporter.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "fscrypt.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/fscrypt.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "glib.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/glib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "glibc-2.2.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.2.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "glibc-2.3.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.3.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "glibc-2.8.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.8.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "glibc-2.17.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.17.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "glibc-2.19.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.19.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "glibc-2.23.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.23.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "glibc-2.24.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.24.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "glibc-2.25.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.25.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "includes1.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/includes1.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "includes2.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/includes2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "libgcrypt.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/libgcrypt.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "libgpg-error.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/libgpg-error.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "linux-2.4.22.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/linux-2.4.22.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "linux-2.4.25.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/linux-2.4.25.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "linux-2.6.35.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/linux-2.6.35.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "linux-3.10.53.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/linux-3.10.53.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "linux-4.4.24.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/linux-4.4.24.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "linux-4.9.99.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/linux-4.9.99.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "lvm2.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/lvm2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "mpg123.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/mpg123.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "rng-tools.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/rng-tools.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "sbclib.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/sbclib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "sonos-kernel.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/sonos-kernel.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "uClibc-0.9.26.tar.bz2",
+      "url": "https://www.uclibc.org/downloads/old-releases/uClibc-0.9.26.tar.bz2",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "10.6",
+      "filename": "udhcp-0.9.8.txz",
+      "url": "https://www.sonos.com/documents/gpl/10.6/udhcp-0.9.8.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "SonosOpenSourceAttributions.pdf",
+      "url": "https://www.sonos.com/documents/gpl/11.0/SonosOpenSourceAttributions.pdf",
+      "origin": "sonos",
+      "kind": "attribution"
+    },
+    {
+      "version": "11.0",
+      "filename": "bluez.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/bluez.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "bridge-utils.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/bridge-utils.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "busybox1.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/busybox1.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "busybox2.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/busybox2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "chrony.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/chrony.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "cryptsetup.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/cryptsetup.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "dbus.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/dbus.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "drivers.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/drivers.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "e2fsprogs.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/e2fsprogs.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "eigen.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/eigen.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "event_reporter.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/event_reporter.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "fscrypt.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/fscrypt.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "glib.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/glib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "glibc-2.2.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.2.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "glibc-2.3.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.3.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "glibc-2.8.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.8.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "glibc-2.17.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.17.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "glibc-2.19.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.19.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "glibc-2.23.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.23.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "glibc-2.24.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.24.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "glibc-2.25.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.25.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "includes1.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/includes1.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "includes2.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/includes2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "libgcrypt.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/libgcrypt.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "libgpg-error.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/libgpg-error.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "linux-2.4.22.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/linux-2.4.22.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "linux-2.4.25.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/linux-2.4.25.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "linux-2.6.35.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/linux-2.6.35.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "linux-3.10.53.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/linux-3.10.53.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "linux-4.4.24.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/linux-4.4.24.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "linux-4.9.99.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/linux-4.9.99.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "lvm2.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/lvm2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "mpg123.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/mpg123.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "rng-tools.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/rng-tools.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "sbclib.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/sbclib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "sonos-kernel.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/sonos-kernel.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "uClibc-0.9.26.tar.bz2",
+      "url": "https://www.uclibc.org/downloads/old-releases/uClibc-0.9.26.tar.bz2",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "11.0",
+      "filename": "udhcp-0.9.8.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.0/udhcp-0.9.8.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "SonosOpenSourceAttributions.pdf",
+      "url": "https://www.sonos.com/documents/gpl/11.1/SonosOpenSourceAttributions.pdf",
+      "origin": "sonos",
+      "kind": "attribution"
+    },
+    {
+      "version": "11.1",
+      "filename": "bluez.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/bluez.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "bridge-utils.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/bridge-utils.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "busybox1.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/busybox1.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "busybox2.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/busybox2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "chrony.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/chrony.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "cryptsetup.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/cryptsetup.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "dbus.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/dbus.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "drivers.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/drivers.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "e2fsprogs.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/e2fsprogs.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "eigen.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/eigen.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "event_reporter.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/event_reporter.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "fscrypt.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/fscrypt.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "glib.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/glib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "glibc-2.2.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.2.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "glibc-2.3.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.3.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "glibc-2.8.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.8.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "glibc-2.17.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.17.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "glibc-2.19.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.19.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "glibc-2.23.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.23.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "glibc-2.24.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.24.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "glibc-2.25.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.25.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "includes1.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/includes1.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "includes2.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/includes2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "libgcrypt.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/libgcrypt.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "libgpg-error.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/libgpg-error.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "linux-2.4.22.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/linux-2.4.22.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "linux-2.4.25.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/linux-2.4.25.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "linux-2.6.35.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/linux-2.6.35.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "linux-3.10.53.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/linux-3.10.53.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "linux-4.4.24.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/linux-4.4.24.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "linux-4.9.99.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/linux-4.9.99.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "lvm2.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/lvm2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "mpg123.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/mpg123.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "rng-tools.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/rng-tools.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "sbclib.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/sbclib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "sonos-kernel.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/sonos-kernel.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "uClibc-0.9.26.tar.bz2",
+      "url": "https://www.uclibc.org/downloads/old-releases/uClibc-0.9.26.tar.bz2",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "11.1",
+      "filename": "udhcp-0.9.8.txz",
+      "url": "https://www.sonos.com/documents/gpl/11.1/udhcp-0.9.8.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "SonosOpenSourceAttributions.pdf",
+      "url": "https://www.sonos.com/documents/gpl/12.0/SonosOpenSourceAttributions.pdf",
+      "origin": "sonos",
+      "kind": "attribution"
+    },
+    {
+      "version": "12.0",
+      "filename": "alsa-lib.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/alsa-lib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "alsa-utils.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/alsa-utils.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "bluez.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/bluez.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "bridge-utils.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/bridge-utils.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "busybox.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/busybox.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "chrony.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/chrony.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "cryptsetup.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/cryptsetup.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "dbus.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/dbus.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "drivers.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/drivers.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "e2fsprogs.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/e2fsprogs.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "eigen.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/eigen.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "event_reporter.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/event_reporter.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "fscrypt.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/fscrypt.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "glib.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/glib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "glibc-2.3.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.3.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "glibc-2.8.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.8.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "glibc-2.17.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.17.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "glibc-2.23.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.23.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "glibc-2.24.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.24.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "glibc-2.25.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.25.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "includes1.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/includes1.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "includes2.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/includes2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "libgcrypt.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/libgcrypt.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "libgpg-error.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/libgpg-error.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "linux-2.4.22.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/linux-2.4.22.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "linux-2.6.35.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/linux-2.6.35.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "linux-3.10.53.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/linux-3.10.53.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "linux-4.4.24.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/linux-4.4.24.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "linux-4.9.99.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/linux-4.9.99.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "lvm2.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/lvm2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "mpg123.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/mpg123.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "rng-tools.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/rng-tools.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "sbclib.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/sbclib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "Sii9437.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/Sii9437.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "sonos-kernel.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/sonos-kernel.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "12.0",
+      "filename": "udhcp-0.9.8.txz",
+      "url": "https://www.sonos.com/documents/gpl/12.0/udhcp-0.9.8.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "SonosOpenSourceAttributions.pdf",
+      "url": "https://www.sonos.com/documents/gpl/13.2/SonosOpenSourceAttributions.pdf",
+      "origin": "sonos",
+      "kind": "attribution"
+    },
+    {
+      "version": "13.2",
+      "filename": "alsa-lib.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/alsa-lib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "alsa-utils.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/alsa-utils.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "bluez.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/bluez.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "bridge-utils.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/bridge-utils.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "busybox.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/busybox.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "chrony.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/chrony.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "common.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/common.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "cryptsetup.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/cryptsetup.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "dbus.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/dbus.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "drivers.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/drivers.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "e2fsprogs.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/e2fsprogs.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "eigen.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/eigen.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "event_reporter.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/event_reporter.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "fscrypt.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/fscrypt.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "glib.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/glib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "glibc-2.3.5.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.3.5.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "glibc-2.8.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.8.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "glibc-2.17.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.17.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "glibc-2.23.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.23.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "glibc-2.24.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.24.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "glibc-2.25.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.25.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "includes1.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/includes1.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "includes2.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/includes2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "libgcrypt.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/libgcrypt.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "libgpg-error.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/libgpg-error.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "libnl.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/libnl.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "libusb.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/libusb.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "linux-2.4.22.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/linux-2.4.22.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "linux-2.6.35.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/linux-2.6.35.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "linux-3.10.53.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/linux-3.10.53.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "linux-4.4.24.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/linux-4.4.24.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "linux-4.9.99.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/linux-4.9.99.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "lvm2.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/lvm2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "mpg123.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/mpg123.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "rng-tools.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/rng-tools.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "sbclib.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/sbclib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "Sii9437.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/Sii9437.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "simple80211.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/simple80211.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "sonos-kernel.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/sonos-kernel.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "udhcp-0.9.8.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/udhcp-0.9.8.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "13.2",
+      "filename": "wireless_tools.txz",
+      "url": "https://www.sonos.com/documents/gpl/13.2/wireless_tools.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "SonosOpenSourceAttributions.pdf",
+      "url": "https://www.sonos.com/documents/gpl/14.4/SonosOpenSourceAttributions.pdf",
+      "origin": "sonos",
+      "kind": "attribution"
+    },
+    {
+      "version": "14.4",
+      "filename": "alsa-lib.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/alsa-lib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "alsa-utils.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/alsa-utils.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "bluez.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/bluez.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "bridge-utils.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/bridge-utils.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "busybox.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/busybox.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "chrony.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/chrony.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "common.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/common.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "cryptsetup.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/cryptsetup.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "dbus.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/dbus.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "drivers.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/drivers.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "e2fsprogs.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/e2fsprogs.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "eigen.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/eigen.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "event_reporter.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/event_reporter.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "fscrypt.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/fscrypt.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "glib.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/glib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "glibc-2.17.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.17.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "glibc-2.23.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.23.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "glibc-2.24.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.24.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "glibc-2.25.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.25.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "glibc-2.29.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.29.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "includes1.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/includes1.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "includes2.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/includes2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "libdash.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/libdash.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "libdcadec.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/libdcadec.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "libgcrypt.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/libgcrypt.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "libgpg-error.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/libgpg-error.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "libnl.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/libnl.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "libsmb2.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/libsmb2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "libusb.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/libusb.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "linux-2.6.35.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/linux-2.6.35.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "linux-2.6.39.4.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/linux-2.6.39.4.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "linux-3.10.53.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/linux-3.10.53.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "linux-4.4.24.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/linux-4.4.24.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "linux-4.9.99.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/linux-4.9.99.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "lvm2.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/lvm2.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "mpg123.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/mpg123.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "rng-tools.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/rng-tools.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "sbclib.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/sbclib.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "Sii9437.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/Sii9437.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "simple80211.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/simple80211.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "sonos-kernel.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/sonos-kernel.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "udhcp-0.9.8.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/udhcp-0.9.8.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.4",
+      "filename": "wireless_tools.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.4/wireless_tools.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "SonosOpenSourceAttributions.pdf",
+      "url": "https://www.sonos.com/documents/gpl/14.18/SonosOpenSourceAttributions.pdf",
+      "origin": "sonos",
+      "kind": "attribution"
+    },
+    {
+      "version": "14.18",
+      "filename": "SonosOpenSourceAttributionsRust.pdf",
+      "url": "https://www.sonos.com/documents/gpl/14.18/SonosOpenSourceAttributionsRust.pdf",
+      "origin": "sonos",
+      "kind": "attribution"
+    },
+    {
+      "version": "14.18",
+      "filename": "alsa-lib-1.2.1.2-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/alsa-lib-1.2.1.2-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "alsa-utils-1.2.1-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/alsa-utils-1.2.1-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "bluez5-5.58-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/bluez5-5.58-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "bridge-utils-0.9.6-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/bridge-utils-0.9.6-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "busybox-1.31.1-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/busybox-1.31.1-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "cc-includes-1.0-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/cc-includes-1.0-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "chrony-4.2-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/chrony-4.2-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "cryptsetup-2.0.4-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/cryptsetup-2.0.4-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "dbus-1.12.20-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/dbus-1.12.20-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "dcadec-0.2.0-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/dcadec-0.2.0-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "drivers.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/drivers.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "e2fsprogs-1.45.7-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/e2fsprogs-1.45.7-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "ffmpeg-4.3.1-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/ffmpeg-4.3.1-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "fscrypt.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/fscrypt.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "glib-2.0-1_2.62.6-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/glib-2.0-1_2.62.6-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "glibc-2.17.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.17.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "glibc-2.23.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.23.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "glibc-2.24.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.24.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "glibc-2.25.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.25.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "glibc-2.29.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.29.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "libcap-2.63-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/libcap-2.63-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "libdash-2.2-gitAUTOINC-eb7a09ce37-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/libdash-2.2-gitAUTOINC-eb7a09ce37-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "libdevmapper-2.02.177-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/libdevmapper-2.02.177-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "libeigen-3.3.7-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/libeigen-3.3.7-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "libnl-1_3.5.0-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/libnl-1_3.5.0-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "libsmb2-4.0.0-gitAUTOINC-f1697fe696-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/libsmb2-4.0.0-gitAUTOINC-f1697fe696-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "libusb1-1.0.23-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/libusb1-1.0.23-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "linux-sonos-2.6.35-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/linux-sonos-2.6.35-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "linux-sonos-2.6.39.4-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/linux-sonos-2.6.39.4-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "linux-sonos-3.10.53-nxp-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/linux-sonos-3.10.53-nxp-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "linux-sonos-4.4.24-mtk-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/linux-sonos-4.4.24-mtk-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "linux-sonos-4.9.99-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/linux-sonos-4.9.99-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "mpg123-1.25.13-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/mpg123-1.25.13-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "platforms-ctl-1.0-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/platforms-ctl-1.0-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "platforms-includes-1.0-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/platforms-includes-1.0-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "rng-tools-6.9-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/rng-tools-6.9-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "sbc-1.5-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/sbc-1.5-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "sonos-eventreporter-1.0.0-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/sonos-eventreporter-1.0.0-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "sonos-syslog-1.5.0-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/sonos-syslog-1.5.0-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "udhcp-0.9.8.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/udhcp-0.9.8.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "14.18",
+      "filename": "wireless-tools-1_30.pre9-r0-patched.txz",
+      "url": "https://www.sonos.com/documents/gpl/14.18/wireless-tools-1_30.pre9-r0-patched.txz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "SonosOpenSourceAttributions.pdf",
+      "url": "https://www.sonos.com/documents/gpl/18.6/SonosOpenSourceAttributions.pdf",
+      "origin": "sonos",
+      "kind": "attribution"
+    },
+    {
+      "version": "18.6",
+      "filename": "SonosOpenSourceAttributionsRust.pdf",
+      "url": "https://www.sonos.com/documents/gpl/18.6/SonosOpenSourceAttributionsRust.pdf",
+      "origin": "sonos",
+      "kind": "attribution"
+    },
+    {
+      "version": "18.6",
+      "filename": "alsa-lib-1.2.6.1-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/alsa-lib-1.2.6.1-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "alsa-utils-1.2.6-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/alsa-utils-1.2.6-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "audit-3.0.8-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/audit-3.0.8-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "bluez5-5.65-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/bluez5-5.65-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "bridge-utils-0.9.6-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/bridge-utils-0.9.6-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "busybox-1.35.0-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/busybox-1.35.0-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "cc-includes-1.0-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/cc-includes-1.0-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "chrony-4.2-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/chrony-4.2-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "cryptsetup-2.0.4-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/cryptsetup-2.0.4-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "dbus-1.14.8-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/dbus-1.14.8-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "dcadec-0.2.0-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/dcadec-0.2.0-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "drivers.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/drivers.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "e2fsprogs-1.46.5-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/e2fsprogs-1.46.5-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "ffmpeg-5.0.3-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/ffmpeg-5.0.3-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "fscrypt.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/fscrypt.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "gcc-source-11.5.0-11.5.0-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/gcc-source-11.5.0-11.5.0-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "glib-2.0-1_2.72.3-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/glib-2.0-1_2.72.3-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "glibc-2.24.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.24.tar.gz",
+      "origin": "upstream",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "glibc-2.35-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/glibc-2.35-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "gmp-6.2.1-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/gmp-6.2.1-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "libaio-0.3.112-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/libaio-0.3.112-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "libcap-2.66-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/libcap-2.66-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "libdash-2.2+gitAUTOINC+eb7a09ce37-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/libdash-2.2+gitAUTOINC+eb7a09ce37-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "libdevmapper-2.03.11-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/libdevmapper-2.03.11-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "libeigen-3.4.0-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/libeigen-3.4.0-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "libmnl-1.0.4-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/libmnl-1.0.4-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "libnetfilter-acct-1.0.3-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/libnetfilter-acct-1.0.3-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "libnetfilter-conntrack-1.0.9-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/libnetfilter-conntrack-1.0.9-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "libnetfilter-log-1.0.2-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/libnetfilter-log-1.0.2-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "libnfnetlink-1.0.2-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/libnfnetlink-1.0.2-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "libnftnl-1.2.6-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/libnftnl-1.2.6-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "libnl-1_3.5.0-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/libnl-1_3.5.0-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "libsepol-3.3-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/libsepol-3.3-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "libsmb2-4.0.0+gitAUTOINC+45be3de727-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/libsmb2-4.0.0+gitAUTOINC+45be3de727-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "libxcrypt-4.4.33-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/libxcrypt-4.4.33-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "linux-sonos-4.4.24-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/linux-sonos-4.4.24-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "linux-sonos-4.9.99-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/linux-sonos-4.9.99-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "linux-sonos-5.4.210-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/linux-sonos-5.4.210-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "linux-sonos-5.4.242-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/linux-sonos-5.4.242-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "mmc-utils-0.1+git-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/mmc-utils-0.1+git-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "mpg123-1.29.3-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/mpg123-1.29.3-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "mtd-utils-2.1.5-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/mtd-utils-2.1.5-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "nftables-1.0.2-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/nftables-1.0.2-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "platforms-ctl-1.0-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/platforms-ctl-1.0-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "platforms-includes-1.0-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/platforms-includes-1.0-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "policycoreutils-3.3-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/policycoreutils-3.3-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "refpolicy-targeted-2.20200229+gitAUTOINC+613708cad6-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/refpolicy-targeted-2.20200229+gitAUTOINC+613708cad6-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "rng-tools-6.15-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/rng-tools-6.15-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "sbc-1.5-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/sbc-1.5-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "sonos-eventreporter-1.0.0-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/sonos-eventreporter-1.0.0-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "sonos-signature-3.9.2-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/sonos-signature-3.9.2-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "sonos-signature-impl-3.9.2-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/sonos-signature-impl-3.9.2-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "sonos-syslog-1.5.0-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/sonos-syslog-1.5.0-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "udhcp-0.9.8-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/udhcp-0.9.8-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "ulogd2-2.0.8+gitAUTOINC+79aa980f2d-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/ulogd2-2.0.8+gitAUTOINC+79aa980f2d-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "util-linux-2.37.4-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/util-linux-2.37.4-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    },
+    {
+      "version": "18.6",
+      "filename": "wireless-tools-1_30.pre9-r0-patched.tar.xz",
+      "url": "https://www.sonos.com/documents/gpl/18.6/wireless-tools-1_30.pre9-r0-patched.tar.xz",
+      "origin": "sonos",
+      "kind": "source"
+    }
+  ],
+  "versions_detail": [
+    {
+      "version": "6.4",
+      "links": 29,
+      "states": {
+        "published": 29
+      }
+    },
+    {
+      "version": "7.0",
+      "links": 28,
+      "states": {
+        "published": 28
+      }
+    },
+    {
+      "version": "7.1",
+      "links": 28,
+      "states": {
+        "published": 28
+      }
+    },
+    {
+      "version": "7.2",
+      "links": 28,
+      "states": {
+        "published": 28
+      }
+    },
+    {
+      "version": "7.3",
+      "links": 30,
+      "states": {
+        "published": 30
+      }
+    },
+    {
+      "version": "7.4",
+      "links": 29,
+      "states": {
+        "published": 29
+      }
+    },
+    {
+      "version": "8.0",
+      "links": 26,
+      "states": {
+        "published": 8,
+        "unattempted": 18
+      }
+    },
+    {
+      "version": "8.1",
+      "links": 28,
+      "states": {
+        "unattempted": 28
+      }
+    },
+    {
+      "version": "8.2",
+      "links": 28,
+      "states": {
+        "unattempted": 28
+      }
+    },
+    {
+      "version": "8.3",
+      "links": 28,
+      "states": {
+        "unattempted": 28
+      }
+    },
+    {
+      "version": "8.4",
+      "links": 28,
+      "states": {
+        "unattempted": 28
+      }
+    },
+    {
+      "version": "9.0",
+      "links": 34,
+      "states": {
+        "unattempted": 34
+      }
+    },
+    {
+      "version": "9.1",
+      "links": 34,
+      "states": {
+        "unattempted": 34
+      }
+    },
+    {
+      "version": "9.2",
+      "links": 32,
+      "states": {
+        "unattempted": 32
+      }
+    },
+    {
+      "version": "9.3",
+      "links": 39,
+      "states": {
+        "unattempted": 39
+      }
+    },
+    {
+      "version": "10.0",
+      "links": 40,
+      "states": {
+        "unattempted": 40
+      }
+    },
+    {
+      "version": "10.1",
+      "links": 40,
+      "states": {
+        "unattempted": 40
+      }
+    },
+    {
+      "version": "10.2",
+      "links": 38,
+      "states": {
+        "unattempted": 38
+      }
+    },
+    {
+      "version": "10.6",
+      "links": 39,
+      "states": {
+        "unattempted": 39
+      }
+    },
+    {
+      "version": "11.0",
+      "links": 39,
+      "states": {
+        "unattempted": 39
+      }
+    },
+    {
+      "version": "11.1",
+      "links": 39,
+      "states": {
+        "unattempted": 39
+      }
+    },
+    {
+      "version": "12.0",
+      "links": 37,
+      "states": {
+        "unattempted": 37
+      }
+    },
+    {
+      "version": "13.2",
+      "links": 42,
+      "states": {
+        "unattempted": 42
+      }
+    },
+    {
+      "version": "14.4",
+      "links": 44,
+      "states": {
+        "unattempted": 44
+      }
+    },
+    {
+      "version": "14.18",
+      "links": 43,
+      "states": {
+        "unattempted": 43
+      }
+    },
+    {
+      "version": "18.6",
+      "links": 59,
+      "states": {
+        "unattempted": 59
+      }
+    }
+  ]
+}

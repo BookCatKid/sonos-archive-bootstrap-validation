@@ -1,11 +1,11 @@
 {
-  "bytes_downloaded": 467875071,
-  "downloaded": 25,
+  "bytes_downloaded": 345641873,
+  "downloaded": 19,
   "failed": 0,
   "mismatched": 0,
-  "remaining_after": 61,
-  "remaining_before": 86,
-  "reused": 0,
+  "remaining_after": 123,
+  "remaining_before": 148,
+  "reused": 6,
   "selected": 25,
   "status": "partial",
   "verified": 25
